@@ -1,0 +1,10 @@
+name: IronIngot
+description: '''
+  this is Iron Ingot and basic material.
+  '''
+type: material
+color: c9caca
+alwaysUnlocked: true
+research: {
+  parent: copper
+}
