@@ -25,6 +25,3 @@ outputItems: [IronIngot/2]
 
 craftTime: 120
 updateEffect: smeltsmoke
-results: [
-	IronPlate/2
-]
