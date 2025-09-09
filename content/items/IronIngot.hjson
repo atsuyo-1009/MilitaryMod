@@ -1,6 +1,6 @@
-name: IronIngot
+name: 鉄の鋳塊
 description: '''
-  this is Iron Ingot and basic material.
+  これは鉄の鋳塊です。一般的な資材です。.
   '''
 type: material
 color: c9caca
