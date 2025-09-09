@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: IronPlateFactory1
+description:
+'''this is IronPLate factory.
+'''
+
+
+
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 360
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 10
+	items: {
+		items: [
+			IronIngot/1
+		]
+	}
+}
+
+outputItems: [
+	IronPlate/2
+]
+
+
+
+
+requirements: [
+	IronIngot/30
+]
+category: crafting
+research: IronIngot
+alwaysUnlocked: true
