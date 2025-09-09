@@ -1,10 +1,10 @@
 name: IronPlateFactory
 description: '''this is Iron plate factory.this is basic factory.'''
-type: crafting
+type: GenericCrafter
 size: 2
 tier: 1
 requirements: [IronIngot/35]
-category: production
+category: crafting
 research: {
     parent:IronIngot 
     requirements: [IronIngot/80]
