@@ -1,6 +1,5 @@
-name: IronPlate
-description: '''
-  this is Iron Ingot and basic material.
+name: 鉄板
+description: '''これは鉄板です。主に建築や建造に使われる一般的な資材です。.
   '''
 type: material
 color: c9caca
