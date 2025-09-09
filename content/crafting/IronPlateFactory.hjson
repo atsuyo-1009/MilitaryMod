@@ -10,7 +10,7 @@ research: {
     requirements: [IronIngot/80]
 }
 
-hasPower: false
+hasPower: true
 hasItems: true
 
 consumes: {
