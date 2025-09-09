@@ -1,7 +1,7 @@
 type: GenericCrafter
-name: IronPlateFactory1
+name: IronPlateFactory
 description:
-'''this is IronPLate factory.
+'''this is IronPLate Factory.this is basic factory.
 '''
 
 
@@ -9,11 +9,11 @@ description:
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 360
+craftTime: 200
 updateEffect: smeltsmoke
 
 consumes: {
-	power: 10
+	power: 25
 	items: {
 		items: [
 			IronIngot/1
