@@ -9,7 +9,7 @@ description:
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 200
+craftTime: 250
 updateEffect: smeltsmoke
 
 consumes: {
