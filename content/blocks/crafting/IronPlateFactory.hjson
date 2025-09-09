@@ -1,6 +1,6 @@
 name: IronPlateFactory
 description: '''this is Iron plate factory.this is basic factory.'''
-type: GenericCrafter
+type: crafting
 size: 2
 tier: 1
 requirements: [IronIngot/35]
