@@ -1,7 +1,7 @@
 type: GenericCrafter
-name: IronPlateFactory
+name: 鉄板工場
 description:
-'''this is IronPLate Factory.this is basic factory.
+'''これは鉄板工場で、一般的な工場です。
 '''
 
 
