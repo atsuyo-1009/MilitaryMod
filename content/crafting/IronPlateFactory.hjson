@@ -18,7 +18,7 @@ consumes: {
 	items: {items: [IronIngot/1]}
 }
 
-outputItems: [IronPlate/2]
+outputItems: [IronIngot/2]
 
 
 
