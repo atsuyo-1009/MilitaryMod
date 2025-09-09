@@ -2,7 +2,7 @@ name: 鉄の鋳塊
 description: '''
   これは鉄の鋳塊です。一般的な資材です。.
   '''
-type: material
+
 color: c9caca
 alwaysUnlocked: true
 research: {
