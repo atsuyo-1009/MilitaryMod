@@ -1,1 +1,11 @@
-
+name: 7.62×54mm弾
+description: '''
+  これは7.62×54mm弾です。機銃によく使われます。
+  '''
+color: cccccc
+alwaysUnlocked: true
+research: {
+  parent: IronPlate
+IronPlate/ 300
+copper/ 600
+}
