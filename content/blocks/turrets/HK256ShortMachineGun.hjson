@@ -51,7 +51,7 @@ research: {
 alwaysUnlocked: true
     parent: duo
     requirements: [
-IronPLate/300
+//IronPLate/300
 copper/400]
 }
 
