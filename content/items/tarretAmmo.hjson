@@ -6,5 +6,6 @@ color: cccccc
 alwaysUnlocked: true
 research: {
   parent: IronPlate
-IronPlate/300
-copper/600}
+requirements: [IronPlate/300
+copper/600]
+}
