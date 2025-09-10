@@ -12,11 +12,10 @@ hasLiquid: true
 liquidCapacity: 50
 itemCapacity: 50
 hasItem: true
-itemCapacity: 200
 
 reload: 5.8037
 chargeTime: 5
-range: 1712
+range: 10
 recoil: 5.756
 inaccuracy: 4.76
 xRand: 2
@@ -37,8 +36,8 @@ ammoTypes: {
     lifetime: 8.4
     speed: 0.5
     weaveMag: 2
-    weaveScale: 5 
-    bulletShrink: 0
+    weaveScale: 10 
+    bulletShrink: 10
 
     damage: 30
     hitEffect: none
