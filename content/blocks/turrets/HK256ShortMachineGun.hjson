@@ -13,11 +13,11 @@ liquidCapacity: 50
 itemCapacity: 50
 hasItem: true
 
-reload: 5
-chargeTime: 5
+reload: 10
+chargeTime: 10
 range: 10
-recoil: 5.7
-inaccuracy: 4
+recoil: 10
+inaccuracy: 10
 xRand: 10
 
 ammoTypes: {
@@ -33,7 +33,7 @@ ammoTypes: {
     ammoMultiPlier: 10
     reloadMultiPlier: 10
 
-    lifetime: 8.4
+    lifetime: 10
     speed: 10
     weaveMag: 10
     weaveScale: 10 
