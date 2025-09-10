@@ -16,7 +16,7 @@ itemCapacity: 30
 
 reload: 5
 chargeTime: 0
-range: 80
+range: 160
 recoil: 0.5
 inaccuracy: 2
 xRand: 1
@@ -35,11 +35,11 @@ ammoTypes: {
     reloadMultiPlier: 1
 
     lifetime: 80
-    speed: 3
+    speed: 1.5
     weaveMag: 2
     weaveScale: 5 
     bulletShrink: 0
-    damage: 10
+    damage: 30
     hitEffect: none
     absorbable: true
     pierceArmor: false
