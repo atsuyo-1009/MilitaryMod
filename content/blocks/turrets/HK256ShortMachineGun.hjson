@@ -14,11 +14,11 @@ itemCapacity: 50
 hasItem: true
 itemCapacity: 200
 
-reload: 2.8037
+reload: 5.8037
 chargeTime: 5
 range: 1712
 recoil: 5.756
-inaccuracy: 15.76
+inaccuracy: 4.76
 xRand: 2
 
 ammoTypes: {
@@ -35,12 +35,12 @@ ammoTypes: {
     reloadMultiPlier: 1
 
     lifetime: 701.4
-    speed: 1.5
+    speed: 0.5
     weaveMag: 2
     weaveScale: 5 
     bulletShrink: 0
 
-    damage: 214
+    damage: 30
     splashDamageRadius: 50
     statusDuration: 180
     hitEffect: none
