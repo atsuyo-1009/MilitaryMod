@@ -9,7 +9,7 @@ squareSprites: false
 
 hasPower: false
 hasLiquid: true
-liquidCapacity: 200
+liquidCapacity: 50
 itemCapacity: 50
 hasItem: true
 itemCapacity: 200
@@ -17,12 +17,12 @@ itemCapacity: 200
 reload: 2.8037
 chargeTime: 5
 range: 1712
-recoil: 2.14
-inaccuracy: 21.4
+recoil: 5.756
+inaccuracy: 15.76
 xRand: 2
 
 ammoTypes: {
-  Chocolete: {
+  7.62×54弾: {
     type: basicBulletType
     width: 10
     drawsize: 100
