@@ -22,7 +22,7 @@ inaccuracy: 15.76
 xRand: 2
 
 ammoTypes: {
-  7.62×54Ammo: {
+  7.6254Ammo: {
     type: basicBulletType
     width: 10
     drawsize: 100
