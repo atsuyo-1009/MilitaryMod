@@ -16,7 +16,7 @@ itemCapacity: 30
 
 reload: 5
 chargeTime: 0
-range: 30
+range: 80
 recoil: 0.5
 inaccuracy: 2
 xRand: 1
@@ -24,7 +24,7 @@ xRand: 1
 ammoTypes: {
   tarretAmmo: {
     type: basicBulletType
-    width: 3
+    width: 5
     drawsize: 3
     hitSize: 3
     bulletSprite: 
@@ -34,7 +34,7 @@ ammoTypes: {
     ammoMultiPlier: 1
     reloadMultiPlier: 1
 
-    lifetime: 30
+    lifetime: 40
     speed: 3
     weaveMag: 2
     weaveScale: 5 
