@@ -12,7 +12,7 @@ hasLiquid: true
 liquidCapacity: 50
 itemCapacity: 50
 hasItem: true
-itemCapacity: 200
+itemCapacity: 30
 
 reload: 5
 chargeTime: 2
@@ -24,8 +24,8 @@ xRand: 1
 ammoTypes: {
   tarretAmmo: {
     type: basicBulletType
-    width: 1
-    drawsize: 1
+    width: 3
+    drawsize: 3
     hitSize: 1
     bulletSprite: 
     frontColor: 653200
