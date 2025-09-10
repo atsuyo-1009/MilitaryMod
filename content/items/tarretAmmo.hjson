@@ -7,5 +7,4 @@ alwaysUnlocked: true
 research: {
   parent: IronPlate
 IronPlate/300
-copper/600
-}
+copper/600}
