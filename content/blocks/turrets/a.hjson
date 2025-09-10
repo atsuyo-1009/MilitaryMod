@@ -1,16 +1,16 @@
-name: チョコレートキャノン
-description: "チョコレートを超高レートで発射するタレット(激ウマギャグ)"
+name:HK256短機関銃
+description: "対人に最も効果的な機銃。戦車には意味がありません。"
 type: itemTurret
 category: turret
-size: 3
-health: 856
+size: 1
+health: 300
 targetable: true
 squareSprites: false
 
 hasPower: false
 hasLiquid: true
-liquidCapacity: 1256
-itemCapacity: 5
+liquidCapacity: 200
+itemCapacity: 50
 hasItem: true
 itemCapacity: 200
 
