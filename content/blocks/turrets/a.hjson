@@ -1,5 +1,5 @@
 name:HK256短機関銃
-description: "対人に最も効果的な機銃。戦車を相手にするのはいい案ではありません。"
+description: "対人に効果的な機銃。戦車を相手にするのはいい案ではありません。"
 type: itemTurret
 category: turret
 size: 1
