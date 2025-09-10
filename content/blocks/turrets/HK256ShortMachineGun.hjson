@@ -34,15 +34,13 @@ ammoTypes: {
     ammoMultiPlier: 1
     reloadMultiPlier: 1
 
-    lifetime: 701.4
+    lifetime: 8.4
     speed: 0.5
     weaveMag: 2
     weaveScale: 5 
     bulletShrink: 0
 
     damage: 30
-    splashDamageRadius: 50
-    statusDuration: 180
     hitEffect: none
     absorbable: true
     pierce: false
