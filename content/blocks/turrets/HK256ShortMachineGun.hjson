@@ -34,7 +34,7 @@ ammoTypes: {
     ammoMultiPlier: 1
     reloadMultiPlier: 1
 
-    lifetime: 80
+    lifetime: 30
     speed: 3
     weaveMag: 2
     weaveScale: 5 
