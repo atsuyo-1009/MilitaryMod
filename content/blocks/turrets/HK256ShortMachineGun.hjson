@@ -30,8 +30,8 @@ ammoTypes: {
     frontColor: 653200
     backColor: 653200
 
-    ammoMultiPlier: 1
-    reloadMultiPlier: 1
+    ammoMultiPlier: 10
+    reloadMultiPlier: 10
 
     lifetime: 8.4
     speed: 0.5
