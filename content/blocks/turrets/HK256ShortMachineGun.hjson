@@ -13,12 +13,12 @@ liquidCapacity: 50
 itemCapacity: 50
 hasItem: true
 
-reload: 5.8037
+reload: 5
 chargeTime: 5
 range: 10
-recoil: 5.756
-inaccuracy: 4.76
-xRand: 1.5
+recoil: 5.7
+inaccuracy: 4
+xRand: 10
 
 ammoTypes: {
   tarretAmmo: {
@@ -61,4 +61,4 @@ requirements: [
 copper/ 20
 ]
 BuildVisibillity: shown
-buildTime: 15.86
+buildTime: 50
