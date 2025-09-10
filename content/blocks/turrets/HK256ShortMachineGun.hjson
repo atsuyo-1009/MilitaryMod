@@ -15,10 +15,10 @@ hasItem: true
 itemCapacity: 30
 
 reload: 5
-chargeTime: 2
+chargeTime: 0
 range: 30
-recoil: 1.3
-inaccuracy: 10.4
+recoil: 0.5
+inaccuracy: 2
 xRand: 1
 
 ammoTypes: {
@@ -26,7 +26,7 @@ ammoTypes: {
     type: basicBulletType
     width: 3
     drawsize: 3
-    hitSize: 1
+    hitSize: 3
     bulletSprite: 
     frontColor: 653200
     backColor: 653200
@@ -34,7 +34,7 @@ ammoTypes: {
     ammoMultiPlier: 1
     reloadMultiPlier: 1
 
-    lifetime: 701.4
+    lifetime: 30
     speed: 3
     weaveMag: 2
     weaveScale: 5 
