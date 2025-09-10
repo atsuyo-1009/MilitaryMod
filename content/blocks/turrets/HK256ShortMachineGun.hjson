@@ -48,8 +48,8 @@ ammoTypes: {
     
 research: {
     parent: {Duo
-requirements: [
-IronPLate/300
+    requirements: [
+//IronPLate/300
 copper/400]
 }
 }
