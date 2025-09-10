@@ -18,13 +18,13 @@ chargeTime: 5
 range: 10
 recoil: 5.756
 inaccuracy: 4.76
-xRand: 2
+xRand: 1.5
 
 ammoTypes: {
   tarretAmmo: {
     type: basicBulletType
     width: 10
-    drawsize: 100
+    drawsize: 20
     hitSize: 10
     bulletSprite: 
     frontColor: 653200
@@ -35,7 +35,7 @@ ammoTypes: {
 
     lifetime: 8.4
     speed: 0.5
-    weaveMag: 2
+    weaveMag: 10
     weaveScale: 10 
     bulletShrink: 10
 
