@@ -51,12 +51,12 @@ research: {
 alwaysUnlocked: true
     parent: duo
     requirements: [
-//IronPLate/300
+IronPLate/300
 copper/400]
 }
 
 requirements: [
-//IronPlate/30
+IronPlate/30
 copper/50
 ]
 BuildVisibillity: shown
