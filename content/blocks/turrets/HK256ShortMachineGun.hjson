@@ -52,8 +52,7 @@ alwaysUnlocked: true
     parent: duo
     requirements: {
 IronPlate/300
-copper/300
-    
+copper/300   
 }
 
 requirements: [
