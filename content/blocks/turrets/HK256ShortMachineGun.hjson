@@ -115,15 +115,15 @@ ammoTypes: {
 research: {
     parent: EffectTurret
     requirements: [
-      IronPlate/350
-      copper/400
+      IronPlate/ 350
+      copper/ 400
       titanium/ 25
     ]
 }
 
 requirements: [
-//IronPlate/30
-copper/20
+//IronPlate/ 30
+copper/ 20
 ]
 BuildVisibillity: shown
 buildTime: 15.86
