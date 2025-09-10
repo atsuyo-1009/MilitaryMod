@@ -1,5 +1,5 @@
 name:HK256短機関銃
-description: "対人に最も効果的な機銃。戦車には意味がありません。"
+description: "対人に最も効果的な機銃。戦車を相手にするのはいい案ではありません。"
 type: itemTurret
 category: turret
 size: 1
@@ -15,7 +15,7 @@ hasItem: true
 itemCapacity: 200
 
 reload: 2.8037
-chargeTime: 60
+chargeTime: 5
 range: 1712
 recoil: 2.14
 inaccuracy: 21.4
