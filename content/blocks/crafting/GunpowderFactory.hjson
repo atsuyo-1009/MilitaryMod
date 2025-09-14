@@ -33,5 +33,13 @@ requirements: [
 	IronIngot/30
 ]
 category: crafting
-research: IronIngot
 alwaysUnlocked: true
+research: {
+parent: IronPlateFactory
+requiments: [
+IronPlate/10
+copper/20
+Sand/10
+Coal/10
+]
+}
