@@ -14,17 +14,15 @@ updateEffect: smeltsmoke
 
 consumes: {
 	power: 2
-	items: {
-		items: [
-		Coal/2
-      Sand/3
-		]
-	}
-}
+	items: [{
+		"item": "coal"
+"amonut": 2
+		"item": "sand"
+"amonut": 5}]}
 
-outputItems: [
-	Gunpowder/5
-]
+"outputItems": {
+	"item": "Gunpowder"
+"amount": 5}
 
 
 
