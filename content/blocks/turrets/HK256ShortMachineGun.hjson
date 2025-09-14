@@ -45,7 +45,8 @@ ammoTypes: {
     pierceArmor: false
   }
 }
-
+BuildVisibillity: shown
+buildTime: 80
     
 research: {
     parent: EffectTurret
@@ -53,12 +54,5 @@ research: {
       copper/ 30
       IronPlate/ 40
       IronIngot/ 25
-
-requirements: [
-//IronPlate/30
-copper/50
-]
-BuildVisibillity: shown
-buildTime: 80
 ]
 }
