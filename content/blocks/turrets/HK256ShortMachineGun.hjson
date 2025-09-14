@@ -56,3 +56,6 @@ research: {
       IronIngot/ 25
 ]
 }
+requirements: [
+      copper/ 10
+      IronPlate/ 20]
