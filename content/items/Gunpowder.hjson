@@ -2,7 +2,7 @@ name: ガンパウダー
 description: '''
   これはガンパウダーです。弾薬を作るときに使う常識的なアイテムです。爆発しやすいから注意.
   '''
-explosiveness: 1.5 
+explosiveness: 10
 color: 949593
 alwaysUnlocked: true
 research: {
