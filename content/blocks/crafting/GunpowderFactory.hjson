@@ -12,20 +12,6 @@ hasItems: true
 craftTime: 500
 updateEffect: smeltsmoke
 
-consumes: {
-	power: 2
-	items: [{
-		"item": "coal"
-"amonut": 2
-		"item": "sand"
-"amonut": 5}]}
-
-"outputItems": {
-	"item": "Gunpowder"
-"amount": 5}
-
-
-
 
 requirements: [
 	IronIngot/30
