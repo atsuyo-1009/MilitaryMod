@@ -1,10 +1,13 @@
-name: 鉄の鋳塊
+name: ガンパウダー
 description: '''
-  これは鉄の鋳塊です。一般的な資材です。.
+  これはガンパウダーです。弾薬を作るときに使う常識的なアイテムです。.
   '''
 
-color: c9caca
+color: 949593
 alwaysUnlocked: true
 research: {
-  parent: copper
+  parent: IronPlate
+requiments: [
+sand/10
+coal/5]
 }
