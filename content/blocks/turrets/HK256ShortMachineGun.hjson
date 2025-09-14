@@ -50,6 +50,11 @@ ammoTypes: {
 alwaysUnlocked: true
 research: {
   parent: copper
+requirements: [
+IronPlate/30
+copper/40
+Iron/40
+]
 }
 
 
