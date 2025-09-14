@@ -16,7 +16,7 @@ consumes: {
 	power: 2
 	items: {
 		items: [
-			Coal/2
+		Coal/2
       Sand/3
 		]
 	}
