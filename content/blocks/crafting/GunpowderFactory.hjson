@@ -16,7 +16,7 @@ consumes: {
 	power: 1
 	items: {
 		items: [
-			Coal/2
+#Coal/2
 Sand/3
 		]
 	}
@@ -37,6 +37,6 @@ requiments: [
 IronPlate/10
 copper/20
 Sand/10
-Coal/10
+#Coal/10
 ]
 }
