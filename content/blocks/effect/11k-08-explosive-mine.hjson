@@ -25,8 +25,8 @@ type: ExplosionBulletType
     statusDuration: 240
 }
 requirements: [
-    01a-02-item-demetite/40
-    01a-07-item-lithium/25
-    01a-08-item-cretite/8
+   copper/40
+    #01a-07-item-lithium/25
+    #01a-08-item-cretite/8
   ]
 researchCostMultiplier: 0.5
