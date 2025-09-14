@@ -1,1 +1,37 @@
+type: GenericCrafter
+name: 火薬生産工場
+description:
+'''これは火薬生産工場で、広く使う火薬を作る工場です。
+'''
 
+
+
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 500
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 2
+	items: {
+		items: [
+			Coal/2
+      Sand/3
+		]
+	}
+}
+
+outputItems: [
+	Gunpowder/5
+]
+
+
+
+
+requirements: [
+	IronIngot/30
+]
+category: crafting
+research: IronIngot
+alwaysUnlocked: true
