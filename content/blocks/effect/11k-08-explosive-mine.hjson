@@ -1,1 +1,32 @@
-type:
+type:ShockMine
+name: 対人地雷
+descriotion: '''対人地雷。人に対しては効果的ですが戦車にはあまり効果がありません。'''
+health: 15
+damage:40
+tileDamage: 12
+length: 10
+tendrils:3
+category: effect
+researth:{
+parent:copper
+requiments:[
+copper/20
+IronPlate/10
+IronIngot/10
+Gunpowder/20
+]
+}
+bullet:{
+type: ExplosionBulletType
+    splashDamage: 55
+    splashDamageRadius: 24
+    killShooter: true
+    status: melting
+    statusDuration: 240
+}
+requirements: [
+    01a-02-item-demetite/40
+    01a-07-item-lithium/25
+    01a-08-item-cretite/8
+  ]
+researchCostMultiplier: 0.5
