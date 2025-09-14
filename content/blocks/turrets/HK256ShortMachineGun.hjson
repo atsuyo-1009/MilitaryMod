@@ -47,16 +47,12 @@ ammoTypes: {
 }
 
     
-alwaysUnlocked: true
 research: {
-  parent: copper
-requirements: [
-IronPlate/30
-copper/40
-Iron/40
-]
-}
-
+    parent: EffectTurret
+    requirements: [
+      copper/ 30
+      IronPlate/ 40
+      IronIngot/ 25
 
 requirements: [
 //IronPlate/30
