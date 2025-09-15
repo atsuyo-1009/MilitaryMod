@@ -3,7 +3,6 @@ description: '''
   これは7.62×54mm弾です。機銃によく使われます。
   '''
 color: cccccc
-alwaysUnlocked: true
 research: {
   parent: IronPlate
 requirements: [
