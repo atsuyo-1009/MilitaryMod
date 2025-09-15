@@ -49,7 +49,7 @@ BuildVisibillity: shown
 buildTime: 80
     
 research: {
-    parent: EffectTurret
+    parent: duo
     requirements: [
       copper/ 30
       IronPlate/ 40
