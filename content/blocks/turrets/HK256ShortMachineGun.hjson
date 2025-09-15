@@ -6,7 +6,7 @@ size: 1
 health: 80
 targetable: true
 squareSprites: false
-
+targetAir: false
 hasPower: false
 hasLiquid: true
 liquidCapacity: 50
