@@ -30,7 +30,6 @@ requirements: [
 	IronIngot/30
 ]
 category: crafting
-alwaysUnlocked: true
 research: {
 parent: IronPlateFactory
 requiments: [
