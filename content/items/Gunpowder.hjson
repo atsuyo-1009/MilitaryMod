@@ -4,7 +4,7 @@ description: '''
   '''
 explosiveness: 10
 color: 949593
-alwaysUnlocked: true
+
 research: {
   parent: IronPlate
 requiments: [
