@@ -1,0 +1,22 @@
+type: flying   
+name: test_ship 
+localizedName: "テスト艦"
+health: 5000  
+armor: 10     
+speed: 0.5   
+shootCone: 15  
+inaccuracy: 2   
+weapons: [   
+  {
+    name: main-gun   
+    x: 0            
+    y: 10
+    reload: 60       
+    bullet: {        
+      type: basicBulletType 
+      damage: 50   
+      speed: 5     
+      lifetime: 60 
+    }
+  }
+]
