@@ -2,7 +2,7 @@ type: crawl
 description: '''
   対戦車砲。戦車に効果的。体力は少ないので後方支援にまわらせよう。
   '''
-size:2
+size: 2
 name: 対戦車砲
 targetAir: false
 localizedName: "対戦車砲"
