@@ -18,7 +18,7 @@ weapons: [
     reload: 60       
     bullet: {        
       type: basicBulletType 
-      damage: 50   
+      damage: 200   
       speed: 5     
       lifetime: 60 
     }
