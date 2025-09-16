@@ -15,7 +15,7 @@ weapons: [
     name: AntiTankCannon
     x: 0            
     y: 10
-    reload: 0.6       
+    reload: 5     
     bullet: {        
       type: basicBulletType 
       damage: 200   
