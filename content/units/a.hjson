@@ -4,7 +4,7 @@ description: '''
   '''
 name: 対戦車砲
 localizedName: "対戦車砲"
-health: 200
+health: 50
 armor: 30     
 speed: 0.2   
 shootCone: 15  
