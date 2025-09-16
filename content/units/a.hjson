@@ -1,4 +1,7 @@
 type: mech  
+description: '''
+  対戦車砲。戦車に効果的。体力は少ないので後方支援にまわらせよう。
+  '''
 name: 対戦車砲
 localizedName: "対戦車砲"
 health: 200
