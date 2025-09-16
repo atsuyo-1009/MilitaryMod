@@ -1,9 +1,9 @@
-type: flying   
-name: test_ship 
-localizedName: "テスト艦"
-health: 5000  
-armor: 10     
-speed: 0.5   
+type: mech  
+name: 対戦車砲
+localizedName: "対戦車砲。戦車に効果的。対空性能は皆無。HPは少ないので後方支援に回らせよう。"
+health: 200
+armor: 30     
+speed: 0.2   
 shootCone: 15  
 inaccuracy: 2   
 weapons: [   
