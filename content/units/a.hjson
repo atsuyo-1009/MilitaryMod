@@ -1,6 +1,6 @@
 type: mech  
 name: 対戦車砲
-localizedName: "対戦車砲。戦車に効果的。対空性能は皆無。HPは少ないので後方支援に回らせよう。"
+localizedName: "対戦車砲"
 health: 200
 armor: 30     
 speed: 0.2   
