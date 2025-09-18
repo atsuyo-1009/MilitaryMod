@@ -1,10 +1,11 @@
 type: tank
-name: 対戦車砲搭載済みのトラック
+name: ATtruck
+localizedName: "対戦車砲搭載済みのトラック"
 description: '''
 対戦車砲を搭載したトラック。移動は遅いが、対戦車砲を展開できる。
 '''
 size: 2
-region: antitankdummy
+region: antitankdummy   # ダミーの透明スプライト
 controller: player
 health: 500
 speed: 0.8
@@ -13,21 +14,18 @@ abilities: [
   {
     type: SpawnDeathAbility
     unit: AntiTank
-   name:none
-useUnitCap: false
     amount: 1
-hidden:true
-useUnitCap: false
+    useUnitCap: false
   }
 ]
 
 weapons: [
   {
-    name: ""              # 空文字 → スプライト参照しない
+    name: ""                # 空文字にして武器名なし
     shootSound: explosion
     reload: 1
-    autoShoot: false      # プレイヤー操作時だけ撃てる
-    mirror: false         # 左右の銃口を作らない
+    autoShoot: false
+    mirror: false
     x: 0
     y: 0
     bullet: {
@@ -35,7 +33,7 @@ weapons: [
       damage: 9999
       splashDamage: 9999
       splashDamageRadius: 40
-      killShooter: true   # 撃った瞬間にトラック破壊
+      killShooter: true
     }
   }
 ]
