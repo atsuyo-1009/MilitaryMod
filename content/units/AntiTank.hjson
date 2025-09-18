@@ -14,7 +14,7 @@ inaccuracy: 2
 
 weapons: [
   {
-    name: AntiTankCannon
+    # name: AntiTankCannon
     x: 0
     y: 10
     reload: 60
