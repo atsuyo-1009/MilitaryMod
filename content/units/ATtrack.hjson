@@ -1,7 +1,7 @@
- type: tank
+type: tank
 name: 対戦車砲搭載済みのトラック
 description: '''
-  対戦車砲を搭載したトラック。移動は遅いが、対戦車砲を展開できる。
+対戦車砲を搭載したトラック。移動は遅いが、対戦車砲を展開できる。
 '''
 size: 2
 controller: player
@@ -14,7 +14,22 @@ abilities: [
     unit: AntiTank
     amount: 1
   }
+]
+
+weapons: [
   {
-    type: SuicideAbility
+    name: suicide-explode
+    shootSound: explosion
+    reload: 99999        # 自動発射しないように超長いリロード
+    shootOnDeath: false  # 死亡時は発動させない
+    x: 0
+    y: 0
+    bullet: {
+      type: ExplosionBulletType
+      damage: 9999       # 自爆ダメージ
+      splashDamage: 9999
+      splashDamageRadius: 40
+      killShooter: true  # 発射したユニットを即死させる
+    }
   }
 ]
