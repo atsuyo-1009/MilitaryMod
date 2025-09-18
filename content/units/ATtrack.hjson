@@ -18,9 +18,11 @@ abilities: [
 
 weapons: [
   {
+    name: ""              # 空文字 → スプライト参照しない
     shootSound: explosion
-    reload: 1          # リロード1にする
-    autoShoot: false   # 自動で撃たない
+    reload: 1
+    autoShoot: false      # プレイヤー操作時だけ撃てる
+    mirror: false         # 左右の銃口を作らない
     x: 0
     y: 0
     bullet: {
@@ -28,7 +30,7 @@ weapons: [
       damage: 9999
       splashDamage: 9999
       splashDamageRadius: 40
-      killShooter: true
+      killShooter: true   # 撃った瞬間にトラック破壊
     }
   }
 ]
