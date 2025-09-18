@@ -1,32 +1,37 @@
-type: crawl
-description: '''
-  対戦車砲。戦車に効果的。体力は少ないので後方支援にまわらせよう。また、トラックに搭載して移動することができる。
-  '''
-size: 2
-name: 対戦車砲
-targetAir: false
+type: tank
+name: AntiTank
 localizedName: 対戦車砲
+description: '''
+対戦車砲。戦車に効果的。体力は少ないので後方支援にまわらせよう。
+'''
+size: 2
 health: 50
-armor: 0     
+armor: 0
 speed: 0
-shootCone: 15  
-inaccuracy: 2 
-abilities: {
-      type: SpawnDeathAbility
-      unit: ATtrack
-      amount: 1
-    }
-weapons: [   
+targetAir: false
+shootCone: 15
+inaccuracy: 2
+
+abilities: [
   {
-  name: AntiTankCannon
-    x: 0            
+    type: SpawnDeathAbility
+    unit: ATtrack
+    amount: 1
+    useUnitCap: false
+  }
+]
+
+weapons: [
+  {
+    name: AntiTankCannon
+    x: 0
     y: 10
-    reload: 60   
-    bullet: {        
-      type: basicBulletType 
-      damage: 200   
-      speed: 5     
-      lifetime: 60 
+    reload: 60
+    bullet: {
+      type: basicBulletType
+      damage: 200
+      speed: 5
+      lifetime: 60
     }
   }
 ]
