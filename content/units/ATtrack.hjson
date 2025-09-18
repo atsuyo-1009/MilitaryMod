@@ -4,6 +4,7 @@
 description: '''
   対戦車砲を搭載したトラック。移動は遅いが、対戦車砲を展開できる。
   '''
+size:2
   controller: player
   health: 500
   speed: 0.8
