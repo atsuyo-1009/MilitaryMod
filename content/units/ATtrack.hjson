@@ -13,9 +13,7 @@ description: '''
       amount: 1
     
     
-      type: SpawnDeathAbility,
-      unit: 1tTrack
-      amount: 1
+     
     }
 }
 
