@@ -9,8 +9,8 @@ buildCost: [
   IronPlate/10
   sand/40
 ]
-solid: false         
-teamPassable: true    
+# solid: false         
+# teamPassable: true    
 absorbLasers: false
 research: {
   parent: largecopperwall
