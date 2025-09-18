@@ -21,7 +21,7 @@ useUnitCap: false
 
 weapons: [
   {
-    name: "AntiTank"              # 空文字 → スプライト参照しない
+    name: ""              # 空文字 → スプライト参照しない
     shootSound: explosion
     reload: 1
     autoShoot: false      # プレイヤー操作時だけ撃てる
