@@ -19,7 +19,7 @@ abilities: [
 weapons: [
   {
     name: suicide-explode
- unit:
+ unit:none.png
     shootSound: explosion
     reload: 99999        # 自動発射しないように超長いリロード
     shootOnDeath: false  # 死亡時は発動させない
