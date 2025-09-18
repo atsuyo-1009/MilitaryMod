@@ -1,4 +1,3 @@
-{
   type: groundUnit
   name: 対戦車砲搭載済みのトラック
 description: '''
@@ -13,5 +12,4 @@ size:2
       unit: AntiTank
       amount: 1   
     }
-}
 
