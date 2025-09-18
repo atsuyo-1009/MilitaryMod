@@ -1,9 +1,9 @@
 type: wall           
 name: 土嚢
-displayName: "土嚢"
 description: "土嚢。大抵の弾薬を防いでくれる。敵ユニットは通れるので注意。"
 size: 1
 health: 800
+category: defense
 armor: 30              
 buildCost: [
   IronPlate/10
