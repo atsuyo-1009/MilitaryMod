@@ -1,4 +1,4 @@
-  type: groundunit
+  type: tank
   name: 対戦車砲搭載済みのトラック
 description: '''
   対戦車砲を搭載したトラック。移動は遅いが、対戦車砲を展開できる。
