@@ -1,18 +1,20 @@
-  type: tank
-  name: 対戦車砲搭載済みのトラック
+ type: tank
+name: 対戦車砲搭載済みのトラック
 description: '''
   対戦車砲を搭載したトラック。移動は遅いが、対戦車砲を展開できる。
-  '''
-size:2
-  controller: player
-  health: 500
-  speed: 0.8
-  abilities:[{  
-      type: SpawnDeathAbility
-      unit: AntiTank
-      amount: 1   
-   {
-type: SuicideAbility
-    }
-}
+'''
+size: 2
+controller: player
+health: 500
+speed: 0.8
+
+abilities: [
+  {
+    type: SpawnDeathAbility
+    unit: AntiTank
+    amount: 1
+  }
+  {
+    type: SuicideAbility
+  }
 ]
