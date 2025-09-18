@@ -4,4 +4,5 @@ localizedName: "AntiTank Dummy"
 health: 1
 speed: 0
 flying: false
+size:1
 hidden: true   # エディタとかに出ないようにする
