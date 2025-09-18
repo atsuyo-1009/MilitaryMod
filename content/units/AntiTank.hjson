@@ -5,17 +5,16 @@ description: '''
 size: 2
 name: 対戦車砲
 targetAir: false
-localizedName: "対戦車砲"
+localizedName: 対戦車砲
 health: 50
 armor: 0     
 speed: 0
 shootCone: 15  
 inaccuracy: 2 
-"abilities": 
-    {
-      "type": "SpawnDeathAbility",
-      "unit": "ATtrack",
-      "amount": 1
+abilities: {
+      type: SpawnDeathAbility
+      unit: ATtrack
+      amount: 1
     }
 weapons: [   
   {
