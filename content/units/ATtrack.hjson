@@ -8,16 +8,15 @@ description: '''
   health: 500
   speed: 0.8
 weapons: 
-  abilities: 
-    {
-      type: SpawnDeathAbility
+  abilities:{  
+      [type: SpawnDeathAbility
       unit: AntiTank
-      amount: 1
-    }
-    {
-      type: SpawnDeathAbility,
+      amount: 1]
+    
+    
+      [type: SpawnDeathAbility,
       unit: 1tTrack,
-      amount: 1
+      amount: 1]
     }
 }
 
