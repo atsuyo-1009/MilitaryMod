@@ -1,0 +1,17 @@
+type: wall            # wall 系のクラスをベースにする（弾吸収挙動があるため）
+name: 土嚢
+displayName: "土嚢"
+size: 1
+health: 400
+armor: 4              # 弾を受ける性能（必要なら増減）
+buildCost: [
+  copper: 4
+  lead: 1
+]
+# 重要なフラグ：ユニットが通れるようにする
+solid: false          # 非ソリッド -> ユニットは通れる（テスト要）
+teamPassable: true    # 自チームに対してさらに通しやすく（必要なら）
+# 見た目
+region: sandbag-cover
+# オプションでレーザー吸収など
+absorbLasers: false
