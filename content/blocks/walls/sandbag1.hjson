@@ -1,10 +1,11 @@
-name: 人参の壁
-description: "壁は人参で出来ている…"
+name: 土嚢
+description: "土嚢。弾薬は防げるが、敵ユニットは通れてしまう。"
 type: Wall
-health: 4000
+health: 800
 size: 2
 requirements: [
-    copper/100
+    IronPlate/30
+   sand/40
 ]
 category: defense
 solid: false         
@@ -14,7 +15,7 @@ buildVisibillity:shown
 alwaysUnlocked:true
 
 research: {
-    parent: Carrot
+    parent: 
     requirements: [
         copper/30
     ]
