@@ -11,7 +11,7 @@ speed: 0.8
 abilities: [
   {
     type: SpawnDeathAbility
-    unit: AntiTank.png
+    unit: antitank
     amount: 1
   }
 ]
