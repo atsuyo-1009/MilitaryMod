@@ -10,6 +10,7 @@ health: 50
 armor: 0     
 speed: 0
 shootCone: 15  
+hidden:true
 inaccuracy: 2 
 abilities: {
       type: SpawnDeathAbility
