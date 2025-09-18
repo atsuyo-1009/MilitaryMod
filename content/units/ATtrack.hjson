@@ -7,7 +7,7 @@ size:2
   controller: player
   health: 500
   speed: 0.8
-  abilities:{  
+  abilities:[{  
       type: SpawnDeathAbility
       unit: AntiTank
       amount: 1   
@@ -15,3 +15,4 @@ size:2
 type: SuicideAbility
     }
 }
+]
