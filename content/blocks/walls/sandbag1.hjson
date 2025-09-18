@@ -15,8 +15,8 @@ buildVisibillity:shown
 alwaysUnlocked:true
 
 research: {
-    parent: 
-    requirements: [
-        copper/30
-    ]
+  parent: largecopperwall
+requiments: [
+sand/10
+IronPlate/5]
 }
