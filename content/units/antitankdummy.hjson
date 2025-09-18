@@ -1,4 +1,4 @@
-type: unit
+type: tank
 name: AntiTankDummy
 localizedName: "AntiTank Dummy"
 health: 1
