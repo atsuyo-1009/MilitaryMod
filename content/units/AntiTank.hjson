@@ -4,7 +4,7 @@ localizedName: 対戦車砲
 description: '''
 対戦車砲。戦車に効果的。体力は少ないので後方支援にまわらせよう。
 '''
-size: 2
+size: 1
 health: 50
 armor: 0
 speed: 0
