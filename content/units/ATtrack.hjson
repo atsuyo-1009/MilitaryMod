@@ -19,16 +19,16 @@ abilities: [
 weapons: [
   {
     shootSound: explosion
-    reload: 99999        # 自動発射しないように超長いリロード
-    shootOnDeath: false  # 死亡時は発動させない
+    reload: 1          # リロード1にする
+    autoShoot: false   # 自動で撃たない
     x: 0
     y: 0
     bullet: {
       type: ExplosionBulletType
-      damage: 9999       # 自爆ダメージ
+      damage: 9999
       splashDamage: 9999
       splashDamageRadius: 40
-      killShooter: true  # 発射したユニットを即死させる
+      killShooter: true
     }
   }
 ]
