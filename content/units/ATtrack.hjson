@@ -1,0 +1,20 @@
+{
+  "type": "groundUnit"
+  "name": "対戦車砲搭載済みのトラック"
+  "controller": "player"
+  "health": 500
+  "speed": 0.8
+  "weapons": 
+  "abilities": 
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "AntiTank",
+      "amount": 1
+    }
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "transport-truck-empty",
+      "amount": 1
+    }
+}
+
