@@ -12,15 +12,6 @@ targetAir: false
 shootCone: 15
 inaccuracy: 2
 
-abilities: [
-  {
-    type: SpawnDeathAbility
-    unit: ATtrack
-    amount: 1
-    useUnitCap: false
-  }
-]
-
 weapons: [
   {
     name: AntiTankCannon
