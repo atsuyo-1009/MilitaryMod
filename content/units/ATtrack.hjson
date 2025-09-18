@@ -1,23 +1,23 @@
 {
-  "type": "groundUnit"
-  "name": "対戦車砲搭載済みのトラック"
+  type: groundUnit
+  name: 対戦車砲搭載済みのトラック
 description: '''
   対戦車砲を搭載したトラック。移動は遅いが、対戦車砲を展開できる。
   '''
-  "controller": "player"
-  "health": 500
-  "speed": 0.8
-  "weapons": 
-  "abilities": 
+  controller: player
+  health: 500
+  speed: 0.8
+weapons: 
+  abilities: 
     {
-      "type": "SpawnDeathAbility",
-      "unit": "AntiTank",
-      "amount": 1
+      type: SpawnDeathAbility
+      unit: AntiTank
+      amount: 1
     }
     {
-      "type": "SpawnDeathAbility",
-      "unit": "1tTrack",
-      "amount": 1
+      type: SpawnDeathAbility,
+      unit: 1tTrack,
+      amount: 1
     }
 }
 
