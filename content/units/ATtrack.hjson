@@ -11,6 +11,7 @@ size:2
       type: SpawnDeathAbility
       unit: AntiTank
       amount: 1   
-   {type: SuicideAbility
+   {
+type: SuicideAbility
     }
 }
