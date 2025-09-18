@@ -12,6 +12,7 @@ abilities: [
   {
     type: SpawnDeathAbility
     unit: AntiTank
+useUnitCap: false
     amount: 1
 hidden:true
 useUnitCap: false
