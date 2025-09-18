@@ -1,0 +1,7 @@
+type: unit
+name: AntiTankDummy
+localizedName: "AntiTank Dummy"
+health: 1
+speed: 0
+flying: false
+hidden: true   # エディタとかに出ないようにする
