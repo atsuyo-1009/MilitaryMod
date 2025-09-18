@@ -13,4 +13,10 @@ solid: false
 teamPassable: true    
 region: sandbag-cover
 absorbLasers: false
-Large Copper Wall
+research: {
+  parent: 
+requiments: [
+sand/10
+IronPlate/5]
+}
+  parent: 
