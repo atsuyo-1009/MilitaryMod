@@ -14,9 +14,8 @@ teamPassable: true
 region: sandbag-cover
 absorbLasers: false
 research: {
-  parent: 
+  parent: largecopperwall
 requiments: [
 sand/10
 IronPlate/5]
 }
-  parent: 
