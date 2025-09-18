@@ -13,6 +13,7 @@ abilities: [
     type: SpawnDeathAbility
     unit: AntiTank
     amount: 1
+hidden:true
   }
 ]
 
