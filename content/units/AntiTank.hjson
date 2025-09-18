@@ -8,7 +8,7 @@ targetAir: false
 localizedName: "対戦車砲"
 health: 50
 armor: 0     
-speed: 0.2   
+speed: 0
 shootCone: 15  
 inaccuracy: 2   
 weapons: [   
