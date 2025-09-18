@@ -1,4 +1,4 @@
-type: tank
+type: crawl
 name: "ATtrack"
 localizedName: "対戦車砲搭載済みのトラック"
 description: '''
