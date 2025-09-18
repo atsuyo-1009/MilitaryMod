@@ -11,10 +11,7 @@ size:2
   abilities:{  
       type: SpawnDeathAbility
       unit: AntiTank
-      amount: 1
-    
-    
-     
+      amount: 1   
     }
 }
 
