@@ -9,14 +9,14 @@ description: '''
   speed: 0.8
 weapons: 
   abilities:{  
-      [type: SpawnDeathAbility
+      type: SpawnDeathAbility
       unit: AntiTank
-      amount: 1]
+      amount: 1
     
     
-      [type: SpawnDeathAbility,
+      type: SpawnDeathAbility,
       unit: 1tTrack,
-      amount: 1]
+      amount: 1
     }
 }
 
