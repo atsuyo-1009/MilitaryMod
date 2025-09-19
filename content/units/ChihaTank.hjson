@@ -11,7 +11,7 @@ speed: 2
 targetAir: false
 shootCone: 20
 inaccuracy: 0.4
-region:cannon
+# region:cannon
 
    
      
