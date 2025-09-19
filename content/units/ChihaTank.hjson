@@ -17,7 +17,7 @@ weapons: [
     name: "mediumgun"
     x: 0
     y: 10
-   region: cannon.png
+   region: cannon
     reload: 120
     rotate: true
     bullet: {
