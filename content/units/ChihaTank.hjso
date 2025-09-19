@@ -33,6 +33,7 @@ region: ChihaTankCannon
     mirror: true
     rotate: false
     controllable: false
+region:ChihaTankTarret
     shoot: {
       shots: 50
       shotDelay: 30
