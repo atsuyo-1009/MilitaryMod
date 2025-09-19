@@ -17,8 +17,9 @@ weapons: [
     name: "mediumgun"
     x: 0
     y: 10
-region: ChihaTankCannon
+    region: ChihaTankCannon
     reload: 120
+    rotate: true          # ← これで回転可能砲塔になる
     bullet: {
       type: basicBulletType
       damage: 200
@@ -31,14 +32,14 @@ region: ChihaTankCannon
     x: 6
     y: 4
     mirror: true
-    rotate: false
+    rotate: true          # ← 機銃も回転させたいなら true
     controllable: false
-region:ChihaTankTarret
+    region: ChihaTankTurret
     shoot: {
       shots: 50
-      shotDelay: 30
+      shotDelay: 5
     }
-    reload: 240
+    reload: 6
     bullet: {
       type: basicBulletType
       speed: 8
