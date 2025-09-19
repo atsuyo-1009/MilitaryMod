@@ -16,7 +16,7 @@ weapons: [
     # name: AntiTankCannon
     x: 0
     y: 10
-sprite:cannon
+sprite:testcannon
     reload: 60
     bullet: {
       type: basicBulletType
