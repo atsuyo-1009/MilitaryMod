@@ -17,7 +17,7 @@ weapons: [
     name: "mediumgun"
     x: 0
     y: 10
-   region: cannon
+  # region: cannon
     reload: 120
     rotate: true
     bullet: {
@@ -34,13 +34,13 @@ weapons: [
     mirror: true
     rotate: true
     controllable: false
-   region:"turret"
     shoot: {
       shots: 1         
       shotDelay: 5     
     }
     reload: 6
     bullet: {
+ region:"turret"
       type: basicBulletType
       speed: 8
       damage: 20
