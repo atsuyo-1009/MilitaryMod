@@ -41,7 +41,7 @@ region:"cannon"
     }
     reload: 6
     bullet: {
- region:"cannon"
+ region:"ChihaTankTurret"
       type: basicBulletType
       speed: 8
       damage: 20
