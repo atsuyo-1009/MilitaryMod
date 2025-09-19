@@ -14,7 +14,7 @@ inaccuracy: 2
 
 weapons: [
   {
-    # name: AntiTankCannon
+    # name:mediumgun
     x: 0
     y: 10
     reload: 60
@@ -23,6 +23,32 @@ weapons: [
       damage: 200
       speed: 5
       lifetime: 60
+{
+  name: anti-infantry-mg
+  x: 6
+  y: 4
+  mirror: true
+  rotate: false
+  controllable: false
+  shoot: {
+    shots: 50
+    shotDelay: 2
+  }
+  reload: 120
+  bullet: {
+    type: basicBulletType
+    speed: 8
+    damage: 20
+    lifetime: 25
+    pierce: true
+    pierceCap: 3
+    collidesGround: true
+    collidesAir: false
+    hitEffect: hitBulletSmall
+    shootEffect: shootSmall
+  }
+}
+
     }
   }
 ]
