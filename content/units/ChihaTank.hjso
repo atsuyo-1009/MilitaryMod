@@ -1,10 +1,10 @@
-type: crawl
-name: AntiTank
-localizedName: 対戦車砲
+type: tank
+name: ChihaTank
+localizedName: チハ軽戦車
 description: '''
-対戦車砲。戦車に効果的。体力は少ないので後方支援にまわらせよう。
+軽戦車。中口径の主砲と機銃がついている。機動性はいいが装甲は薄い。
 '''
-size: 1
+size: 2
 health: 50
 armor: 0
 speed: 0
