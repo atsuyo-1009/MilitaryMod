@@ -14,7 +14,7 @@ inaccuracy: 0.4
 
 weapons: [
   {
-    name:mediumgun
+    name: "mediumgun"
     x: 0
     y: 10
     reload: 120
@@ -22,33 +22,32 @@ weapons: [
       type: basicBulletType
       damage: 200
       speed: 4
-      lifetime: 40}
-{
-  name: SubTarret
-  x: 6
-  y: 4
-  mirror: true
-  rotate: false
-  controllable: false
-  shoot: {
-    shots: 4
-    shotDelay: 30
-  }
-  reload: 120
-  bullet: {
-    type: basicBulletType
-    speed: 8
-    damage: 20
-    lifetime: 25
-    pierce: true
-    pierceCap: 1
-    collidesGround: true
-    collidesAir: false
-    hitEffect: hitBulletSmall
-    shootEffect: shootSmall
-  }
-}
-
+      lifetime: 40
+    }
+  },
+  {
+    name: "SubTurret"
+    x: 6
+    y: 4
+    mirror: true
+    rotate: false
+    controllable: false
+    shoot: {
+      shots: 4
+      shotDelay: 30
+    }
+    reload: 120
+    bullet: {
+      type: basicBulletType
+      speed: 8
+      damage: 20
+      lifetime: 25
+      pierce: true
+      pierceCap: 1
+      collidesGround: true
+      collidesAir: false
+      hitEffect: hitBulletSmall
+      shootEffect: shootSmall
     }
   }
 ]
