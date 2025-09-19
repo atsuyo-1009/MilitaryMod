@@ -17,7 +17,7 @@ weapons: [
     y: 6
     reload: 60
     rotate: true
-    region: testcannon    
+    # region: testcannon    
     bullet: {
       type: basicBulletType
       damage: 40
