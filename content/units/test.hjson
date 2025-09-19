@@ -1,5 +1,5 @@
 type: tank
-name: test-tank
+name: testtank
 localizedName: テストタンク
 description: '''
 regionを使ったテスト用タンク。
