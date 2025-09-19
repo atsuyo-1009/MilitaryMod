@@ -33,10 +33,10 @@ weapons: [
     rotate: false
     controllable: false
     shoot: {
-      shots: 4
+      shots: 50
       shotDelay: 30
     }
-    reload: 120
+    reload: 240
     bullet: {
       type: basicBulletType
       speed: 8
