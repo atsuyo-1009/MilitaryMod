@@ -34,7 +34,7 @@ weapons: [
     mirror: true
     rotate: true
     controllable: false
-   # region:ChihaTankTurret
+   region:ChihaTankTurret
     shoot: {
       shots: 1         
       shotDelay: 5     
