@@ -5,16 +5,16 @@ description: '''
 軽戦車。中口径の主砲と機銃がついている。機動性はいいが装甲は薄い。
 '''
 size: 2
-health: 50
-armor: 0
-speed: 0
+health: 500
+armor: 40
+speed: 6.5
 targetAir: false
-shootCone: 15
-inaccuracy: 2
+shootCone: 20
+inaccuracy: 0.4
 
 weapons: [
   {
-    # name:mediumgun
+    name:mediumgun
     x: 0
     y: 10
     reload: 60
