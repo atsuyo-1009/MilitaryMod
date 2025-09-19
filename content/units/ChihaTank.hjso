@@ -17,6 +17,7 @@ weapons: [
     name: "mediumgun"
     x: 0
     y: 10
+region: ChihaTankCannon
     reload: 120
     bullet: {
       type: basicBulletType
