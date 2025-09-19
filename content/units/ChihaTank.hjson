@@ -19,7 +19,7 @@ weapons: [
     y: 10
     region: ChihaTankCannon
     reload: 120
-    rotate: true          # ← これで回転可能砲塔になる
+    rotate: true
     bullet: {
       type: basicBulletType
       damage: 200
@@ -32,12 +32,12 @@ weapons: [
     x: 6
     y: 4
     mirror: true
-    rotate: true          # ← 機銃も回転させたいなら true
+    rotate: true
     controllable: false
     region: ChihaTankTurret
     shoot: {
-      shots: 50
-      shotDelay: 5
+      shots: 1         
+      shotDelay: 5     
     }
     reload: 6
     bullet: {
