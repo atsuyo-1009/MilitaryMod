@@ -16,8 +16,8 @@ weapons: [
     # name: AntiTankCannon
     x: 0
     y: 10
+region:cannon
     reload: 60
-"region":"cannon"
     bullet: {
       type: basicBulletType
       damage: 200
