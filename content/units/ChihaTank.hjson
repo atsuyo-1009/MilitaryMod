@@ -11,7 +11,22 @@ speed: 2
 targetAir: false
 shootCone: 20
 inaccuracy: 0.4
-# region:cannon
+weapons: [
+  {
+    # name: AntiTankCannon
+    x: 0
+    y: 10
+    reload: 60
+"region":"cannon"
+    bullet: {
+      type: basicBulletType
+      damage: 200
+      speed: 5
+      lifetime: 60
+    }
+  }
+]
+
 
    
      
