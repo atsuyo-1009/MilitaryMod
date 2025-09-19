@@ -14,7 +14,7 @@ inaccuracy: 0.4
 
 weapons: [
   {
-    name: "mediumgun"
+    name: "cannon"
     x: 0
     y: 0
  region: "cannon"
