@@ -6,7 +6,7 @@ description: '''
 '''
 size: 2
 health: 500
-armor: 40
+armor: 10
 speed: 6.5
 targetAir: false
 shootCone: 20
