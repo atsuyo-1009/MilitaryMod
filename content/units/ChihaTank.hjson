@@ -22,7 +22,6 @@ weapons: [
     rotate: true
     bullet: {
       type: basicBulletType
-region:"cannon"
       damage: 200
       speed: 4
       lifetime: 40
@@ -33,6 +32,7 @@ region:"cannon"
     x: 6
     y: 4
     mirror: true
+ region:"ChihaTankTurret"
     rotate: true
     controllable: false
     shoot: {
@@ -41,7 +41,6 @@ region:"cannon"
     }
     reload: 6
     bullet: {
- region:"ChihaTankTurret"
       type: basicBulletType
       speed: 8
       damage: 20
