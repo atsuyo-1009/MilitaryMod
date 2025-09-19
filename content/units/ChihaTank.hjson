@@ -40,7 +40,7 @@ weapons: [
     }
     reload: 6
     bullet: {
- region:"turret"
+ region:"cannon"
       type: basicBulletType
       speed: 8
       damage: 20
