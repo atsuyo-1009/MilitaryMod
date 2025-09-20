@@ -16,7 +16,7 @@ weapons: [
     name: AntiTankCannon
     x: 0
     y: 10
-sprite:testcannon
+sprite:ChihaTank-weapon
     reload: 60
     bullet: {
       type: basicBulletType
