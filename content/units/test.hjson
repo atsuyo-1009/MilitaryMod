@@ -50,6 +50,7 @@ inaccuracy: 0.4
 "outline": false,
 "progress": "warmup"
 }
+ "moves":
 { 
 "type": "PartMove",
 "progress": "recoil",
