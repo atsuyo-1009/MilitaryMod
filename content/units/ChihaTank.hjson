@@ -32,7 +32,7 @@ rotateMoveFirst:true,
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
-"parts": [{
+"parts": {[
 "type": "RegionPart",
 "suffix": "-weapon",
 "layer": -1
@@ -40,7 +40,7 @@ reload: 60
 "blending": "additive",
 "outline": true,
 "progress": "warmup"
-}
+]}
 {
 "type": "RegionPart",
 "suffix": "-bullet",
