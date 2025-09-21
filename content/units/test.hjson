@@ -24,3 +24,34 @@ inaccuracy: 0.4
 "burning",
 "blasted"
 ]
+"weapons": [
+    {
+"name": "test-weapon",
+"mirror": false,
+"top": true,
+"x": 0,
+"y": 0,
+"layerOffset": 1,
+"rotate": true,
+"inaccuracy": 5,
+"rotateSpeed": 5,
+"cooldownTime": 30,
+"shootY": 8,
+"reload": 10,
+"recoil": 0.2,
+"parts": {
+"type": "RegionPart",
+"suffix": "-weapon",
+"layer": -1,
+ "mirror": true,
+"blending": "additive",
+"color": "ff2302",
+"colorTo": "ff2302",
+"outline": false,
+"progress": "warmup"
+}
+{ 
+"type": "PartMove",
+"progress": "recoil",
+"y": -1.5
+}
