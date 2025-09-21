@@ -27,8 +27,8 @@ rotateMoveFirst:true,
 "name": "test-weapon",
 "mirror": false,
 "top": true,
-"X":0
-"y":0
+"x": 0,
+"y": 0,
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
