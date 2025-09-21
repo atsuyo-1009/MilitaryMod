@@ -32,7 +32,6 @@ inaccuracy: 0.4
 "rotate": true,
 "inaccuracy": 1,
 "rotateSpeed": 1,
-"cooldownTime": 30,
 "shootY": 1,
 "recoil": 2,
 "parts": {
@@ -51,7 +50,7 @@ inaccuracy: 0.4
 "y": 0
 }
 }
-
+reload: 60
 bullet:{
 type:basicBulletType,
 shootSound:shoot,
