@@ -16,13 +16,13 @@ weapons: [
     name: AntiTankCannon
     x: 0
     y: 10
-region:ChihaTank-weapon
     reload: 60
     bullet: {
       type: basicBulletType
       damage: 200
       speed: 5
       lifetime: 60
+region:ChihaTank-weapon
     }
   }
 ]
