@@ -46,14 +46,3 @@ reload: 60
 "progress": "recoil",
 "y": 0
 }
-}
-bullet:{
-type:basicBulletType,
-shootSound:shoot,
-shootEffect:shootBig2,
-hitEffect:hitBulletSmall,
-despawnHit:true,
-lifetime:22.85714286,
-pierceArmor:false,
-width:1,
-height:1}]
