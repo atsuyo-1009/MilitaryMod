@@ -28,7 +28,7 @@ rotateMoveFirst:true,
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
-X: 0
+X: 2
 y: -1
 reload: 60
 "parts": {
