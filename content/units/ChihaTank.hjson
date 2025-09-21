@@ -16,6 +16,7 @@ weapons: [
 name: AntiTankCannon
 layerOffset:1
 top:true
+mirror": false,
 rotate: true,
 inaccuracy: 5,
 rotateSpeed: 5,
