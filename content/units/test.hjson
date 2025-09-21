@@ -28,7 +28,7 @@ rotateMoveFirst:true,
 "mirror": false,
 "top": true,
 "x": 0,
-"y": 2,
+"y": -2,
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
