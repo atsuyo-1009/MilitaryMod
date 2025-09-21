@@ -56,6 +56,6 @@ bullet:{
 type:basicBulletType
 damage:200
 speed:5
-reroad:1
-lifetime:60
+reroad:600
+lifetime:1
 shootCone:20}}]
