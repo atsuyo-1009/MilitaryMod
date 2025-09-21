@@ -51,7 +51,7 @@ reload: 60
 "progress": "warmup"
 }
 moves:{
-"type":"PartMove",
+type:PartMove
 "progress":"recoil",
 "y":-1.5
 }]
