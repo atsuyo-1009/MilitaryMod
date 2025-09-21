@@ -54,14 +54,14 @@ inaccuracy: 0.4
 }
 
 bullet:{
-"type": "basicBulletType",
-"shootSound":"shoot",
-"shootEffect": "shootBig2",
-"hitEffect": "hitBulletSmall",
-"despawnHit": true,
-"lifetime": 22.85714286,
-"pierceArmor": true,
-"width": 1,
-"height": 1,
+type:basicBulletType,
+shootSound:shoot,
+shootEffect:shootBig2,
+hitEffect:hitBulletSmall,
+despawnHit:true,
+lifetime:22.85714286,
+pierceArmor:false,
+width:1,
+height:1,
 }
 ]
