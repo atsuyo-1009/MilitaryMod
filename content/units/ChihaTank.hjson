@@ -8,59 +8,59 @@ size: 2
 health: 500
 armor: 5
 speed: 1.5
-"x": 0,
-"y": 0,
-singleTarget:false,
-omniMovement:false,
-rotateMoveFirst:true,
-"rotateSpeed": 3,
-"flying": false,
+x: 0
+y: 0
+singleTarget:false
+omniMovement:false
+rotateMoveFirst:true
+rotateSpeed: 3
+flying:false,
 targetAir:false
-"immunities": [
-"melting",
-"burning",
-"blasted"
+immunities: [
+melting
+burning
+blasted
 ]
-"weapons": [
+weapons: [
     {
-"name": "ChihaTank-weapon",
-"mirror": false,
-"top": true,
-"x": 0,
-"y": -5,
-"rotate": true,
-"rotateSpeed": 2,
-"parts":[{
-"type": "RegionPart",
-"suffix": "-weapon",
-"layer": -1
-"mirror": false,
-"blending": "additive",
-"outline": true,
-"progress": "warmup"
+name: ChihaTank-weapon
+mirror: false
+top: true
+x: 0
+y: -5
+rotate: true
+rotateSpeed: 2
+parts:[{
+type:RegionPart
+suffix:-weapon
+layer:-1
+mirror:false
+blending:additive
+outline:true
+progress:warmup
 }
 {
-"type": "RegionPart",
-"suffix": "-bullet",
-"layer": -1
-"mirror": false,
-"blending": "additive",
-"outline": true,
-"progress": "warmup"
+type: RegionPart
+suffix: -bullet
+layer: -1
+mirror: false
+blending: additive
+outline: true
+progress: warmup
 }]
 moves:{
 type:PartMove
-progress:recoil,
+progress:recoil
 y:0}
-"shootSound": "shoot"
-"bullet": {
-"type": "basicBulletType",
-"despawnHit": true,
-"lifetime":10,
-"damage": 15,
-"pierceArmor": false,
-"speed": 7,
-"trailLength": 8,
-"trailWidth": 1.5,
-"width": 4,
-"height": 9,}}]
+shootSound: shoo
+bullet: {
+type: basicBulletType
+despawnHit: true
+lifetime:10
+damage: 15
+pierceArmor: false
+speed: 7
+trailLength: 8
+trailWidth: 1.5
+width: 4
+height: 9}}]
