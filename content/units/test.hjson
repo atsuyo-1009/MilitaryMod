@@ -62,6 +62,4 @@ despawnHit:true,
 lifetime:22.85714286,
 pierceArmor:false,
 width:1,
-height:1,
-}
-]
+height:1}]
