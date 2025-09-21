@@ -8,7 +8,7 @@ size: 2
 health: 500
 armor: 5
 speed: 1.5
-"X":0
+"X":4
 "y":0
 targetAir: false
 shootCone: 20
@@ -35,7 +35,7 @@ reload: 60
 "parts": {
 "type": "RegionPart",
 "suffix": "-weapon",
-"layer": -1,
+"layer": -1
 "mirror": false,
 "blending": "additive",
 "outline": false,
@@ -45,7 +45,7 @@ reload: 60
 { 
 "type": "PartMove",
 "progress": "recoil",
-"y": 0
+"y": -1.5
 }
 bullet:{
 type:basicBulletType
