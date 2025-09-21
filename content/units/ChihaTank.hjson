@@ -49,7 +49,7 @@ reload: 60
 }
 bullet:{
 type:basicBulletType
-damage:200
+damage:50
 speed:5
 lifetime:60
 }}]
