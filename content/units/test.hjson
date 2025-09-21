@@ -10,9 +10,7 @@ armor: 5
 speed: 1.5
 targetAir: false
 shootCone: 20
-inaccuracy: 0.4
 "singleTarget": true,
-"omniMovement": false,
 "rotateMoveFirst": true,
 "rotateSpeed": 3,
 "flying": false,
@@ -26,9 +24,11 @@ inaccuracy: 0.4
 "name": "test-weapon",
 "mirror": false,
 "top": true,
+reload: 60
 "x": 0,
 "y": -2,
 "rotate": true,
+"rotateSpeed": 5,
 "parts": {
 "type": "RegionPart",
 "suffix": "-weapon",
