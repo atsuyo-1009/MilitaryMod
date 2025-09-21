@@ -11,14 +11,11 @@ speed: 2
 targetAir: false
 shootCone: 20
 inaccuracy: 0.4
-"singleTarget": false,
+"singleTarget": true,
 "omniMovement": false,
 "rotateMoveFirst": true,
 "rotateSpeed": 1.8,
-"speed": 1,
 "flying": false,
-"health": 950,
-"range": 160,
 "immunities": [
 "melting",
 "burning",
@@ -29,12 +26,12 @@ inaccuracy: 0.4
 "name": "test-weapon",
 "mirror": false,
 "top": true,
-"x": 0,
+"x": -1,
 "y": 0,
 "layerOffset": 1,
 "rotate": true,
-"inaccuracy": 5,
-"rotateSpeed": 5,
+"inaccuracy": 1,
+"rotateSpeed": 1,
 "cooldownTime": 30,
 "shootY": 8,
 "reload": 10,
@@ -43,18 +40,16 @@ inaccuracy: 0.4
 "type": "RegionPart",
 "suffix": "-weapon",
 "layer": -1,
- "mirror": true,
+ "mirror": false,
 "blending": "additive",
-"color": "ff2302",
-"colorTo": "ff2302",
-"outline": false,
+"outline": true,
 "progress": "warmup"
 }
  "moves":
 { 
 "type": "PartMove",
 "progress": "recoil",
-"y": -1.5
+"y": 0
 }
 }
 ]
