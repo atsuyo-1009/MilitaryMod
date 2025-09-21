@@ -32,9 +32,18 @@ rotateMoveFirst:true,
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
-"parts": {
+"parts": [{
 "type": "RegionPart",
 "suffix": "-weapon",
+"layer": -1
+"mirror": false,
+"blending": "additive",
+"outline": false,
+"progress": "warmup"
+}
+{
+"type": "RegionPart",
+"suffix": "-bullet",
 "layer": -1
 "mirror": false,
 "blending": "additive",
@@ -46,7 +55,7 @@ reload: 60
 "type": "PartMove",
 "progress": "recoil",
 "y": -1.5
-}
+}]
 bullet:{
 type:basicBulletType
 damage:50
