@@ -50,7 +50,7 @@ reload: 60
 "outline": false,
 "progress": "warmup"
 }
- "moves":{ 
+moves:{ 
 "type": "PartMove",
 "progress": "recoil",
 "y": -1.5
