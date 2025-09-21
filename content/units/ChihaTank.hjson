@@ -15,6 +15,7 @@ omniMovement:false,
 rotateMoveFirst:true,
 "rotateSpeed": 3,
 "flying": false,
+targetAir:false
 "immunities": [
 "melting",
 "burning",
@@ -27,7 +28,6 @@ rotateMoveFirst:true,
 "top": true,
 "x": 0,
 "y": -5,
-targetAir:false
 "rotate": true,
 "rotateSpeed": 2,
 "parts":[{
@@ -52,20 +52,15 @@ moves:{
 type:PartMove
 progress:recoil,
 y:0}
-"shootSound": "shoot",
-      "bullet": {
-        "type": "basicBulletType",
-        "shootEffect": "shootBig2",
-        "hitEffect": "hitBulletSmall",
-        "despawnHit": true,
-        "lifetime": 22.85714286,
-        "damage": 15,
-        "pierceArmor": true,
-        "speed": 7,
-        "trailLength": 8,
-        "trailWidth": 1.5,
-        "width": 4,
-        "height": 9,
-        "trailColor": "ff7048",
-        "backColor": "ff7048",
-        "frontColor": "ffcea0"}}]
+"shootSound": "shoot"
+"bullet": {
+"type": "basicBulletType",
+"despawnHit": true,
+"lifetime":10,
+"damage": 15,
+"pierceArmor": false,
+"speed": 7,
+"trailLength": 8,
+"trailWidth": 1.5,
+"width": 4,
+"height": 9,}}]
