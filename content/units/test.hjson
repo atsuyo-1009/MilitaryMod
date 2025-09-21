@@ -46,9 +46,9 @@ reload: 60
 "progress": "recoil",
 "y": 0
 }
-bullet: {
-type: basicBulletType
-damage: 200
-speed: 5
-lifetime: 60
+bullet:{
+type:basicBulletType
+damage:200
+speed:5
+lifetime:60
 }}]
