@@ -25,12 +25,11 @@ rotateMoveFirst:true,
 "name": "test-weapon",
 "mirror": false,
 "top": true,
-X: 7
-y: -1
+X: 0
+y: 0
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
-reload: 6,
 "parts": {
 "type": "RegionPart",
 "suffix": "-weapon",
