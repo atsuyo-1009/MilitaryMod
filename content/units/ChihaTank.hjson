@@ -10,8 +10,6 @@ armor: 5
 speed: 1.5
 "x": 0,
 "y": 0,
-targetAir: false
-shootCone: 20
 singleTarget:false,
 omniMovement:false,
 rotateMoveFirst:true,
@@ -29,7 +27,6 @@ rotateMoveFirst:true,
 "top": true,
 "x": 0,
 "y": -5,
-reload: 60
 "rotate": true,
 "rotateSpeed": 2,
 "parts":[{
@@ -55,4 +52,12 @@ type:PartMove
 progress:recoil,
 y:-1.5}
 }
-bullet:{}]
+bullet:{
+type:basicBulletType
+damage:200
+speed:5
+lifetime:60
+shootCone:20
+reload:60
+targetAir: false
+}]
