@@ -9,7 +9,7 @@ health: 500
 armor: 5
 speed: 1.5
 "x": 0,
-"y": 2,
+"y": 0,
 targetAir: false
 shootCone: 20
 singleTarget:false,
@@ -28,7 +28,7 @@ rotateMoveFirst:true,
 "mirror": false,
 "top": true,
 "x": 0,
-"y": 0,
+"y": 2,
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
