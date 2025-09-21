@@ -52,7 +52,7 @@ inaccuracy: 0.4
 "y": 0
 }
 }
-"shootSound": "shoot",
+"shootSound":"shoot",
 "bullet": {
 "type": "basicBulletType",
 "shootEffect": "shootBig2",
