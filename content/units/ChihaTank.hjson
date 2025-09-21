@@ -48,8 +48,6 @@ reload: 60
 "mirror": false,
 "blending": "additive",
 "outline": true,
-X:0
-Y:2
 "progress": "warmup"
 }
 moves:{
