@@ -52,8 +52,20 @@ moves:{
 type:PartMove
 progress:recoil,
 y:0}
-bullet:{
-type:basicBulletType
-damage:200
-speed:1
-reroad:600}}]
+"shootSound": "shoot",
+      "bullet": {
+        "type": "basicBulletType",
+        "shootEffect": "shootBig2",
+        "hitEffect": "hitBulletSmall",
+        "despawnHit": true,
+        "lifetime": 22.85714286,
+        "damage": 15,
+        "pierceArmor": true,
+        "speed": 7,
+        "trailLength": 8,
+        "trailWidth": 1.5,
+        "width": 4,
+        "height": 9,
+        "trailColor": "ff7048",
+        "backColor": "ff7048",
+        "frontColor": "ffcea0"}}]
