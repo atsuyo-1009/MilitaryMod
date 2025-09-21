@@ -38,7 +38,7 @@ reload: 60
 "layer": -1
 "mirror": false,
 "blending": "additive",
-"outline": false,
+"outline": true,
 "progress": "warmup"
 }
 {
@@ -47,7 +47,9 @@ reload: 60
 "layer": -1
 "mirror": false,
 "blending": "additive",
-"outline": false,
+"outline": true,
+X:0
+Y:2
 "progress": "warmup"
 }
 moves:{
