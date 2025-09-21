@@ -59,5 +59,4 @@ speed:5
 lifetime:60
 shootCone:20
 reload:60
-targetAir: false
-}]
+targetAir: false}]
