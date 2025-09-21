@@ -12,21 +12,33 @@ targetAir: false
 shootCone: 20
 inaccuracy: 0.4
 weapons: [
-  {
-    name: AntiTankCannon
-    x: 0
-    y: 10
-    reload: 60
-    bullet: {
-      type: basicBulletType
-      damage: 200
-      speed: 5
-      lifetime: 60
-region:ChihaTank-weapon
-    }
-  }
-]
+{
+name: AntiTankCannon
+layerOffset:1
+top:true
+rotate: true,
+inaccuracy: 5,
+rotateSpeed: 5,
+X: 0
+y: 10
+reload: 60
+bullet: {
+type: basicBulletType
+damage: 200
+speed: 5
+lifetime: 60
+} 
+"parts": 
+{
+"type": "RegionPart",
+"suffix": "-weapon",
+"layer": -1,
+"mirror": true,
+"blending": "additive",
+"color": "ff2302",
+"colorTo": "ff2302",
+"outline": false,
+"progress": "warmup"
+}
+}
 
-
-   
-     
