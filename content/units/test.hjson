@@ -28,8 +28,8 @@ rotateMoveFirst:true,
 reload: 60
 "rotate": true,
 "rotateSpeed": 2,
-X: 0
-y: 10
+X: 1
+y: -1
 reload: 60
 "parts": {
 "type": "RegionPart",
