@@ -1,8 +1,8 @@
 type: tank
 name: ChihaTank
-localizedName: てすと
+localizedName: チハ軽戦車
 description: '''
-軽戦車。中口径の主砲と機銃がついている。機動性はいいが装甲は薄い。なーにこれれれえれれれ
+軽戦車。中口径の主砲と機銃がついている。機動性はいいが装甲は薄い。
 '''
 size: 2
 health: 500
