@@ -54,4 +54,7 @@ moves:{
 type:PartMove
 progress:recoil,
 y:-1.5}
-}]
+}
+bullet:{
+      type:basicBulletType
+      damage:200}]
