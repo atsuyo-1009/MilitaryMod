@@ -57,7 +57,4 @@ targetAir:false
 moves:{
 type:PartMove
 progress:recoil,
-y:0}
-}
-bullet:{
-type:}]
+y:0}}]
