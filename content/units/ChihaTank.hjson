@@ -32,7 +32,7 @@ lifetime: 60
 {
 "type": "RegionPart",
 "suffix": "-weapon",
-"layer": -1,
+"layer": 1,
 "mirror": true,
 "blending": "additive",
 "color": "ff2302",
