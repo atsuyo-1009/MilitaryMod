@@ -28,6 +28,7 @@ inaccuracy: 0.4
 "top": true,
 "x": 0,
 "y": -2,
+"rotate": true,
 "parts": {
 "type": "RegionPart",
 "suffix": "-weapon",
