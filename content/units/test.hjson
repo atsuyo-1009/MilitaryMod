@@ -14,7 +14,7 @@ inaccuracy: 0.4
 "singleTarget": true,
 "omniMovement": false,
 "rotateMoveFirst": true,
-"rotateSpeed": 1.8,
+"rotateSpeed": 3,
 "flying": false,
 "immunities": [
 "melting",
@@ -26,23 +26,23 @@ inaccuracy: 0.4
 "name": "test-weapon",
 "mirror": false,
 "top": true,
-"x": -5,
-"y": 0,
+"x": 0,
+"y": -2,
 "layerOffset": 1,
 "rotate": true,
 "inaccuracy": 1,
 "rotateSpeed": 1,
 "cooldownTime": 30,
-"shootY": 4,
+"shootY": 1,
 "reload": 60,
 "recoil": 2,
 "parts": {
 "type": "RegionPart",
 "suffix": "-weapon",
 "layer": -1,
- "mirror": false,
+"mirror": false,
 "blending": "additive",
-"outline": true,
+"outline": false,
 "progress": "warmup"
 }
  "moves":
@@ -51,5 +51,16 @@ inaccuracy: 0.4
 "progress": "recoil",
 "y": 0
 }
+}
+"shootSound": "shoot",
+"bullet": {
+"type": "basicBulletType",
+"shootEffect": "shootBig2",
+"hitEffect": "hitBulletSmall",
+"despawnHit": true,
+"lifetime": 22.85714286,
+"pierceArmor": true,
+"width": 1,
+"height": 1,
 }
 ]
