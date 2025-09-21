@@ -24,7 +24,7 @@ rotateMoveFirst:true,
 ]
 "weapons": [
     {
-"name": "ChihaTank-Weapon",
+"name": "ChihaTank-weapon",
 "mirror": false,
 "top": true,
 "x": 0,
