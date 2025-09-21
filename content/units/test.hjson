@@ -6,8 +6,8 @@ description: '''
 '''
 size: 2
 health: 500
-armor: 10
-speed: 2
+armor: 5
+speed: 1.5
 targetAir: false
 shootCone: 20
 inaccuracy: 0.4
@@ -34,7 +34,6 @@ inaccuracy: 0.4
 "rotateSpeed": 1,
 "cooldownTime": 30,
 "shootY": 1,
-"reload": 60,
 "recoil": 2,
 "parts": {
 "type": "RegionPart",
