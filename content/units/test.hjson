@@ -10,8 +10,9 @@ armor: 5
 speed: 1.5
 targetAir: false
 shootCone: 20
-"singleTarget": true,
-"rotateMoveFirst": true,
+singleTarget:false,
+omniMovement:false,
+rotateMoveFirst:true,
 "rotateSpeed": 3,
 "flying": false,
 "immunities": [
@@ -25,10 +26,11 @@ shootCone: 20
 "mirror": false,
 "top": true,
 reload: 60
-"x": 0,
-"y": -2,
 "rotate": true,
-"rotateSpeed": 5,
+"rotateSpeed": 2,
+X: 0
+y: 10
+reload: 60
 "parts": {
 "type": "RegionPart",
 "suffix": "-weapon",
@@ -45,7 +47,6 @@ reload: 60
 "y": 0
 }
 }
-reload: 60
 bullet:{
 type:basicBulletType,
 shootSound:shoot,
