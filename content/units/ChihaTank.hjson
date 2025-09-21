@@ -24,7 +24,7 @@ rotateMoveFirst:true,
 ]
 "weapons": [
     {
-"name": "test-weapon",
+"name": "ChihaTank-Weapon",
 "mirror": false,
 "top": true,
 "x": 0,
