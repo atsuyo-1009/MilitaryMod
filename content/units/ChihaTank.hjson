@@ -1,4 +1,4 @@
-type: tank
+   type: tank
    name: ChihaTank
    localizedName: チハ軽戦車
    description: '''
@@ -15,13 +15,13 @@ type: tank
    rotateMoveFirst:true
    flying:false
    targetAir:false
-immunities:
+   immunities:
 [
    melting
    burning
    blasted
 ]
-weapons:
+   weapons:
 [
 {
    name: ChihaTank-weapon
@@ -35,7 +35,7 @@ weapons:
    damage: 20
    speed: 5
    lifetime: 60
-parts:
+   parts:
 [
 {
    type:RegionPart
@@ -55,7 +55,7 @@ parts:
    outline: true
    progress: warmup
 }
-moves:
+   moves:
 {
    type:PartMove
    progress:recoil
@@ -63,7 +63,7 @@ moves:
 }
 ]
    shootSound: shoot
-bullet: 
+   bullet: 
 {
    type: basicBulletType
    damage: 85
