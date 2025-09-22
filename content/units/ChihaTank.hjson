@@ -64,8 +64,8 @@ weapons: [
       lifetime: 20
       damage: 25
       pierce: true
-      pierceBuilding: true
-      pierceDamageFactor: 1
+      pierceBuilding: false
+      pierceDamageFactor: 0
       width: 0
       height:0
       trailWidth: o
