@@ -21,6 +21,7 @@ immunities: [
          blasted
    ]
 weapons: [
+
 {
    name: ChihaTank-weapon
       mirror: false
@@ -34,6 +35,7 @@ rotate: true
             speed: 5
                lifetime: 60
 parts:[
+
 {
    type:RegionPart
       suffix:-weapon
@@ -42,7 +44,8 @@ parts:[
                blending:additive
                   outline:true
                      progress:warmup
-      }
+     }
+
    {
 type: RegionPart
    suffix: -barrel
@@ -52,17 +55,22 @@ type: RegionPart
                outline: true
                  progress: warmup
 }
+
 ]
 moves:{
    type:PartMove
       progress:recoil
-         y:0}
+         y:0
+}
             shootSound: shoot
-bullet: {
+bullet: 
+{
    type: basicBulletType
       damage: 85
          speed: 5
             lifetime: 60
          }
+
       }
+
    ]
