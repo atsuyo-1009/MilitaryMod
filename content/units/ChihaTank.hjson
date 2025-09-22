@@ -60,10 +60,6 @@ weapons: [
         }
       }
     ]
-    shoot: {
-      shots: 5
-      shotDelay: 5
-    }
     bullet: {
       speed: 4
       lifetime: 20
