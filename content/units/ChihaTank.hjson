@@ -4,7 +4,7 @@ type: tank
    description: '''
    軽戦車。中口径の主砲と機銃がついている。機動性はいいが装甲は薄い。
    '''
-size: 2
+   size: 2
    health: 500
    armor: 5
    speed: 1.5
