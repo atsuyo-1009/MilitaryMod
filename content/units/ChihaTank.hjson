@@ -73,8 +73,8 @@ weapons: [
       pierceDamageFactor: 1
       width: 10
       height:10
-      trailWidth: 1
-      trailLength: 1
+      trailWidth: 10
+      trailLength: 10
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
     }
