@@ -10,8 +10,8 @@ faceTarget: false
 speed: 1.5
 accel: 0.1
 drag: 0.1
-drownTimeMultiplier: 6
-treadFrames: 10
+drownTimeMultiplier: 1
+treadFrames: 1
     x: 0
     y: 0
     width: 1
