@@ -1,4 +1,6 @@
 type: tank
+name: チハ軽戦車
+
 shadowElevation: 0.2
 template: TankUnitType
 crushDamage: 3
@@ -45,6 +47,18 @@ weapons: [
     cooldownTime: 60
     parts: [
       {
+        suffix: -weapon
+        heatLayerOffset: 0
+        under: true
+        moveY: 0
+        progress: {
+          type: heat
+          op: compress
+          start: 2
+          end: 10
+        }
+ parts: [
+      {
         suffix: -barrel
         heatLayerOffset: 0
         under: true
@@ -74,21 +88,6 @@ weapons: [
       trailLength: 1
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
-      fragBullets: 3
-      fragRandomSpread: 45
-      fragVelocityMin: 0.5
-      fragBullet: {
-        speed: 6
-        lifetime: 15
-        damage: 8
-        pierce: true
-        pierceBuilding: true
-        width: 7
-        height: 14
-        shrinkX: 1
-        shrinkY: 1
-        hitEffect: none
-      }
     }
   }
 ]
