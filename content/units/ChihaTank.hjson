@@ -53,7 +53,7 @@ weapons: [
         under:true
         moveY:0
         progress: {
-          type: heat
+          type: warmup
           op: compress
           start: 2
           end: 10
