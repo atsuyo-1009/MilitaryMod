@@ -33,7 +33,8 @@ rotate: true
          damage: 20
             speed: 5
                lifetime: 60
-parts:[{
+parts:[
+{
    type:RegionPart
       suffix:-weapon
          layer:-1
@@ -50,7 +51,8 @@ type: RegionPart
             blending: additive
                outline: true
                  progress: warmup
-}]
+}
+]
 moves:{
    type:PartMove
       progress:recoil
