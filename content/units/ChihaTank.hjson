@@ -1,0 +1,94 @@
+type: tank
+shadowElevation: 0.2
+template: TankUnitType
+crushDamage: 3
+hitSize: 5
+health: 500
+armor: 10
+faceTarget: false
+speed: 1.5
+accel: 0.1
+drag: 0.1
+drownTimeMultiplier: 6
+treadFrames: 18
+treadRects: [
+  {
+    x: 44
+    y: 36
+    width: 24
+    height: 48
+  }
+  {
+    x: 0
+    y: -99
+    width: 25
+    height: 96
+  }
+]
+rotateSpeed: 1.2
+outlineColor: 565666
+weapons: [
+  {
+    name: Main-Cannon
+    layerOffset: 1
+    y: 0
+    x: 0
+    shootY: 0
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.5
+    reload: 60
+    recoil: 2
+    shadow: 1
+    shootSound: bang
+    inaccuracy: 2
+    cooldownTime: 60
+    parts: [
+      {
+        suffix: -barrel
+        heatLayerOffset: 0
+        under: true
+        moveY: 0
+        progress: {
+          type: heat
+          op: compress
+          start: 2
+          end: 10
+        }
+      }
+    ]
+    shoot: {
+      shots: 5
+      shotDelay: 5
+    }
+    bullet: {
+      speed: 4
+      lifetime: 20
+      damage: 25
+      pierce: true
+      pierceBuilding: true
+      pierceDamageFactor: 1
+      width: 1
+      height: 1
+      trailWidth: 1
+      trailLength: 1
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      fragBullets: 3
+      fragRandomSpread: 45
+      fragVelocityMin: 0.5
+      fragBullet: {
+        speed: 6
+        lifetime: 15
+        damage: 8
+        pierce: true
+        pierceBuilding: true
+        width: 7
+        height: 14
+        shrinkX: 1
+        shrinkY: 1
+        hitEffect: none
+      }
+    }
+  }
+]
