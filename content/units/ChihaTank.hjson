@@ -51,13 +51,12 @@ moves:{
 type:PartMove
 progress:recoil
 y:0}
-shootSound: shoo
+shootSound: shoot
 bullet: {
 type: basicBulletType
-damage: 10   
-speed: 8
-lifetime: 25  
-reroad: 5
+damage: 200
+      speed: 5
+      lifetime: 60
 }
 }
 ]
