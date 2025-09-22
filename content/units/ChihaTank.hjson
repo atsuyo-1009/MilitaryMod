@@ -13,7 +13,6 @@ y: 0
 singleTarget:false
 omniMovement:false
 rotateMoveFirst:true
-rotateSpeed: 3
 flying:false,
 targetAir:false
 immunities: [
