@@ -17,7 +17,6 @@ treadFrames: 10
     width: 25
     height: 96
 rotateSpeed: 1
-outlineColor: 565666
 weapons: [
   {
     name: ChihaTank-weapon
@@ -67,11 +66,10 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceDamageFactor: 1
-      width: 10
-      height:10
-      trailWidth: 10
-      trailLength: 10
-      shootEffect: shootBig
+      width: 0
+      height:0
+      trailWidth: o
+      trailLength: 0
       smokeEffect: shootBigSmoke
     }
   }
