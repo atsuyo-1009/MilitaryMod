@@ -14,8 +14,8 @@ drownTimeMultiplier: 6
 treadFrames: 10
     x: 0
     y: 0
-    width: 25
-    height: 96
+    width: 1
+    height: 1
 rotateSpeed: 1
 weapons: [
   {
