@@ -55,14 +55,13 @@ type: RegionPart
    outline: true
    progress: warmup
 }
-
-]
 moves:
 {
    type:PartMove
    progress:recoil
    y:0
 }
+]
    shootSound: shoot
 bullet: 
 {
