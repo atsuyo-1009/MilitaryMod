@@ -71,8 +71,8 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceDamageFactor: 1
-      width: 1
-      height: 1
+      width: 2
+      height: 2
       trailWidth: 1
       trailLength: 1
       shootEffect: shootBig
