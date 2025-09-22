@@ -49,7 +49,7 @@ weapons: [
       {
         suffix:weapon-barrel
         heatLayerOffset: 0
-        under:true
+        under:false
         moveY:0
         progress: {
           type: warmup
@@ -61,17 +61,15 @@ weapons: [
     ]
     bullet: {
 type: basicBulletType
-      speed: 4
+      speed: 8
       lifetime: 20
       damage: 25
       pierce: false
       pierceBuilding: false
-      pierceDamageFactor: 0
       width: 0.1
       height:0.1
       trailWidth: o.1
       trailLength: 0.1
-      smokeEffect: shootBigSmoke
     }
   }
 ]
