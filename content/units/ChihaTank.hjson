@@ -13,7 +13,7 @@ size: 2
 singleTarget:false
    omniMovement:false
       rotateMoveFirst:true
-         flying:false,
+         flying:false
             targetAir:false
 immunities: [
    melting
