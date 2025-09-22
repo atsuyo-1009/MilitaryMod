@@ -1,66 +1,66 @@
 type: tank
-name: ChihaTank
-localizedName: チハ軽戦車
-description: '''
-軽戦車。中口径の主砲と機銃がついている。機動性はいいが装甲は薄い。
-'''
+   name: ChihaTank
+      localizedName: チハ軽戦車
+         description: '''
+            軽戦車。中口径の主砲と機銃がついている。機動性はいいが装甲は薄い。
+               '''
 size: 2
-health: 500
-armor: 5
-speed: 1.5
-x: 0
-y: 0
+   health: 500
+      armor: 5
+         speed: 1.5
+            x: 0
+               y: 0
 singleTarget:false
-omniMovement:false
-rotateMoveFirst:true
-flying:false,
-targetAir:false
+   omniMovement:false
+      rotateMoveFirst:true
+         flying:false,
+            targetAir:false
 immunities: [
-melting
-burning
-blasted
-]
+   melting
+      burning
+         blasted
+   ]
 weapons: [
-    {
-name: ChihaTank-weapon
-mirror: false
-top: true
-x: 0
-y: -2.5
-rotate: true
-rotateSpeed: 2
-reload: 60
-damage: 20
-speed: 5
-lifetime: 60
-parts:[{
-type:RegionPart
-suffix:-weapon
-layer:-1
-mirror:false
-blending:additive
-outline:true
-progress:warmup
-}
 {
+   name: ChihaTank-weapon
+      mirror: false
+         top: true
+            x: 0
+               y: -2.5
+rotate: true
+   rotateSpeed: 2
+      reload: 60
+         damage: 20
+            speed: 5
+               lifetime: 60
+parts:[{
+   type:RegionPart
+      suffix:-weapon
+         layer:-1
+            mirror:false
+               blending:additive
+                  outline:true
+                     progress:warmup
+      }
+   {
 type: RegionPart
-suffix: -barrel
-layer: -1
-mirror: false
-blending: additive
-outline: true
-progress: warmup
+   suffix: -barrel
+      layer: -1
+         mirror: false
+            blending: additive
+               outline: true
+                 progress: warmup
 }]
 moves:{
-type:PartMove
-progress:recoil
-y:0}
-shootSound: shoot
+   type:PartMove
+      progress:recoil
+         y:0}
+            shootSound: shoot
 bullet: {
-type: basicBulletType
-damage: 85
-      speed: 5
-      lifetime: 60
-}
-}
-]
+   type: basicBulletType
+      damage: 85
+         speed: 5
+            lifetime: 60
+         }
+      }
+   ]
