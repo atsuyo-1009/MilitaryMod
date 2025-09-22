@@ -41,7 +41,7 @@ progress:warmup
 }
 {
 type: RegionPart
-suffix: -bullet
+suffix: -barrel
 layer: -1
 mirror: false
 blending: additive
