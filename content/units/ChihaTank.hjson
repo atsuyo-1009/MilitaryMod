@@ -57,6 +57,7 @@ type: basicBulletType
 damage: 10   
 speed: 8
 lifetime: 25  
+reroad: 5
 }
 }
 ]
