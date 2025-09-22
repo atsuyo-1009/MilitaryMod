@@ -29,6 +29,10 @@ x: 0
 y: -5
 rotate: true
 rotateSpeed: 2
+reload: 60
+damage: 20
+speed: 5
+lifetime: 60
 parts:[{
 type:RegionPart
 suffix:-weapon
