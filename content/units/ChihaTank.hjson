@@ -12,13 +12,6 @@ accel: 0.1
 drag: 0.1
 drownTimeMultiplier: 6
 treadFrames: 18
-treadRects: [
-  {
-    x: 44
-    y: 36
-    width: 24
-    height: 48
-  }
   {
     x: 0
     y: -99
