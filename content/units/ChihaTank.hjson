@@ -1,6 +1,5 @@
 type: tank
 name: チハ軽戦車
-
 shadowElevation: 0.2
 template: TankUnitType
 crushDamage: 3
