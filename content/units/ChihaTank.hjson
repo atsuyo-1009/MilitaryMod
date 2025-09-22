@@ -58,7 +58,7 @@ y:0}
 shootSound: shoot
 bullet: {
 type: basicBulletType
-damage: 200
+damage: 85
       speed: 5
       lifetime: 60
 }
