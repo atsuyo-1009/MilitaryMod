@@ -36,22 +36,22 @@ weapons: [
     cooldownTime: 60
     parts: [
       {
-        suffix: -weapon
-        heatLayerOffset: 0
-        under: true
+        suffix:-weapon
+        heatLayerOffset: 1
+        under:false
         moveY: 0
         progress: {
-          type: heat
+          type: warmup
           op: compress
           start: 2
           end: 10
         }
  parts: [
       {
-        suffix: -barrel
+        suffix:-barrel
         heatLayerOffset: 0
-        under: true
-        moveY: 0
+        under:true
+        moveY:0
         progress: {
           type: heat
           op: compress
