@@ -55,12 +55,7 @@ y:0}
 shootSound: shoo
 bullet: {
 type: basicBulletType
-despawnHit: true
-lifetime:10
-damage: 15
-pierceArmor: false
-speed: 7
-trailLength: 8
-trailWidth: 1.5
-width: 4
-height: 9}}]
+damage: 10   
+speed: 8
+lifetime: 25  
+}
