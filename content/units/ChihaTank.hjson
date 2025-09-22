@@ -64,13 +64,13 @@ type: basicBulletType
       speed: 4
       lifetime: 20
       damage: 25
-      pierce: true
+      pierce: false
       pierceBuilding: false
       pierceDamageFactor: 0
-      width: 0
-      height:0
-      trailWidth: o
-      trailLength: 0
+      width: 0.1
+      height:0.1
+      trailWidth: o.1
+      trailLength: 0.1
       smokeEffect: shootBigSmoke
     }
   }
