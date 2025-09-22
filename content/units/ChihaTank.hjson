@@ -20,7 +20,7 @@ rotateSpeed: 1
 outlineColor: 565666
 weapons: [
   {
-    name: Main-Cannon
+    name: ChihaTank-weapon
     layerOffset: 1
     y: 0
     x: 0
