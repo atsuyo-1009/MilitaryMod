@@ -11,12 +11,12 @@ speed: 1.5
 accel: 0.1
 drag: 0.1
 drownTimeMultiplier: 6
-treadFrames: 18
+treadFrames: 10
     x: 0
-    y: -99
+    y: 0
     width: 25
     height: 96
-rotateSpeed: 1.2
+rotateSpeed: 1
 outlineColor: 565666
 weapons: [
   {
