@@ -47,7 +47,7 @@ parts:
    progress:warmup
 }
 {
-type: RegionPart
+   type: RegionPart
    suffix: -barrel
    layer: -1
    mirror: false
