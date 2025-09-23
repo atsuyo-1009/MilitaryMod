@@ -24,6 +24,7 @@ weapons: [
     y: 0
     x: 0
     shootY: 0
+    weapon:0
     mirror: false
     rotate: true
     rotateSpeed: 1.5
