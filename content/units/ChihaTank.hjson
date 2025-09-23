@@ -58,8 +58,14 @@ weapons: [
           start: 2
           end: 10
         }
-      }
-    ]
+  drawer: {
+         shadowlayer:0
+                }
+              }
+            ]
+          }
+        ]
+       }
     bullet: {
 type: basicBulletType
       speed: 8
