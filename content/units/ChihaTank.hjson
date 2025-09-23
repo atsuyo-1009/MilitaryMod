@@ -77,7 +77,7 @@ type: basicBulletType
       height:0.1
       trailWidth: o.1
       trailLength: 0.1
-    }
+   }
   }
 ]
 }
