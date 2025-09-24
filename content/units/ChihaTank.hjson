@@ -1,6 +1,5 @@
 type: tank
 name: チハ軽戦車
-shadowElevation: 0.2
 template: TankUnitType
 crushDamage: 3
 hitSize: 1
@@ -18,7 +17,7 @@ outlineRadius: -10000000
 rotateSpeed: 1
 weapons: [
   {
-    name: ChihaTank-weapon
+    name: ChihaTank-weapon\
     layerOffset: 1
     y: 0
     x: 0
@@ -30,9 +29,6 @@ weapons: [
     reload: 60
     recoil: 2
     shadow: -5
-    shootSound: bang
-    inaccuracy: 2
-    cooldownTime: 60
     parts: [
       {
         suffix:-weapon
