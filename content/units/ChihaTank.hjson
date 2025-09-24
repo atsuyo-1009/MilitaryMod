@@ -1,9 +1,9 @@
-type: tank
-name: チハ軽戦車
-template: TankUnitType
-crushDamage: 3
-hitSize: 10
-health: 500
+   type: tank
+   name: チハ軽戦車
+   template: TankUnitType
+   crushDamage: 3
+   hitSize: 10
+   health: 500
    armor: 10
    faceTarget: false
    speed: 1.5
