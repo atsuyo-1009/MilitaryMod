@@ -17,18 +17,13 @@ outlineRadius: -10000000
 rotateSpeed: 1
 weapons: [
   {
-    name: ChihaTank-weapon\
+    name: ChihaTank-weapon
     layerOffset: 1
     y: 0
     x: 0
-    shootY: 0
-    shadow:0
     mirror: false
     rotate: true
     rotateSpeed: 1.5
-    reload: 60
-    recoil: 2
-    shadow: -5
     parts: [
       {
         suffix:-weapon
