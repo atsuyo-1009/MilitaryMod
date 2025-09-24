@@ -10,26 +10,26 @@ speed: 1.5
 treadFrames: 1
 outlinecoloer:00000000
 outlineRadius: -10000000
-width: 1
+width:1
 height:1
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width:1
+    height:1
 rotateSpeed: 1
 weapons: [
   {
     name: ChihaTank-weapon
     layerOffset: 1
-    y: 0
-    x: 0
-    mirror: false
-    rotate: true
-    speed:8
-    lifetime:80
+    y:0
+    x:0
+    mirror:false
+    rotate:true
+    speed:20
+    lifetime:10
     reload:60
     damage:30
-    rotateSpeed:1.5
+    rotateSpeed:3
     parts: [
       {
         suffix:-weapon
