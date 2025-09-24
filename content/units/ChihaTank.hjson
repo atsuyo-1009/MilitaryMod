@@ -24,6 +24,7 @@ weapons: [
     mirror: false
     rotate: true
     rotateSpeed: 1.5
+    leload:60
     parts: [
       {
         suffix:-weapon
@@ -57,12 +58,12 @@ weapons: [
     bullet: {
 type: basicBulletType
       speed: 8
+      reroad:60
       lifetime: 80
       damage: 25
       pierce: false
       pierceBuilding: false
       width: 0.1
       height:0.1
-      reroad:60
                 }
 
