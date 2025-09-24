@@ -2,7 +2,7 @@ type: tank
 name: チハ軽戦車
 template: TankUnitType
 crushDamage: 3
-hitSize: 1
+hitSize: 10
 health: 500
 armor: 10
 faceTarget: false
