@@ -30,6 +30,13 @@ weapons: [
     reload:60
     damage:30
     rotateSpeed:3
+bullet: 
+    {
+      type: basicBulletType
+      damage: 200
+      speed: 5
+      lifetime: 60
+    }
     parts: [
       {
         suffix:-weapon
@@ -58,12 +65,5 @@ weapons: [
           ]
       }
           ]
-    }
-    bullet: 
-    {
-      type: basicBulletType
-      damage: 200
-      speed: 5
-      lifetime: 60
     }
     ]
