@@ -49,7 +49,7 @@ bullet:
           start:0
           end:1
         }
- parts: [
+ parts:
       {
         suffix:ChihaTank-weapon-barrel
         heatLayerOffset: 1
@@ -62,7 +62,6 @@ bullet:
           end:1
         }
         }
-          ]
       }
           ]
     }
