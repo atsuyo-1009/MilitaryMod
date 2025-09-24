@@ -57,11 +57,12 @@ weapons: [
     bullet: {
 type: basicBulletType
       speed: 8
-      lifetime: 20
+      lifetime: 80
       damage: 25
       pierce: false
       pierceBuilding: false
       width: 0.1
       height:0.1
+      reroad:60
                 }
 
