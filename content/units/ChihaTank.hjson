@@ -51,7 +51,7 @@ bullet:
           end:1
       parts:
       {
-        suffix:ChihaTank-weapon-barrel
+        suffix:ChihaTank-barrel
         heatLayerOffset: 2
         under:false
         moveY:0
