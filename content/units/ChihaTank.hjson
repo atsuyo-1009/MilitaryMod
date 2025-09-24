@@ -20,7 +20,7 @@
    rotateSpeed: 3
    weapons: [
   {
-    name: ChihaTank-weapon
+    name: ThihaTankWeapon
     layerOffset: 1
     y:0
     x:0
@@ -40,7 +40,7 @@ bullet:
     }
     parts: [
       {
-    suffix:-weapon
+    suffix:ThihaTankWeapon
     heatLayerOffset: 1
     under:false
     moveY: 0
