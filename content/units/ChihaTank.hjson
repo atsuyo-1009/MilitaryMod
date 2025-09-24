@@ -61,10 +61,9 @@ weapons: [
     }
     ]
     bullet: {
-type: basicBulletType
-      reload:60
-      damage: 30
-      width: 1
-      height:1
-                }
+      type: basicBulletType
+      damage: 200
+      speed: 5
+      lifetime: 60
+    }
 
