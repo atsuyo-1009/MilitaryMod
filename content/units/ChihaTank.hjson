@@ -51,7 +51,7 @@ bullet:
           end:1
       parts:
       {
-        suffix:-barrel
+        suffix:-mount
         heatLayerOffset: 2
         under:false
         moveY:0
