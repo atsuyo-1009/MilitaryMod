@@ -4,21 +4,21 @@ template: TankUnitType
 crushDamage: 3
 hitSize: 10
 health: 500
-armor: 10
-faceTarget: false
-speed: 1.5
-targetAir: false
-treadFrames: 5
-outlinecoloer:00000000
-outlineRadius: -10000000
-width:1
-height:1
-    x: 0
-    y: 0
-    width:1
-    height:1
-rotateSpeed: 3
-weapons: [
+   armor: 10
+   faceTarget: false
+   speed: 1.5
+   targetAir: false
+   treadFrames: 5
+   outlinecoloer:00000000
+   outlineRadius: -10000000
+   width:1
+   height:1
+   x: 0
+   y: 0
+   width:1
+   height:1
+   rotateSpeed: 3
+   weapons: [
   {
     name: ChihaTank-weapon
     layerOffset: 1
@@ -33,37 +33,37 @@ weapons: [
     rotateSpeed:3
 bullet: 
     {
-      type: basicBulletType
-      damage: 60
-      speed: 5
-      lifetime: 60
+    type: basicBulletType
+    damage: 60
+    speed: 5
+    lifetime: 60
     }
     parts: [
       {
-        suffix:-weapon
-        heatLayerOffset: 1
-        under:false
-        moveY: 0
-        progress: {
-          type: warmup
-          op: compress
-          start:0
-          end:1
-      parts:
+    suffix:-weapon
+    heatLayerOffset: 1
+    under:false
+    moveY: 0
+    progress: {
+    type: warmup
+    op: compress
+    start:0
+    end:1
+parts:
       {
-        suffix:-mount
-        heatLayerOffset: 2
-        under:false
-        moveY:0
-        progress: {
-          type: warmup
-          op: compress
-          start:0
-          end:1
-        }
-        }
-        }
-    }
-    ]
+    suffix:-mount
+    heatLayerOffset: 2
+    under:false
+    moveY:0
+    progress: {
+    type: warmup
+    op: compress
+    start:0
+    end:1
+               }
+      }
+             }
+      }
+      ]
 }
 ]
