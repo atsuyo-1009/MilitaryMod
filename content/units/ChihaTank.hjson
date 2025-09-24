@@ -13,6 +13,7 @@ drag: 0.1
 drownTimeMultiplier: 1
 treadFrames: 1
 outlinecoloer:00000000
+outlineRadius: 0
     x: 0
     y: 0
     width: 1
