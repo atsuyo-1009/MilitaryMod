@@ -12,6 +12,7 @@ accel: 0.1
 drag: 0.1
 drownTimeMultiplier: 1
 treadFrames: 1
+outlinecoloer:00000000
     x: 0
     y: 0
     width: 1
@@ -30,7 +31,7 @@ weapons: [
     rotateSpeed: 1.5
     reload: 60
     recoil: 2
-    shadow: 0
+    shadow: -1
     shootSound: bang
     inaccuracy: 2
     cooldownTime: 60
@@ -49,7 +50,7 @@ weapons: [
  parts: [
       {
         suffix:-weapon-barrel
-        heatLayerOffset: 0
+        heatLayerOffset: 1
         under:false
         moveY:0
         progress: {
