@@ -63,4 +63,5 @@ type: basicBulletType
       pierceBuilding: false
       width: 0.1
       height:0.1
-              
+                }
+
