@@ -25,11 +25,11 @@ weapons: [
     x: 0
     mirror: false
     rotate: true
-    speed: 8
+    speed:8
     lifetime:80
     reload:60
-    damage: 30
-    rotateSpeed: 1.5
+    damage:30
+    rotateSpeed:1.5
     parts: [
       {
         suffix:-weapon
