@@ -60,7 +60,8 @@ weapons: [
           ]
     }
     ]
-    bullet: {
+    bullet: 
+    {
       type: basicBulletType
       damage: 200
       speed: 5
