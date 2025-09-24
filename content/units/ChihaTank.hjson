@@ -8,7 +8,7 @@ armor: 10
 faceTarget: false
 speed: 1.5
 targetAir: false
-treadFrames: 1
+treadFrames: 5
 outlinecoloer:00000000
 outlineRadius: -10000000
 width:1
@@ -17,7 +17,7 @@ height:1
     y: 0
     width:1
     height:1
-rotateSpeed: 1
+rotateSpeed: 3
 weapons: [
   {
     name: ChihaTank-weapon
