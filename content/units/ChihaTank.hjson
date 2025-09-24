@@ -50,7 +50,7 @@ weapons: [
         }
  parts: [
       {
-        suffix:-weapon-barrel
+        suffix:-barrel
         heatLayerOffset: 1
         under:false
         moveY:0
