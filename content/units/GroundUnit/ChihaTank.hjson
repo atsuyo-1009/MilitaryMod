@@ -47,10 +47,16 @@ parts:[
     progress: {
     type: warmup
                }
+moves: [
+       {
+type:PartMove
+     progress":recoil
+     y: -1.5
       }
       ]
-             }
       }
       ]
+}
+]
 }
 ]
