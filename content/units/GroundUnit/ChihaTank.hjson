@@ -22,7 +22,7 @@
   {
     name: ThihaTank-Weapon
     layerOffset: 1
-    y:-0.32
+    y:-0.05
     x:-1
     mirror:false
     rotate:true
