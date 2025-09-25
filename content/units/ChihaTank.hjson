@@ -38,18 +38,7 @@ bullet:
     speed: 5
     lifetime: 60
     }
-    parts: [
-      {
-    suffix:ThihaTankWeapon
-    heatLayerOffset: 1
-    under:false
-    moveY: 0
-    progress: {
-    type: warmup
-    op: compress
-    start:0
-    end:1
-parts:
+parts:[
       {
     suffix:-mount
     heatLayerOffset: 2
@@ -57,11 +46,9 @@ parts:
     moveY:0
     progress: {
     type: warmup
-    op: compress
-    start:0
-    end:1
                }
       }
+      ]
              }
       }
       ]
