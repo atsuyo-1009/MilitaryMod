@@ -41,8 +41,8 @@ bullet:
 parts:[
       {
     suffix:-barrel
-    heatLayerOffset: 2
-    under:false
+    heatLayerOffset: 1
+    under:true
     moveY:0
     progress: {
     type: warmup
