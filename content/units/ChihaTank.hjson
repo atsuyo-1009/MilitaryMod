@@ -20,7 +20,7 @@
    rotateSpeed: 3
    weapons: [
   {
-    name: ThihaTankWeapon
+    name: ThihaTank-Weapon
     layerOffset: 1
     y:0
     x:0
