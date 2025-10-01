@@ -38,7 +38,6 @@ bullet:
     speed: 5
     lifetime: 60
     }
-
 type:{ RegionPart
       suffix:-barrel
       under:true
