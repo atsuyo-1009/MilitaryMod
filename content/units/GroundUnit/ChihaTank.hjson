@@ -38,19 +38,17 @@ bullet:
     speed: 5
     lifetime: 60
     }
-      }
+      }   
+  {
+type: RegionPart
+      suffix: -barrel
+      under: true
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: -1.5
+        }
       ]
-   type: {RegionPart
-   suffix: -barrel
-   layer: -1
-   mirror: false
-   blending: additive
-   outline: true
-   progress: warmup
-}
-   moves:
-{
-   type:PartMove
-   progress:recoil
-   y:0
-}
+    }
+  ]
