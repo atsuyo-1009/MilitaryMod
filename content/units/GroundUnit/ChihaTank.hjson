@@ -40,6 +40,11 @@ bullet:
     }
 type:{ 
 RegionPart
+suffix: -weapon
+under:true
+}
+type:{ 
+RegionPart
 suffix: -barrel
 under:true
 moves:[
