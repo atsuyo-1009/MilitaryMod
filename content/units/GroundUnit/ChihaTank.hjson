@@ -18,7 +18,7 @@
    width:1
    height:1
    rotateSpeed: 3
-   weapons: [
+   weapons:[
   {
     name: ThihaTank-Weapon
     layerOffset: 1
@@ -37,18 +37,18 @@ bullet:
     damage: 60
     speed: 5
     lifetime: 60
-    }
-      }   
+    }   
   {
 type: RegionPart
-      suffix: -barrel
-      under: true
-      moves: [
-        {
+      suffix:-barrel
+      under:true
+      moves:[
+            {
           type: PartMove
           progress: recoil
           y: -1.5
         }
       ]
     }
-  ]
+  }
+]
