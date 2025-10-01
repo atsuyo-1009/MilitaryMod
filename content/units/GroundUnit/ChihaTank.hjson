@@ -54,6 +54,8 @@ weapons:[
         ]
   }
   ]
+[
+{
   name: ThihaTank-gun
   layerOffset: 1
   y:-1
@@ -79,7 +81,8 @@ weapons:[
         y: -1.5
         }
         ]
-        
+        }
+        ]
 
 
 
