@@ -40,3 +40,18 @@ bullet:
     }
       }
       ]
+{
+   type: RegionPart
+   suffix: -barrel
+   layer: -1
+   mirror: false
+   blending: additive
+   outline: true
+   progress: warmup
+}
+   moves:
+{
+   type:PartMove
+   progress:recoil
+   y:0
+}
