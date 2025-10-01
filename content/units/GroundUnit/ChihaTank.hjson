@@ -39,14 +39,14 @@ bullet:
     lifetime: 60
     }
 type:{ 
-      RegionPart
-      suffix: -barrel
-      under:true
-      moves:[
-            {
-          type: PartMove
-          progress: recoil
-          y: -1.5
+RegionPart
+suffix: -barrel
+under:true
+moves:[
+{
+type: PartMove
+progress: recoil
+y: -1.5
         }
       ]
     }
