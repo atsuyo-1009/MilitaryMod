@@ -38,6 +38,8 @@ bullet:
     speed: 5
     lifetime: 60
     }
+parts: [
+    {
 type:{ 
 RegionPart
 suffix: -weapon
@@ -57,3 +59,6 @@ y: -1.5
     }
   }
 ]
+}
+]
+
