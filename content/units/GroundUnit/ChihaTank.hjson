@@ -42,7 +42,7 @@ parts: [
     {
 type:{ 
 RegionPart
-suffix: -weapon
+# suffix: -weapon
 under:true
 }
 type:{ 
