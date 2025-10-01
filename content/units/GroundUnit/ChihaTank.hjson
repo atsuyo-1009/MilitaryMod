@@ -37,9 +37,9 @@ bullet:
     damage: 60
     speed: 5
     lifetime: 60
-    }   
-  {
-type: RegionPart
+    }
+
+type:{ RegionPart
       suffix:-barrel
       under:true
       moves:[
