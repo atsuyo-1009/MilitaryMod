@@ -20,43 +20,45 @@ height:1
 rotateSpeed: 3
 weapons:[
  {
-name: ThihaTank-Weapon
-layerOffset: 1
-y:-1
-x:0.1
-mirror:false
-rotate:true
-speed:20
-lifetime:10
-reload:60
-damage:30
-rotateSpeed:3
-bullet: 
-{
-type: basicBulletType
-damage: 60
-speed: 5
-lifetime: 60
-}
-parts: [
-{
-type:RegionPart
-suffix:-weapon
-under:true
-}
-type:RegionPart
-suffix: -barrel
-under:true
-moves:[
-{
-type: PartMove
-progress: recoil
-y: -1.5
-}
-]
-]
-}
-]
+  name: ThihaTank-Weapon
+  layerOffset: 1
+  y:-1
+  x:0.1
+  mirror:false
+  rotate:true
+  speed:20
+  lifetime:10
+  reload:60
+  damage:30
+  rotateSpeed:3
+  bullet: 
+        {
+        type: basicBulletType
+        damage: 60
+        speed: 5
+        lifetime: 60
+        }
+  parts: [
+         {
+         type:RegionPart
+         suffix:-weapon
+         under:true
+         }
+  {
+  type:RegionPart
+  suffix: -barrel
+  under:true
+  }
+  moves:[
+        {
+        type: PartMove
+        progress: recoil
+        y: -1.5
+        }
+        ]
+        ]
+  }
+        ]
 
 
 
