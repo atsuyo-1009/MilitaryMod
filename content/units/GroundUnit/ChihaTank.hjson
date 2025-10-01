@@ -44,11 +44,10 @@ weapons:[
          suffix:-weapon
          under:true
          }
-  {
-  type:RegionPart
-  suffix: -barrel
-  under:true
-  }
+         {
+         type:RegionPart
+         suffix: -barrel
+         under:true
   moves:[
         {
         type: PartMove
@@ -56,6 +55,7 @@ weapons:[
         y: -1.5
         }
         ]
+        }
         ]
   }
         ]
