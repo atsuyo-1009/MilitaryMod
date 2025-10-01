@@ -40,7 +40,7 @@ bullet:
     }
 type:{ 
       RegionPart
-      suffix:-barrel
+      suffix: -barrel
       under:true
       moves:[
             {
