@@ -1,0 +1,53 @@
+name:歩兵訓練所 
+
+description:
+'''
+歩兵訓練所。一般的にこれがないと始まらない
+'''
+
+# n･･･内部の数値 x･･･ゲーム内の数値
+
+type: UnitFactory
+researchCostMultiplier: 0.3
+category: units
+size: 3
+consumes: {
+	#5=300 n*60=x
+	power: 5
+}
+
+#ユニット生産設定
+plans: [
+{
+  type: tank
+  unit: ThihaTank
+  requirements: [
+    IronPlate/100
+    IronIngot/100
+  ]
+  #10000=166.6s n/60=x
+  time: 3000
+}
+{
+  type:crawl
+  unit: ATtrack
+  requirements: [
+    IronPlate/150
+    IronIngot/100
+  ]
+  #10000=166.6s
+  time: 600
+}
+
+
+]
+research: {
+  parent: IronPlateFactory
+  requirements: [
+    IronIngot/100
+IronPlate/50
+  ]
+}
+requirements: [
+IronPlate/60
+]
