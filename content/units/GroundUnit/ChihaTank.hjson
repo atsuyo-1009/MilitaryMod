@@ -23,7 +23,7 @@ weapons:[
   name: ThihaTank-Weapon
   layerOffset: 1
   y:-1
-  x:0.1
+  x:0.05
   mirror:false
   rotate:true
   speed:20
