@@ -39,21 +39,21 @@ weapons:[
         lifetime: 60
         }
   shootSound: artillery
-  parts: [
-         {
-         type:RegionPart
-         suffix:-barrel
-         under:true
-  moves:[
-        {
+    parts: [
+           {
+           type:RegionPart
+           suffix:-barrel
+           under:true
+  moves: [
+          {
         type: PartMove
         progress: recoil
         y: -1.5
-        }
-        ]
-        }
-        ]
-        {
+          }
+          ]
+           }
+           ]
+      {
       name: ThihaTank-bolter
       layerOffset: 1
       y:-1
@@ -73,7 +73,7 @@ weapons:[
         }
 shootSound: shoot
   parts: [
-         {
+          {
          type:RegionPart
          suffix:-barrel
          under:true
@@ -83,9 +83,9 @@ shootSound: shoot
         progress: recoil
         y: -0.1
         }
+       ]
+         }
         ]
-        }
-        ]
-        }
-        }
+       }
+  }
         ]
