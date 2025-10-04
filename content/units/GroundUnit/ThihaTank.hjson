@@ -53,10 +53,7 @@ weapons:[
         ]
         }
         ]
-       }
-       ]
-      weapons:[
-      {
+        {
       name: ThihaTank-bolter
       layerOffset: 1
       y:-1
@@ -90,4 +87,4 @@ shootSound: shoot
         }
         ]
         }
-        ]
+        
