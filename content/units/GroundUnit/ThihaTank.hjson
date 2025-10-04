@@ -21,7 +21,7 @@ rotateSpeed: 3
 weapons:[
  {
   name: ThihaTank-Weapon
-  layerOffset: 1
+  layerOffset: 2
   y:-1
   x:0.02
   mirror:false
@@ -38,6 +38,7 @@ weapons:[
         speed: 5
         lifetime: 60
         }
+  shootSound: artillery
   parts: [
          {
          type:RegionPart
@@ -52,5 +53,39 @@ weapons:[
         ]
         }
         ]
-  }
-  ]
+      {
+      name: ThihaTank-bolter
+      layerOffset: 1
+      y:-1
+      x:0.02
+      mirror:false
+      rotate:false
+      speed:20
+      lifetime:10
+      reload:30
+      damage:30
+  bullet: 
+        {
+        type: basicBulletType
+        damage: 15
+        speed: 3
+        lifetime: 90
+        }
+shootSound: shoot
+  parts: [
+         {
+         type:RegionPart
+         suffix:-barrel
+         under:true
+ moves:[
+        {
+        type: PartMove
+        progress: recoil
+        y: -0.1
+        }
+        ]
+        }
+        ]
+        }
+        }
+        ]
