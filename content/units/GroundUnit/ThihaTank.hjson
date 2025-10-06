@@ -64,7 +64,7 @@ weapons:[
       rotate:true
       speed:20
       lifetime:10
-      reload:30
+      reload:1
       damage:30
   bullet: 
         {
