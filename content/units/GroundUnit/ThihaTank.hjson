@@ -73,19 +73,5 @@ weapons:[
         lifetime: 90
         }
 shootSound: shoot
-  parts: [
-          {
-         type:RegionPart
-         suffix:-bolter
-         under:true
- moves:[
-        {
-        type: PartMove
-        progress: recoil
-        y: -0.1
-        }
-       ]
-         }
-        ]
        }
         ]
