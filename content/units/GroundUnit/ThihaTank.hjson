@@ -1,6 +1,10 @@
 type: tank
 name: チハ軽戦車
 template: TankUnitType
+description:
+'''チハ軽戦車。装甲は薄いが、ある程度の火力と速さは保証される
+'''
+
 crushDamage: 3
 hitSize: 10
 health: 500
