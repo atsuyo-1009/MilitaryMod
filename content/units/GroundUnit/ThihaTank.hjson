@@ -61,7 +61,7 @@ weapons:[
       x:0.02
       rotationLimit: 10
       mirror:false
-      rotate:false
+      rotate:true
       speed:20
       lifetime:10
       reload:30
