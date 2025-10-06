@@ -59,7 +59,7 @@ weapons:[
       layerOffset: 1
       y:-1
       x:0.02
-      rotationLimit: 100
+      rotationLimit: 50
       mirror:false
       rotate:true
       speed:20
