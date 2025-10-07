@@ -41,7 +41,7 @@ weapons:[
   bullet: 
         {
         type: basicBulletType
-        damage: 10
+        damage: 20
         speed: 10
         lifetime: 40
         targetGround: false
