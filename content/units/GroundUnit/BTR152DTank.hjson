@@ -27,7 +27,7 @@ weapons:[
   layerOffset: 2
   y:-1
   x:0.02
-  mirror:true
+  mirror:false
   flipSprite: false
   rotate:true
   speed:30
