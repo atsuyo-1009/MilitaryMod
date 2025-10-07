@@ -8,7 +8,7 @@ crushDamage: 5
 hitSize: 10
 health: 100
 armor: 5
-targetground: false
+targetGround: false
 faceTarget: false
 speed: 2
 targetAir: true
@@ -32,7 +32,7 @@ weapons:[
   flipSprite: false
   rotate:true
   targetAir: true
-  targetground: false
+  targetGround: false
   speed:30
   lifetime:10
   reload:10
@@ -44,7 +44,7 @@ weapons:[
         damage: 10
         speed: 10
         lifetime: 40
-        targetground: false
+        targetGround: false
         }
   shootSound: shootBig
     parts: [
