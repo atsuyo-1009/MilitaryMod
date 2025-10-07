@@ -30,6 +30,8 @@ weapons:[
   mirror:false
   flipSprite: false
   rotate:true
+  targetAir: true
+  targetground: false
   speed:30
   lifetime:10
   reload:10
