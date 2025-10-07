@@ -43,7 +43,7 @@ weapons:[
         speed: 10
         lifetime: 80
         }
-  shootSound: artillery
+  shootSound: shootBig
     parts: [
            {
            type:RegionPart
