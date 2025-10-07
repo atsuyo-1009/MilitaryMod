@@ -4,7 +4,6 @@ template: TankUnitType
 description:
 '''BTR-152D対空戦車。連射力と威力はいいが戦車には弱い。速さは保証される。
 '''
-
 crushDamage: 5
 hitSize: 10
 health: 100
@@ -57,5 +56,6 @@ weapons:[
           }
           ]
            }
+          ]
            }
         ]
