@@ -27,12 +27,12 @@ weapons:[
   layerOffset: 2
   y:-1
   x:0.02
-  mirror:true
-  flipSprite: true
+  mirror:false
+  flipSprite: false
   rotate:true
   speed:30
   lifetime:10
-  reload:30
+  reload:10
   damage:10
   rotateSpeed:4
   bullet: 
