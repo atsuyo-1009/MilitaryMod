@@ -45,6 +45,8 @@ weapons:[
         speed: 10
         lifetime: 80
         targetGround: false
+        splashDamage: 40
+        splashDamageRadius: 10
         }
   shootSound: shootBig
     parts: [
