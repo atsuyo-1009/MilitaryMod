@@ -43,7 +43,7 @@ weapons:[
         type: basicBulletType
         damage: 20
         speed: 10
-        lifetime: 40
+        lifetime: 80
         targetGround: false
         }
   shootSound: shootBig
