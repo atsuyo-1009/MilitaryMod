@@ -8,10 +8,10 @@ crushDamage: 10
 hitSize: 10
 health: 300
 armor: 20
-targetGround: false
+targetGround: true
 faceTarget: true
 speed: 4
-targetAir: falxe
+targetAir: false
 treadFrames: 5
 outlinecoloer:00000000
 outlineRadius: -10000000
