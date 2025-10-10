@@ -44,12 +44,8 @@ weapons:[
         damage: 30
         speed: 25
         lifetime: 50
-        targetGround: true
-        targetAir: false
         splashDamage: 40
         splashDamageRadius: 10
-        hitEffect: explosion
-        despawnEffect: explosionHuge
         }
 
   shootSound: shootBig
