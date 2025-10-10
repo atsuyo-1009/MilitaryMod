@@ -1,17 +1,17 @@
 type: tank
-name: BTR-152D対空戦車
+name: BT-5快速軽戦車
 template: TankUnitType
 description:
-'''BTR-152D対空戦車。連射力と威力はいいが戦車には弱い。速さは保証される。
+'''BT-5快速軽戦車。その速さで圧倒する。装甲は脆い。敵を貫けるかも怪しい。
 '''
-crushDamage: 5
+crushDamage: 10
 hitSize: 10
-health: 100
-armor: 5
+health: 300
+armor: 20
 targetGround: false
-faceTarget: false
-speed: 2
-targetAir: true
+faceTarget: true
+speed: 4
+targetAir: falxe
 treadFrames: 5
 outlinecoloer:00000000
 outlineRadius: -10000000
@@ -24,15 +24,15 @@ height:1
 rotateSpeed: 3
 weapons:[
  {
-  name: BTR152DTank-weapon
+  name: BT5-weapon
   layerOffset: 2
   y:-1
   x:0.02
   mirror:false
   flipSprite: false
   rotate:true
-  targetAir: true
-  targetGround: false
+  targetAir: false
+  targetGround: true
   speed:30
   lifetime:10
   reload:10
