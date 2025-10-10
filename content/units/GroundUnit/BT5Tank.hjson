@@ -45,8 +45,8 @@ weapons:[
         speed: 15
         lifetime: 20
         hitEffect: blastExplosion
-        splashDamage: 100
-        splashDamageRadius: 30
+        splashDamage: 1000
+        splashDamageRadius: 50
         }
 
   shootSound: shootBig
