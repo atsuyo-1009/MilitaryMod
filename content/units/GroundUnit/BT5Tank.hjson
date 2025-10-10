@@ -44,6 +44,7 @@ weapons:[
         damage: 30
         speed: 15
         lifetime: 20
+        hitEffect: blastExplosion
         splashDamage: 40
         splashDamageRadius: 10
         }
