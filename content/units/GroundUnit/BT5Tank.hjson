@@ -24,7 +24,7 @@ height:1
 rotateSpeed: 3
 weapons:[
  {
-  name: BT5-weapon
+  name: BT5Tank-weapon
   layerOffset: 2
   y:-1
   x:0.02
@@ -41,11 +41,17 @@ weapons:[
   bullet: 
         {
         type: basicBulletType
-        damage: 20
-        speed: 10
-        lifetime: 40
-        targetGround: false
+        damage: 30
+        speed: 25
+        lifetime: 50
+        targetGround: true
+        targetAir: false
+        splashDamage: 40
+        splashDamageRadius: 10
+        hitEffect: explosion
+        despawnEffect: explosionHuge
         }
+
   shootSound: shootBig
     parts: [
            {
