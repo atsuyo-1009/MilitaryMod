@@ -6,12 +6,12 @@ description:
 '''
 crushDamage: 10
 hitSize: 10
-health: 300
-armor: 20
-targetGround: true
+health: 1000
+armor: 60
 faceTarget: true
-speed: 4
-targetAir: false
+speed: 3.5
+targetGround:true
+targetAir:false
 treadFrames: 5
 outlinecoloer:00000000
 outlineRadius: -10000000
@@ -21,10 +21,10 @@ x: 0
 y: 0
 width:1
 height:1
-rotateSpeed: 3
+rotateSpeed: 3.5
 weapons:[
  {
-  name: BT5Tank-Weapon
+  name: T28Tank-Weapon
   layerOffset: 2
   y:-1
   x:0.02
@@ -41,12 +41,12 @@ weapons:[
   bullet: 
         {
         type: basicBulletType
-        damage: 30
+        damage:60
         speed: 15
-        lifetime: 20
+        lifetime: 25
         hitEffect: blastExplosion
-        splashDamage: 10
-        splashDamageRadius: 50
+        splashDamage: 5
+        splashDamageRadius: 25
         }
 
   shootSound: shootBig
