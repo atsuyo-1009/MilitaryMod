@@ -47,8 +47,9 @@ weapons:[
         hitEffect: blastExplosion
         splashDamage: 5
         splashDamageRadius: 25
+        pierce: true
+        pierceCap: 1
         }
-
   shootSound: shootBig
     parts: [
            {
