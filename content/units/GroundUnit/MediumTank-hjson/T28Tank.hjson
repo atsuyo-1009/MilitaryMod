@@ -74,6 +74,7 @@ weapons:[
       shootX:1
       shootY:1
       rotationLimit: 50
+      targetAir:false
       mirror:false
       rotate:true
       speed:10
@@ -111,6 +112,7 @@ shootSound: shoot
       shootX:-1
       shootY:-1
       rotationLimit: 50
+      targetAir:false
       mirror:false
       rotate:true
       speed:10
