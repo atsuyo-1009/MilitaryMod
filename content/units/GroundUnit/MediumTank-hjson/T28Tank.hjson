@@ -70,10 +70,10 @@ weapons:[
   {
       name: T28Tank-turret-right
       layerOffset: 1
-      y:1
+      y:-1
       x:0.2
-      shootX:0
-      shootY:0
+      shootX:1
+      shootY:1
       rotationLimit: 70
       mirror:false
       rotate:true
@@ -107,10 +107,10 @@ shootSound: shoot
  {
       name: T28Tank-turret-left
       layerOffset: 1
-      y:1
+      y:-1
       x:-0.2
-      shootX:0
-      shootY:0
+      shootX:-1
+      shootY:-1
       rotationLimit: 50
       mirror:false
       rotate:true
