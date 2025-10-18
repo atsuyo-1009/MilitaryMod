@@ -50,7 +50,6 @@ weapons:[
        pierce: true
        pierceCap: 1
         }
-
   shootSound: shootBig
     parts: [
            {
@@ -74,7 +73,7 @@ weapons:[
       x:0.2
       shootX:1
       shootY:1
-      rotationLimit: 70
+      rotationLimit: 50
       mirror:false
       rotate:true
       speed:10
