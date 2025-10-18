@@ -66,4 +66,39 @@ weapons:[
            }
           ]
            }
-        ]
+  {
+      name: T28Tank-turret-right
+      layerOffset: 1
+      y:-2
+      x:0.02
+      rotationLimit: 50
+      mirror:false
+      rotate:true
+      speed:10
+      lifetime:10
+      reload:10
+      damage:30
+  bullet: 
+        {
+        type: basicBulletType
+        damage: 10
+        speed: 10
+        lifetime: 40
+        }
+shootSound: shoot
+  parts: [
+           {
+           type:RegionPart
+           suffix:-barrel
+           under:true
+  moves: [
+          {
+        type: PartMove
+        progress: recoil
+        y: -1.5
+          }
+          ]
+           }
+          ]
+       }        
+]
