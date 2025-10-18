@@ -50,7 +50,7 @@ weapons:[
        pierce: true
        pierceCap: 1
         }
-  shootSound: shootBig
+  shootSound: artillery
     parts: [
            {
            type:RegionPart
