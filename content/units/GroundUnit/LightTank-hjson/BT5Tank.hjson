@@ -49,7 +49,7 @@ weapons:[
         splashDamageRadius: 50
         }
 
-  shootSound: shootBig
+  shootSound: artillery
     parts: [
            {
            type:RegionPart
