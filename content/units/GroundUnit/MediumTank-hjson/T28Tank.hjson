@@ -43,7 +43,7 @@ weapons:[
         type: basicBulletType
         damage: 60
         speed: 15
-        lifetime: 25
+        lifetime: 30
         hitEffect: blastExplosion
         splashDamage: 5
         splashDamageRadius: 10
