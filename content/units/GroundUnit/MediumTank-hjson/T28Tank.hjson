@@ -1,0 +1,69 @@
+type: tank
+name: T-28中戦車
+template: TankUnitType
+description:
+'''T-28中戦車。そこそこの火力と機銃砲塔2基がある。速度も悪くないはず。
+'''
+crushDamage: 10
+hitSize: 10
+health: 1000
+armor: 60
+faceTarget: true
+speed: 3.5
+targetGround:true
+targetAir:false
+treadFrames: 5
+outlinecoloer:00000000
+outlineRadius: -10000000
+width:1
+height:1
+x: 0
+y: 0
+width:1
+height:1
+rotateSpeed: 3.5
+weapons:[
+ {
+  name: T28Tank-Weapon
+  layerOffset: 2
+  y:-1
+  x:0.02
+  mirror:false
+  flipSprite: false
+  rotate:true
+  targetAir: false
+  targetGround: true
+  speed:30
+  lifetime:10
+  reload:60
+  damage:10
+  rotateSpeed:4
+  bullet: 
+        {
+        type: basicBulletType
+        damage:60
+        speed: 15
+        lifetime: 25
+        hitEffect: blastExplosion
+        splashDamage: 5
+        splashDamageRadius: 25
+        pierce: true
+        pierceCap: 1
+        }
+  shootSound: shootBig
+    parts: [
+           {
+           type:RegionPart
+           suffix:-barrel
+           under:true
+  moves: [
+          {
+        type: PartMove
+        progress: recoil
+        y: -1.5
+          }
+          ]
+           }
+          ]
+           }
+        ]
