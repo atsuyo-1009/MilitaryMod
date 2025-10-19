@@ -11,13 +11,13 @@ speed: 0
 targetAir: false
 shootCone: 15
 inaccuracy: 2
-
 weapons: [
   {
     name: AntiTank-Weapon
     x: 0
-    y: 10
+    y: 0
     reload: 60
+    mirror:false
     bullet: {
       type: basicBulletType
       damage: 200
