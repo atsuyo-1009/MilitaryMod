@@ -45,7 +45,7 @@ weapons:[
         speed: 10
         lifetime: 80
         targetGround: false
-        splashDamage: 40
+        splashDamage: 100
         splashDamageRadius: 1
         }
   shootSound: shootBig
