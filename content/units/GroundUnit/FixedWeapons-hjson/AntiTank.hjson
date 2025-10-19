@@ -11,6 +11,8 @@ speed: 0
 targetAir: false
 shootCone: 15
 inaccuracy: 2
+outlinecoloer:00000000
+outlineRadius: -10000000
 weapons: [
   {
     name: AntiTank-Weapon
