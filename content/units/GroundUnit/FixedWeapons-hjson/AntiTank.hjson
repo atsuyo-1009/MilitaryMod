@@ -18,6 +18,7 @@ weapons: [
     name: AntiTank-Weapon
     x: 0
     y: 0
+    layerOffset: -1
     reload: 60
     mirror:false
     bullet: {
