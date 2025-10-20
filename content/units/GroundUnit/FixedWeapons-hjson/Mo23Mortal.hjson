@@ -12,7 +12,7 @@ weapons: [
     x: 0
     y: 0
     mirror:false
-    inaccuracy: 5
+    inaccuracy: 2
     reload:120
     shootSound: artillery
     bullet: {
@@ -40,4 +40,13 @@ weapons: [
       scaleLife: true
     }
   }
+statusEffect: [
+{
+name: mortar-slow
+localizedName: 鈍化
+color: 77aaff
+speedMultiplier: 0.5
+damageMultiplier: 1
+effectChance: 1
+}
       ]
