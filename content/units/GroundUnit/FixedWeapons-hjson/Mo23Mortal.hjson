@@ -1,0 +1,85 @@
+type: crawl
+name: Mo23迫撃砲
+description: Mo23迫撃砲。広い発射範囲と威力を提供してくれる。体力は少ない。
+size: 2
+health: 150
+armor: 15
+category: turret
+requirements: [
+  copper/80
+  lead/120
+  graphite/60
+]
+research: duo
+
+# 固定砲台設定
+rotateSpeed: 0
+targetAir: false
+targetGround: true
+range: 240
+reload: 180
+inaccuracy: 5
+
+# スプライト構成（Wikiのregion命名準拠）
+drawer: {
+  type: DrawTurret
+  base: mortar-turret
+  parts: [
+    {
+      type: RegionPart
+      region: mortar-turret-top
+      moveY: 2
+      heatProgress: 0.4
+    }
+  ]
+}
+
+# 武器設定
+weapons: [
+  {
+    name: mortar-shell
+    x: 0
+    y: 8
+    shootSound: artillery
+    shootY: 4
+    recoil: 2
+    reload: 180
+
+    # 弾丸設定
+    bullet: {
+      type: ArtilleryBulletType
+      damage: 120
+      speed: 3
+      lifetime: 120
+      width: 8
+      height: 12
+      splashDamage: 180
+      splashDamageRadius: 50
+      collidesTiles: true
+      collidesAir: false
+      collidesGround: true
+      hitShake: 2
+      trailLength: 8
+      trailWidth: 2
+      trailColor: "f0f0f0"
+      frontColor: "fff7aa"
+      backColor: "e0c050"
+      hitEffect: explosionLarge
+      despawnEffect: explosionLarge
+      smokeEffect: shootBigSmoke
+      status: mortar-slow
+      statusDuration: 300
+      knockback: 1.5
+      fragBullets: 3
+      fragBullet: {
+        type: BasicBulletType
+        speed: 4
+        lifetime: 30
+        damage: 20
+        splashDamage: 40
+        splashDamageRadius: 20
+        hitEffect: explosionSmall
+      }
+    }
+  }
+]
