@@ -5,23 +5,22 @@ health: 150
 armor: 10
 targetAir: false
 targetGround: true
-range: 240
-reload: 180
-inaccuracy: 5
 weapons: [
   {
     name: Mo23Mortal-Wepon
     x: 0
     y: 0
     mirror:false
+    range: 240
+    inaccuracy: 5
     shootSound: artillery
-    shootY: 4
-    recoil: 2
     reload: 1800
     bullet: {
       type: ArtilleryBulletType
+      recoil:5
       damage: 120
-      speed: 3
+      reload: 1800
+      speed: 1
       lifetime: 120
       width: 8
       height: 12
