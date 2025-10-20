@@ -22,9 +22,9 @@ weapons: [
       targetGround: true
       recoil:1
       damage: 120
-      reload: 130
+      reload: 240
       speed: 3
-      lifetime: 1200
+      lifetime: 240
       width: 2
       height: 6
       knockback: 0.1
