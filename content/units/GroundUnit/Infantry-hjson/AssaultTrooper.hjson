@@ -13,6 +13,7 @@
     {
       name: AssaultTrooper-Assaultrifle
       reload: 20
+      layerOffset: -1
       bullet: {
         type: "BasicBulletType"
         damage: 8
