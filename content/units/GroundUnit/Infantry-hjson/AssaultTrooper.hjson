@@ -6,6 +6,8 @@
   speed: 0.8
   hitSize: 6
   armor: 5
+  outlinecoloer:00000000
+  outlineRadius: -10000000
   playerControllable: true
   canBeCarried: true        
   carrySize: 1
@@ -13,6 +15,7 @@
     {
       name: AssaultTrooper-Assaultrifle
       reload: 20
+      mirror:false
       layerOffset: -1
       bullet: {
         type: "BasicBulletType"
