@@ -17,6 +17,7 @@
       reload: 10
       mirror: false
       shootX: -1
+      shootY: 1
       x: 0
       y: 0
       layerOffset: -1
