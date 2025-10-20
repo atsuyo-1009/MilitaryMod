@@ -21,7 +21,7 @@ weapons: [
       damage: 120
       reload: 130
       speed: 3
-      lifetime: 120
+      lifetime: 12000000000
       width: 2
       height: 6
       knockback: 0.1
