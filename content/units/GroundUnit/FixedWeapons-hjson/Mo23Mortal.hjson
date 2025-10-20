@@ -19,7 +19,7 @@ weapons: [
      type: ArtilleryBulletType
       targetAir: false
       targetGround: true
-      recoil:5
+      recoil:1
       damage: 120
       reload: 130
       speed: 3
