@@ -17,6 +17,8 @@ weapons: [
     shootSound: artillery
     bullet: {
      type: ArtilleryBulletType
+      targetAir: false
+      targetGround: true
       recoil:5
       damage: 120
       reload: 130
