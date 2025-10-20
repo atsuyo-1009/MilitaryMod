@@ -12,7 +12,8 @@ weapons: [
   {
     name: Mo23Mortal-Wepon
     x: 0
-    y: 8
+    y: 0
+    mirror:false
     shootSound: artillery
     shootY: 4
     recoil: 2
