@@ -1,0 +1,26 @@
+{
+  type: mech
+  name: 突撃兵
+  description: アサルトライフルを持っている兵。一般的な歩兵。
+  health: 60
+  speed: 0.8
+  hitSize: 6
+  armor: 5
+  playerControllable: true
+  canBeCarried: true        
+  carrySize: 1
+  weapons: [
+    {
+      name: AssaultTrooper-Assaultrifle
+      reload: 20
+      bullet: {
+        type: "BasicBulletType"
+        damage: 8
+        speed: 5
+        lifetime: 16
+        width: 2
+        height: 4
+      }
+    }
+  ]
+}
