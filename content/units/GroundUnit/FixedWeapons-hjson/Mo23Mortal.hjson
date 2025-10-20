@@ -11,28 +11,31 @@ weapons: [
     x: 0
     y: 0
     mirror:false
-    range: 240
     inaccuracy: 5
     shootSound: artillery
     reload: 1800
-    bullet: {
-      type: ArtilleryBulletType
-      recoil:5
+    recoil:5
       damage: 120
-      reload: 1800
+      reload: 130
       speed: 1
       lifetime: 120
-      width: 8
-      height: 12
+      width: 2
+      height: 6
+    bullet: {
+      type: ArtilleryBulletType
       splashDamage: 180
       splashDamageRadius: 10
       collidesTiles: true
       collidesAir: false
       collidesGround: true
+      collidesTeam:true
       hitShake: 2
       despawnEffect: explosion
       smokeEffect: shootBigSmoke
       knockback: 1.5
+      impact: true
+      scaleLife: true
+      minRangeChange:5
     }
   }
 statusEffect: [
