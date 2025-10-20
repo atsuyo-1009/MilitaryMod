@@ -17,7 +17,7 @@
       reload: 20
       mirror:false
       X: 0
-      Y: 0
+      Y: -2
       layerOffset: -1
       bullet: {
         type: "BasicBulletType"
