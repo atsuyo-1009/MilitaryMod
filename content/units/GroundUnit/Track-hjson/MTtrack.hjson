@@ -1,0 +1,38 @@
+type: crawl
+name: "ATtrack"
+localizedName: "迫撃砲搭載済みのトラック"
+description: '''
+Mo23迫撃砲を搭載したトラック。移動は遅いが、迫撃砲を展開できる。
+'''
+size: 2
+controller: player
+health: 500
+speed: 0.8
+
+abilities: [
+  {
+    type: SpawnDeathAbility
+    unit: Mo23Mortal
+    amount: 1
+    useUnitCap: false
+  }
+]
+
+weapons: [
+  {
+    name: ""
+    shootSound: explosion
+    reload: 1
+    autoShoot: false
+    mirror: false
+    x: 0
+    y: 0
+    bullet: {
+      type: ExplosionBulletType
+      damage: 9999
+      splashDamage: 9999
+      splashDamageRadius: 0.0000000000000000000000001
+      killShooter: true
+    }
+  }
+]
