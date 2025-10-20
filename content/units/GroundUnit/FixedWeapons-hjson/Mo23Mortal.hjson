@@ -24,6 +24,7 @@ weapons: [
       lifetime: 120
       width: 2
       height: 6
+      knockback: 0.1
     }
   }
       ]
