@@ -38,12 +38,7 @@ weapons: [
       smokeEffect: shootBigSmoke
       impact: true
       scaleLife: true
+statusEffect: slow
     }
   }
-statusEffect: [
-{
-speedMultiplier: 0.5
-damageMultiplier: 1
-effectChance: 1
-}
-      ]
+  ]
