@@ -39,6 +39,7 @@ weapons: [
       impact: true
       scaleLife: true
 statusEffect: slow
+statusEffect: show
     }
   }
   ]
