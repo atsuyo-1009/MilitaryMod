@@ -30,20 +30,12 @@ weapons: [
       collidesAir: false
       collidesGround: true
       hitShake: 2
-      trailLength: 8
-      trailWidth: 2
-      trailColor: "f0f0f0"
-      frontColor: "fff7aa"
-      backColor: "e0c050"
-      hitEffect: explosionLarge
-      despawnEffect: explosionLarge
+      despawnEffect: explosion
       smokeEffect: shootBigSmoke
-      status: mortar-slow
-      statusDuration: 300
       knockback: 1.5
     }
   }
-statusEffects: [
+statusEffect: [
 {
 name: mortar-slow
 localizedName: 鈍化
