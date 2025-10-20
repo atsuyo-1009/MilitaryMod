@@ -11,7 +11,7 @@ reload: 180
 inaccuracy: 5
 weapons: [
   {
-    name: mortar-shell
+    name: Mo23Mortal-Wepon
     x: 0
     y: 8
     shootSound: artillery
