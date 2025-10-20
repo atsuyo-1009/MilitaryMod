@@ -3,38 +3,12 @@ name: Mo23迫撃砲
 description: Mo23迫撃砲。広い発射範囲と威力を提供してくれる。体力は少ない。
 size: 2
 health: 150
-armor: 15
-category: turret
-requirements: [
-  copper/80
-  lead/120
-  graphite/60
-]
-research: duo
-
-# 固定砲台設定
-rotateSpeed: 0
+armor: 10
 targetAir: false
 targetGround: true
 range: 240
 reload: 180
 inaccuracy: 5
-
-# スプライト構成（Wikiのregion命名準拠）
-drawer: {
-  type: DrawTurret
-  base: mortar-turret
-  parts: [
-    {
-      type: RegionPart
-      region: mortar-turret-top
-      moveY: 2
-      heatProgress: 0.4
-    }
-  ]
-}
-
-# 武器設定
 weapons: [
   {
     name: mortar-shell
@@ -44,8 +18,6 @@ weapons: [
     shootY: 4
     recoil: 2
     reload: 180
-
-    # 弾丸設定
     bullet: {
       type: ArtilleryBulletType
       damage: 120
@@ -54,7 +26,7 @@ weapons: [
       width: 8
       height: 12
       splashDamage: 180
-      splashDamageRadius: 50
+      splashDamageRadius: 10
       collidesTiles: true
       collidesAir: false
       collidesGround: true
@@ -82,4 +54,10 @@ weapons: [
       }
     }
   }
+name: mortar-slow
+localizedName: 鈍化
+color: 77aaff
+speedMultiplier: 0.5
+damageMultiplier: 1
+effectChance: 1
 ]
