@@ -16,8 +16,8 @@
       name: AssaultTrooper-Assaultrifle
       reload: 10
       mirror:false
-      x: -1.5
-      y: 0.2
+      x: -2
+      y: 0.5
       layerOffset: -1
       bullet: {
         type: "BasicBulletType"
