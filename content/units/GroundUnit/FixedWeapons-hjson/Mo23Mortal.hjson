@@ -1,7 +1,6 @@
 type: crawl
 name: Mo23迫撃砲
 description: Mo23迫撃砲。広い発射範囲と威力を提供してくれる。体力は少ない。
-size: 2
 health: 150
 armor: 10
 targetAir: false
