@@ -4,7 +4,7 @@
   description: アサルトライフルを持っている兵。一般的な歩兵。
   health: 60
   speed: 0.8
-  hitSize: 6
+  hitSize: 1
   armor: 5
   outlinecoloer:00000000
   outlineRadius: -10000000
