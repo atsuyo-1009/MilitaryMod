@@ -23,7 +23,7 @@
         type: "BasicBulletType"
         damage: 8
         speed: 5
-        lifetime: 16
+        lifetime: 40
         width: 2
         height: 4
       }
