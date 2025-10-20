@@ -13,6 +13,7 @@ weapons: [
     y: 0
     mirror:false
     inaccuracy: 2
+    shootCone:2
     reload:120
     shootSound: artillery
     bullet: {
