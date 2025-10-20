@@ -15,8 +15,8 @@
     {
       name: AssaultTrooper-Assaultrifle
       reload: 10
-      mirror:false
-      shootX:0.2
+      mirror: false
+      shootX: 1
       x: 0
       y: 0
       layerOffset: -1
