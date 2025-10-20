@@ -26,13 +26,4 @@ weapons: [
       height: 6
     }
   }
-statusEffect: [
-{
-name: mortar-slow
-localizedName: 鈍化
-color: 77aaff
-speedMultiplier: 0.5
-damageMultiplier: 1
-effectChance: 1
-}
-]
+      ]
