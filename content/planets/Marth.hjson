@@ -3,7 +3,8 @@ generator: SerpuloPlanetGenerator
 parent: serpulo
 
 //planetの表示名
-localizedName: Earth
+localizedName: 地球
+name: 地球
 
 
 allowSectorInvasion: true
