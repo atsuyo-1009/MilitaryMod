@@ -7,7 +7,6 @@
   sectorSize: 1
   accessible: true
   startSector: 15
-  mesh: planet
   atmosphereColor: c0c0c0ff
   alwayunlocked: true
   ruleOverride: {
