@@ -1,0 +1,12 @@
+ type: mech
+  name: 訓練兵
+  description: 訓練兵。狙撃兵から突撃兵まで様々な兵に変化する。武器はない。。
+  health: 20
+  speed: 0.8
+  hitSize: 3
+  armor: 0
+  outlinecoloer:00000000
+  outlineRadius: -10000000
+  playerControllable: true
+  canBeCarried: true        
+  carrySize: 1
