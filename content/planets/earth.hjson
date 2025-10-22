@@ -9,7 +9,7 @@ allowWaveSimulation: true
 
 iconColor: 709C12
 
-orbitRadius: 20
+orbitRadius: 10
 
 hasAtmosphere: true
 
@@ -32,9 +32,9 @@ accessible: true
 alwaysUnlocked: true
 
 
-sectorSeed: 0
+sectorSeed: 1
 
-startSector: 3
+startSector: 1
 
 sectorSize: 5
 
