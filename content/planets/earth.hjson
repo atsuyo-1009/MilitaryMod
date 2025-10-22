@@ -9,7 +9,7 @@ allowWaveSimulation: true
 
 iconColor: 709C12
 
-orbitRadius: 35
+orbitRadius: 20
 
 hasAtmosphere: true
 
@@ -32,11 +32,11 @@ accessible: true
 alwaysUnlocked: true
 
 
-sectorSeed: 1
+sectorSeed: 0
 
 startSector: 3
 
-sectorSize: 10
+sectorSize: 5
 
 clearSectorOnLose: true
 
@@ -53,7 +53,7 @@ cloudMesh: {
     planet: earth           
     seed: 1                 
     speed: 7               
-    radius: 0.15         
+    radius: 0.1         
     divisions: 2            
     color: b3fe58          
     octaves: 0             
@@ -70,7 +70,7 @@ mesh: {
     color2: d4fea1           
     divisions: 5            
     radius: 0.9              
-    octaves: 7               
+    octaves: 5              
     persistence: 1           
     scl: 0.75               
     mag: 1.2                 
