@@ -9,7 +9,7 @@ allowWaveSimulation: true
 
 iconColor: 709C12
 
-orbitRadius: 10
+orbitRadius: 70
 
 hasAtmosphere: true
 
