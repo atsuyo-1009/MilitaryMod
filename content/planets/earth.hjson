@@ -60,7 +60,7 @@ cloudMesh: {
     scl: 2                  
     thresh: 0.1            
 }
-
+defaultCore: test
 mesh: {
     type: NoiseMesh
     planet: earth
