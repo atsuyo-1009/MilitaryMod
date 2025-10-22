@@ -1,18 +1,20 @@
 
-generator: SerpuloPlanetGenerator
-parent: serpulo
+// 惑星の親天体（"sun"の周りを回る惑星として表示）
+parent: sun
 
 //planetの表示名
 localizedName: 地球
 
-
+/** 敵の侵攻イベントを許可するか */
 allowSectorInvasion: true
 
 //他セクターへ同時侵攻の設定
 allowWaveSimulation: true
-
+//アイコンの色
 iconColor: 709C12
+//周回する大きさ
 orbitRadius: 35
+// 大気の有無（trueで大気レンダリングを有効化）
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
