@@ -17,26 +17,34 @@ hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
+// 大気の色（UIや3D描画に使用）
 atmosphereColor: EBF4F4
+/** 公転軌道をUI上に描画するかどうか */
 drawOrbit: true
 
 //指定された手続き部門への着陸を許可するかどうか
 //allowLanding: true
 
 onlyDepositCore: false
-
+// プレイヤーがアクセス可能か
 accessible: true
+// 最初から解放されているか（falseだと条件達成で解放）
 alwaysUnlocked: true
 
-sectorSeed: 0
+/** セクター生成用シード（-1で惑星IDに基づくランダム値） */
+sectorSeed: 1
+/** マップ画面で最初に選択されるセクターID */
 startSector: 3
-sectorSize: 1
-
+// 惑星のセクター1辺あたりのマス数（小さいとセクターが少ない）
+sectorSize: 10
+/** セクター敗北時にセーブデータを消すか */
 clearSectorOnLose: true
-
+/** 番号付きセクターへの着陸を許可するか */
 allowLaunchToNumbered: true
+# 資源持ち込みを許可するか（trueなら別惑星やセクターからの資源輸送可）
 allowLaunchLoadout: true
-
+// 複数のセクター侵攻を同時にシミュレーションするか
+allowWaveSimulation: true
 prebuildBase: true
 	
 cloudMesh: {
