@@ -23,14 +23,13 @@ atmosphereColor: EBF4F4
 
 drawOrbit: true
 
-//allowLanding: true
+allowLanding: true
 
 onlyDepositCore: false
 
 accessible: true
 
 alwaysUnlocked: true
-
 
 sectorSeed: 1
 
