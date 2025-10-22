@@ -53,3 +53,4 @@ research: {
 
 # 最初からアンロックされているか
 alwaysUnlocked: true
+planet: earth
