@@ -16,8 +16,11 @@ iconColor: 709C12
 orbitRadius: 35
 // 大気の有無（trueで大気レンダリングを有効化）
 hasAtmosphere: true
+/** 日照サイクル（昼夜変化）を有効化するか */
 updateLighting: true
+/** 大気の内半径補正（惑星半径に対してどれだけ内側から描画するか） */
 atmosphereRadIn: 0
+/** 大気の外半径補正（惑星半径に対してどれだけ外側まで描画するか） */
 atmosphereRadOut: 0.3
 // 大気の色（UIや3D描画に使用）
 atmosphereColor: EBF4F4
@@ -47,32 +50,34 @@ allowLaunchToNumbered: true
 allowLaunchLoadout: true
 // 複数のセクター侵攻を同時にシミュレーションするか
 allowWaveSimulation: true
+//不明
 prebuildBase: true
-	
+// 雲のレンダリング設定（HexSkyMeshは六角形パターンの動く雲）
 cloudMesh: {
-    type: HexSkyMesh
-    planet: cookplanets
-    seed: 1
-    speed: 7
-    radius: 0.15
-    divisions: 2
-    color: b3fe58
-    octaves: 0
-    persistence: 1
-    scl: 2
-    thresh: 0.1
+    type: HexSkyMesh        // 雲のメッシュタイプ
+    planet: earth           // この雲が属する惑星アイコン
+    seed: 1                 // ノイズ生成用シード
+    speed: 7                // 雲の動きの速さ
+    radius: 0.15            // 雲の広がり半径（惑星半径比）
+    divisions: 2            // メッシュ分割数
+    color: b3fe58           // 雲の色
+    octaves: 0              // ノイズのオクターブ数（層数）
+    persistence: 1          // ノイズの減衰率
+    scl: 2                  // ノイズのスケール
+    thresh: 0.1             // 雲のしきい値
 }
 	
+// 惑星表面のレンダリング設定（NoiseMeshはノイズベースの色パターン）
 mesh: {
     type: NoiseMesh
-    planet: cookplanets
+    planet: earth
     seed: 562697
-    color1: DA70D6
-    color2: d4fea1
-    divisions: 5
-    radius: 0.9
-    octaves: 7
-    persistence: 1
-    scl: 0.75
-    mag: 1.2
+    color1: DA70D6           // 色1（ノイズの低い部分）
+    color2: d4fea1           // 色2（ノイズの高い部分）
+    divisions: 5             // メッシュ分割数
+    radius: 0.9              // 惑星モデルの半径（相対値）
+    octaves: 7               // ノイズの層数
+    persistence: 1           // ノイズの減衰率
+    scl: 0.75                 // ノイズスケール
+    mag: 1.2                  // ノイズの強さ
 }
