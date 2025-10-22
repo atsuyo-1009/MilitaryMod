@@ -48,7 +48,7 @@ research: {
   # テックツリー名（多言語対応）
   name: @cookplanets
   # 対応する惑星名
-  planet: cookplanets
+  planet: earth
 }
 
 # 最初からアンロックされているか
