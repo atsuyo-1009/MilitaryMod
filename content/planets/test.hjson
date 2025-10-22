@@ -1,0 +1,77 @@
+
+parent: sun
+
+localizedName: test
+
+allowSectorInvasion: true
+
+allowWaveSimulation: true
+
+iconColor: 709C12
+
+orbitRadius: 10
+
+hasAtmosphere: true
+
+updateLighting: true
+
+atmosphereRadIn: 0
+
+atmosphereRadOut: 0.3
+
+atmosphereColor: EBF4F4
+
+drawOrbit: true
+
+//allowLanding: true
+
+onlyDepositCore: false
+
+accessible: true
+
+alwaysUnlocked: true
+
+
+sectorSeed: 1
+
+startSector: 3
+
+sectorSize: 3
+
+clearSectorOnLose: true
+
+allowLaunchToNumbered: true
+
+allowLaunchLoadout: true
+
+allowWaveSimulation: true
+
+prebuildBase: true
+
+cloudMesh: {
+    type: HexSkyMesh        
+    planet: earth           
+    seed: 1                 
+    speed: 7               
+    radius: 0.1         
+    divisions: 2            
+    color: b3fe58          
+    octaves: 0             
+    persistence: 1          
+    scl: 2                  
+    thresh: 0.1            
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: earth
+    seed: 562697
+    color1: DA70D6           
+    color2: d4fea1           
+    divisions: 5            
+    radius: 0.9              
+    octaves: 5              
+    persistence: 1           
+    scl: 0.75               
+    mag: 1.2                 
+}
