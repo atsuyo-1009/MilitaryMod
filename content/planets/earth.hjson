@@ -31,7 +31,7 @@ accessible: true
 
 alwaysUnlocked: true
 
-sectorSeed: 1
+sectorSeed: -1
 
 startSector: 3
 
