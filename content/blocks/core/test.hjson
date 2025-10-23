@@ -8,7 +8,7 @@ type: CoreBlock
 category: effect
 
 # ブロックの耐久値（HP）
-health: 900
+health: 1000
 
 # ブロックの大きさ（3x3）
 size: 3
@@ -20,7 +20,7 @@ canPlaceOn: true
 #incinerateNonBuildable: false
 
 # アイテムの最大格納数
-itemCapacity: 2000
+itemCapacity: 5000
 
 # このコアが増やすユニット上限
 unitCapModifier: 10
