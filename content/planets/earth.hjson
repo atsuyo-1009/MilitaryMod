@@ -33,7 +33,7 @@ alwaysUnlocked: true
 
 sectorSeed: 0
 startSector: 3
-sectorSize: 3
+sectorSize: 2
 
 clearSectorOnLose: true
 
