@@ -6,7 +6,7 @@ alwaysUnlocked: true
 
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
-defaultCore: Coretest
+defaultCore: Coreoiia
 
 
 #打ち上げ設定(launch)
