@@ -14,13 +14,13 @@ allowSectorInvasion: true
 //他セクターへ同時侵攻の設定
 allowWaveSimulation: true
 
-iconColor: 400000
-orbitRadius: 35
+iconColor: 709C12
+orbitRadius: 70
 hasAtmosphere: true
-updateLighting: false
+updateLighting: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-atmosphereColor: 96514d
+atmosphereColor: EBF4F4
 drawOrbit: true
 
 //指定された手続き部門への着陸を許可するかどうか
