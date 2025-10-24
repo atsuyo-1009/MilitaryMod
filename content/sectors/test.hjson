@@ -3,7 +3,7 @@ planet: earth
 captureWave: 50
 difficulty: 0
 alwaysUnlocked: true
-
+name: 荒廃した砂漠
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
 defaultCore: Coreoiia
