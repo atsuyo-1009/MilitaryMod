@@ -1,7 +1,7 @@
 type: OreBlock
 variants: 2
-itemDrop: Carrot
-oreThreshold: 3
+itemDrop: IronIngot
+oreThreshold: 1
 emitLight: true
 lightRadius: 12
 lightColor: ffffff
