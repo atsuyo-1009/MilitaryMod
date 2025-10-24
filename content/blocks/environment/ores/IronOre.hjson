@@ -1,7 +1,5 @@
 type: OreBlock
-variants: 2
+variants: 1
 itemDrop: IronIngot
 oreThreshold: 1
 emitLight: true
-lightRadius: 12
-lightColor: ffffff
