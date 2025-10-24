@@ -4,3 +4,6 @@ itemDrop: IronIngot
 oreThreshold: 1
 emitLight: true
 name:鉄の鉱床
+oreDefault: true
+oreScale: 28.380953
+oreThreshold: 0.882
