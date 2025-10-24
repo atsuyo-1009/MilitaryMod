@@ -1,7 +1,7 @@
 type: OreBlock
-variants: 2
-itemDrop: Carrot
-oreThreshold: 3
+variants: 1
+itemDrop: IronIngot
+oreThreshold: 1
 
 /*
 ***光る設定？***
