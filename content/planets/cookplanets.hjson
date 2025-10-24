@@ -1,0 +1,139 @@
+/**
+参考:
+Anuken/Mindustry
+core/src/mindustry/type/Planet.java
+**/
+
+//planetの表示名
+localizedName: boil
+
+parent: sun
+
+icon: cookplanets
+iconColor: 30d5c8
+
+#わからんけど載せとけ精神
+/** 
+	Generator that will make the planet. 
+	Can be null for planets that don't need to be landed on. 
+*/
+generator: {
+  berylChance: 0.45
+  iceChance: 0.15
+  ferricChance: 0.55
+  stoneChance: 2
+  radMin: 1500
+  radMax: 1500
+  berylliumScale: 4
+  copperScale: 0.6
+  scale: 25
+  mag: 0.5
+  thresh: 0.9
+  fscl: 30
+  fper: 0.4
+}
+
+defaultCore:CoreSeeds
+
+/** 
+	Orbital radius around the sun. 
+	Do not change unless you know exactly what you are doing.
+*/
+orbitRadius: 35
+
+/** Whether to draw the orbital circle. */
+drawOrbit: true
+
+hasAtmosphere: true
+
+/** If true, a day/night cycle is simulated. */
+updateLighting: false
+
+/** Atmosphere radius adjustment parameters. */
+atmosphereRadIn: 0
+
+/** Atmosphere radius adjustment parameters. */
+atmosphereRadOut: 0.3
+
+atmosphereColor: cc4e5c
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: CoreSeeds
+
+/** Seed for sector base generation on this planet. -1 to use a random one based on ID. */
+sectorSeed: 1
+
+/** The default starting sector displayed to the map dialog. */
+startSector: 3
+
+sectorSize: 2
+
+/** If true, sectors saves are cleared when lost. */
+clearSectorOnLose: true
+
+/** Whether to simulate sector invasions from enemy bases. */
+allowSectorInvasion: false
+
+/** If false, players are unable to land on this planet's numbered sectors. */
+allowLaunchToNumbered: true
+
+#資源持ち込み設定
+allowLaunchLoadout: true
+
+#設計図を使ってセクターへ出発
+allowLaunchSchematics: true
+
+//他セクターへ同時侵攻の設定
+allowWaveSimulation: true
+
+cloudMesh: {
+    type: HexSkyMesh
+    planet: cookplanets
+    seed: 1
+    speed: 7
+    radius: 0.15
+    divisions: 2
+    color: b3fe58
+    octaves: 0
+    persistence: 1
+    scl: 2
+    thresh: 0.1
+}
+	
+mesh: {
+    type: NoiseMesh
+    planet: cookplanets
+    seed: 562697
+    color1: DA70D6
+    color2: d4fea1
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+
+# Only items available in this planet. Recommended over hiddenItems.
+#itemBracklist: [
+#  copper, lead, beryllium, graphite, titanium
+#]
+
+#工場作成用の資源を限定する
+itemWhitelist: [
+	#vanilla
+	#copper,lead,
+	sand,
+	
+	#cookmod
+	Seed,
+	Soil,Cacao,Carrot,Chocolete,Corn,CrackedChocolete,
+	GoldCarrot,GoldPotato,
+	Horinishi,HorinishiPowder,
+	Onion,Potato,PotatoChips,Salt,WhiteRadish,coal
+]
+
+hiddenItems: [
+titanium
+]
