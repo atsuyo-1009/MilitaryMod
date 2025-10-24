@@ -3,3 +3,4 @@ variants: 1
 itemDrop: IronIngot
 oreThreshold: 1
 emitLight: true
+name:鉄の鉱床
