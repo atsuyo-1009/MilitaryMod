@@ -54,8 +54,7 @@ research: {
   name: MilitaryMod
   # 対応する惑星名
   planet: earth
+  alwayunlocked: true
 }
-
-# 最初からアンロックされているか
 alwaysUnlocked: true
 planet: earth
