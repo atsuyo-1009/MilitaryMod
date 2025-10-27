@@ -55,5 +55,5 @@ research: {
 }
 
 # 最初からアンロックされているか
-alwaysUnlocked: false
+
 planet: earth
