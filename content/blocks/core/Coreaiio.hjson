@@ -45,10 +45,6 @@ requirements: [
 
 # テックツリーの設定
 research: {
-  # テックツリーのルートにするか
-  root: true
-  # 対応する惑星名
-  planet: earth
   parent: Coreoiia
 }
 
