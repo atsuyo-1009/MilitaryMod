@@ -3,7 +3,8 @@ planet: earth
 captureWave: 200
 difficulty: 3
 alwaysUnlocked: true
-
+localizedName: 荒廃した砂漠
+description: ここにはスクラップや鉄鉱床がある。スクラップや鉄原石はここで取っておいたほうがいいだろう。
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
 defaultcore:Coreoiia
