@@ -46,6 +46,7 @@ requirements: [
 # テックツリーの設定
 research: {
   parent: Coreoiia
+  parent: earth
 }
 
 # 最初からアンロックされているか
