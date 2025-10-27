@@ -1,12 +1,12 @@
-sector: 8
-planet: cookplanets
+sector: 1
+planet: earth
 captureWave: 200
 difficulty: 3
 alwaysUnlocked: true
 
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
-defaultcore:coreSeeds
+defaultcore:Coreoiia
 
 
 
