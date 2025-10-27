@@ -7,7 +7,7 @@ localizedName: ノルマニス
 description: ここにはスクラップや鉄鉱床がある。スクラップや鉄原石はここで取っておいたほうがいいだろう。
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
-defaultcore: Coreoiia
+defaultCore: Coreoiia
 difficulty: 4
 #打ち上げ設定(launch)
 allowLaunchLoadout: true
