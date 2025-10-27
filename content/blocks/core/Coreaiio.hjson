@@ -47,8 +47,6 @@ requirements: [
 research: {
   # テックツリーのルートにするか
   root: true
-  # テックツリー名（多言語対応）
-  name: MilitaryMod
   # 対応する惑星名
   planet: earth
   parent: Coreoiia
