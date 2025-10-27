@@ -6,6 +6,7 @@ description: "わあ"
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
 defaultCore: Coreoiia
+difficulty: 4
 baseLaunchCost:[
 copper/100
 ]
