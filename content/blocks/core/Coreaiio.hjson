@@ -1,5 +1,5 @@
 # ブロック名
-name: アウトポスト-アルファ
+name: アウトポスト-ベータ
 
 # ブロックタイプ（コアブロック）
 type: CoreBlock
@@ -39,6 +39,8 @@ squareSprite: false
 # 建造に必要なアイテム（ここではSeedを600個）
 requirements: [
   copper/600
+  IronPlate/200
+  lead/100
 ]
 
 # テックツリーの設定
@@ -49,6 +51,7 @@ research: {
   name: MilitaryMod
   # 対応する惑星名
   planet: earth
+  parent: Coreoiia
 }
 
 # 最初からアンロックされているか
