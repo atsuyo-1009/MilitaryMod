@@ -1,0 +1,56 @@
+# ブロック名
+name: アウトポスト-アルファ
+
+# ブロックタイプ（コアブロック）
+type: CoreBlock
+
+# カテゴリ（効果系ブロック）
+category: effect
+
+# ブロックの耐久値（HP）
+health: 1000
+
+# ブロックの大きさ（3x3）
+size: 3
+
+# どの地形にも設置可能
+canPlaceOn: true
+
+# 砂や石炭などの非建築物アイテムの焼却を無効化（コメントアウト）
+#incinerateNonBuildable: false
+
+# アイテムの最大格納数
+itemCapacity: 5000
+
+# このコアが増やすユニット上限
+unitCapModifier: 10
+
+# 初期ユニットタイプ
+unitType: alpha
+
+#incinerateNonBuildable: false  # 同上（コメントアウト）
+
+# 最初のティアのコアであるか
+isFirstTier: true
+
+# スプライトを四角形にするか
+squareSprite: false
+
+# 建造に必要なアイテム（ここではSeedを600個）
+requirements: [
+  copper/600
+]
+
+# テックツリーの設定
+research: {
+  # テックツリーのルートにするか
+  root: true
+  # テックツリー名（多言語対応）
+  name: MilitaryMod
+  # 対応する惑星名
+  planet: earth
+}
+
+# 最初からアンロックされているか
+alwaysUnlocked: true
+planet: earth
