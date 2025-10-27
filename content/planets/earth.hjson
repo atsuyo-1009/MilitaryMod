@@ -6,7 +6,7 @@ parent: sun
 
 localizedName: 地球
 
-defaultCore: Coreoiia
+ddefaultCore: Coreoiia
 
 
 allowSectorInvasion: true
