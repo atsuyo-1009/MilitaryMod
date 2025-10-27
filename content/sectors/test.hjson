@@ -4,7 +4,7 @@ captureWave: 50
 difficulty: 1
 alwaysUnlocked: true
 localizedName: 荒廃した砂漠
-description: ここにはスクラップがある。スクラップの中には鉄くずが見つかりそうだ…
+description: ここにはスクラップや鉄鉱床がある。スクラップはここで取っておいたほうがいいだろう。
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
 defaultcore: Coreoiia
