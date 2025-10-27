@@ -7,7 +7,7 @@ localizedName: 荒廃した砂漠
 description: ここにはスクラップや鉄鉱床がある。スクラップや鉄原石はここで取っておいたほうがいいだろう。
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
-defaultcore: Coreoiia
+defaultCore: Coreoiia
 difficulty: 1
 #打ち上げ設定(launch)
 allowLaunchLoadout: true
