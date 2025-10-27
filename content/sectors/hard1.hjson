@@ -1,4 +1,4 @@
-sector: 2
+sector: 10
 planet: earth
 captureWave: 50
 difficulty: 1
@@ -8,7 +8,7 @@ description: ここにはスクラップや鉄鉱床がある。スクラップ�
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
 defaultcore: Coreoiia
-difficulty: 1
+difficulty: 4
 #打ち上げ設定(launch)
 allowLaunchLoadout: true
 allowLaunchSchematics: true
