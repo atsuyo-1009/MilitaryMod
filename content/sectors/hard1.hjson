@@ -2,12 +2,10 @@ sector: 3
 planet: earth
 alwaysUnlocked: true
 localizedName: aiueo
-description: ここにはスクラップや鉄鉱床がある。スクラップや鉄原石はここで取っておいたほうがいいだろう。
+description: "わあ"
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
 defaultCore: Coreoiia
-allowLaunchLoadout: true
-allowLaunchSchematics: true
 baseLaunchCost:[
 copper/100
 ]
