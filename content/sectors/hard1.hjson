@@ -1,0 +1,23 @@
+sector: 2
+planet: earth
+captureWave: 50
+alwaysUnlocked: true
+localizedName: 荒廃した砂漠
+description: ここにはスクラップや鉄鉱床がある。スクラップや鉄原石はここで取っておいたほうがいいだろう。
+#設計図フォルダにコアの設計図を入れること。
+#ないと設定ができない
+defaultCore: Coreoiia
+difficulty: 1
+#打ち上げ設定(launch)
+allowLaunchLoadout: true
+allowLaunchSchematics: true
+
+
+
+addStartingItems: true
+
+allowLaunchLoadout:true
+
+baseLaunchCost:[
+copper/100
+]
