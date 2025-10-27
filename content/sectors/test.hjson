@@ -8,7 +8,7 @@ description: ここにはスクラップや鉄鉱床がある。スクラップ�
 #設計図フォルダにコアの設計図を入れること。
 #ないと設定ができない
 defaultcore: Coreoiia
-
+difficulty: 1
 #打ち上げ設定(launch)
 allowLaunchLoadout: true
 allowLaunchSchematics: true
