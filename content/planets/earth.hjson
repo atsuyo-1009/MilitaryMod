@@ -6,7 +6,7 @@ parent: sun
 
 localizedName: 地球
 
-defaultCore: Coreoiia
+defaltCore: Coreoiia
 
 
 allowSectorInvasion: true
@@ -32,7 +32,7 @@ accessible: true
 alwaysUnlocked: true
 
 sectorSeed: 0
-startSector: 2
+startSector: 3
 sectorSize: 2
 
 clearSectorOnLose: true
