@@ -10,7 +10,6 @@ description: ここにはスクラップや鉄鉱床がある。スクラップ�
 defaultCore: Coreoiia
 
 
-
 #打ち上げ設定(launch)
 allowLaunchLoadout: true
 allowLaunchSchematics: true
