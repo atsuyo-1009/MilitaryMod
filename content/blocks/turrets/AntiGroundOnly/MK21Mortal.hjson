@@ -22,17 +22,18 @@ xRand: 1
 
 ammoTypes: {
   tarretAmmo: {
-    type: basicBulletType
+    type: ArtilleryBulletType
     width: 5
     drawsize: 3
     hitSize: 3
     bulletSprite: 
     frontColor: 653200
     backColor: 653200
-
+    hitEffect: blastExplosion
+    splashDamage: 10
+    splashDamageRadius: 50
     ammoMultiPlier: 1
     reloadMultiPlier: 1
-
     lifetime: 80
     speed: 2
     weaveMag: 1
@@ -42,13 +43,14 @@ ammoTypes: {
     hitEffect: none
     absorbable: true
     pierceArmor: false
-  }
-}
+            }
+           }
 BuildVisibillity: shown
-buildTime: 80
+buildTime: 160
     
 research: {
-    parent: duo
+    parent: HK256ShortMachineGun
+    parent:earth
     requirements: [
       copper/ 30
       IronPlate/ 40
@@ -56,5 +58,5 @@ research: {
 ]
 }
 requirements: [
-      copper/ 10
+      lead/ 10
       IronPlate/ 20]
