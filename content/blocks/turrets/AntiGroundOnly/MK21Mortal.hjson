@@ -36,10 +36,10 @@ ammoTypes: {
     splashDamageRadius: 50
     ammoMultiPlier: 1
     reloadMultiPlier: 1
-    lifetime: 80
+    lifetime: 160
     speed: 2
     bulletShrink: 0
-    damage: 30
+    damage: 150
     hitEffect: none
     absorbable: true
     pierceArmor: false
