@@ -19,7 +19,7 @@ chargeTime: 0
 recoil: 1
 inaccuracy: 1
 xRand: 1
-
+large: 720
 ammoTypes: {
   tarretAmmo: {
     type: ArtilleryBulletType
@@ -35,8 +35,8 @@ ammoTypes: {
     splashDamageRadius: 50
     ammoMultiPlier: 1
     reloadMultiPlier: 1
-    lifetime: 2400
-    speed: 2
+    lifetime: 240
+    speed: 3
     bulletShrink: 0
     damage: 150
     hitEffect: none
