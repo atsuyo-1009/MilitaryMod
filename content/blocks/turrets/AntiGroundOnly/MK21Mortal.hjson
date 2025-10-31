@@ -45,9 +45,9 @@ ammoTypes: {
 hitEffect:[
           {
     type:ExplosionEffect
-    smokeSize:5
-    sparks:3
-    smokes:2
+    smokeSize:100
+    sparks:100
+    smokes:100
             }
             ]
            }
