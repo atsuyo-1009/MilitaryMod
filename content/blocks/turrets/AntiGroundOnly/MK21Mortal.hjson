@@ -43,10 +43,12 @@ ammoTypes: {
     absorbable: true
     pierceArmor: false
 hitEffect: {
+        [
     type:ExplosionEffect
     smokeSize:5
     sparks:3
     smokes:2
+            ]
             }
            }
            }
