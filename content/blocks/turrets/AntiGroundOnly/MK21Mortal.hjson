@@ -16,7 +16,7 @@ hasItem: true
 itemCapacity: 30
 reload: 240
 chargeTime: 0
-range: 160
+range: 240
 recoil: 0.5
 inaccuracy: 2
 xRand: 1
@@ -36,7 +36,7 @@ ammoTypes: {
     splashDamageRadius: 50
     ammoMultiPlier: 1
     reloadMultiPlier: 1
-    lifetime: 160
+    lifetime: 240
     speed: 1
     bulletShrink: 0
     damage: 150
