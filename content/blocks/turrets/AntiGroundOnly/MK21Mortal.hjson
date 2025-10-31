@@ -32,12 +32,12 @@ ammoTypes: {
     frontColor: 653200
     backColor: 653200
     hitEffect: blastExplosion
-    splashDamage: 10
+    splashDamage: 15
     splashDamageRadius: 50
     ammoMultiPlier: 1
     reloadMultiPlier: 1
     lifetime: 160
-    speed: 2
+    speed: 1
     bulletShrink: 0
     damage: 150
     hitEffect: none
