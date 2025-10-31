@@ -14,7 +14,7 @@ liquidCapacity: 20
 itemCapacity: 20
 hasItem: true
 itemCapacity: 30
-reload: 5
+reload: 240
 chargeTime: 0
 range: 160
 recoil: 0.5
