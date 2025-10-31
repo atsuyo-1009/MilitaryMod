@@ -4,6 +4,7 @@ type: itemTurret
 category: turret
 size: 2
 health: 150
+armor:50
 targetable: true
 squareSprites: false
 targetAir: false
@@ -23,6 +24,7 @@ xRand: 1
 ammoTypes: {
   tarretAmmo: {
     type: ArtilleryBulletType
+    targetAir: false
     width: 5
     drawsize: 3
     hitSize: 3
@@ -36,8 +38,6 @@ ammoTypes: {
     reloadMultiPlier: 1
     lifetime: 80
     speed: 2
-    weaveMag: 1
-    weaveScale: 7 
     bulletShrink: 0
     damage: 30
     hitEffect: none
