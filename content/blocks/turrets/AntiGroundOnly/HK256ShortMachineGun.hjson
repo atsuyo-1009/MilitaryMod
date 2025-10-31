@@ -49,7 +49,8 @@ BuildVisibillity: shown
 buildTime: 80
     
 research: {
-    parent: duo
+    parent: Coreoiia
+    parent: earth
     requirements: [
       copper/ 30
       IronPlate/ 40
