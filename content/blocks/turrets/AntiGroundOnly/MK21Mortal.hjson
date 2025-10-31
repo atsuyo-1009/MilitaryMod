@@ -1,19 +1,18 @@
-name: HK256短機関銃
-description: "歩兵に効果的な機関銃。戦車に使うのはいい案ではありません。"
+name: MK21迫撃砲
+description: "MK21迫撃砲。対戦車や歩兵に効果的。近づかれると撃てなくなります。多少の耐弾効果はあります。ただし迫撃砲なのでアイテム容量は少なくなる事にご注意を"
 type: itemTurret
 category: turret
-size: 1
-health: 80
+size: 2
+health: 150
 targetable: true
 squareSprites: false
 targetAir: false
 hasPower: false
 hasLiquid: true
-liquidCapacity: 50
-itemCapacity: 50
+liquidCapacity: 20
+itemCapacity: 20
 hasItem: true
 itemCapacity: 30
-
 reload: 5
 chargeTime: 0
 range: 160
