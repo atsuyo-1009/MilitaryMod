@@ -35,7 +35,7 @@ ammoTypes: {
     splashDamageRadius: 50
     ammoMultiPlier: 1
     reloadMultiPlier: 1
-    lifetime: 240
+    lifetime: 2400
     speed: 2
     bulletShrink: 0
     damage: 150
