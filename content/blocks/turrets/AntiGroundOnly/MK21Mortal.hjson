@@ -19,7 +19,7 @@ chargeTime: 0
 recoil: 1
 inaccuracy: 1
 xRand: 1
-large: 720
+range: 720
 ammoTypes: {
   tarretAmmo: {
     type: ArtilleryBulletType
