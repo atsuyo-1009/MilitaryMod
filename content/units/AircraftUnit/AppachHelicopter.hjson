@@ -16,7 +16,7 @@ controller: FlyingAI
            type:RegionPart
            suffix:-rotator
            under:false
-  moveRot: 10.0
+  moveRot: 360.0
 progress: {
   type: time
   ops: [
