@@ -12,18 +12,16 @@ targetAir: true
 targetGround: false
 controller: FlyingAI
 drawer: {
-[
   type: DrawMulti
-  drawers:{
-[
-  type: DrawDefault 
+  drawers: [
+    {
+      type: DrawDefault
+    }
     {
       type: DrawRegion
       suffix: -rotator
       rotateSpeed: 2
       spinSprite: true
-     }
-]
-          }
-]
-         }
+    }
+  ]
+}
