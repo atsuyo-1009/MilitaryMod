@@ -1,15 +1,15 @@
 name: ヘスコ防壁
-description: "土嚢。弾薬は防げるが、敵ユニットは通れてしまう。"
+description: "ヘスコ防壁。弾薬も防げるし、敵ユニットも通れない。耐久性は保証します。"
 type: Wall
-health: 800
-size: 1
-armor: 100
+health: 2500
+size: 2
+armor: 300
 requirements: [
-    IronPlate/30
-   sand/40
+    IronPlate/60
+   sand/80
 ]
 category: defense
-solid: false         
+solid: true         
 teamPassable: true    
 absorbLasers: false
 buildVisibillity:shown
