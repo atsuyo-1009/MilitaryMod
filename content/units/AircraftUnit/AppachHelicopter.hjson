@@ -26,7 +26,7 @@ progress: {
     }
     {
       op: mod
-      amount: 0.1
+      amount: 0.35
     }
   ]
 }
