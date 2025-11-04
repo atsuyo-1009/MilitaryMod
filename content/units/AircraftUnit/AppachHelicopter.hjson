@@ -1,47 +1,27 @@
-name: cerberus-bomber
-localizedName: "サーベラス爆撃機"
-description: "一番近い敵ユニットに強力な爆発を起こすロケットを3発撃ちこむ凶悪な爆撃機。"
+name: アパッチ攻撃ヘリコプター
+description: "アパッチ攻撃ヘリコプター。地上への高い攻撃能力と制圧能力を兼ね備えている。ヘリコプターなのでそこそこ脆い。"
 type: flying
 flying: true
-health: 40000
-hitSize: 24
-speed: 0.4
+health: 300
+hitSize: 5
+speed: 2
 armor: 20
 drag: 0.05
 range: 360
 targetAir: true
 targetGround: false
 controller: FlyingAI
-
-weapons: [
-  {
-    name: rocket-launcher1
-    reload: 300
-    shootCone: 10
-    bullet: {
-      type: UnitBulletType
-      spawnUnit: myfirstmod-bomber-rocket
-      lifetime: 240
-    }
-  }
-  {
-    name: rocket-launcher2
-    reload: 450
-    shootCone: 10
-    bullet: {
-      type: UnitBulletType
-      spawnUnit: myfirstmod-bomber-rocket
-      lifetime: 240
-    }
-  }
-  {
-    name: rocket-launcher3
-    reload: 600
-    shootCone: 10
-    bullet: {
-      type: UnitBulletType
-      spawnUnit: myfirstmod-bomber-rocket
-      lifetime: 240
-    }
-  }
-]
+drawer: {
+  type: DrawMulti
+  drawers:{
+  [
+  type: DrawDefault 
+  ]
+    {
+      type: DrawRegion
+      suffix: -rotator
+      rotateSpeed: 2
+      spinSprite: true
+     }
+          }
+         }
