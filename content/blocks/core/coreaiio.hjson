@@ -47,6 +47,7 @@ requirements: [
 research: {
   parent: coreoiia
   parent: earth
+  name: MilitaryMod
 }
 
 # 最初からアンロックされているか
