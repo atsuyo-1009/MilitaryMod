@@ -14,9 +14,7 @@ controller: FlyingAI
 drawer: {
   type: DrawMulti
   drawers:{
-  [
   type: DrawDefault 
-  ]
     {
       type: DrawRegion
       suffix: -rotator
