@@ -22,11 +22,11 @@ progress: {
   ops: [
     {
       op: mul
-      amount: 0.05
+      amount: 0.1
     }
     {
       op: mod
-      amount: 0.01
+      amount: 0.1
     }
   ]
 }
