@@ -15,6 +15,7 @@ drawer: {
 [
   type: DrawMulti
   drawers:{
+[
   type: DrawDefault 
     {
       type: DrawRegion
@@ -22,6 +23,7 @@ drawer: {
       rotateSpeed: 2
       spinSprite: true
      }
+]
           }
 ]
          }
