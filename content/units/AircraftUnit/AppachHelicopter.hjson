@@ -11,17 +11,19 @@ range: 360
 targetAir: true
 targetGround: false
 controller: FlyingAI
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    }
-    {
-      type: DrawRegion
-      suffix: -rotator
-      rotateSpeed: 2
+ parts: [
+           {
+           type:RegionPart
+           suffix:-rotator
+           under:false
+  moves: [
+          {
+        type: DrawRegion
+        rotateSpeed: 2
       spinSprite: true
-    }
-  ]
-}
+        y: -1.5
+          }
+          ]
+           }
+           ]
+      }
