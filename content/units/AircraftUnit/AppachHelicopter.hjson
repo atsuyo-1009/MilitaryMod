@@ -12,6 +12,7 @@ targetAir: true
 targetGround: false
 controller: FlyingAI
 drawer: {
+[
   type: DrawMulti
   drawers:{
   type: DrawDefault 
@@ -22,4 +23,5 @@ drawer: {
       spinSprite: true
      }
           }
+]
          }
