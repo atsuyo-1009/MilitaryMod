@@ -16,17 +16,17 @@ controller: FlyingAI
            type:RegionPart
            suffix:-rotator
            under:false
-  moveRot: 10.0
+  moveRot: 360.0
 progress: {
   type: time
   ops: [
     {
       op: mul
-      amount: 0.1
+      amount: 0.02
     }
     {
       op: mod
-      amount: 0.1
+      amount: 1.0
     }
   ]
 }
