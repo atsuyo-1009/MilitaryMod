@@ -1,4 +1,4 @@
-name: 土嚢
+name: ヘスコ防壁
 description: "土嚢。弾薬は防げるが、敵ユニットは通れてしまう。"
 type: Wall
 health: 800
