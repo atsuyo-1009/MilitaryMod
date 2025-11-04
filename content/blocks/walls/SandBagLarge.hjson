@@ -1,7 +1,7 @@
 name: 土嚢
 description: "土嚢。弾薬は防げるが、敵ユニットは通れてしまう。"
 type: Wall
-health: 800あ
+health: 800
 size: 1
 armor: 100
 requirements: [
