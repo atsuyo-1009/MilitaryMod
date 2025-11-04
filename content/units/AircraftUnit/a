@@ -1,1 +1,14 @@
-
+drawer: {
+  type: DrawMulti
+  drawers:{
+  [
+  type: DrawDefault 
+  ]
+    {
+      type: DrawRegion
+      suffix: -rotator
+      rotateSpeed: 2
+      spinSprite: true
+     }
+          }
+         }
