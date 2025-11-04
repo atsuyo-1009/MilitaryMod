@@ -16,7 +16,8 @@ buildVisibillity:shown
 alwaysUnlocked:true
 
 research: {
-  parent: largecopperwall
+  parent: Coreoiia
+  parent: earth
 requiments: [
 sand/10
 IronPlate/5]
