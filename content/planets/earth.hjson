@@ -25,9 +25,6 @@ drawOrbit: true
 
 //指定された手続き部門への着陸を許可するかどうか
 //allowLanding: true
-
-onlyDepositCore: true
-
 accessible: true
 alwaysUnlocked: true
 
