@@ -13,10 +13,11 @@ solid: true
 teamPassable: true    
 absorbLasers: false
 buildVisibillity:shown
-alwaysUnlocked:true
+alwaysUnlocked:false
 
 research: {
-  parent: largecopperwall
+  parent: sandbag
+  parent: earth
 requiments: [
 sand/10
 IronPlate/5]
