@@ -53,7 +53,7 @@ research: {
   # テックツリー名（多言語対応）
   name: MilitaryMod
   # 対応する惑星名
-  planet: earth
+  planet: Earth
   alwayUnlocked: true
 }
 alwaysUnlocked: true
