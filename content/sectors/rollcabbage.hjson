@@ -1,0 +1,27 @@
+sector: 15
+planet: cookplanets
+captureWave: 50
+difficulty: 0
+alwaysUnlocked: true
+
+#設計図フォルダにコアの設計図を入れること。
+#ないと設定ができない
+defaultcore:coreSeeds
+
+
+
+#打ち上げ設定(launch)
+allowLaunchLoadout: true
+allowLaunchSchematics: true
+
+
+
+addStartingItems: true
+
+allowLaunchLoadout:true
+
+baseLaunchCost:[
+Seed/100
+]
+
+
