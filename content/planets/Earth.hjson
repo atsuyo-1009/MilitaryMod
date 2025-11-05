@@ -29,7 +29,7 @@ accessible: true
 alwaysUnlocked: true
 
 sectorSeed: 0
-startSector: 1
+startSector: 2
 sectorSize: 2
 
 clearSectorOnLose: true
