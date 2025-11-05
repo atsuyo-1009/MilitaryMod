@@ -80,16 +80,16 @@ defaultCore: Coreoiia
 sectorSeed: 1
 
 /** マップ画面で最初に選択されるセクターID */
-startSector: 3
+startSector: 1
 
 // 惑星のセクター1辺あたりのマス数（小さいとセクターが少ない）
-sectorSize: 2
+sectorSize: 3
 
 /** セクター敗北時にセーブデータを消すか */
 clearSectorOnLose: true
 
 /** 敵の侵攻イベントを許可するか */
-allowSectorInvasion: false
+allowSectorInvasion: true
 
 /** 番号付きセクターへの着陸を許可するか */
 allowLaunchToNumbered: true
@@ -121,7 +121,7 @@ cloudMesh: {
 // 惑星表面のレンダリング設定（NoiseMeshはノイズベースの色パターン）
 mesh: {
     type: NoiseMesh
-    planet: cookplanets
+    planet: Earth
     seed: 562697
     color1: DA70D6           // 色1（ノイズの低い部分）
     color2: d4fea1           // 色2（ノイズの高い部分）
