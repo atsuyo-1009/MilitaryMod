@@ -50,7 +50,7 @@ research: {
   name: MilitaryMod
   parent: coreoiia
   # 対応する惑星名
-  planet: earth
+  planet: Earth
   alwayUnlocked: false
 requiments: [
 IronPlate/100
