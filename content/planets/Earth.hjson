@@ -41,7 +41,7 @@ generator: {
 }
 
 // デフォルトのコアブロック（惑星に降り立ったときに配置される拠点）
-defaultCore: CoreSeeds
+defaultCore: Coreoiia
 
 /** 
 	Orbit radius: 惑星の公転半径（太陽からの距離）
@@ -106,7 +106,7 @@ allowWaveSimulation: true
 // 雲のレンダリング設定（HexSkyMeshは六角形パターンの動く雲）
 cloudMesh: {
     type: HexSkyMesh        // 雲のメッシュタイプ
-    planet: cookplanets     // この雲が属する惑星アイコン
+    planet: Earth     // この雲が属する惑星アイコン
     seed: 1                 // ノイズ生成用シード
     speed: 7                // 雲の動きの速さ
     radius: 0.15            // 雲の広がり半径（惑星半径比）
