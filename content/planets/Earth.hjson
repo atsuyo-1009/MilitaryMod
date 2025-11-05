@@ -104,31 +104,6 @@ allowLaunchSchematics: true
 allowWaveSimulation: true
 
 // 雲のレンダリング設定（HexSkyMeshは六角形パターンの動く雲）
-cloudMesh: {
-    type: HexSkyMesh        // 雲のメッシュタイプ
-    planet: Earth     // この雲が属する惑星アイコン
-    seed: 1                 // ノイズ生成用シード
-    speed: 7                // 雲の動きの速さ
-    radius: 0.15            // 雲の広がり半径（惑星半径比）
-    divisions: 2            // メッシュ分割数
-    color: b3fe58           // 雲の色
-    octaves: 0              // ノイズのオクターブ数（層数）
-    persistence: 1          // ノイズの減衰率
-    scl: 2                  // ノイズのスケール
-    thresh: 0.1             // 雲のしきい値
-}
+
 	
 // 惑星表面のレンダリング設定（NoiseMeshはノイズベースの色パターン）
-mesh: {
-    type: NoiseMesh
-    planet: Earth
-    seed: 562697
-    color1: DA70D6           // 色1（ノイズの低い部分）
-    color2: d4fea1           // 色2（ノイズの高い部分）
-    divisions: 5             // メッシュ分割数
-    radius: 0.9              // 惑星モデルの半径（相対値）
-    octaves: 7               // ノイズの層数
-    persistence: 1           // ノイズの減衰率
-    scl: 0.75                 // ノイズスケール
-    mag: 1.2                  // ノイズの強さ
-	}
