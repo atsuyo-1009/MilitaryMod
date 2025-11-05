@@ -27,7 +27,7 @@ drawOrbit: true
 //allowLanding: true
 accessible: true
 alwaysUnlocked: true
-
+onlyDepositCore: false
 sectorSeed: 0
 startSector: 2
 sectorSize: 2
