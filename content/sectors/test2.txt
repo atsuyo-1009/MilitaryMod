@@ -1,5 +1,5 @@
 sector: 1
-planet: earth
+planet: Earth
 captureWave: 200
 difficulty: 3
 alwaysUnlocked: true
