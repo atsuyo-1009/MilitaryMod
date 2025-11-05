@@ -52,5 +52,10 @@ research: {
   # 対応する惑星名
   planet: earth
   alwayUnlocked: false
+requiments: [
+IronPlate/100
+copper/500
+IronIngot/150
+]
 }
 planet: earth
