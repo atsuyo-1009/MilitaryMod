@@ -43,13 +43,13 @@ requirements: [
   lead/100
 ]
 
-# テックツリーの設定
 research: {
-  parent: coreoiia
-  parent: earth
+  # テックツリーのルートにするか
+  root: false
+  # テックツリー名（多言語対応）
   name: MilitaryMod
+  # 対応する惑星名
+  planet: earth
+  alwayUnlocked: false
 }
-
-# 最初からアンロックされているか
-
 planet: earth
