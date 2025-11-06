@@ -77,7 +77,7 @@ orbitOffset: 100
 orbitTime: 3000
 orbitSpacing: 3.2
 radius: 1.2
-
+allowLaunchToNumbered: true
 prebuildBase: true
 clearSectorOnLose: true
 coreDestroyClear: true
