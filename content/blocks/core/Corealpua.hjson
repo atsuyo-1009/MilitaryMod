@@ -1,5 +1,5 @@
 type: CoreBlock
-size: 2
+size: 3
 health: 2000
 armor: 100
 # unitType: 31k-01-beth
