@@ -31,9 +31,8 @@ onlyDepositCore: false
 sectorSeed: 0
 startSector: 2
 sectorSize: 2
-
+coreDestoryClear: true
 clearSectorOnLose: true
-
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 
