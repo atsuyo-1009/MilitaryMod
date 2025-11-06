@@ -4,10 +4,4 @@ planet: Earth
 sector: 1
 research: {
   parent: Earth
-  objectives: [
-    {
-      type: SectorComplete
-      preset: 19s-01-newgrounds
-    }
-  ]
 }
