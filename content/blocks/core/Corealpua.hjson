@@ -1,7 +1,7 @@
 type: CoreBlock
-size: 3
-health: 1750
-armor: 2
+size: 2
+health: 2000
+armor: 100
 # unitType: 31k-01-beth
 requirements: [
  copper/100
