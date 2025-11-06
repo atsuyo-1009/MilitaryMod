@@ -8,7 +8,7 @@ mesh: [
     {
     //cobaltbiome
     type: NoiseMesh
-    planet: frostnova
+    planet: Earth
     divisions: 5
     seed: 76
     radius: 1.120
@@ -22,7 +22,7 @@ mesh: [
     {
     //tantrabiome
     type: NoiseMesh
-    planet: frostnova
+    planet: Earth
     divisions: 5
     seed: 52
     radius: 1.100
@@ -67,7 +67,7 @@ showSpawns: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 
-startSector: 0
+startSector: 1
 sectorSize: 3
 parent: sun
 solarSystem: sun
