@@ -86,3 +86,4 @@ defaultCore: Corealpua
 enemyBuildSpeedMultiplier: 0.4
 enemyCoreSpawnReplace: false
 updateLighting: false
+allowWaveSimulation: true
