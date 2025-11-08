@@ -43,7 +43,7 @@ weapons:[
   rotate: false
   layerOffset: -2
   recoil: 0
-  targetAir: false
+  targetsAir: false
   collidesAir: false
   targetGround: true
   speed:10
