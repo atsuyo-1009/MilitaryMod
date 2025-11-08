@@ -38,8 +38,8 @@ weapons:[
  {
   name: AppachHelicopter-roketluncher
   layerOffset: 2
-  y:-1
-  x:0.02
+  y:0
+  x:0.5
   mirror:true
   flipSprite: false
   rotate: false
@@ -49,6 +49,10 @@ weapons:[
   lifetime:50
   reload:120
   damage:100
+　shoot: {
+      shots: 6
+      shotDelay: 60
+    }
   bullet: 
         {
         type: basicBulletType
@@ -58,6 +62,16 @@ weapons:[
         targetGround: true
         splashDamage: 100
         splashDamageRadius: 10
+        hitEffect:[
+          {
+    type:ExplosionEffect
+    smokeSize:100
+    sparks:100
+    smokes:100
+            }
+            ]
+           }
+           }
         }
   shootSound: shootBig
            }
