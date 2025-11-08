@@ -51,7 +51,7 @@ weapons:[
   damage:100
 　shoot: {
       shots: 6
-      shotDelay: 10
+      shotDelay: 1
     }
   bullet: 
         {
