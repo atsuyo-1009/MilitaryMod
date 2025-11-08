@@ -60,9 +60,10 @@ shotDelay: 5
         damage: 100
         speed: 10
         targetAir: false
-        sprite: MilitaryMod-AppachHelicopter-roketmissile
+        sprite: "MilitaryMod-AppachHelicopter-roketmissile"
         recoil: 0
         lifetime: 50
+         collidesAir: false
         targetGround: true
         splashDamage: 100
         splashDamageRadius: 100
