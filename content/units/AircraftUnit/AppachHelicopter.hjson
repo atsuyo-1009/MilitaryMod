@@ -44,7 +44,8 @@ weapons:[
   rotate: false
   layerOffset: -2
   recoil: 0
-  collidesAir: true
+  targetAir: false
+  collidesAir: false
   targetGround: true
   speed:10
   lifetime:50
@@ -63,6 +64,7 @@ shotDelay: 5
         sprite: "MilitaryMod-AppachHelicopter-roketmissile"
         recoil: 0
         lifetime: 50
+        targetAir: false
          collidesAir: false
         targetGround: true
         splashDamage: 100
