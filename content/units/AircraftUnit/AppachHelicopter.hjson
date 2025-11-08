@@ -61,7 +61,7 @@ weapons:[
         type: basicBulletType
         damage: 100
         speed: 10
-        sprite: roketmissile
+        sprite: AppachHelicopter-roketmissile
         recoil: 0
         lifetime: 50
         targetGround: true
