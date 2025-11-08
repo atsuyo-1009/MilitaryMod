@@ -3,7 +3,7 @@ description: "アパッチ攻撃ヘリコプター。地上への高い攻撃能
 type: flying
 flying: true
 health: 300
-hitSize: 5
+hitSize: 6
 speed: 2
 armor: 20
 drag: 0.05
