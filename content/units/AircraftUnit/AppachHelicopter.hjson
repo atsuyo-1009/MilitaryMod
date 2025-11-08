@@ -45,6 +45,7 @@ weapons:[
   layerOffset: -2
   recoil: 0
   targetAir: false
+  collidesAir: false
   targetGround: true
   speed:10
   lifetime:50
