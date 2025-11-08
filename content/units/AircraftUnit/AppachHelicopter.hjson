@@ -39,7 +39,7 @@ weapons:[
   name: AppachHelicopter-roketluncher
   layerOffset: -2
   y: 0
-  x: 2
+  x: 10
   mirror:true
 　under:true
   flipSprite: false
@@ -66,8 +66,6 @@ weapons:[
         targetGround: true
         splashDamage: 100
         splashDamageRadius: 10
-        sootx:0.5
-        shooty:0.1
         hitEffect:[
           {
     type:ExplosionEffect
