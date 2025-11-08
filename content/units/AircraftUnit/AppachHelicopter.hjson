@@ -37,7 +37,7 @@ progress: {
 weapons:[
  {
   name: AppachHelicopter-roketluncher
-  layerOffset: 2
+  layerOffset: -2
   y:0
   x:0.5
   mirror:true
