@@ -9,7 +9,7 @@ armor: 20
 drag: 0.05
 range: 360
 targetAir: true
-targetGround: false
+targetGround: true
 controller: FlyingAI
  parts: [
            {
@@ -38,40 +38,25 @@ weapons:[
   layerOffset: 2
   y:-1
   x:0.02
-  mirror:false
+  mirror:true
   flipSprite: false
-  rotate:true
+  rotate: false
   targetAir: true
-  targetGround: false
-  speed:30
-  lifetime:10
-  reload:10
-  damage:10
-  rotateSpeed:4
+  targetGround: true
+  speed:10
+  lifetime:50
+  reload:120
+  damage:100
   bullet: 
         {
         type: basicBulletType
-        damage: 20
+        damage: 100
         speed: 10
-        lifetime: 80
-        targetGround: false
+        lifetime: 50
+        targetGround: true
         splashDamage: 100
-        splashDamageRadius: 1
+        splashDamageRadius: 10
         }
   shootSound: shootBig
-    parts: [
-           {
-           type:RegionPart
-           suffix:-barrel
-           under:true
-  moves: [
-          {
-        type: PartMove
-        progress: recoil
-        y: -1.5
-          }
-          ]
-           }
-          ]
            }
         ]
