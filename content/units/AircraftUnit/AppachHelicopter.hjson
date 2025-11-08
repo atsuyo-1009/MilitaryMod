@@ -8,8 +8,6 @@ speed: 2
 armor: 20
 drag: 0.05
 range: 360
-targetAir: true
-targetGround: true
 controller: FlyingAI
 outlinecoloer:00000000
 outlineRadius: -100
