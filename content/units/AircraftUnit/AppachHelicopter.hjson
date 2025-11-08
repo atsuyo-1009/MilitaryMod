@@ -32,3 +32,46 @@ progress: {
 }
 }
 ]
+weapons:[
+ {
+  name: BTR152DTank-weapon
+  layerOffset: 2
+  y:-1
+  x:0.02
+  mirror:false
+  flipSprite: false
+  rotate:true
+  targetAir: true
+  targetGround: false
+  speed:30
+  lifetime:10
+  reload:10
+  damage:10
+  rotateSpeed:4
+  bullet: 
+        {
+        type: basicBulletType
+        damage: 20
+        speed: 10
+        lifetime: 80
+        targetGround: false
+        splashDamage: 100
+        splashDamageRadius: 1
+        }
+  shootSound: shootBig
+    parts: [
+           {
+           type:RegionPart
+           suffix:-barrel
+           under:true
+  moves: [
+          {
+        type: PartMove
+        progress: recoil
+        y: -1.5
+          }
+          ]
+           }
+          ]
+           }
+        ]
