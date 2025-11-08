@@ -62,7 +62,7 @@ weapons:[
         targetGround: true
         splashDamage: 100
         splashDamageRadius: 10
-        sootx:0.1
+        sootx:0.5
         shooty:0.1
         hitEffect:[
           {
