@@ -4,6 +4,7 @@ type: flying
 flying: true
 health: 300
 hitSize: 6
+ targetAir: false
 speed: 2
 armor: 20
 drag: 0.05
