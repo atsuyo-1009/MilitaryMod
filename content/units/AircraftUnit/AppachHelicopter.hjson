@@ -39,7 +39,7 @@ weapons:[
   name: AppachHelicopter-roketluncher
   layerOffset: -2
   y: 0
-  x: 8
+  x: 6
   mirror:true
 　under:true
   flipSprite: false
@@ -61,7 +61,7 @@ weapons:[
         type: basicBulletType
         damage: 100
         speed: 10
-        sprite: -roketmissile
+        sprite: AppachHelicopter-roketmissile
         recoil: 0
         lifetime: 50
         targetGround: true
