@@ -52,9 +52,9 @@ weapons:[
   damage:100
   reload:30
 　shoots: {
-      shoots: 6
-      shootDelay: 1
-    }
+shots: 4
+shotDelay: 5
+}
   bullet: 
         {
         type: basicBulletType
