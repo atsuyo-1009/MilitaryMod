@@ -44,7 +44,6 @@ weapons:[
 　under:true
   flipSprite: false
   rotate: false
-  sprite: roketmissile
   layerOffset: -2
   recoil: 0
   targetAir: true
@@ -62,6 +61,7 @@ weapons:[
         type: basicBulletType
         damage: 100
         speed: 10
+        sprite: roketmissile
         recoil: 0
         lifetime: 50
         targetGround: true
