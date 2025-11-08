@@ -50,9 +50,10 @@ weapons:[
   speed:10
   lifetime:50
   damage:100
-　shoot: {
-      shots: 6
-      shotDelay: 1
+  reload:30
+　shoots: {
+      shoots: 6
+      shootDelay: 1
     }
   bullet: 
         {
