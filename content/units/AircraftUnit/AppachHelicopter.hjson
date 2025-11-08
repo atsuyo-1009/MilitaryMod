@@ -45,6 +45,7 @@ weapons:[
   flipSprite: false
   rotate: false
   layerOffset: -2
+  recoil: 0
   targetAir: true
   targetGround: true
   speed:10
@@ -60,6 +61,7 @@ weapons:[
         type: basicBulletType
         damage: 100
         speed: 10
+        recoil: 0
         lifetime: 50
         targetGround: true
         splashDamage: 100
