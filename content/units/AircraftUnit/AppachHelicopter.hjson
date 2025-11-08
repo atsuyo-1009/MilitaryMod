@@ -41,13 +41,14 @@ weapons:[
   y:0
   x:0.5
   mirror:true
+　under:true
   flipSprite: false
   rotate: false
   targetAir: true
   targetGround: true
   speed:10
   lifetime:50
-  reload:120
+  reload:30
   damage:100
 　shoot: {
       shots: 6
