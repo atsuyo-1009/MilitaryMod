@@ -50,7 +50,6 @@ weapons:[
   targetGround: true
   speed:10
   lifetime:50
-  reload:30
   damage:100
 　shoot: {
       shots: 6
@@ -67,7 +66,7 @@ weapons:[
         lifetime: 50
         targetGround: true
         splashDamage: 100
-        splashDamageRadius: 10
+        splashDamageRadius: 100
         hitEffect:[
           {
     type:ExplosionEffect
