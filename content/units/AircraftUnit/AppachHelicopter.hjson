@@ -48,7 +48,7 @@ weapons:[
   collidesAir: false
   targetGround: true
   speed:10
-  lifetime:50
+  lifetime:30
   damage:100
   reload:30
 　shoots: {
