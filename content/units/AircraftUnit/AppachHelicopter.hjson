@@ -44,6 +44,7 @@ weapons:[
 　under:true
   flipSprite: false
   rotate: false
+  sprite: roketmissile
   layerOffset: -2
   recoil: 0
   targetAir: true
