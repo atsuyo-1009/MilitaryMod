@@ -44,6 +44,7 @@ weapons:[
 　under:true
   flipSprite: false
   rotate: false
+  layerOffset: -2
   targetAir: true
   targetGround: true
   speed:10
