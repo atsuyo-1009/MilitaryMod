@@ -11,6 +11,8 @@ range: 360
 targetAir: true
 targetGround: true
 controller: FlyingAI
+outlinecoloer:00000000
+outlineRadius: -100
  parts: [
            {
            type:RegionPart
