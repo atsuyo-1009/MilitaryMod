@@ -59,6 +59,7 @@ weapons:[
         speed: 10
         targetAir: false
         sprite: missile-large
+        large:10
         recoil: 0
         lifetime: 50
         targetsAir: true
