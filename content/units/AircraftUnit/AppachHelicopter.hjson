@@ -47,19 +47,16 @@ weapons:[
   targetsAir: true
   collidesAir: true
   targetGround: true
-  speed:10
-  lifetime:30
-  damage:100
-  reload:30
-　shoots: {
-shots: 4
-shotDelay: 5
-}
+　shoot: {
+      shots: 3
+      shotDelay: 8
+    }
   bullet: 
         {
         type: basicBulletType
         damage: 100
         speed: 10
+        reload:30
         targetAir: false
         sprite: MilitaryMod-AppachHelicopter-roketmissile
         recoil: 0
