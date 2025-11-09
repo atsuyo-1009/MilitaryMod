@@ -75,7 +75,7 @@ weapons:[
     smokes:10
             }
             ]
-   smokeEffect: shootBigSmoke
+   smokeEffect: missileTrailSmokeSmall
       trailColor: E3EBFB
       sound: missileTrail
       trailWidth: 2
