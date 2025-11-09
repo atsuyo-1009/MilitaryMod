@@ -78,8 +78,8 @@ weapons:[
    smokeEffect: missileTrailSmokeSmall
       trailColor: E3EBFB
       sound: missileTrail
-      trailWidth: 2
-      trailLength: 8
+      trailWidth: 1
+      trailLength:2
       backColor: E3EBFB
       hitColor: E3EBFB
       despawnEffect: {
