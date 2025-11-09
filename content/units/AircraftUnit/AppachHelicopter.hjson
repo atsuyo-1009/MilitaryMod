@@ -54,11 +54,11 @@ weapons:[
  reload:30
   bullet: 
         {
-        type: MissileBulletType
+        type: basicBulletType
         damage: 100
         speed: 10
         targetAir: false
-        sprite: aiueo-biotic-zlo-teeth
+        sprite: MilitaryMod-biotic-zlo-teeth
         width: 8
         recoil: 0
         lifetime: 50
