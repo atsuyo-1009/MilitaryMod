@@ -54,7 +54,7 @@ weapons:[
  reload:30
   bullet: 
         {
-        type: basicBulletType
+        type: MissileBulletType
         damage: 100
         speed: 10
         targetAir: false
