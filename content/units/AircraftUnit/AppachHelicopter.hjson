@@ -97,8 +97,8 @@ weapons:[
           type: basicBulletType
           hitSound: blast
           damage: 25
-          lightningLength: 2
-          lightningLengthRand: 4
+          lightningLength: 10
+          lightningLengthRand: 10
           lightningColor: E3EBFB
         }
            }
