@@ -65,8 +65,8 @@ weapons:[
         targetsAir: true
         collidesAir: true
         targetGround: true
-        splashDamage: 100
-        splashDamageRadius: 100
+        splashDamage: 20
+        splashDamageRadius: 50
         hitEffect:[
           {
     type:ExplosionEffect
