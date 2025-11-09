@@ -36,6 +36,7 @@ weapons:[
   speed:30
   lifetime:10
   reload:10
+  inaccuracy: 0.2
   damage:10
   rotateSpeed:4
   bullet: 
