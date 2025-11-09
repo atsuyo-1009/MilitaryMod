@@ -72,9 +72,9 @@ shotDelay: 5
         hitEffect:[
           {
     type:ExplosionEffect
-    smokeSize:100
-    sparks:100
-    smokes:100
+    smokeSize:10
+    sparks:10
+    smokes:10
             }
             ]
            }
