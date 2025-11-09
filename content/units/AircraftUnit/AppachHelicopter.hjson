@@ -59,11 +59,11 @@ weapons:[
         speed: 10
         targetAir: false
         sprite: missile-large
-        large:10
+        width: 8
         recoil: 0
         lifetime: 50
         targetsAir: true
-         collidesAir: true
+        collidesAir: true
         targetGround: true
         splashDamage: 100
         splashDamageRadius: 100
