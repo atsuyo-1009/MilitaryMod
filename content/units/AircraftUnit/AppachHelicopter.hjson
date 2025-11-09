@@ -92,7 +92,7 @@ weapons:[
         colorFrom: ffffff
         colorTo: feb380
         }
-        fragBullets: 10
+        fragBullets: 2
         fragBullet: {
           type: basicBulletType
           hitSound: blast
@@ -102,7 +102,7 @@ weapons:[
           lightningColor: E3EBFB
         }
            }
-  shootSound: shootBig
+  shootSound: missileTrail
            }
            ]
            
