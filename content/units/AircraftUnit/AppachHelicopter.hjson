@@ -5,7 +5,7 @@ flying: true
 health: 300
 hitSize: 6
 speed: 2
-targetsAir:false
+targetAir:false
 armor: 20
 drag: 0.05
 range: 360
