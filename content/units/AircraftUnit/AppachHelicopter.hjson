@@ -75,6 +75,31 @@ weapons:[
     smokes:10
             }
             ]
+   smokeEffect: colorSpark
+      trailColor: E3EBFB
+      trailWidth: 2
+      trailLength: 8
+      backColor: E3EBFB
+      hitColor: E3EBFB
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 8
+        sizeFrom: 0
+        sizeTo: 15
+        colorFrom: ffffff
+        colorTo: feb380
+        }
+        fragBullets: 1
+        fragBullet: {
+          type: LightningBulletType
+          hitSound: spark
+          damage: 25
+          lightningLength: 2
+          lightningLengthRand: 4
+          lightningColor: E3EBFB
+        }
            }
   shootSound: shootBig
            }
