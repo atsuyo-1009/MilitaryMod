@@ -83,7 +83,7 @@ weapons:[
       backColor: E3EBFB
       hitColor: E3EBFB
       despawnEffect: {
-        type: WaveEffect
+        type: WrapEffect
         rotWithParent: true
         followParent: true
         lifetime: 8
