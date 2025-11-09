@@ -49,7 +49,7 @@ weapons:[
   targetGround: true
 　shoot: {
       shots: 3
-      shotDelay: 8
+      shotDelay: 1000000
     }
   bullet: 
         {
