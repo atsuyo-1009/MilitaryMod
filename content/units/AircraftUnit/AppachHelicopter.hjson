@@ -77,6 +77,7 @@ weapons:[
             ]
    smokeEffect: colorSpark
       trailColor: E3EBFB
+      sound: missileTrail
       trailWidth: 2
       trailLength: 8
       backColor: E3EBFB
@@ -93,8 +94,8 @@ weapons:[
         }
         fragBullets: 1
         fragBullet: {
-          type: LightningBulletType
-          hitSound: spark
+          type: basicBulletType
+          hitSound: blast
           damage: 25
           lightningLength: 2
           lightningLengthRand: 4
