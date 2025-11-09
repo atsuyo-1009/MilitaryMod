@@ -49,10 +49,9 @@ weapons:[
   targetGround: true
 　shoot: {
       shots: 3
-      shotDelay: 1000000
+      shotDelay: 5
        reload:30
     }
-    reload:30
   bullet: 
         {
         type: basicBulletType
