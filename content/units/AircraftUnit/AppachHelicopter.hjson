@@ -50,15 +50,15 @@ weapons:[
 　shoot: {
       shots: 3
       shotDelay: 5
-       reload:30
     }
+ reload:30
   bullet: 
         {
         type: basicBulletType
         damage: 100
         speed: 10
         targetAir: false
-        sprite: MilitaryMod-AppachHelicopter-roketmissile
+        sprite: missile-large
         recoil: 0
         lifetime: 50
         targetsAir: true
