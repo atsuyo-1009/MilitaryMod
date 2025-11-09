@@ -47,7 +47,7 @@ weapons:[
         lifetime: 80
         targetGround: false
         splashDamage: 100
-        splashDamageRadius: 1
+        splashDamageRadius: 10
           fragBullets: 2
         fragBullet: {
           type: basicBulletType
