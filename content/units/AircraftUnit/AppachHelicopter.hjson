@@ -58,7 +58,7 @@ weapons:[
         damage: 100
         speed: 10
         targetAir: false
-        sprite: MilitaryMod-AppachHelicopter-roketluncher-roketmissile
+        sprite: MilitaryMod-AppachHelicopter-roketmissile
         width: 8
         recoil: 0
         lifetime: 50
