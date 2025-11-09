@@ -104,6 +104,34 @@ weapons:[
            }
   shootSound: missileTrail
            }
-           ]
-           
+ {
+  name:AppachHelicopter-maingun
+  layerOffset: -2
+  y: 1
+  x: 3
+  mirror:true
+　under:true
+  flipSprite: false
+  rotate: false
+  layerOffset: -2
+  recoil: 0
+  targetsAir: true
+  collidesAir: true
+  targetGround: true
+ reload:10
+  bullet: 
+        {
+        type: basicBulletType
+        damage: 20
+        speed: 5
+        targetAir: false
+        width: 4
+        recoil: 0
+        lifetime: 80
+        targetsAir: true
+        collidesAir: true
+        targetGround: true
+        }
+        }
+         ]
    
