@@ -58,7 +58,7 @@ weapons:[
         damage: 100
         speed: 10
         targetAir: false
-        sprite: MilitaryMod-AppachHelicopter-roketmissile
+        sprite: MilitaryMod-biotic-zlo-teeth
         width: 8
         recoil: 0
         lifetime: 50
