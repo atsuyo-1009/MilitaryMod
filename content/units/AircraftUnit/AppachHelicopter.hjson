@@ -50,6 +50,7 @@ weapons:[
 　shoot: {
       shots: 3
       shotDelay: 1000000
+       reload:30
     }
     reload:30
   bullet: 
