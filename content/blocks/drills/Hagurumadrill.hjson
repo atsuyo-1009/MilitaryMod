@@ -8,13 +8,13 @@ size: 2
 tier: 1
 drillTime: 400
 requirements: [
-	lead/100 
+	copper/100 
 ]
 category: production
 research: {
     parent: Corealpua
     requirements: [
-        copper/30
+        copper/100
         alwaysUnlocked: true
     ]
 }
