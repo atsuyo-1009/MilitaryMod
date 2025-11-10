@@ -134,4 +134,13 @@ weapons:[
         }
         }
          ]
-   
+  research: {
+  planet: Earth
+  name: MilitaryMod
+  requiresUnlock: true
+  requiments: [
+  IronPlate/6000
+  copper/5400
+  IronIngot:5000
+              ]
+             }
