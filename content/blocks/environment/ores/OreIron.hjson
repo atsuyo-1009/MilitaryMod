@@ -1,6 +1,7 @@
 type: OreBlock
 variants: 1
-itemDrop: IronIngot
+size:1
+itemDrop: IronOre
 oreThreshold: 1
 planet:Earth
 /*
