@@ -4,9 +4,9 @@ description:
 歯車式のドリル。最初はこんなものさ。
 '''
 type:Drill
-size: 3
-tier: 2
-drillTime: 450
+size: 2
+tier: 1
+drillTime: 800
 requirements: [
 	lead/100 
 ]
