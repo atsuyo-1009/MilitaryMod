@@ -1,0 +1,11 @@
+name: 鉄原石
+description: '''
+  鉄原石。鉄の鋳塊の材料。
+  '''
+color: 949593
+
+research: {
+planet: Earth
+name: MilitaryMod
+parent: Corealpua
+}
