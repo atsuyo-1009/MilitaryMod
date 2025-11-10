@@ -3,5 +3,7 @@ description: '''一般人。訓練兵になるための素材になります。
   '''
 color: fce1c5
 research: {
-  parent: copper
+planet: Earth
+name: MilitaryMod
+  parent: Coreaplua
 }
