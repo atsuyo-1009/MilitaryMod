@@ -41,7 +41,7 @@ weapons:[
   mirror:true
 　under:true
   flipSprite: false
-  rotate: false
+  rotate: true
   layerOffset: -2
   rotationLimit: 90
   rorate: true
