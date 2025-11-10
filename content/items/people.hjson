@@ -5,5 +5,5 @@ color: fce1c5
 research: {
 planet: Earth
 name: MilitaryMod
-  parent: Coreaplua
+  parent: IronIngot
 }
