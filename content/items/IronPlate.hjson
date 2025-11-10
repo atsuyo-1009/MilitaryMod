@@ -5,5 +5,7 @@ description: '''これは鉄板です。主に建築や建造に使われる一�
 color: c9caca
 
 research: {
-  parent: IronPlateFactory
+  parent: ronIngot
+planet: Earth
+name: MilitaryMod
 }
