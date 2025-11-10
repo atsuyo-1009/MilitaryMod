@@ -12,6 +12,7 @@ requirements: [
 ]
 category: production
 research: {
+alwaysUnlocked: true
     parent: Corealpua
     requirements: [
         copper/100
