@@ -87,3 +87,6 @@ enemyBuildSpeedMultiplier: 0.4
 enemyCoreSpawnReplace: false
 updateLighting: false
 allowWaveSimulation: true
+attackSectors:[
+0,3,1,9
+]
