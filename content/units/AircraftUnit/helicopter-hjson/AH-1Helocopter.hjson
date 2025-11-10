@@ -68,7 +68,6 @@ weapons:[
   research: {
   planet: Earth
   name: MilitaryMod
-  requiresUnlock: true
   parent:Corealpua
   requiments: [
   IronPlate/6000
