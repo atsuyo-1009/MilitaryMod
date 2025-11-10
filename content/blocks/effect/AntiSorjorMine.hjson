@@ -34,3 +34,7 @@ Gunpowder/30
     #01a-08-item-cretite/8
   ]
 researchCostMultiplier: 0.5
+research:{
+planet: Earth
+name: MilitaryMod
+}
