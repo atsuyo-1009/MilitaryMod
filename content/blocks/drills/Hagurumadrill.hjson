@@ -1,0 +1,20 @@
+name: 歯車式のドリル
+description:
+'''
+歯車式のドリル。最初はこんなものさ。
+'''
+type:Drill
+size: 3
+tier: 2
+drillTime: 450
+requirements: [
+	lead/100 
+]
+category: production
+research: {
+    parent: Corealpua
+    requirements: [
+        copper/30
+        alwaysUnlocked: true
+    ]
+}
