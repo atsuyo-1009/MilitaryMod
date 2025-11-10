@@ -9,7 +9,4 @@ research: {
 planet: Earth
 name: MilitaryMod
   parent: IronPlate
-requiments: [
-sand/10
-coal/5]
 }
