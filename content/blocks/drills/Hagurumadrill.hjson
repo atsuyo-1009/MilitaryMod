@@ -15,6 +15,6 @@ research: {
 alwaysUnlocked: true
     parent: Corealpua
     requirements: [
-        copper/100
+        copper/10
 ]
 }
