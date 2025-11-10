@@ -34,5 +34,11 @@ requirements: [
 category: crafting
 research:{
 planet: Earth
+parent:Corealpua
+parent:IronIngot
 name: MilitaryMod
+requiments:[
+IronIngot/1000
+copper/1000
+           ]
         }
