@@ -32,4 +32,8 @@ requirements: [
 	IronIngot/30
 ]
 category: crafting
-research: IronIngot
+research:{
+planet: Earth
+name: MilitaryMod
+IronIngot
+}
