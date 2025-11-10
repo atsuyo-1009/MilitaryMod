@@ -6,7 +6,7 @@ description:
 type:Drill
 size: 2
 tier: 1
-drillTime: 800
+drillTime: 400
 requirements: [
 	lead/100 
 ]
