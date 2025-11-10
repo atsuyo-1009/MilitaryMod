@@ -16,8 +16,9 @@ buildVisibillity:shown
 alwaysUnlocked:false
 
 research: {
-  parent: sandbag
-  parent: earth
+parent: sandbag
+planet: Earth
+name: MilitaryMod
 requiments: [
 sand/10
 IronPlate/5]
