@@ -1,4 +1,4 @@
-generator: "PlanetGenerator"
+generator: "SerpuloPlanetGenerator"
 localizedName: 地球
 description: The rampant, filled with dangerous natives.
 accessible: true
