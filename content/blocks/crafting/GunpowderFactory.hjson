@@ -27,7 +27,8 @@ Gunpowder/5
 ]
 
 requirements: [
-	IronIngot/30
+IronIngot/30
+IronPlate/10
 ]
 category: crafting
 research: {
@@ -35,9 +36,9 @@ planet: Earth
 name: MilitaryMod
 parent: IronPlateFactory
 requiments: [
-IronPlate/10
-copper/20
-Sand/10
+IronPlate/1000
+copper/200
+Sand/100
 #Coal/10
 ]
 }
