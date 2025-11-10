@@ -1,0 +1,78 @@
+name: AH-1ヘリコプター
+description: "AH-1ヘリコプター。機体の左右に機関銃がついており、それで歩兵を掃除できる。とても脆い。"
+type: flying
+flying: true
+health: 50
+hitSize: 3
+speed: 3
+targetAir:false
+armor: 5
+drag: 0.05
+range: 360
+outlinecoloer:00000000
+outlineRadius: 0.1
+ parts: [
+           {
+           type:RegionPart
+           suffix:-rotator
+           under:false
+  moveRot: 360.0
+progress: {
+  type: time
+  ops: [
+    {
+      op: mul
+      amount: 0.02
+    }
+    {
+      op: mod
+      amount: 1.0
+    }
+  ]
+}
+}
+]
+weapons:[         
+ {
+  name:AH-1Helicopter-turret
+  layerOffset: -2
+  y: 0
+  x: 0
+  mirror:true
+　under:true
+  flipSprite: false
+  rotate: false
+  layerOffset: -2
+  rotationLimit: 90
+  rorate: true
+  recoil: 0.1
+  targetsAir: true
+  collidesAir: true
+  targetGround: true
+ reload:10
+  bullet: 
+        {
+        type: basicBulletType
+        damage: 20
+        speed: 7
+        targetAir: false
+        width: 4
+        recoil: 0
+        lifetime: 80
+        targetsAir: true
+        collidesAir: true
+        targetGround: true
+        }
+        }
+         ]
+  research: {
+  planet: Earth
+  name: MilitaryMod
+  requiresUnlock: true
+  parent:Corealpua
+  requiments: [
+  IronPlate/6000
+  copper/5400
+  IronIngot:5000
+              ]
+             }
