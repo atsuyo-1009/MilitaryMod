@@ -2,7 +2,7 @@ type: OreBlock
 variants: 1
 itemDrop: IronIngot
 oreThreshold: 1
-
+planet:Earth
 /*
 ***光る設定？***
 emitLight: true
