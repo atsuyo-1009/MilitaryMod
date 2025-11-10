@@ -16,8 +16,9 @@ buildVisibillity:shown
 alwaysUnlocked:true
 
 research: {
-  parent: Coreoiia
-  parent: earth
+  parent: Corealpua
+  planet: Earth
+  name: MilitaryMod
 requiments: [
 sand/10
 IronPlate/5]
