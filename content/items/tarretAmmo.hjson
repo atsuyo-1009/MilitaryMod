@@ -4,6 +4,8 @@ description: '''
   '''
 color: cccccc
 research: {
+planet: Earth
+name: MilitaryMod
   parent: IronPlate
 requirements: [
 IronPlate/30
