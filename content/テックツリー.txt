@@ -1,10 +1,7 @@
-project
-├── mod.hjson
-├── content
-│   ├── items
-│   ├── blocks
-│   ├── liquids
-│   └── units
+Corealpua
+├──IronOre──IronIngot──IronPlate──Gunpowder──Ammo
+├── 
+│   
 ├── maps
 ├── bundles
 ├── sounds
@@ -12,3 +9,7 @@ project
 ├── scripts
 ├── sprites-override
 └── sprites
+
+
+
+
