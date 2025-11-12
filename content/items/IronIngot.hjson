@@ -8,5 +8,5 @@ alwaysUnlocked: true
 research: {
 planet: Earth
 name: MilitaryMod
-parent:Corealpua
+parent:IronOre
 }
