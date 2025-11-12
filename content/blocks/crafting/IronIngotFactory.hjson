@@ -13,7 +13,7 @@ consumes: {
 	items: {
 		items: [
 			IronOre/2
-            coal:1
+            coal/1
 		]
 	}
 }
