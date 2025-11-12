@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: 鉄の鋳塊工場
 description:
-'''これは鉄板工場で、一般的な工場です。
+'''ここは鉄原石を溶かし、鉄の鋳塊を作る工場で、一般的な工場です。副産物としてスラグを生み出します。（つまり溶鉱炉）
 '''
 
 
@@ -9,7 +9,7 @@ description:
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 250
+craftTime: 100
 updateEffect: smeltsmoke
 
 consumes: {
