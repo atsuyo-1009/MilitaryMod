@@ -1,6 +1,6 @@
 generator: "SerpuloPlanetGenerator"
 localizedName: 地球
-description: The rampant, filled with dangerous natives.
+description: 人間の故郷。ここでは反乱軍による暴動が頻繁に起きている。あなたはこれを鎮圧するために派遣された司令官である。すべてのセクターを制圧して資源を手中に収めるのだ。
 accessible: true
 visible: true
 alwaysUnlocked: true
