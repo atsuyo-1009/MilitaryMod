@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: 鉄の鋳塊工場
+description:
+'''これは鉄板工場で、一般的な工場です。
+'''
+
+
+
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 250
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 1
+	items: {
+		items: [
+			IronIngot/1
+		]
+	}
+}
+
+outputItems: [
+	IronPlate/2
+]
+
+
+
+
+requirements: [
+	IronIngot/30
+]
+category: crafting
+research:{
+planet: Earth
+objectives: [
+  IronOre
+] 
+parent:Corealpua
+name: MilitaryMod
+requiments:[
+IronIngot/1000
+copper/1000
+           ]
+        }
