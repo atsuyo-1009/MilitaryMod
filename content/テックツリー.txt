@@ -1,15 +1,12 @@
 Corealpua
 ├──IronOre──IronIngot──IronPlate──Gunpowder──Ammo
-├── 
-│   
-├── maps
-├── bundles
-├── sounds
-├── schematics
+├──IronIOngotFactory──IronPlateFactorty──GunpowderFactory──*AmmoFactory
+├──hagurumadrill──*electrycaldrill──*laserdrill
+├──Newground──
+├──AH-1helicopter──Appachhelicopter──*Covrahelicopter
 ├── scripts
 ├── sprites-override
 └── sprites
 
-
-
-
+# *のついてるところは作成予定　名前変更も視野に入れてる可能性もあり
+# *のついたところができ次第*を削除すること
