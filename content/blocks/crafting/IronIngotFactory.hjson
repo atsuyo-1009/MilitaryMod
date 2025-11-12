@@ -17,7 +17,6 @@ consumes: {
 		]
 	}
 }
-
 outputItems: [
   	IronIngot/4
              ]
