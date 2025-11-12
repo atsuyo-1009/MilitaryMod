@@ -4,7 +4,7 @@ description: '''
   '''
 
 color: c9caca
-alwaysUnlocked: true
+alwaysUnlocked: false
 research: {
 planet: Earth
 name: MilitaryMod
