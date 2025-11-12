@@ -3,17 +3,13 @@ name: 鉄の鋳塊工場
 description:
 '''ここは鉄原石を溶かし、鉄の鋳塊を作る工場で、一般的な工場です。副産物としてスラグを生み出します。（つまり溶鉱炉）
 '''
-
-
-
 size: 2
-hasPower: true
+hasPower: false
 hasItems: true
 craftTime: 100
 updateEffect: smeltsmoke
 
 consumes: {
-	power: 1
 	items: {
 		items: [
 			IronOre/2
@@ -28,11 +24,8 @@ outputItems: [
 outputliquid: [
   slag/30
               ]
-
-
-
 requirements: [
-	IronIngot/30
+	copper/30
 ]
 category: crafting
 research:{
@@ -43,7 +36,6 @@ objectives: [
 parent:Corealpua
 name: MilitaryMod
 requiments:[
-IronIngot/1000
-copper/1000
+copper/500
            ]
         }
