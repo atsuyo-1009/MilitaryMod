@@ -109,3 +109,9 @@ generator: {
   fscl: 30
   fper: 0.4
 }
+/**itemWhitelist: [
+	# vanilla
+	copper,lead,titanium,
+	sand,
+    thorium,
+]*/
