@@ -16,15 +16,18 @@ consumes: {
 	power: 1
 	items: {
 		items: [
-			IronIngot/1
+			IronOre/2
+            coal:1
 		]
 	}
 }
 
 outputItems: [
-	IronPlate/2
-]
-
+  	IronIngot/4
+             ]
+outputliquid: [
+  slag/30
+              ]
 
 
 
