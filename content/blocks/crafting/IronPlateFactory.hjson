@@ -37,7 +37,7 @@ planet: Earth
 objectives: [
   IronOre
 ] 
-parent:Corealpua
+parent:IronIngotFactory
 name: MilitaryMod
 requiments:[
 IronIngot/1000
