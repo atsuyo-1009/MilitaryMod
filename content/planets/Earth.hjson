@@ -69,6 +69,7 @@ campaignRuleDefaults.showSpawns: true
 
 startSector: 1
 sectorSize: 3
+sectorSeed: 0
 parent: sun
 solarSystem: sun
 tidalLock: true
@@ -90,3 +91,21 @@ allowWaveSimulation: true
 attackSectors:[
 0,3,9,101,
 ]
+generator: {
+  berylChance: 0.45
+  iceChance: 0.15
+  ferricChance: 0.55
+  stoneChance: 1
+  radMin: 1500
+  radMax: 1500
+  CoalScale: 0.3
+  thoriumScale: 0
+  titaniumScale: 0
+  copperScale: 0.6
+　leadScale: 0.6
+  scale: 25
+  mag: 0.5
+  thresh: 0.9
+  fscl: 30
+  fper: 0.4
+}
