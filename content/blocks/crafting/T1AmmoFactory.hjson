@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: T1弾薬工場
 description:
-'''ここは通常の弾薬を生産する工場で、広く使う火薬を作る工場です。
+'''ここは通常の弾薬を生産する工場で、初期の機銃などに使われます。
 '''
 
 
@@ -9,25 +9,25 @@ description:
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 500
+craftTime: 200
 updateEffect: smeltsmoke
 
 consumes: {
 	power: 1
 	items: {
 		items: [
-coal/ 2
-sand/ 3
+IronPlate/2 
+Gunpowder/ 1
 		]
 	}
 }
 
 outputItems: [
-Gunpowder/5
+tarretAmmo/5
 ]
 
 requirements: [
-IronIngot/30
+copper/30
 IronPlate/10
 ]
 category: crafting
@@ -35,10 +35,12 @@ research: {
 planet: Earth
 name: MilitaryMod
 parent: IronPlateFactory
+objectives: [
+  Gunpowder
+] 
 requiments: [
 IronPlate/1000
 copper/200
-Sand/100
-#Coal/10
+Gunpowder/100
 ]
 }
