@@ -3,9 +3,6 @@ name: T1弾薬工場
 description:
 '''ここは通常の弾薬を生産する工場で、初期の機銃などに使われます。
 '''
-
-
-
 size: 2
 hasPower: true
 hasItems: true
