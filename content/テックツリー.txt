@@ -1,5 +1,5 @@
 Corealpua
-├──IronOre──IronIngot──IronPlate──Gunpowder──Ammo
+├──IronOre──IronIngot──IronPlate──Gunpowder──turretAmmo
 ├──IronIOngotFactory──IronPlateFactorty──GunpowderFactory──**T1AmmoFactory
 │ 　　　　　　　　　　　 ├─*peopleFactory                       ├─*T1shellFactory
 ├──hagurumadrill──*electrycaldrill──*laserdrill
