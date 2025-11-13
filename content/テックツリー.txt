@@ -1,7 +1,7 @@
 Corealpua
 ├──IronOre──IronIngot──IronPlate──Gunpowder──Ammo
 ├──IronIOngotFactory──IronPlateFactorty──GunpowderFactory──**T1AmmoFactory
-│ 　　　　　　　　　　　 ├─*peopleFactory
+│ 　　　　　　　　　　　 ├─*peopleFactory                       ├─*T1shellFactory
 ├──hagurumadrill──*electrycaldrill──*laserdrill
 ├──Newground──
 ├──AH-1helicopter──Appachhelicopter──*Covrahelicopter
