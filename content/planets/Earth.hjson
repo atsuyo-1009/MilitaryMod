@@ -1,4 +1,4 @@
-generator: "SerpuloPlanetGenerator"
+generator: SerpuloPlanetGenerator
 localizedName: 地球
 description: "人間の故郷。ここでは反乱軍による暴動が頻繁に起きている。あなたはこれを制圧するために派遣された司令官である。すべてのセクターを制圧して資源を手中に収めるのだ。"
 accessible: true
