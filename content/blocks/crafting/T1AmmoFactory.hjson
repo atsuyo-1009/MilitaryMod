@@ -31,7 +31,7 @@ category: crafting
 research: {
 planet: Earth
 name: MilitaryMod
-parent: IronPlateFactory
+parent: GunpowderFactory
 objectives: [
   Gunpowder
 ] 
