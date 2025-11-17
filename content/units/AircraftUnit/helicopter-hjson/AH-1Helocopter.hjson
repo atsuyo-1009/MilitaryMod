@@ -42,7 +42,7 @@ weapons:[
 　under:true
   flipSprite: false
   rotate: true
-  layerOffset: -2
+  layerOffset: -1
   rotationLimit: 90
   rorate: true
   recoil: 0.1
