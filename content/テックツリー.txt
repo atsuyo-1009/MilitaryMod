@@ -6,7 +6,7 @@ Corealpua
 ├──Newground──
 ├──AH-1helicopter──Appachhelicopter──*Covrahelicopter
 ├──*copperutilitypole──*Ironutilitypole
-│   ├─*HandCrankedgenerator──*CoalPowerGeneratior──*FuelPowerGeneration──*NuclearPowerGeneration
+│   ├─*HandCrankedgenerator──*CoalPowerGeneratior──*FuelPowerGeneratior──*NuclearPowerGeneratior
 │   └─*VoltaicBattery──*LeadBattery──*SodiumBattery
 ├──
 ├──
