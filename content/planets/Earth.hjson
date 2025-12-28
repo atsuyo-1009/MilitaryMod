@@ -113,6 +113,5 @@ generator: {
 	# vanilla
 	copper,lead,titanium,
 	sand,
-    thorium,
 ]*/
 defaultCore: Corealpua
