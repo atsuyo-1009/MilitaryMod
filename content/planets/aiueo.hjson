@@ -5,7 +5,7 @@ core/src/mindustry/type/Planet.java
 **/
 
 //planetの表示名
-localizedName: boil
+localizedName: testworld
 
 parent: sun
 
@@ -33,7 +33,7 @@ generator: {
   fper: 0.4
 }
 
-defaultCore:CoreSeeds
+defaultCore:Corealpua
 
 /** 
 	Orbital radius around the sun. 
@@ -122,18 +122,6 @@ mesh: {
 
 #工場作成用の資源を限定する
 itemWhitelist: [
-	#vanilla
-	#copper,lead,
-	sand,
-	
-	#cookmod
-	Seed,
-	Soil,Cacao,Carrot,Chocolete,Corn,CrackedChocolete,
-	GoldCarrot,GoldPotato,
-	Horinishi,HorinishiPowder,
-	Onion,Potato,PotatoChips,Salt,WhiteRadish,coal
-]
-
-hiddenItems: [
-titanium
+	copper,lead,
+	sand,titanium
 ]
