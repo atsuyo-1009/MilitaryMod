@@ -59,7 +59,6 @@ atmosphereColor: cc4e5c
 
 accessible: true
 alwaysUnlocked: true
-defaultCore: CoreSeeds
 
 /** Seed for sector base generation on this planet. -1 to use a random one based on ID. */
 sectorSeed: 1
