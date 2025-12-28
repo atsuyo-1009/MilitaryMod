@@ -116,10 +116,6 @@ mesh: {
 }
 
 # Only items available in this planet. Recommended over hiddenItems.
-#itemBracklist: [
-#  copper, lead, beryllium, graphite, titanium
-#]
-
 #工場作成用の資源を限定する
 itemWhitelist: [
 	copper,lead,
