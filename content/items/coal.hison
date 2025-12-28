@@ -1,2 +1,6 @@
 shownPlanets: [serpulo,Earth]
-
+research: {
+planet: Earth
+name: MilitaryMod
+  parent: 
+}
