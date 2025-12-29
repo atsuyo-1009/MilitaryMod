@@ -2,6 +2,7 @@ generator: SerpuloPlanetGenerator
 localizedName: 地球
 description: "人間の故郷。ここでは反乱軍による暴動が頻繁に起きている。あなたはこれを制圧するために派遣された司令官である。すべてのセクターを制圧して資源を手中に収めるのだ。"
 accessible: true
+defaultCore: aiueo-corealpua
 visible: true
 alwaysUnlocked: true
 mesh: [
@@ -109,4 +110,3 @@ generator: {
   fscl: 30
   fper: 0.4
 }
-defaultCore: aiueo-corealpua
