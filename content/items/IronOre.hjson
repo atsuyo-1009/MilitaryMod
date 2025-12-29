@@ -7,5 +7,5 @@ color: 949593
 research: {
 planet: Earth
 name: MilitaryMod
-parent: Corealpua
+parent: copper
 }
