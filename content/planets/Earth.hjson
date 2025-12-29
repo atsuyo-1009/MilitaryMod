@@ -114,4 +114,4 @@ generator: {
 	copper,lead,titanium,
 	sand,
 ]*/
-defaultCore: Corealpua
+defaultCore: corealpua
