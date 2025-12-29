@@ -109,4 +109,4 @@ generator: {
   fscl: 30
   fper: 0.4
 }
-defaultCore: aiueo-Corealpua
+defaultCore: aiueo-corealpua
