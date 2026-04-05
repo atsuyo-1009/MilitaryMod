@@ -51,7 +51,7 @@ cloudMesh: [
 
 allowCampaignRules: true
 allowLaunchLoadout: false
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLegacyLaunchPads: false
 allowSectorInvasion: false
