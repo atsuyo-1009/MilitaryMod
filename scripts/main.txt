@@ -23,4 +23,3 @@ Events.on(WorldLoadEvent, event => {
         }
     }, 1.0); // 1秒待つ（この間にロードを終わらせる）
 });
-
