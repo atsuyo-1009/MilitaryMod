@@ -4,14 +4,8 @@ Events.on(WorldLoadEvent, event => {
         if(!state || !state.rules || !state.rules.sector) return;
 
         let planet = state.rules.sector.planet;
-        
-        // 惑星名をログに出力してみる
-        Log.info("Planet name: " + (planet ? planet.name : "null"));
-        
         if(planet && planet.name.toLowerCase().includes("earth")){
             let flag = "intro_done_earth";
-            Log.info("Found earth planet!");
-            Log.info("Flag status: " + Core.settings.getBool(flag, false));
 
             if(!Core.settings.getBool(flag, false)){
                 Vars.ui.showText(
@@ -23,5 +17,5 @@ Events.on(WorldLoadEvent, event => {
                 Core.settings.save();
             }
         }
-    }, 1.0);
+    }, 3.0); // 1.0 → 3.0 に変更（3秒待つ）
 });
