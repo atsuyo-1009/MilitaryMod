@@ -4,6 +4,7 @@ type: Wall
 health: 2500
 size: 2
 armor: 300
+buildTime: 20
 requirements: [
     IronPlate/60
    sand/80
