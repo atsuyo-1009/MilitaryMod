@@ -9,6 +9,9 @@ Events.on(WorldLoadEvent, event => {
             
             if(planet.name.toLowerCase().includes("earth")){
                 let flag = "intro_done_earth";
+                
+                // デバッグ用：フラグを削除
+                // Core.settings.remove(flag);
 
                 if(!Core.settings.getBool(flag, false)){
                     Vars.ui.showText(
