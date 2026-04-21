@@ -33,7 +33,7 @@ ammoTypes: {
     frontColor: 653200
     backColor: 653200
     hitEffect: blastExplosion
-    splashDamage: 15
+    splashDamage: 50
     splashDamageRadius: 50
     ammoMultiPlier: 1
     reloadMultiPlier: 1
