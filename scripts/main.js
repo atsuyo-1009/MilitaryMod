@@ -21,3 +21,8 @@ Events.on(WorldLoadEvent, event => {
         }
     }, 2.0);
 });
+Events.on(ContentInitEvent, () => {
+    Core.settings.remove("intro_done_earth");
+    Core.settings.save();
+    Log.info("Earth intro flag removed");
+});
