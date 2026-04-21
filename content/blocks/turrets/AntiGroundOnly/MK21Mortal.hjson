@@ -12,7 +12,7 @@ targetAir: false
 hasPower: false
 hasLiquid: true
 liquidCapacity: 20
-itemCapacity: 20
+itemCapacity: 5
 hasItem: true
 itemCapacity: 30
 reload: 240
@@ -55,7 +55,7 @@ hitEffect:[
            }
            }
 BuildVisibillity: shown
-buildTime: 160
+buildTime: 30
     
 research: {
     parent: HK256ShortMachineGun
