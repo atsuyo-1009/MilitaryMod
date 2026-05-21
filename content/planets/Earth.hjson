@@ -99,7 +99,7 @@ generator: {
   stoneChance: 1
   radMin: 1500
   radMax: 1500
-  CoalScale: 0.3
+  coalScale: 0.3
   thoriumScale: 0
   titaniumScale: 0
   copperScale: 0.6
