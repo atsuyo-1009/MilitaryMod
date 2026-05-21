@@ -110,3 +110,9 @@ generator: {
   fscl: 30
   fper: 0.4
 }
+itemFilter: [
+  copper,
+  lead,
+  coal,         # 👈 これを明記することで、ゲーム側に「石炭の存在」を認めさせます
+  IronPlate     # MOD独自のカスタムアイテムもここに並べる
+]
