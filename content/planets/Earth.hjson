@@ -2,12 +2,10 @@ generator: SerpuloPlanetGenerator
 localizedName: 地球
 description: "って"
 accessible: true
-defaultCore: aiueo-corealpua
 visible: true
 alwaysUnlocked: true
 mesh: [
     {
-    //cobaltbiome
     type: NoiseMesh
     planet: Earth
     divisions: 5
@@ -21,7 +19,6 @@ mesh: [
     scl: 5
     }
     {
-    //tantrabiome
     type: NoiseMesh
     planet: Earth
     divisions: 5
@@ -52,11 +49,9 @@ cloudMesh: [
 allowCampaignRules: true
 allowLaunchLoadout: false
 allowLaunchSchematics: true
-allowLaunchToNumbered: false
 allowLegacyLaunchPads: false
 allowSectorInvasion: false
 allowSelfSectorLaunch: false
-allowWaveSimulation: false
 
 iconColor: 98c1f5
 landCloudColor: e2effc60
@@ -92,7 +87,22 @@ allowWaveSimulation: true
 attackSectors:[
 0,3,9,101,
 ]
-generator: {
+
+# 🛠️ 正しい項目名「itemFilter」に変更。
+# ここに書かれていないアイテム（チタンなど）は自動的に「隠しアイテム」になります。
+itemFilter: [
+  copper,
+  lead,
+  sand,
+  coal,
+  Gunpowder,
+  IronIngot,
+  IronOre,
+  IronPlate
+]
+
+# 🛠️ v8の仕様（planetGenerator）に修正し、全角スペースも完全に削除しました。
+planetGenerator: {
   berylChance: 0.45
   iceChance: 0.15
   ferricChance: 0.55
@@ -103,20 +113,10 @@ generator: {
   thoriumScale: 0
   titaniumScale: 0
   copperScale: 0.6
-　leadScale: 0.6
+  leadScale: 0.6
   scale: 25
   mag: 0.5
   thresh: 0.9
   fscl: 30
   fper: 0.4
 }
-itemWhitelist: [
-	#vanilla
-	copper,lead,
-	sand,coal,
-Gunpowder,IronIngot,IronOre,IronPlate,
-]
-
-hiddenItems: [
-titanium
-]
