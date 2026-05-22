@@ -6,6 +6,7 @@ description:
 size: 2
 hasPower: false
 hasItems: true
+hasLiquids: true
 craftTime: 100
 updateEffect: smeltsmoke
 
