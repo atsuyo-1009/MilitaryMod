@@ -2,7 +2,7 @@ name:光合成発電機
 type:SolarGenerator
 
 //施設のサイズ
-size: 4
+size: 2
 
 //このブロックを構築するためのコスト。
 requirements: [
