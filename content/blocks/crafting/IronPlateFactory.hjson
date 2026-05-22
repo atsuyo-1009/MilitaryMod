@@ -15,7 +15,7 @@ craftTime: 250
 updateEffect: smeltsmoke
 
 consumes: {
-	power: 1
+	power: 0
 	items: {
 		items: [
 			IronIngot/1
