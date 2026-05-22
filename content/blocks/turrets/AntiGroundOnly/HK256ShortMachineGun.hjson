@@ -49,7 +49,7 @@ BuildVisibillity: shown
 buildTime: 80
     
 research: {
-    parent: Coreqalpua
+    parent: Corealpua
     parent: earth
     requirements: [
       copper/ 30
