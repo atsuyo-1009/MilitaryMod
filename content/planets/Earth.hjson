@@ -4,6 +4,7 @@ description: "って"
 accessible: true
 visible: true
 alwaysUnlocked: true
+autoAssignPlanet: true
 mesh: [
     {
     type: NoiseMesh
