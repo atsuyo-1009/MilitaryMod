@@ -23,7 +23,7 @@ plans: [
   unit: AssaultTrooper
   requirements: [
     IronPlate/100
-    trainee/1
+    # trainee/1
   ]
   #10000=166.6s n/60=x
   time: 3000
