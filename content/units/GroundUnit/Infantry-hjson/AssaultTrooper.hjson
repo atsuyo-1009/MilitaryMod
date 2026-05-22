@@ -30,4 +30,11 @@
       }
     }
   ]
-research: 
+research: {
+  parent: Corealpua
+research: InfantryTrainingCenter
+  requirements: [
+IronIngot/100
+IronPlate/50
+  ]
+}
