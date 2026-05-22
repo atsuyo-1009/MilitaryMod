@@ -21,7 +21,7 @@ consumes: {
 	}
 }
 outputItems: [
-  	IronIngot/4
+  	IronIngot/400
              ]
 outputliquid: [
   slag/30
