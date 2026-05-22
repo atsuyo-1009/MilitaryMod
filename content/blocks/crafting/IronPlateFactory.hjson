@@ -9,7 +9,7 @@ shownPlanets: [
 
 
 size: 2
-hasPower: false
+hasPower:false
 hasItems: true
 craftTime: 250
 updateEffect: smeltsmoke
