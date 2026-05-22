@@ -49,13 +49,14 @@ BuildVisibillity: shown
 buildTime: 80
     
 research: {
-    parent: Coreoiia
+    parent: Coreqalpua
     parent: earth
     requirements: [
       copper/ 30
       IronPlate/ 40
       IronIngot/ 25
 ]
+reseach: tarretAmmo
 }
 requirements: [
       copper/ 10
