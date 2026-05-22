@@ -19,11 +19,11 @@ consumes: {
 #ユニット生産設定
 plans: [
 {
-  type: tank
-  unit: ThihaTank
+  type: mech
+  unit: AssaultTrooper
   requirements: [
     IronPlate/100
-    IronIngot/100
+    trainee/1
   ]
   #10000=166.6s n/60=x
   time: 3000
