@@ -3,7 +3,7 @@ type:PowerNode
 size:1
 
 laserRange:6
-maxNodes:4
+maxNodes:114514
 
 requirements: [
 	IronIngot/10
