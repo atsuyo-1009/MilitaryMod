@@ -1,0 +1,17 @@
+name:種ノード
+type:PowerNode
+size:1
+
+laserRange:6
+maxNodes:4
+
+requirements: [
+	IronIngot/10
+]
+category: power
+research: {
+	parent: Corealpua
+	requirements: [
+		IronIngot/30
+	]
+}
