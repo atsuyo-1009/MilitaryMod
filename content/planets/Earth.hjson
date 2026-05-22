@@ -90,8 +90,6 @@ attackSectors:[
 ]
 
   techTree: {
-  root: Corealpua
-
   children: [
     {
       content: copper
