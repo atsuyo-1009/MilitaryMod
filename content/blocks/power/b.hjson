@@ -6,7 +6,7 @@ size: 4
 
 //このブロックを構築するためのコスト。
 requirements: [
-		Carrot/10
+		IronIngot/10
 	]
 //どこのカテゴリに配置するか　電気、ドリル、壁、etc、、、
 category: power
