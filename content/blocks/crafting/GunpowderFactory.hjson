@@ -3,7 +3,9 @@ name: 火薬生産工場
 description:
 '''これは火薬生産工場で、広く使う火薬を作る工場です。
 '''
-
+shownPlanets: [
+  Earth
+]
 
 
 size: 2
