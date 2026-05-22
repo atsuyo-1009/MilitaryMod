@@ -3,6 +3,9 @@ description:
 '''
 歯車式のドリル。最初はこんなものさ。
 '''
+shownPlanets: [
+  Earth
+]
 type:Drill
 size: 2
 tier: 2
