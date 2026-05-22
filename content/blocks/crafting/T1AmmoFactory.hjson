@@ -8,7 +8,9 @@ hasPower: true
 hasItems: true
 craftTime: 200
 updateEffect: smeltsmoke
-
+shownPlanets: [
+  Earth
+]
 consumes: {
 	power: 1
 	items: {
