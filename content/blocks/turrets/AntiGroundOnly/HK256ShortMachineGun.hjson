@@ -45,7 +45,7 @@ ammoTypes: {
     pierceArmor: false
   }
 }
-buildVisibillity: shown
+BuildVisibillity: shown
 buildTime: 80
     
 research:{
