@@ -8,7 +8,9 @@ requirements: [
  IronPlate/100
 ]
 requiresCoreZone: true
-
+shownPlanets: [
+  Earth
+]
 # ここを false に変更（またはこの行自体を消す）
 incinerateNonBuildable: false
 
