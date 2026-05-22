@@ -15,13 +15,15 @@ category: power
 //alwaysUnlocked:true
 
 //テックツリーのどこにぶら下げるか
-research: {
-    parent: a
-    requirements: [
-        IronIngot/30
-    ]
-}
-
+category: power
+research:{
+planet: Earth
+parent:a
+name: MilitaryMod
+requiments:[
+IronIngot: 100
+           ]
+        }
 //体力
 health: 20
 
