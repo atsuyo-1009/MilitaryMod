@@ -38,3 +38,6 @@ research:{
 planet: Earth
 name: MilitaryMod
 }
+shownPlanets: [
+  Earth
+]
