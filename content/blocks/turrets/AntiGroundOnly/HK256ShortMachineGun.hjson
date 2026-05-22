@@ -56,7 +56,9 @@ research: {
       IronPlate/ 40
       IronIngot/ 25
 ]
-reseach: tarretAmmo
+objectives: [
+tarretAmmo
+] 
 }
 requirements: [
       copper/ 10
