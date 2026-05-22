@@ -7,7 +7,8 @@ size: 2
 hasPower: false
 hasItems: true
 hasLiquids: true
-capacity: 500
+liquidCapacity: 100
+itemCapacity: 500
 craftTime: 100
 updateEffect: smeltsmoke
 shownPlanets: [
