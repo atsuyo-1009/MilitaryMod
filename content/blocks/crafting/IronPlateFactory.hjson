@@ -3,7 +3,9 @@ name: 鉄板工場
 description:
 '''これは鉄板工場で、一般的な工場です。
 '''
-
+shownPlanets: [
+  Earth
+]
 
 
 size: 2
