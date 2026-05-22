@@ -9,7 +9,9 @@ hasItems: true
 hasLiquids: true
 craftTime: 100
 updateEffect: smeltsmoke
-
+shownPlanets: [
+  Earth
+]
 consumes: {
 	items: {
 		items: [
