@@ -11,9 +11,6 @@ requirements: [
 category: power
 research:{
 planet: Earth
-objectives: [
-  IronOre
-] 
 parent:Corealpua
 name: MilitaryMod
 requiments:[
