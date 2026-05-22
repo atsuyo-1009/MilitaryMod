@@ -90,25 +90,25 @@ attackSectors:[
 ]
 
   techTree: {
-    root: Corealpua
+  root: Corealpua
 
-    children: [
-      {
-        content: copper
+  children: [
+    {
+      content: copper
 
-        children: [
-          {
-            content: lead
+      children: [
+        {
+          content: lead
 
-             children: [
-          {
-            content: coal
-          }
-        ]
-      }
-    ]
-  }
- ]
+          children: [
+            {
+              content: coal
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
 # 🛠️ v8の仕様（planetGenerator）に修正し、全角スペースも完全に削除しました。
 planetGenerator: {
