@@ -59,7 +59,7 @@ buildTime: 30
     
 research: {
     parent: HK256ShortMachineGun
-    parent:earth
+    parent:Earth
     requirements: [
       copper/ 30
       IronPlate/ 40
