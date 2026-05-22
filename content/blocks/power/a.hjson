@@ -1,0 +1,19 @@
+name:種ノード
+type:PowerNode
+size:1
+
+laserRange:6
+maxNodes:4
+
+requirements: [
+	IronIngot/10
+]
+category: power
+research:{
+planet: Earth
+parent:Corealpua
+name: MilitaryMod
+requiments:[
+copper/500
+           ]
+        }
