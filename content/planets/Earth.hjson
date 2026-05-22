@@ -100,7 +100,7 @@ attackSectors:[
           {
             content: lead
 
-　　　　　　　 children: [
+             children: [
           {
             content: coal
           }
