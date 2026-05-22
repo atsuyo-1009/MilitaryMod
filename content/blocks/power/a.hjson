@@ -2,7 +2,7 @@ name:種ノード
 type:PowerNode
 size:1
 
-laserRange:6
+laserRange:114514
 maxNodes:114514
 
 requirements: [
