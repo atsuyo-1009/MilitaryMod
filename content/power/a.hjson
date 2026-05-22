@@ -9,9 +9,14 @@ requirements: [
 	IronIngot/10
 ]
 category: power
-research: {
-	parent: Corealpua
-	requirements: [
-		IronIngot/30
-	]
-}
+research:{
+planet: Earth
+objectives: [
+  IronOre
+] 
+parent:Corealpua
+name: MilitaryMod
+requiments:[
+copper/500
+           ]
+        }
