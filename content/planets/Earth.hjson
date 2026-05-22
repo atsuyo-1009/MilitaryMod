@@ -89,19 +89,27 @@ attackSectors:[
 0,3,9,101,
 ]
 
-# 🛠️ 正しい項目名「itemFilter」に変更。
-# ここに書かれていないアイテム（チタンなど）は自動的に「隠しアイテム」になります。
-itemFilter: [
-  copper,
-  lead,
-  sand,
-  coal,
-  Gunpowder,
-  IronIngot,
-  IronOre,
-  IronPlate
-]
+  techTree: {
+    root: Corealpua
 
+    children: [
+      {
+        content: copper
+
+        children: [
+          {
+            content: lead
+
+　　　　　　　 children: [
+          {
+            content: coal
+          }
+        ]
+      }
+    ]
+  }
+ ]
+}
 # 🛠️ v8の仕様（planetGenerator）に修正し、全角スペースも完全に削除しました。
 planetGenerator: {
   berylChance: 0.45
