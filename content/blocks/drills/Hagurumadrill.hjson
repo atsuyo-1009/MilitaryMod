@@ -5,7 +5,7 @@ description:
 '''
 type:Drill
 size: 2
-tier: 1
+tier: 2
 drillTime: 400
 requirements: [
 	copper/100 
