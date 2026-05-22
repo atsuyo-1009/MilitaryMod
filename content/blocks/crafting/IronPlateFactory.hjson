@@ -42,7 +42,7 @@ objectives: [
 parent:IronIngotFactory
 name: MilitaryMod
 requiments:[
-IronIngot/1000
-copper/1000
+IronIngot/100
+copper/100
            ]
         }
