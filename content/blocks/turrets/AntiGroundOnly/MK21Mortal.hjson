@@ -56,16 +56,15 @@ hitEffect:[
            }
 BuildVisibillity: shown
 buildTime: 30
-    
-research: {
-    parent: HK256ShortMachineGun
-    parent:Earth
-    requirements: [
-      copper/ 30
-      IronPlate/ 40
-      IronIngot/ 25
-]
-}
-requirements: [
-      lead/ 10
-      IronPlate/ 20]
+research:{
+planet: Earth
+objectives: [
+  tarretAmmo
+] 
+parent:HK2565MachineGun
+name: MilitaryMod
+requiments:[
+IronIngot/100
+copper/100
+           ]
+        }
