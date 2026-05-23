@@ -9,8 +9,8 @@ copper　銅├─│└──
 │  │　└── blastcompound 爆発性化合物
 │  │
 │  ├─oil オイル
-│  │ └──plastanium プラスタニウム
-│  │ 
+│  　 └──plastanium プラスタニウム
+│  
 │
 │
 │
