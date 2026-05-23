@@ -4,7 +4,31 @@ type: ItemTurret
 category: turret
 size: 1
 health: 80
+recoil: 1.0
+reload: 100
+range: 320
+inaccuracy: 0
+hasPower: false
+hasItems: true
+itemCapacuty: 30
+ammoPerShot: 5
+ammoEjectBack: 1
 buildVisibillity: shown
+shoot: {
+  shots: 10
+shotDelay: 9
+}
+burstSpacing: 5
+spread: 4
+restitution: 0.1
+cooldown: 0.1
+rotatespeed: 5
+shootCone: 8
+shootShake: 0
+xRand: 0
+
+targetAir: true
+targetGround: true
 research:{
 planet: Earth
 parent:Corealpua
