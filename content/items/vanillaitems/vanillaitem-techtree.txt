@@ -1,0 +1,20 @@
+copper　銅├─│└── 
+├─sand 砂
+│　　├────────────────scrap スクラップ
+│coal　石炭             └──slag スラッグ
+│ ├─graphite　黒鉛
+│ │　　└──silicon　シリコン
+│ pyratite ピタライト
+│ │
+│ ├─
+│ │
+│
+│
+│
+lead　鉛
+│
+coal　石炭
+│
+sand 砂
+│ ├─graphite　黒鉛
+│ └──silicon　シリコン
