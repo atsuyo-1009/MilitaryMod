@@ -7,12 +7,13 @@ health: 80
 targetable: true
 squareSprites: false
 targetAir: false
-hasPower: false
 hasLiquid: true
 liquidCapacity: 50
-itemCapacity: 50
-hasItem: true
-itemCapacity: 30
+hasPowre: false
+hasItems: true
+itemCapacuty: 30
+ammoPerShot: 5
+ammoEjectBack: 1
 
 reload: 5
 chargeTime: 0
@@ -45,7 +46,7 @@ ammoTypes: {
     pierceArmor: false
   }
 }
-BuildVisibillity: shown
+buildVisibillity: shown
 buildTime: 80
     
 research:{
