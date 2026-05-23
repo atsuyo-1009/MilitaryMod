@@ -1,14 +1,16 @@
 copper　銅├─│└── 
+├─water 水
 ├─sand 砂
 │　　├────────────────scrap スクラップ
-│coal　石炭             └──slag スラッグ
-│ ├─graphite　黒鉛
-│ │　　└──silicon　シリコン
-│ pyratite ピタライト
-│ │
-│ ├─oil オイル
-│ │ └──plastanium プラスタニウム
-│ │ 
+│ coal　石炭            └──slag スラッグ
+│  ├─graphite　黒鉛
+│  │　　└──silicon　シリコン
+│  ├─pyratite ピタライト
+│  │　└── blastcompound 爆発性化合物
+│  │
+│  ├─oil オイル
+│  │ └──plastanium プラスタニウム
+│  │ 
 │
 │
 │
@@ -16,4 +18,7 @@ lead　鉛
 │　└──metaglass メタガラス 
 │
 titanium チタン
-│　├─cryofluid 冷却水
+│ └─cryofluid 冷却水
+│
+Thorium トリウム
+└──phasefabric フェイズファイバー
