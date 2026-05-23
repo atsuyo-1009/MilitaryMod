@@ -26,7 +26,7 @@ rotatespeed: 5
 shootCone: 8
 shootShake: 0
 xRand: 0
-ammoTypes:{
+ammotypes:{
  type: basicBulletType
   speed: 4
   lifetime: 80
