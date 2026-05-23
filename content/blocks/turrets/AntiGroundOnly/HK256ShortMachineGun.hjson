@@ -26,7 +26,21 @@ rotatespeed: 5
 shootCone: 8
 shootShake: 0
 xRand: 0
-
+ammoTypes:{
+ type: basicBulletType
+  speed: 4
+  lifetime: 80
+  inaccuracy: 45
+  damage: 50
+  hitSize: 25
+  width: 10
+  drawSize: 250
+  ammoMultiPlire: 2
+  reloadMultiPlier: -2
+ items:[
+      tarretAmmo/1
+    ]
+}
 targetAir: true
 targetGround: true
 research:{
