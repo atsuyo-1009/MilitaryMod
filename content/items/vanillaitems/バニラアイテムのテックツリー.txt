@@ -6,8 +6,9 @@ copper　銅├─│└──
 │ │　　└──silicon　シリコン
 │ pyratite ピタライト
 │ │
-│ ├─
-│ │
+│ ├─oil オイル
+│ │ └──Plastanium プラスタニウム
+│ │ 
 │
 │
 │
