@@ -4,12 +4,9 @@ type: ItemTurret
 category: turret
 size: 1
 health: 80
-
+buildVisibillity: shown
 research:{
 planet: Earth
-objectives: [
-  tarretAmmo
-] 
 parent:Corealpua
 name: MilitaryMod
 requiments:[
