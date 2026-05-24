@@ -4,45 +4,34 @@ type: ItemTurret
 category: turret
 size: 1
 health: 80
-recoil: 1.0
-reload: 100
-range: 320
-inaccuracy: 0
-hasPower: false
-hasItems: true
-itemCapacuty: 30
-ammoPerShot: 5
-ammoEjectBack: 1
-buildVisibillity: shown
 shoot: {
-  shots: 10
-shotDelay: 9
+  shots: 3
 }
-burstSpacing: 5
-spread: 4
-restitution: 0.1
-cooldown: 0.1
-rotatespeed: 5
-shootCone: 8
-shootShake: 0
-xRand: 0
-ammotypes:{
- type: basicBulletType
-  speed: 4
-  lifetime: 80
-  inaccuracy: 45
-  damage: 50
-  hitSize: 25
-  width: 10
-  drawSize: 250
-  ammoMultiPlire: 2
-  reloadMultiPlier: -2
- items:[
-      tarretAmmo/1
-    ]
+inaccuracy: 5
+shootSound: fire
+range: 80
+reload: 5
+recoil: 0.5
+buildVisibillity: shown
+hasLiquids: true
+liquidCapacity: 60
+targetAir: false
+rotatespeed:15.0
+targetable : true
+hasItem : true
+itemCapacity : 30
+
+ammoTypes: {
+  tarretAmmo: {
+    type:BasicBlletType
+	  damage:10
+	  speed:30
+	  lifetime:20
+	  width:2
+	  height:5
+	  ammoMultiplier:1
+  }
 }
-targetAir: true
-targetGround: true
 research:{
 planet: Earth
 parent:Corealpua
