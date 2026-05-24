@@ -1,7 +1,7 @@
 name: HK256短機関銃
 description: "歩兵に効果的な機関銃。戦車に使うのはいい案ではありません。"
-type: ItemTurret
-category: turret
+type : itemTurret
+category : turret
 size: 1
 health: 80
 shoot: {
