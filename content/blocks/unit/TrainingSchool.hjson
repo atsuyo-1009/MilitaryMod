@@ -37,7 +37,8 @@ objectives: [
   people
 ] 
   requirements: [
-    IronIngot/100
+    IronIngot/10
+    people/30
     IronPlate/50
   ]
 }
