@@ -1,6 +1,6 @@
-name: tanemasingan
+name: テストのタレット
 type: ItemTurret
-size: 3
+size: 1
 targetAir: false 
 health: 1200
 range: 160
@@ -10,10 +10,10 @@ shoot: {
   shots: 3
 }
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
-inaccuracy: 25
+inaccuracy: 5
 shootSound: fire
 ammoTypes: {
-  Seed: {
+  copper: {
     type:BasicBlletType
 	  damage:30
 	  speed:10
@@ -25,11 +25,11 @@ ammoTypes: {
 }
 category: turret
 research: {
-    parent: VegetableCanon
+    parent: Corealpua
     requirements: [
-        Seed/30
+        copper/30
     ]
 }
 requirements: [
-  Seed/125
+  copper/125
 ]
