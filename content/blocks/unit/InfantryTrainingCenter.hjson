@@ -7,7 +7,7 @@ description:
 
 # n･･･内部の数値 x･･･ゲーム内の数値
 
-type: UnitFactory
+type: refabricator
 researchCostMultiplier: 0.3
 category: units
 size: 3
