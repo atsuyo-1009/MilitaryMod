@@ -16,35 +16,28 @@ consumes: {
 	power: 5
 }
 
-#ユニット生産設定
-plans: [
-{
-  type: mech
-  unit: AssaultTrooper
-  requirements: [
-    IronPlate/100
-    # trainee/1
-  ]
-  #10000=166.6s n/60=x
-  time: 3000
-}
-{
-  type:crawl
-  unit: ATtrack
-  requirements: [
-    IronPlate/150
-    IronIngot/100
-  ]
-  #10000=166.6s
-  time: 600
-}
-
-
+#ユニット生産設定 
+requirements: [
+  {
+  IronPlate/ 10
+Gunpowder/10
+  }
 ]
+upgrades: [
+[
+Trainee
+AssalutTrooper
+  ]
+]
+constructTime: 3600
+
 research: {
-  parent: IronPlateFactory
+  parent: TrainingSchool
+objectives: [
+  people
+] 
   requirements: [
-    IronIngot/100
+IronIngot/100
 IronPlate/50
   ]
 }
