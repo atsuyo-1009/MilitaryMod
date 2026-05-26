@@ -1,0 +1,46 @@
+name:歩兵訓練所 
+
+description:
+'''
+歩兵訓練所。一般的な歩兵はここから生み出されます。歩兵を生み出すにはまず訓練兵を作る必要があります。
+'''
+
+# n･･･内部の数値 x･･･ゲーム内の数値
+
+type: refabricator
+researchCostMultiplier: 0.3
+category: units
+size: 3
+consumes: {
+	#5=300 n*60=x
+	power: 5
+}
+
+#ユニット生産設定 
+requirements: [
+IronPlate/ 10
+Gunpowder/10
+]
+upgrades: [
+[
+Trainee
+AssalutTrooper
+  ]
+]
+constructTime: 3600
+
+research: {
+  parent: TrainingSchool
+objectives: [
+  people
+] 
+  requirements: [
+IronIngot/100
+IronPlate/50
+  ]
+}
+requirements: [
+IronPlate/60
+copper/50
+people/15
+]
