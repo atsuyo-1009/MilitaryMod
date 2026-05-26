@@ -18,10 +18,8 @@ consumes: {
 
 #ユニット生産設定 
 requirements: [
-  {
-  IronPlate/ 10
+IronPlate/ 10
 Gunpowder/10
-  }
 ]
 upgrades: [
 [
