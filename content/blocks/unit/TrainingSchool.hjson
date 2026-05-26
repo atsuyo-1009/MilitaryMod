@@ -26,7 +26,7 @@ plans: [
     IronPlate/10
   ]
   #10000=166.6s n/60=x
-  time: 3600
+  time: 1800
 }
 ]
 research: {
