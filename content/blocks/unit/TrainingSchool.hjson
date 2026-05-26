@@ -1,8 +1,8 @@
-name:訓練兵育成所
+name: 訓練兵育成所
 
 description:
 '''
-訓練兵育成所。歩兵を作るためになくてはならないものである。
+訓練兵を生産するところです。一般的な歩兵を生み出すのに不可欠です
 '''
 
 # n･･･内部の数値 x･･･ゲーム内の数値
@@ -13,7 +13,7 @@ category: units
 size: 3
 consumes: {
 	#5=300 n*60=x
-	power: 3
+	power: 5
 }
 
 #ユニット生産設定
@@ -22,8 +22,8 @@ plans: [
   type: mech
   unit: trainee
   requirements: [
-    copper/50
-   　people/1
+    people/1
+    IronPlate/10
   ]
   #10000=166.6s n/60=x
   time: 3600
@@ -31,12 +31,12 @@ plans: [
 ]
 research: {
   parent: Corealpua
-objectives: [
-  people
-] 
   requirements: [
-    IronIngot/10
-   people/30
-    IronPlate/50
+    IronPlate/30
+    people/10
   ]
 }
+requirements: [
+people/20
+IronPlate/50
+]
