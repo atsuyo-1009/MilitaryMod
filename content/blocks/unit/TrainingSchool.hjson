@@ -28,8 +28,6 @@ plans: [
   #10000=166.6s n/60=x
   time: 3600
 }
-
-
 ]
 research: {
   parent: Corealpua
