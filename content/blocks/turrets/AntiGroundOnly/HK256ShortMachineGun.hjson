@@ -2,13 +2,10 @@ name:HK236短機関銃タレット
 type: ItemTurret
 size: 1
 targetAir: false 
-health: 1200
-range: 160
+health: 500
+range: 320
 reload: 5
 recoil: 0.5
-shoot: {
-  shots: 3
-}
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
 inaccuracy: 25
 shootSound: fire
@@ -25,13 +22,16 @@ ammoTypes: {
 }
 category: turret
 research: {
+objectives: [
+  IronPlate
+] 
     parent: Corealpua
     requirements: [
-        copper/30
-        IronPlate/10
+        copper/100
+        IronPlate/50
     ]
 }
 requirements: [
-  copper/125
-  IronPlate/50
+  copper/30
+  IronPlate/10
 ]
