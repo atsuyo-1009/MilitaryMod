@@ -19,8 +19,8 @@ ammoTypes: {
 	  height:10
 	  ammoMultiplier:1
   }
-buildTime:360
 }
+buildTime:360
 category: turret
 research: {
 objectives: [
