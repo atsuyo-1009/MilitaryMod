@@ -31,7 +31,7 @@
     }
   ]
 research: {
-  parent: Corealpua
+  parent: trainee
 research: InfantryTrainingCenter
   requirements: [
 IronIngot/100
