@@ -21,8 +21,8 @@ ammoTypes: {
     frontColor: 653200
     backColor: 653200
     hitEffect: blastExplosion
-    splashDamage: 50
-    splashDamageRadius: 50
+    splashDamage: 100
+    splashDamageRadius: 60
     ammoMultiPlier: 1
     reloadMultiPlier: 1
     lifetime: 240
