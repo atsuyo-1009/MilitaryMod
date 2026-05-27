@@ -21,6 +21,7 @@ ammoTypes: {
     frontColor: 653200
     backColor: 653200
     hitEffect: blastExplosion
+    scaledSplashDamage:true
     splashDamage: 100
     splashDamageRadius: 60
     ammoMultiPlier: 1
@@ -28,7 +29,7 @@ ammoTypes: {
     lifetime: 240
     speed: 3
     bulletShrink: 0
-    damage: 150
+    damage: 240
     hitEffect: none
     absorbable: true
     pierceArmor: false
