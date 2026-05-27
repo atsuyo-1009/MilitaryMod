@@ -19,7 +19,10 @@ IronPlate/ 10
 Gunpowder/10
 ]
 upgrades: [
-[trainee AssalutTrooper]
+[
+trainee 
+AssalutTrooper
+]
 ]
 constructTime: 3600
 research: {
