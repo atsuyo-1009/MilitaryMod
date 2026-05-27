@@ -23,7 +23,7 @@ itemCapacity : 30
 
 ammoTypes: {
   tarretAmmo: {
-    type:BasicBlletType
+    type:basicBlletType
 	  damage:10
 	  speed:30
 	  lifetime:20
