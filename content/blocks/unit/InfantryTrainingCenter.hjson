@@ -14,15 +14,15 @@ consumes: {
 	power: 5
 }
 #ユニット生産設定 
-requirements: [
+requirements: 
+[
 IronPlate/ 10
 Gunpowder/10
-
+]
 upgrades: [
 [
 trainee 
 AssaultTrooper
-]
 ]
 ]
 constructTime: 3600
