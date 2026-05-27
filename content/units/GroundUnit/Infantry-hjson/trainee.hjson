@@ -10,3 +10,11 @@
   playerControllable: true
   canBeCarried: true        
   carrySize: 1
+research: {
+  parent: Corealpua
+research: TrainingCenter
+  requirements: [
+IronIngot/100
+IronPlate/50
+  ]
+}
