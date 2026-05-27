@@ -32,8 +32,6 @@ research: {
     ]
 }
 requirements: [
-{
   copper/125
   IronPlate/50
-}
 ]
