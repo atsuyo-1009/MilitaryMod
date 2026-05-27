@@ -3,8 +3,8 @@ type: ItemTurret
 size: 2
 targetAir: false 
 health: 500
-range: 320
-reload: 120
+range: 480
+reload: 240
 recoil: 0.5
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
 inaccuracy: 1
