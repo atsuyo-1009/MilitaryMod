@@ -3,7 +3,7 @@ type: ItemTurret
 size: 1
 targetAir: false 
 health: 500
-range: 160
+range: 200
 reload: 5
 recoil: 0.5
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
@@ -19,6 +19,7 @@ ammoTypes: {
 	  height:10
 	  ammoMultiplier:1
   }
+buildtime:360
 }
 category: turret
 research: {
