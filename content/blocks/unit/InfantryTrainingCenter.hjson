@@ -21,7 +21,7 @@ Gunpowder/10
 upgrades: [
 [
 trainee 
-AssalutTrooper
+AssaultTrooper
 ]
 ]
 constructTime: 3600
