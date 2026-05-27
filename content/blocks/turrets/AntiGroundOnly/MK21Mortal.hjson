@@ -1,6 +1,6 @@
 name:MK21モルタルタレット
 type: ItemTurret
-size: 1
+size: 2
 targetAir: false 
 health: 500
 range: 320
