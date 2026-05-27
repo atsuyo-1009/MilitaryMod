@@ -10,7 +10,7 @@ health: 300
 armor: 20
 targetGround: true
 faceTarget: true
-speed: 4
+speed: 2
 targetAir: false
 treadFrames: 5
 outlinecoloer:00000000
