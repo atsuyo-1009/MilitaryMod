@@ -12,7 +12,8 @@ shootSound: fire
 range: 80
 reload: 5
 recoil: 0.5
-buildVisibillity: shown
+BuildVisibillity: shown
+buildTime: 200
 hasLiquids: true
 liquidCapacity: 60
 targetAir: false
