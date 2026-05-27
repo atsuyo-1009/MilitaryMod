@@ -7,7 +7,7 @@ range: 320
 reload: 5
 recoil: 0.5
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
-inaccuracy: 25
+inaccuracy: 1
 shootSound: fire
 ammoTypes: {
   tarretAmmo: {
