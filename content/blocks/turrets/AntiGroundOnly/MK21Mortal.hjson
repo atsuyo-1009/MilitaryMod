@@ -2,7 +2,7 @@ name:MK21モルタルタレット
 type: ItemTurret
 size: 2
 targetAir: false 
-health: 500
+health: 670
 range: 480
 reload: 240
 recoil: 0.5
@@ -49,11 +49,11 @@ objectives: [
 ] 
     parent: HK256ShortMachineGun
     requirements: [
-        copper/100
+        IronIngot/100
         IronPlate/50
     ]
 }
 requirements: [
-  copper/30
-  IronPlate/10
+  IronIngot/10
+  IronPlate/30
 ]
