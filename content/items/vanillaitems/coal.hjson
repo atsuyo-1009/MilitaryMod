@@ -1,7 +1,7 @@
 shownPlanets: [serpulo,Earth]
 research: {
 planet: Earth
-  parent: sand
 name: MilitaryMod
+ parent: sand
 }
 
