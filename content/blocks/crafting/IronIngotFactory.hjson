@@ -25,7 +25,7 @@ consumes: {
 outputItems: [
   	IronIngot/400
              ]
-outputliquid: [
+outputLiquid: [
   slag/30
               ]
 requirements: [
