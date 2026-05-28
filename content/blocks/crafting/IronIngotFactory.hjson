@@ -23,14 +23,14 @@ consumes: {
 	}
 }
 outputItems: [
-  	IronIngot/400
+IronIngot/400
              ]
 outputsLiquid: [
-  slag/30
-              ]
+water/30
+               ]
 requirements: [
 	copper/30
-]
+              ]
 category: crafting
 research:{
 planet: Earth
