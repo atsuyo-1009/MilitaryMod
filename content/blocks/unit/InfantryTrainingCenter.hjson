@@ -26,7 +26,7 @@ trainee
 AssaultTrooper
 ]
 ]
-constructTime: 3600
+constructTime: 1800
 research: {
   parent: TrainingSchool
 objectives: [
