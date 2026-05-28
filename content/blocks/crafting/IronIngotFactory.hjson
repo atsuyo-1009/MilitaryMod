@@ -25,8 +25,8 @@ consumes: {
 outputItems: [
 IronIngot/400
              ]
-outputLiquids: [
-water/30
+outputLiquid: [
+water/0.5
                ]
 requirements: [
 	copper/30
