@@ -10,9 +10,9 @@ length: 5
 tendrils:3
 category: effect
 researth:{
-parent:copper
+parent:mod-copper
 requiments:[
-copper/20
+mod-copper/20
 IronPlate/10
 IronIngot/10
 Gunpowder/20
@@ -27,17 +27,8 @@ type: ExplosionBulletType
     statusDuration: 240
 }
 requirements: [
-   copper/40
+mod-copper/40
 IronPlate/10
 Gunpowder/30
-    #01a-07-item-lithium/25
-    #01a-08-item-cretite/8
   ]
 researchCostMultiplier: 0.5
-research:{
-planet: Earth
-name: MilitaryMod
-}
-shownPlanets: [
-  Earth
-]
