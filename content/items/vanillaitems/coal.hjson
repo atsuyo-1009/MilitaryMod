@@ -1,6 +1,7 @@
 shownPlanets: [serpulo,Earth]
-research: {
-planet: Earth
-name: MilitaryMod
-  parent: sand
+research: 
+{
+　planet: Earth
+　name: MilitaryMod
+　parent: Sand
 }
