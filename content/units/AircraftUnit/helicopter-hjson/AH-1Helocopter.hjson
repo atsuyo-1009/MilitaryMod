@@ -71,7 +71,8 @@ weapons:[
   parent:Corealpua
   requiments: [
   IronPlate/6000
-  copper/5400
+  mod-copper/5400
   IronIngot:5000
               ]
+
              }
