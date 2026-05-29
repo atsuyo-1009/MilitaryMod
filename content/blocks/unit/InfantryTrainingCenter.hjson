@@ -39,6 +39,6 @@ IronPlate/50
             }
 requirements: [
 IronPlate/60
-copper/50
+mod-copper/50
 people/15
               ]
