@@ -9,6 +9,6 @@ name: MilitaryMod
   parent: IronPlate
 requirements: [
 IronPlate/30
-copper/600
+mod-copper/600
 ]
 }
