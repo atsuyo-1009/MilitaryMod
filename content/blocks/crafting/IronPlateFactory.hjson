@@ -24,7 +24,7 @@ consumes: {
 }
 
 outputItems: [
-	IronPlate/2
+	IronPlate/5
 ]
 
 
@@ -43,6 +43,6 @@ parent:IronIngotFactory
 name: MilitaryMod
 requiments:[
 IronIngot/100
-copper/100
+mod-copper/100
            ]
         }
