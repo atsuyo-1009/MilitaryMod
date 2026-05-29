@@ -1,5 +1,0 @@
-shownPlanets: [serpulo,Earth]
-research: {
-planet: Earth
-  parent: copper
-}
