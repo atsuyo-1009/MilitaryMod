@@ -7,8 +7,4 @@ research: {
 planet: Earth
 name: MilitaryMod
   parent: IronPlate
-requirements: [
-IronPlate/30
-mod-copper/600
-]
 }
