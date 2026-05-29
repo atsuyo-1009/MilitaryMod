@@ -6,7 +6,7 @@ explosiveness:0
 flammability:0
 radioactivity:0
 charge:0
-color:d99d73
+color:8c7fa9
 alwaysUnlocked: false
 research: {
 planet: Earth
