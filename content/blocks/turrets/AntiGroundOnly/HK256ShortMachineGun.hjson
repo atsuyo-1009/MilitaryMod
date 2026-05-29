@@ -28,11 +28,11 @@ objectives: [
 ] 
     parent: Corealpua
     requirements: [
-        copper/100
-        IronPlate/50
+    mod-copper/100
+    IronPlate/50
     ]
 }
 requirements: [
-  copper/30
+  mod-copper/30
   IronPlate/10
 ]
