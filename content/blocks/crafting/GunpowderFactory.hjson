@@ -6,8 +6,6 @@ description:
 shownPlanets: [
   Earth
 ]
-
-
 size: 2
 hasPower: true
 hasItems: true
@@ -39,8 +37,8 @@ name: MilitaryMod
 parent: IronPlateFactory
 requiments: [
 IronPlate/1000
-copper/200
+mod-copper/200
 Sand/100
-#Coal/10
+#coal/10
 ]
 }
