@@ -11,12 +11,12 @@ size: 2
 tier: 2
 drillTime: 400
 requirements: [
-	copper/100 
+	mod-copper/100 
 ]
 category: production
 research: {
     parent: Corealpua
     requirements: [
-        copper/15
+        mod-copper/15
 ]
 }
