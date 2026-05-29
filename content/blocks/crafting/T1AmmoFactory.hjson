@@ -26,7 +26,7 @@ tarretAmmo/5
 ]
 
 requirements: [
-copper/30
+mod-copper/30
 IronPlate/10
 ]
 category: crafting
@@ -39,7 +39,7 @@ objectives: [
 ] 
 requiments: [
 IronPlate/1000
-copper/200
+mod-copper/200
 Gunpowder/100
 ]
 }
