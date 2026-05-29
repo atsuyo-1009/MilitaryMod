@@ -14,6 +14,6 @@ planet: Earth
 parent:Corealpua
 name: MilitaryMod
 requiments:[
-copper/500
+mod-copper/500
            ]
         }
