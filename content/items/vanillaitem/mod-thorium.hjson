@@ -1,0 +1,16 @@
+name: トリウム
+description: '''
+一般的で手軽な鉱石です。機械や液体輸送ブロックなどに使われます。
+  '''
+explosiveness:0.2
+flammability:0
+radioactivity:1
+charge:0
+hardness:4
+color:ebeef5
+alwaysUnlocked: false
+research: {
+planet: Earth
+name: MilitaryMod
+parent:mod-lead
+}
