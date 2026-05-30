@@ -1,9 +1,8 @@
 type: GenericCrafter
 name: T1弾薬工場
-description
-'''
+description:
 test...test...canI use it?
-'''
+
 hasPower: false
 hasItems: true
 craftTime: 200
