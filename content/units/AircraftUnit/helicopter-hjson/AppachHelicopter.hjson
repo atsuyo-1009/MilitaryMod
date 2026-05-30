@@ -139,8 +139,8 @@ weapons:[
   name: MilitaryMod
   requiresUnlock: true
   requiments: [
-  IronPlate/6000
-  copper/5400
-  IronIngot:5000
+  IronPlate/1000
+  mod-copper/2000
+  IronIngot:2500
               ]
              }
