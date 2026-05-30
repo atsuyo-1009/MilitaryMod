@@ -1,0 +1,15 @@
+name: チタン
+description: '''
+便利な鉱石です。多様なブロックとして幅広く使われています。
+  '''
+explosiveness:0
+flammability:0
+radioactivity:0
+charge:0
+color:8da1e3
+alwaysUnlocked: false
+research: {
+planet: Earth
+name: MilitaryMod
+parent:mod-lead
+}
