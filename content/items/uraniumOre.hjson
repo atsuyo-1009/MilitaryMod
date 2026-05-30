@@ -1,0 +1,12 @@
+name: ウラニウム原石
+description: '''ウラニウム原石。強い放射能を放っており、圧縮することで原子炉の燃料にすることが可能。
+  '''
+color: 416942
+radioactivity:0.65
+Hardness:3
+  
+research: {
+  parent: IronIngot
+planet: Earth
+name: MilitaryMod
+}
