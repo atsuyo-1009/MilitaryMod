@@ -6,6 +6,7 @@ health: 300
 hitSize: 6
 speed: 2
 targetAir:false
+engineSize:0
 armor: 20
 drag: 0.05
 range: 360
