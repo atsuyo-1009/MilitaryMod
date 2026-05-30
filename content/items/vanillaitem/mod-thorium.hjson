@@ -12,5 +12,5 @@ alwaysUnlocked: false
 research: {
 planet: Earth
 name: MilitaryMod
-parent:mod-lead
+parent:mod-titanium
 }
