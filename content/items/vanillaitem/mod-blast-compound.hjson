@@ -1,0 +1,16 @@
+name: 爆発性化合物
+description: '''
+便利な鉱石です。多様なブロックとして幅広く使われています。
+  '''
+explosiveness:1.2
+flammability:0.4
+radioactivity:0
+charge:0
+hardness:0
+color:8c7fa9
+alwaysUnlocked: ff795e
+research: {
+planet: Earth
+name: MilitaryMod
+parent:mod-
+}
