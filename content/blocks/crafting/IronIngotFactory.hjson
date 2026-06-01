@@ -25,7 +25,7 @@ consumes: {
 outputItems: [
 IronIngot/400
              ]
-outputLiquid:water/0.5
+outputLiquid:mod-slag/0.01
                
 requirements: [
 	mod-copper/30
