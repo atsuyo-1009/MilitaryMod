@@ -18,7 +18,7 @@ consumes: {
 	items: {
 		items: [
 			IronOre/2
-            coal/1
+            mod-coal/1
 		]
 	}
 }
@@ -35,8 +35,10 @@ research:{
 planet: Earth
 objectives: [
   IronOre
+  mod-coal
 ] 
 parent:Corealpua
+research:IronOre
 name: MilitaryMod
 requiments:[
 mod-copper/500
