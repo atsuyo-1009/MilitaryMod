@@ -1,0 +1,16 @@
+name: スラッグ
+description: '''
+  鉄原石。鉄の鋳塊の材料。
+  '''
+explosiveness: 0
+flammability: 0
+heatcapacity: 0.5
+Viscosity: 0.7
+temperature:1
+color: ffa166ff
+
+research: {
+planet: Earth
+name: MilitaryMod
+parent: mod-slag
+}
