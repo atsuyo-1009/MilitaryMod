@@ -13,6 +13,9 @@
 research: {
   parent: Corealpua
 research: TrainingCenter
+objectives: [
+  TrainingCenter
+] 
   requirements: [
 IronIngot/100
 IronPlate/50
