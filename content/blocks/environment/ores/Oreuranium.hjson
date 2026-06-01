@@ -1,0 +1,11 @@
+type: OreBlock
+variants: 1
+size:1
+itemDrop: uraniumOre
+oreThreshold: 1
+planet:Earth
+/*
+***光る設定？***
+emitLight: true
+lightRadius: 12
+lightColor: ffffff
