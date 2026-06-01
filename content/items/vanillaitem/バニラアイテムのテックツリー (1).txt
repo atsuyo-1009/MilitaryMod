@@ -1,12 +1,12 @@
-copper　銅├─│└── 
+＊copper　銅├─│└── 
 ├─water 水
-├─sand 砂
+├─＊sand 砂
 │　　├────────────────scrap スクラップ
-│ coal　石炭            └──slag スラッグ
-│  ├─graphite　黒鉛
-│  │　　└──silicon　シリコン
-│  ├─pyratite ピタライト
-│  │　└── blastcompound 爆発性化合物
+│ ＊coal　石炭            └──slag スラッグ
+│  ├─＊graphite　黒鉛
+│  │　　└──＊silicon　シリコン
+│  ├─＊pyratite ピタライト
+│  │　└── ＊blastcompound 爆発性化合物
 │  │
 │  ├─oil オイル
 │  　 └──plastanium プラスタニウム
@@ -14,11 +14,13 @@ copper　銅├─│└──
 │
 │
 │
-lead　鉛
-│　└──metaglass メタガラス 
+＊lead　鉛
+│　└──＊metaglass メタガラス 
 │
-titanium チタン
+＊titanium チタン
 │ └─cryofluid 冷却水
 │
-Thorium トリウム
-└──phasefabric フェイズファイバー
+＊Thorium トリウム
+└──＊phasefabric フェイズファイバー
+※＊のついたものはmodアイテムとしてすでにとうろくしているもの(なおその中には鉱脈として登録しなければいけないものがあることに留意)
+※!のついているものは上記の鉱脈を作り終え、デバッグが終わったもの
