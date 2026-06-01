@@ -1,0 +1,16 @@
+name: 石炭
+description: '''
+便利な鉱石です。多様なブロックとして幅広く使われています。
+  '''
+explosiveness:0.2
+flammability:1
+radioactivity:0
+charge:0
+hardness:2
+color:8c7fa9
+alwaysUnlocked: false
+research: {
+planet: Earth
+name: MilitaryMod
+parent:mod-sand
+}
