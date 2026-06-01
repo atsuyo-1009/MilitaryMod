@@ -7,7 +7,7 @@ flammability:1
 radioactivity:0
 charge:0
 hardness:2
-color:8c7fa9
+color:272727
 alwaysUnlocked: false
 research: {
 planet: Earth
