@@ -12,5 +12,5 @@ color: ffa166ff
 research: {
 planet: Earth
 name: MilitaryMod
-parent: mod-slag
+parent: mod-scrap
 }
