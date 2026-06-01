@@ -12,5 +12,5 @@ alwaysUnlocked: ff795e
 research: {
 planet: Earth
 name: MilitaryMod
-parent:mod-
+parent:mod-pyratite
 }
