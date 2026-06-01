@@ -11,7 +11,7 @@
   canBeCarried: true        
   carrySize: 1
 research: {
-  parent: Corealpua
+  parent: TrainingCenter
 research: TrainingCenter
   requirements: [
 IronIngot/100
