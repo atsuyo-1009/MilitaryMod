@@ -1,7 +1,7 @@
 ＊copper　銅├─│└── 
 ├─water 水
 ├─＊sand 砂
-│　　├────────────────scrap スクラップ
+│　　├────────────────＊scrap スクラップ
 │ ＊coal　石炭            └──slag スラッグ
 │  ├─＊graphite　黒鉛
 │  │　　└──＊silicon　シリコン
