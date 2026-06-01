@@ -33,6 +33,9 @@
 research: {
   parent: trainee
 research: InfantryTrainingCenter
+objectives: [
+InfantryTrainingCenter
+] 
   requirements: [
 IronIngot/100
 IronPlate/50
