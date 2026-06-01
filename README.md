@@ -6,12 +6,12 @@
 このMODには専用の惑星があり、そこで主にユニットやタレットを使うことになります！(バニラでの惑星では使えません…すいません)
 デバッグや、性能等、いろいろなご意見等がありましたら、mindustry公式discordに出没しています(そこからDMにとんで直接DMへご意見していただいても構いません)のでそちらにお願いします！
 https://discord.gg/rj3WdEJZ
-/n このMODは色々な方が協力してくれたmodです！
-手伝っていただいた方(さんは省略)
-・あじの
-・きのこたけ
-・じゅにゃん
-その他公式mindustryのdiscordの方々
-あつよが入っているLINEのオープンチャットがありますので、よければそちらに入ってください…！ここにはあじのさんやきのこたけさんなど、日本人のmindustryプレイヤーさんが沢山います！
-https://line.me/ti/g2/W4rTAN3cZvX2kZ0jijb3IGZo4-kijrc6qR-q2w?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
-長くなりましたが、楽しく遊んでくれることを願います！
+<br>このMODは色々な方が協力してくれたmodです！
+<br>手伝っていただいた方(さんは省略)
+<br>・あじの
+<br>・きのこたけ
+<br>・じゅにゃん
+<br>その他公式mindustryのdiscordの方々
+<br>あつよが入っているLINEのオープンチャットがありますので、よければそちらに入ってください…！ここにはあじのさんやきのこたけさんなど、日本人のmindustryプレイヤーさんが沢山います！
+<br>https://line.me/ti/g2/W4rTAN3cZvX2kZ0jijb3IGZo4-kijrc6qR-q2w?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
+<br>長くなりましたが、楽しく遊んでくれることを願います！
