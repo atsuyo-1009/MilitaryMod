@@ -2,7 +2,7 @@
   name: 小型自立タイタン
   description: 機関銃を2門装着している小型のタイタン。自立しているので人員を失う必要はない。(司令は飛ばしてください)
   health: 550
-  speed: 3
+  speed: 2.15
   hitSize: 7
   armor: 1
   outlinecoloer:00000000
