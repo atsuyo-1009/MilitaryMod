@@ -15,10 +15,10 @@
       name: T1-smallmech-turret
       reload: 10
       mirror: true
-      shootX: 0
-      shootY: 10
-      x: 0
-      y: 10
+      shootX: -1
+      shootY: 0
+      x: -1
+      y: 0
       layerOffset: -1
       bullet: {
         type: BasicBulletType
