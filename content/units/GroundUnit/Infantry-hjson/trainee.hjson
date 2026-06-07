@@ -11,8 +11,8 @@
   canBeCarried: true        
   carrySize: 1
 research: {
-  parent: TrainingCenter
-research: TrainingCenter
+  parent: TrainingSchool
+research: TrainingSchool
   requirements: [
 IronIngot/100
 IronPlate/50
