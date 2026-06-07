@@ -16,9 +16,9 @@
       reload: 10
       mirror: true
       shootX: 1
-      shootY: 1
+      shootY: 2
       x: 1
-      y: 1
+      y: 2
       layerOffset: -1
       bullet: {
         type: BasicBulletType
