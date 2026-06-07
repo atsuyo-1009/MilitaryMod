@@ -1,0 +1,44 @@
+  type: mech
+  name: 小型自立タイタン
+  description: 機関銃を2門装着している小型のタイタン。自立しているので人員を失う必要はない。(司令は飛ばしてください)
+  health: 550
+  speed: 3
+  hitSize: 3
+  armor: 1
+  outlinecoloer:00000000
+  outlineRadius: -10000000
+  playerControllable: true
+  canBeCarried: true        
+  carrySize: 1
+  weapons: [
+    {
+      name: T1-smallmech-turret
+      reload: 10
+      mirror: true
+      shootX: -1
+      shootY: 10
+      x: 0
+      y: 0
+      layerOffset: -1
+      bullet: {
+        type: BasicBulletType
+        damage: 20
+        speed: 6
+        lifetime: 80
+        width: 2
+        height: 4
+      }
+    }
+  ]
+research: {
+  parent: corealpua
+research: people
+objectives: [
+people
+] 
+  requirements: [
+IronIngot/100
+IronPlate/50
+people/10
+  ]
+}
