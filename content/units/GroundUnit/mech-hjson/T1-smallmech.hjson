@@ -15,9 +15,9 @@
       name: T1-smallmech-turret
       reload: 10
       mirror: true
-      shootX: 3
+      shootX: 2.5
       shootY: 2
-      x: 5
+      x: 4.5
       y: 2
       layerOffset: -1
       bullet: {
