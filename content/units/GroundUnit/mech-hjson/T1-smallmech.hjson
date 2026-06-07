@@ -31,7 +31,7 @@
     }
   ]
 research: {
-  parent: corealpua
+  parent: Corealpua
 research: people
 objectives: [
 people
