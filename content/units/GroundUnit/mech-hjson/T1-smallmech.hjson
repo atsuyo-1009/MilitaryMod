@@ -15,7 +15,7 @@
       name: T1-smallmech-turret
       reload: 10
       mirror: true
-      shootX: 1.25
+      shootX: 1.2
       shootY: 2
       x: 4.5
       y: 2
