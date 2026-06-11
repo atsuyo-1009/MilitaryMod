@@ -11,7 +11,8 @@
   canBeCarried: true        
   carrySize: 1
 legCount: 2
-legMoveSpace: 0.8
+legMoveSpace: 1
+legBaseOffset: 1
   weapons: [
     {
       name: T1-smallmech-turret
