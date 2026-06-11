@@ -10,7 +10,8 @@
   playerControllable: true
   canBeCarried: true        
   carrySize: 1
-legCount: 2
+
+  legCount: 2
   rotateSpeed: 1.4
   legCount: 2
   legMoveSpace: 0.7
@@ -20,6 +21,7 @@ legCount: 2
   legSpeed: 0.17
   legSplashDamage: 200
   legSplashRange: 36
+
   weapons: [
     {
       name: T1-smallmech-turret
