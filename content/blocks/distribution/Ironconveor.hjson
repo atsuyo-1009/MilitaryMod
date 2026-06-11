@@ -7,5 +7,5 @@ displayedSpeed:1.5
 pushUnits: true
 requirements: [
   mod-copper/1
-  IronIngot/ 2
+  IronIngot/2
 ]
