@@ -13,7 +13,7 @@
 legCount: 2
 legMoveSpace: 1
 legBaseOffset: 1
-lockLegBase: false
+lockLegBase: true
 flipLegSide: false
 legRotSpeed: -1
   weapons: [
