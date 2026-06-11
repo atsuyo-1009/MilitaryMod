@@ -13,6 +13,9 @@
 legCount: 2
 legMoveSpace: 1
 legBaseOffset: 1
+lockLegBase: false
+flipLegSide: false
+legRotSpeed: -1
   weapons: [
     {
       name: T1-smallmech-turret
