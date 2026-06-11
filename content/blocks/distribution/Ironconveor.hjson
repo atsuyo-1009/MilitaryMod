@@ -1,6 +1,7 @@
 name:鉄のコンベアー
 description: '''鉄で作られたコンベアー。これ以上にいいものはないだろう。最初から最後までずっと使える代物。'''
 type: Conveyor
+category: distribution
 health: 100   
 speed: 0.1
 displayedSpeed:1.5
