@@ -11,16 +11,15 @@
   canBeCarried: true        
   carrySize: 1
 legCount: 2
-legMoveSpace: 1
-legBaseOffset: 1
-lockLegBase: true
-flipLegSide: false
-legRotSpeed: -1
-legStraightness: 1
-baseLegStraightness: 1
-legForwardScl: 2
-flipBackLegs: false
-legGroupSize: 1
+  rotateSpeed: 1.4
+  legCount: 2
+  legMoveSpace: 0.7
+  legLength: 39
+  legBaseOffset: 15
+  legTrns: 0.6
+  legSpeed: 0.17
+  legSplashDamage: 200
+  legSplashRange: 36
   weapons: [
     {
       name: T1-smallmech-turret
