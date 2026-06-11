@@ -16,6 +16,8 @@ legBaseOffset: 1
 lockLegBase: true
 flipLegSide: false
 legRotSpeed: -1
+legStraightness: 1
+baseLegStraightness: 1
   weapons: [
     {
       name: T1-smallmech-turret
