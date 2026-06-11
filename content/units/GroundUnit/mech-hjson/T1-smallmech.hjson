@@ -18,6 +18,9 @@ flipLegSide: false
 legRotSpeed: -1
 legStraightness: 1
 baseLegStraightness: 1
+legForwardScl: 2
+flipBackLegs: false
+
   weapons: [
     {
       name: T1-smallmech-turret
