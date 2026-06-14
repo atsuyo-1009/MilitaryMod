@@ -10,6 +10,15 @@
   playerControllable: true
   canBeCarried: true        
   carrySize: 1
+  legCount: 2
+  rotateSpeed: 3
+  legMoveSpace: 0.7
+  legLength: 39
+  legBaseOffset: 15
+  legTrns: 0.6
+  legSpeed: 0.17
+  legSplashDamage: 200
+  legSplashRange: 36
   weapons: [
     {
       name: AssaultTrooper-Assaultrifle
