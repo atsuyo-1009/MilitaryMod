@@ -1,0 +1,53 @@
+  type: mech
+  name: マシンガンナー
+  description: マシンガンナー。/n一般的な歩兵より多くの体力を持っており、マシンガンを装備しているが、そのかわり足が遅い。
+  health: 550
+  speed: 0.5
+  hitSize: 3
+  armor: 5
+  outlinecoloer:00000000
+  outlineRadius: -10000000
+  playerControllable: true
+  canBeCarried: true        
+  carrySize: 1
+  legCount: 2
+  rotateSpeed: 3
+  legMoveSpace: 0.7
+  legLength: 39
+  legBaseOffset: 15
+  legTrns: 0.6
+  legSpeed: 0.17
+  legSplashDamage: 200
+  legSplashRange: 36
+  weapons: [
+    {
+      name: MachineGuner-gun
+      reload: 10
+      mirror: false
+      shootX: -1
+      shootY: 10
+      x: 0
+      y: 0
+      layerOffset: -1
+      bullet: {
+        type: "BasicBulletType"
+        damage: 10
+        speed: 6
+        lifetime: 80
+        width: 2
+        height: 4
+      }
+    }
+  ]
+research: {
+  parent: trainee
+research: InfantryTrainingCenter
+objectives: [
+InfantryTrainingCenter
+] 
+  requirements: [
+IronIngot/100
+IronPlate/50
+people/3
+  ]
+}
