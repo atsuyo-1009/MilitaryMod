@@ -10,6 +10,15 @@
   playerControllable: true
   canBeCarried: true        
   carrySize: 1
+  rotateSpeed: 3
+  legCount: 2
+  legMoveSpace: 0.7
+  legLength: 39
+  legBaseOffset: 15
+  legTrns: 0.6
+  legSpeed: 0.17
+  legSplashDamage: 200
+  legSplashRange: 36
 research: {
   parent: TrainingSchool
 research: TrainingSchool
