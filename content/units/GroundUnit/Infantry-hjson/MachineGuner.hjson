@@ -27,7 +27,7 @@
       shootX: -1
       shootY: 10
       x: -1
-      y: 10
+      y: 5
       layerOffset: -1
       bullet: {
         type: "BasicBulletType"
