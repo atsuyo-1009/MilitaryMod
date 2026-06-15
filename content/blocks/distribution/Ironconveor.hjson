@@ -5,7 +5,7 @@ category: distribution
 size: 1
 health: 100   
 speed: 0.1
-displayedSpeed:1.5
+displayedSpeed:0.5
 pushUnits: true
 requirements: [
   mod-copper/1
