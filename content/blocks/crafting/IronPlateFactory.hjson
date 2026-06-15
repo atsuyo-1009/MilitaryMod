@@ -37,7 +37,7 @@ category: crafting
 research:{
 planet: Earth
 objectives: [
-  IronOre
+  IronIngot
 ] 
 parent:IronIngotFactory
 name: MilitaryMod
