@@ -11,3 +11,17 @@ requirements: [
   mod-copper/1
   IronIngot/2
 ]
+research:{
+planet: Earth
+objectives: [
+  IronIngot
+  mod-copper
+] 
+parent:Corealpua
+research:IronOre
+name: MilitaryMod
+requiments:[
+mod-copper/50
+IronIngot/100
+           ]
+        }
