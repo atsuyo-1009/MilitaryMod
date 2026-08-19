@@ -1,9 +1,12 @@
-name:種ノード
+name:鉄の電線
+description:
+'''これは鉄の電線で、一般的によく使われるものです。
+'''
 type:PowerNode
 size:1
 
 laserRange:20
-maxNodes:114514
+maxNodes:300
 
 requirements: [
 	IronIngot/10
@@ -11,9 +14,12 @@ requirements: [
 category: power
 research:{
 planet: Earth
+objectives: [
+ IronIngot
+] 
 parent:Corealpua
 name: MilitaryMod
 requiments:[
-mod-copper/500
+IronIngot/100
            ]
         }
