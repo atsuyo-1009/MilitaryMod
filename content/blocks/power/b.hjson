@@ -1,8 +1,11 @@
-name:光合成発電機
+name:太陽光発電機
 type:SolarGenerator
+description:
+'''これは太陽光発電です。ほぼすべての場所で非常用に使うことができます。
+'''
 
 //施設のサイズ
-size: 2
+size: 1
 
 //このブロックを構築するためのコスト。
 requirements: [
@@ -12,25 +15,25 @@ requirements: [
 category: power
 
 //研究をするか否か　trueでアンロック
-//alwaysUnlocked:true
+//alwaysUnlocked:false
 
 //テックツリーのどこにぶら下げるか
 category: power
 research:{
 planet: Earth
-parent:a
+parent:IronPowerNode
 name: MilitaryMod
 requiments:[
 IronIngot: 100
            ]
         }
 //体力
-health: 20
+health: 50
 
 //発電量 0.1で1倍で発電
 //発電量6のソーラーパネルの場合120発電
 //ソーラー専用？
-powerProduction: 2
+powerProduction: 1.15
 
 //trueの場合、建物にはPowerModuleがあります。
 //hasPower: true
