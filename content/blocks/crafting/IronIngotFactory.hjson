@@ -23,7 +23,7 @@ consumes: {
 	}
 }
 outputItems: [
-IronIngot/400
+IronIngot/10
              ]
 outputLiquid:mod-slag/0.01
                
