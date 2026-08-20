@@ -23,7 +23,8 @@ ammoTypes: {
       shootEffect: sparkShoot
       smokeEffect: shootBigSmoke2
       hitEffect: blastExplosion
-      
+       pierceArmor: true
+
        pierce: true
       pierceBuilding: true
       pierceCap:10
