@@ -23,6 +23,7 @@ ammoTypes: {
       shootEffect: sparkShoot
       smokeEffect: shootBigSmoke2
       hitEffect: blastExplosion
+      shootSound: artillery
        pierceArmor: true
 
        pierce: true
