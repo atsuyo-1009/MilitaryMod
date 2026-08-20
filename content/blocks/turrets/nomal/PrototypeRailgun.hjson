@@ -4,7 +4,7 @@ size: 3
 targetAir: true
 targetGround: true
 health: 25000
-range: 300
+range: 400
 reload: 40
 recoil: 0
 buildTime:10
@@ -15,8 +15,8 @@ ammoTypes: {
   tarretAmmo: {
     type:BasicBlletType
 	  damage:1000
-	  speed:100
-	  lifetime:16
+	  speed:50
+	  lifetime:8
 	  width:8
 	  height:8
 	  ammoMultiplier:1
