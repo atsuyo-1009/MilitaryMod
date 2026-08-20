@@ -7,6 +7,7 @@ health: 25000
 range: 200
 reload: 40
 recoil: 0
+buildtime:10
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
 inaccuracy: 0
 shootSound: fire
