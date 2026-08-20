@@ -25,7 +25,9 @@ ammoTypes: {
       hitEffect: blastExplosion
       shootSound: artillery
        pierceArmor: true
-
+ scaledSplashDamage:true
+    splashDamage: 700
+    splashDamageRadius: 60
        pierce: true
       pierceBuilding: true
       pierceCap:10
