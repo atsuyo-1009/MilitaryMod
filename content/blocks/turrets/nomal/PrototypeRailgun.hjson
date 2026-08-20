@@ -20,7 +20,7 @@ ammoTypes: {
 	  width:2
 	  height:4
 	  ammoMultiplier:1
-　　　 shootEffect: sparkShoot
+	  shootEffect: sparkShoot
       smokeEffect: shootBigSmoke2
        pierce: true
       pierceBuilding: true
