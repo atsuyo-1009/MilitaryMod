@@ -1,6 +1,6 @@
 name: 胞子ポッド
 description: '''
-便利な鉱石です。多様なブロックとして幅広く使われています。
+石油や爆薬、燃料への転換として使用されます。
   '''
 explosiveness:0
 flammability:1.15
