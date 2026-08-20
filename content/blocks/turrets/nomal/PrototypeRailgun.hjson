@@ -4,7 +4,7 @@ size: 4
 targetAir: true
 targetGround: true
 health: 25000
-range: 200
+range: 500
 reload: 40
 recoil: 0
 buildTime:10
@@ -20,6 +20,9 @@ ammoTypes: {
 	  width:2
 	  height:4
 	  ammoMultiplier:1
+       pierce: true
+      pierceBuilding: true
+      pierceCap:10
   }
 }
 category: turret
