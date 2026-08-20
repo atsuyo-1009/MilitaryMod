@@ -22,7 +22,6 @@ ammoTypes: {
 	  ammoMultiplier:1
   }
 }
-buildTime:
 category: turret
 research: {
 objectives: [
