@@ -1,0 +1,37 @@
+name:試作型レールガン
+type: ItemTurret
+size: 4
+targetAir: true
+targetGround: true
+health: 
+range: 
+reload: 
+recoil: 
+//inaccuracy=精度(不正確さ)角度｢°｣表記です
+inaccuracy: 
+shootSound: fire
+ammoTypes: {
+  tarretAmmo: {
+    type:BasicBlletType
+	  damage:
+	  speed:
+	  lifetime:
+	  width:
+	  height:
+	  ammoMultiplier:1
+  }
+}
+buildTime:
+category: turret
+research: {
+objectives: [
+  
+] 
+    parent: 
+    requirements: [
+   
+    ]
+}
+requirements: [
+ 
+]
