@@ -3,21 +3,21 @@ type: ItemTurret
 size: 4
 targetAir: true
 targetGround: true
-health: 
-range: 
-reload: 
-recoil: 
+health: 25000
+range: 200
+reload: 40
+recoil: 0
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
-inaccuracy: 
+inaccuracy: 0
 shootSound: fire
 ammoTypes: {
   tarretAmmo: {
     type:BasicBlletType
-	  damage:
-	  speed:
-	  lifetime:
-	  width:
-	  height:
+	  damage:1000
+	  speed:100
+	  lifetime:16
+	  width:2
+	  height:4
 	  ammoMultiplier:1
   }
 }
