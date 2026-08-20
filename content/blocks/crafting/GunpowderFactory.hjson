@@ -16,8 +16,8 @@ consumes: {
 	power: 1
 	items: {
 		items: [
-coal/ 2
-sand/ 3
+mod-coal/ 2
+mod-sand/ 3
 		]
 	}
 }
@@ -38,7 +38,7 @@ parent: IronPlateFactory
 requiments: [
 IronPlate/1000
 mod-copper/200
-Sand/100
-#coal/10
+mod-Sand/100
+mod-#coal/10
 ]
 }
