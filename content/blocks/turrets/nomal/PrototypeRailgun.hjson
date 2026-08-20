@@ -4,7 +4,7 @@ size: 3
 targetAir: true
 targetGround: true
 health: 25000
-range: 400
+range: 800
 reload: 40
 recoil: 0
 buildTime:10
