@@ -17,7 +17,7 @@ ammoTypes: {
 	  damage:1000
 	  speed:100
 	  lifetime:16
-	  width:4
+	  width:8
 	  height:8
 	  ammoMultiplier:1
       shootEffect: sparkShoot
