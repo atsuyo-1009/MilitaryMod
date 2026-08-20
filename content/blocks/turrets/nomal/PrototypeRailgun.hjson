@@ -14,7 +14,7 @@ shootSound: fire
 ammoTypes: {
   tarretAmmo: {
     type:BasicBlletType
-	  damage:1000
+	  damage:15000
 	  speed:50
 	  lifetime:16
 	  width:8
