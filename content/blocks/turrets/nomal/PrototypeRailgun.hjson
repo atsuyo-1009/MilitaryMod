@@ -1,6 +1,6 @@
 name:試作型レールガン
 type: ItemTurret
-size: 4
+size: 3
 targetAir: true
 targetGround: true
 health: 25000
