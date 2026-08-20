@@ -25,13 +25,13 @@ buildTime:
 category: turret
 research: {
 objectives: [
-  
+  mod-thorium
 ] 
-    parent: 
-    requirements: [
-   
+    parent: mod-copper
+    requirements: 	[
+mod-copper/10
     ]
 }
 requirements: [
- 
+mod-copper/10
 ]
