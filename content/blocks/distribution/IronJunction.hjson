@@ -1,0 +1,26 @@
+type: Junction
+name: 鉄のジャンクション
+description: '''鉄のジャンクション。異なる２つの方向に同時に混ざることなく出力できる。'''
+size: 1
+health: 50
+capacity: 3
+speed: 30
+requirements: [
+ IronPlate/3
+mod-copper/1
+]
+category: distribution
+research:{
+planet: Earth
+objectives: [
+  IronPlate
+  mod-copper
+] 
+parent:Ironconveor
+research:IronPlate
+name: MilitaryMod
+requiments:[
+mod-copper/50
+IronPlate/50
+           ]
+        }
