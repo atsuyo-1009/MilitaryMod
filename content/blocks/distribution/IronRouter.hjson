@@ -1,0 +1,26 @@
+type: Router
+name: "カスタムルーター"
+description: "搬入されたアイテムを最大3方向に均等に分配します。"
+size: 1
+health: 40
+capacity: 5
+speed: 8
+requirements: [
+mod-copper/3
+IronPlate/1
+]
+category: distribution
+research:{
+planet: Earth
+objectives: [
+  IronPlate
+  mod-copper
+] 
+parent:Ironconveor
+research:IronPLate
+name: MilitaryMod
+requiments:[
+mod-copper/50
+IronPlate/50
+           ]
+        }
