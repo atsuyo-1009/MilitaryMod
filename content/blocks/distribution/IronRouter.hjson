@@ -1,5 +1,5 @@
 type: Router
-name: "鉄のルーター"
+name: 鉄のルーター
 description: '''鉄のルーター。搬入されたアイテムを最大3方向に均等に分配します。'''
 size: 1
 health: 60
