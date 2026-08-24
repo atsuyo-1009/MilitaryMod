@@ -1,0 +1,14 @@
+type: ItemBridge
+name: 鉄のブリッジ
+description: '''建造物や地形を越えてアイテムを輸送します。'''
+size: 1
+health: 60
+range: 4
+transportTime: 5
+hasPower: false
+requirements: [
+  copper/6
+  lead/4
+]
+category: distribution
+research: conveyor
