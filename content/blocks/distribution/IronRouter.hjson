@@ -1,10 +1,11 @@
 type: Router
-name: "カスタムルーター"
-description: "搬入されたアイテムを最大3方向に均等に分配します。"
+name: "鉄のルーター"
+description: "鉄のルーター。搬入されたアイテムを最大3方向に均等に分配します。"
 size: 1
-health: 40
-capacity: 5
+health: 60
+capacity: 3
 speed: 8
+buildTime:60
 requirements: [
 mod-copper/3
 IronPlate/1
