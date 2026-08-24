@@ -5,6 +5,7 @@ size: 1
 health: 50
 capacity: 3
 speed: 30
+buildTime:60
 requirements: [
  IronPlate/3
 mod-copper/1
