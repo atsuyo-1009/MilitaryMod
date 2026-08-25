@@ -1,14 +1,27 @@
 type: ItemBridge
 name: 鉄のブリッジ
-description: '''建造物や地形を越えてアイテムを輸送します。'''
+description: '''鉄のブリッジ。建造物や地形を越えてアイテムを輸送します。輸送の範囲は最大で２０マスです。'''
 size: 1
 health: 60
-range: 4
-transportTime: 5
+range: 20
+transportTime: 10
 hasPower: false
 requirements: [
   copper/6
   lead/4
 ]
 category: distribution
-research: conveyor
+research:{
+planet: Earth
+objectives: [
+  IronPlate
+  mod-copper
+] 
+parent:Ironconveor
+research:IronPlate
+name: MilitaryMod
+requiments:[
+mod-copper/50
+IronPlate/50
+           ]
+        }
