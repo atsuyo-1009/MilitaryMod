@@ -8,7 +8,7 @@ liquidPressure: 50
   liquidCapacity: 80
   requirements:[
   mod-copper/1
-  IronPlate/5
+  IronPlate/2
                ]
 research:{
 planet: Earth
