@@ -1,6 +1,6 @@
 type: LiquidRouter
 name: 鉄の小型液体タンク
-description: '''鉄の小型液体タンク。大量の液体を貯蔵し、隣接する配管へ分配します。'''
+description: '''鉄の小型液体タンク。通常の量の液体を貯蔵し、くっついているパイプへ輸送します。'''
 size: 2
 health: 500
 liquidCapacity: 1000
