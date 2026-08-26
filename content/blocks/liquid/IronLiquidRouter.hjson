@@ -1,6 +1,6 @@
 type: LiquidRouter
 name: 鉄の液体ルーター
-description: '''鉄の液体ルーター。搬入された液体を、隣接する3方向に均等に分配します。'''
+description: '''鉄の液体ルーター。輸送している液体を最大三方向に分けることができます。'''
 size: 1
 health: 60
 liquidCapacity: 20
