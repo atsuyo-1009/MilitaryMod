@@ -2,7 +2,7 @@ name: 鉄液体パイプ
 type: Conduit
 catecory: liquid
 description: '''鉄で作られた液体輸送用パイプ。これの上はおそらくないだろう。'''
-health: 300
+health: 100
 leaks:true
 liquidPressure: 50
   liquidCapacity: 80
