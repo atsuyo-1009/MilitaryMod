@@ -8,7 +8,7 @@ liquidCapacity: 16
 hasPower: false
 requirements: [
   mod-copper/3
-  IronPLate/2
+  IronPlate/2
 ]
 category: liquid
 research:{
