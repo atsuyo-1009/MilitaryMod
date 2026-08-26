@@ -5,8 +5,8 @@ size: 1
 health: 60
 liquidCapacity: 20
 requirements: [
-  graphite/4
-  metaglass/2
+  mod-copper/3
+  IronPlate/3
 ]
 category: liquid
 research: liquid-junction
