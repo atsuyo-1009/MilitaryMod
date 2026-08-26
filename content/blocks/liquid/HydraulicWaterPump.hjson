@@ -1,0 +1,25 @@
+type: Pump
+name: 水力式ポンプ
+description: '''水の流れる力だけで組み上げます。そのため効率は悪いですが、電力は不要です。 '''
+size: 1
+health: 120
+pumpAmount: 0.1
+requirements: [
+IronPlate/10
+mod-copper/5
+]
+category: liquid
+research:{
+planet: Earth
+objectives: [
+  IronPlate
+  mod-copper
+] 
+parent:Corealpua
+research:IronPlate
+name: MilitaryMod
+requiments:[
+mod-copper/80
+IronPlate/100
+           ]
+        }
