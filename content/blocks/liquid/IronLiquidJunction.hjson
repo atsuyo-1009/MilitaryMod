@@ -1,6 +1,6 @@
 type: LiquidJunction
 name: 鉄の液体ジャンクション
-description: ''' 鉄の液体ジャンクション。2つの液体ラインを交差させるためのブロックです。'''
+description: ''' 鉄の液体ジャンクション。異なる2つのパイプを交差させるときに使用します。'''
 size: 1
 health: 70
 requirements: [
