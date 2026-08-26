@@ -7,8 +7,8 @@ range: 20
 liquidCapacity: 16
 hasPower: false
 requirements: [
-  graphite/4
-  metaglass/4
+  mod-copper/3
+  IronPLate/2
 ]
 category: liquid
 research: liquid-junction
