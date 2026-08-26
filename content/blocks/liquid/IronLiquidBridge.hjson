@@ -1,0 +1,14 @@
+type: LiquidBridge
+name: 鉄の液体ブリッジ
+description: '''建造物や地形をまたいで、離れた場所に液体を輸送します。輸送の範囲は最大で２０マスです。'''
+size: 1
+health: 60
+range: 20
+liquidCapacity: 16
+hasPower: false
+requirements: [
+  graphite/4
+  metaglass/4
+]
+category: liquid
+research: liquid-junction
