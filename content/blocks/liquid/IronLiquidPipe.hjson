@@ -17,10 +17,10 @@ objectives: [
   mod-copper
             ] 
 parent:Corealpua
-research:IronIngot
+research:IronPlate
 name: MilitaryMod
 requiments:[
 mod-copper/50
-IronPlate/50
+IronPlate/60
            ]
         }
