@@ -1,0 +1,25 @@
+type: LiquidRouter
+name: 鉄の小型液体タンク
+description: '''大量の液体を貯蔵し、隣接する配管へ分配します。'''
+size: 2
+health: 500
+liquidCapacity: 1000
+requirements: [
+IronPlate/30
+mod-copper/20
+]
+category: liquid
+research:{
+planet: Earth
+objectives: [
+  IronPlate
+  mod-copper
+] 
+parent:Ironconveor
+research:IronPlate
+name: MilitaryMod
+requiments:[
+mod-copper/150
+IronPlate/200
+           ]
+        }
