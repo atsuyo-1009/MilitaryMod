@@ -1,6 +1,6 @@
 type: LiquidRouter
 name: 鉄の小型液体タンク
-description: '''大量の液体を貯蔵し、隣接する配管へ分配します。'''
+description: '''鉄の小型液体タンク。大量の液体を貯蔵し、隣接する配管へ分配します。'''
 size: 2
 health: 500
 liquidCapacity: 1000
@@ -15,7 +15,7 @@ objectives: [
   IronPlate
   mod-copper
 ] 
-parent:Ironconveor
+parent:IronLiquidRouter
 research:IronPlate
 name: MilitaryMod
 requiments:[
