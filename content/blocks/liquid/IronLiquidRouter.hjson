@@ -1,0 +1,12 @@
+type: LiquidRouter
+name: カスタム液体ルーター
+description: 搬入された液体を、隣接する3方向に均等に分配します。
+size: 1
+health: 60
+liquidCapacity: 20
+requirements: [
+  graphite/4
+  metaglass/2
+]
+category: liquid
+research: liquid-junction
