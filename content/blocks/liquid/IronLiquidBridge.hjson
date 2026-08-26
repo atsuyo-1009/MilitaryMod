@@ -11,4 +11,17 @@ requirements: [
   IronPLate/2
 ]
 category: liquid
-research: liquid-junction
+research:{
+planet: Earth
+objectives: [
+  IronPlate
+  mod-copper
+            ] 
+parent:IronLiquidPipe
+research:IronPlate
+name: MilitaryMod
+requiments:[
+mod-copper/50
+IronPlate/60
+           ]
+        }
