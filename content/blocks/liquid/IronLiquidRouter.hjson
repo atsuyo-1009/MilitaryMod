@@ -15,7 +15,7 @@ objectives: [
   IronPlate
   mod-copper
             ] 
-parent:IronLiquidPipe
+parent:IronLiquidJunction
 research:IronPlate
 name: MilitaryMod
 requiments:[
