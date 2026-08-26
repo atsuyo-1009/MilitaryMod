@@ -8,4 +8,17 @@ requirements: [
   IronPlate/1
 ]
 category: liquid
-research: conduit
+research:{
+planet: Earth
+objectives: [
+  IronPlate
+  mod-copper
+            ] 
+parent:IronLiquidPipe
+research:IronPlate
+name: MilitaryMod
+requiments:[
+mod-copper/50
+IronPlate/60
+           ]
+        }
