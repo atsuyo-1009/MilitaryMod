@@ -16,7 +16,7 @@ objectives: [
   IronPlate
   mod-copper
             ] 
-parent:Corealpua
+parent:HydraulicWaterPump
 research:IronPlate
 name: MilitaryMod
 requiments:[
