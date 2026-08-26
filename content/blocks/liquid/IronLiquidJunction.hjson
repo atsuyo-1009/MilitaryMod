@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: カスタム液体ジャンクション
+description: 2つの液体ラインを交差させるためのブロックです。
+size: 1
+health: 70
+requirements: [
+  mod-copper/2
+  IronPlate/1
+]
+category: liquid
+research: conduit
