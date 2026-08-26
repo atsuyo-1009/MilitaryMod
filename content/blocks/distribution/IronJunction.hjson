@@ -1,6 +1,6 @@
 type: Junction
 name: 鉄のジャンクション
-description: '''鉄のジャンクション。異なる２つの方向に同時に混ざることなく出力できる。'''
+description: '''鉄のジャンクション。輸送している資源を最大三方向に分けることができます。'''
 size: 1
 health: 50
 capacity: 3
