@@ -75,7 +75,7 @@ pierceArmor: true
     colorDst: c7e7ff      // 弾道の色（着弾点側：薄い青）
     
     // 📌 弾道にそって残るエフェクト（火花や煙）
-    trailEffect: railTrail // 公式のレールガン用弾道エフェクト
+    trailEffect: railTrail 
     trailLength: 30       // エフェクトが残る長さ
     trailWidth: 3         // エフェクトの太さ
 hitEffect:[
