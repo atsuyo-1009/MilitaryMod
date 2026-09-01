@@ -25,10 +25,10 @@ ammoTypes: {
   tarretAmmo: {
     type: RailBulletType // レールガンに最適な即時着弾タイプの弾
     damage: 250
-    speed: 5
-    lifetime: 60
+    speed:50
+	  lifetime:16
     // 発射口にエネルギーが集まるエフェクト
-    chargeEffect: greenLaserCharge
+    chargeEffect: lightningCharge
     // 弾道（軌跡）のエフェクト
     trailEffect: railTrail
     // 着弾時のエフェクト
@@ -39,8 +39,8 @@ ammoTypes: {
     type: RailBulletType
     damage: 400
     length: 290
-    speed: 5
-    lifetime: 60
+    speed:50
+	  lifetime:16
     // 敵を貫通する数
     pierceCap: 5
     chargeEffect: greenLaserCharge
