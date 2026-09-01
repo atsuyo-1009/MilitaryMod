@@ -3,10 +3,10 @@ name: プロトテックレールガン
 description: '''プロトテックレールガン。高威力の火力を提供します。最終兵器としてどうぞ。'''
 size: 3
 health: 1200
-range: 280
+range: 800
 
 // 発射速度（数値が大きいほど次の発射までが長い）
-reload: 120
+reload: 240
 
 // チャージ時間（60 = 1秒）
 chargeTime: 60
@@ -28,7 +28,7 @@ ammoTypes: {
     speed:50
 	  lifetime:16
     // 発射口にエネルギーが集まるエフェクト
-    chargeEffect: lightningCharge
+    chargeEffect: lancerLaserCharge
     // 弾道（軌跡）のエフェクト
     trailEffect: railTrail
     // 着弾時のエフェクト
