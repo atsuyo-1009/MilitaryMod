@@ -32,21 +32,7 @@ ammoTypes: {
     // 弾道（軌跡）のエフェクト
     trailEffect: railTrail
     ammoMultiplier: 1
-  }
-  mod-copper: {
-    type: RailBulletType
-    damage: 400
-    length: 290
-    speed:50
-	  lifetime:16
-    // 敵を貫通する数
-    pierceCap: 5
-    chargeEffect: greenLaserCharge
-    trailEffect: instTrail
-    hitEffect: instHit
-    ammoMultiplier: 1
-  }
-       pierceArmor: true
+pierceArmor: true
  scaledSplashDamage:true
     splashDamage: 700
     splashDamageRadius: 60
@@ -61,6 +47,35 @@ hitEffect:[
     smokes:100
             }
             ]
+  }
+  mod-copper: {
+    type: RailBulletType
+    damage: 400
+    length: 290
+    speed:50
+	  lifetime:16
+    // 敵を貫通する数
+    pierceCap: 5
+    chargeEffect: greenLaserCharge
+    trailEffect: instTrail
+    hitEffect: instHit
+    ammoMultiplier: 1
+pierceArmor: true
+ scaledSplashDamage:true
+    splashDamage: 700
+    splashDamageRadius: 60
+       pierce: true
+      pierceBuilding: true
+      pierceCap:10
+hitEffect:[
+          {
+    hitEffect: railHit
+    smokeSize:200
+    sparks:1300
+    smokes:100
+            }
+            ]
+  }
 
 }
 
