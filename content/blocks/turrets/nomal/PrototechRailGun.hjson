@@ -1,0 +1,64 @@
+type: ItemTurret
+name: プロトテックレールガン
+description: '''プロトテックレールガン。高威力の火力を提供します。最終兵器としてどうぞ。'''
+size: 3
+health: 1200
+range: 280
+
+// 発射速度（数値が大きいほど次の発射までが長い）
+reload: 120
+
+// チャージ時間（60 = 1秒）
+chargeTime: 60
+// チャージ中に鳴る音
+chargeSound: lancerLaserCharge
+// 発射時に鳴る音
+shootSound: railShoot
+
+shoot: {
+  // チャージ時間（chargeTime）と同じ音声を同期させるための遅延設定
+  firstShotDelay: 60
+}
+
+// 📌 使用するアイテム（弾薬）ごとの設定
+ammoTypes: {
+  // 銅（copper）を弾にする場合
+  tarretAmmo: {
+    type: RailBulletType // レールガンに最適な即時着弾タイプの弾
+    damage: 250
+    length: 290 // 射程（rangeより少し長めに設定）
+    
+    // 発射口にエネルギーが集まるエフェクト
+    chargeEffect: greenLaserCharge
+    // 弾道（軌跡）のエフェクト
+    trailEffect: railTrail
+    // 着弾時のエフェクト
+    hitEffect: railHit
+    
+    ammoMultiplier: 1 // 1個のアイテムで何発撃てるか
+  }
+  
+  // シリコン（silicon）を弾にする場合（より高性能な弾）
+  mod-copper: {
+    type: RailBulletType
+    damage: 400
+    length: 290
+    
+    // 敵を貫通する数
+    pierceCap: 3
+    
+    chargeEffect: greenLaserCharge
+    trailEffect: instTrail
+    hitEffect: instHit
+    
+    ammoMultiplier: 1
+  }
+}
+
+// 建築コスト
+requirements: [
+  copper/150
+  lead/100
+  silicon/80
+]
+category: turret
