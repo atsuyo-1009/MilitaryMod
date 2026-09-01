@@ -30,20 +30,6 @@ ammoTypes: {
     damage: 250
     speed:50
 	  lifetime:16
- // 📌 弾道をきれいに表示させるための設定
-    line: true            // 弾道を線として描画する
-    strokeSrc: 4          // 線の太さ（発射口側）
-    strokeDst: 0          // 線の太さ（着弾点側。0にすると先端に向かって細くなります）
-    colorSrc: 7ba9ff      // 弾道の色（発射口側：綺麗な青）
-    colorDst: c7e7ff      // 弾道の色（着弾点側：薄い青）
-    
-    // 📌 弾道にそって残るエフェクト（火花や煙）
-    trailEffect: railTrail // 公式のレールガン用弾道エフェクト
-    trailLength: 30       // エフェクトが残る長さ
-    trailWidth: 3         // エフェクトの太さ
-    // 発射口にエネルギーが集まるエフェクト
-    chargeEffect: lancerLaserCharge
-    // 弾道（軌跡）のエフェクト
     trailEffect: railTrail
     ammoMultiplier: 1
 pierceArmor: true
