@@ -22,31 +22,27 @@ shoot: {
 
 // 📌 使用するアイテム（弾薬）ごとの設定
 ammoTypes: {
-  // 銅（copper）を弾にする場合
   tarretAmmo: {
     type: RailBulletType // レールガンに最適な即時着弾タイプの弾
     damage: 250
-    length: 290 // 射程（rangeより少し長めに設定）
-    
+    speed: 5
+    lifetime: 60
     // 発射口にエネルギーが集まるエフェクト
     chargeEffect: greenLaserCharge
     // 弾道（軌跡）のエフェクト
     trailEffect: railTrail
     // 着弾時のエフェクト
     hitEffect: railHit
-    
-    ammoMultiplier: 1 // 1個のアイテムで何発撃てるか
+    ammoMultiplier: 1
   }
-  
-  // シリコン（silicon）を弾にする場合（より高性能な弾）
   mod-copper: {
     type: RailBulletType
     damage: 400
     length: 290
-    
+    speed: 5
+    lifetime: 60
     // 敵を貫通する数
-    pierceCap: 3
-    
+    pierceCap: 5
     chargeEffect: greenLaserCharge
     trailEffect: instTrail
     hitEffect: instHit
