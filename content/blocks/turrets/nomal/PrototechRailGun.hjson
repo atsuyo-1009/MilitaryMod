@@ -14,7 +14,8 @@ chargeTime: 60
 chargeSound: lancerLaserCharge
 // 発射時に鳴る音
 shootSound: railShoot
-
+hasPower: true       // 電源ネットワークに接続できるようにする
+consumePower: 3.5 
 shoot: {
   // チャージ時間（chargeTime）と同じ音声を同期させるための遅延設定
   firstShotDelay: 60
