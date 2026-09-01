@@ -31,8 +31,6 @@ ammoTypes: {
     chargeEffect: lancerLaserCharge
     // 弾道（軌跡）のエフェクト
     trailEffect: railTrail
-    // 着弾時のエフェクト
-    hitEffect: railHit
     ammoMultiplier: 1
   }
   mod-copper: {
@@ -46,9 +44,24 @@ ammoTypes: {
     chargeEffect: greenLaserCharge
     trailEffect: instTrail
     hitEffect: instHit
-    
     ammoMultiplier: 1
   }
+       pierceArmor: true
+ scaledSplashDamage:true
+    splashDamage: 700
+    splashDamageRadius: 60
+       pierce: true
+      pierceBuilding: true
+      pierceCap:10
+hitEffect:[
+          {
+    hitEffect: railHit
+    smokeSize:200
+    sparks:1300
+    smokes:100
+            }
+            ]
+
 }
 
 // 建築コスト
