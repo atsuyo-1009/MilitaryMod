@@ -1,0 +1,42 @@
+type: PointDefenseTurret
+name: CIWS ファランクス
+description: '''イージス艦載用の近接武器システム。圧倒的な連射速度で、迫り来る敵のミサイルや弾丸を自動で迎撃・無効化します。ユニットは攻撃できません。'''
+size: 2
+health: 800
+range: 180 // 迎撃用の中距離射程
+
+// 📌 確実に存在する「shoot」のピッチを上げて、3フレームに1発の超高速連射
+reload: 3 
+shootSound: shoot 
+soundPitchMin: 1.5     
+soundPitchMax: 1.8
+
+// 敵の弾を1〜2発で消し去る威力
+bulletDamage: 30 
+
+// 稼働用の電力
+consumes: {
+  power: 4.5
+}
+
+// 赤〜白のトレーサー（曳光弾）を意識した迎撃ビームの見た目
+shootType: {
+  type: BulletType
+  damage: 0
+  speed: 0
+  lifetime: 5
+  hitEffect: pointHit
+  despawnEffect: none
+  line: true
+  strokeSrc: 2
+  strokeDst: 0
+  colorSrc: ff6666 
+  colorDst: ffffff
+}
+
+requirements: [
+  copper/120
+  titanium/80
+  silicon/100
+]
+category: turret
