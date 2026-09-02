@@ -1,0 +1,76 @@
+type: ItemTurret
+name: SM-3 VLSサイロ
+description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
+size: 3
+health: 1500
+range: 550 // 超長射程
+
+// 砲塔を動かさないための設定
+rotateSpeed: 0
+targetInterval: 1
+
+shoot: {
+  // 📌 2発同時 × 2回（時間差）の発射パターン
+  type: ShootMulti
+  source: {
+    type: ShootPattern
+    shots: 2       // 1回につき2発同時発射
+    spread: 8      // ミサイル同士の左右の間隔
+  }
+  dest: {
+    type: ShootSequence
+    shots: 2       // 2発同時を「2回」繰り返す
+    shotDelay: 15  // 1回目と2回目の間隔（約0.25秒）
+  }
+  cone: 360
+}
+
+reload: 240 // 次の斉射（計4発）までの装填時間
+shootSound: missile
+
+consumes: {
+  power: 2.0
+}
+
+ammoTypes: {
+  // 高性能なサージ合金（surge-alloy）をミサイルとして使用
+  surge-alloy: {
+    type: MissileBulletType
+    damage: 180
+    speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
+    lifetime: 300    // 長距離飛ぶための寿命
+    
+    // 白く細長いSM-3ミサイルの見た目
+    width: 6
+    height: 18
+    shrinkY: 0
+    
+    // 超高速誘導の設定
+    homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
+    homingRange: 450     // 広い索敵範囲
+    homingDelay: 20      // 最初の20フレームは直進して垂直上昇を表現
+    accel: 0.15          // 発射後、徐々に猛加速する
+    maxVelocity: 12      // 最終的な最高速度（最速クラス）
+    
+    // 迎撃ミサイルの白い煙を再現
+    trailColor: ffffff
+    trailLength: 25
+    trailWidth: 3
+    backColor: d1efff
+    frontColor: ffffff
+    
+    splashDamage: 100
+    splashDamageRadius: 30
+    
+    collidesAir: true
+    collidesGround: true
+  }
+}
+
+requirements: [
+  titanium/250
+  thorium/150
+  silicon/200
+  surge-alloy/50
+]
+category: turret
