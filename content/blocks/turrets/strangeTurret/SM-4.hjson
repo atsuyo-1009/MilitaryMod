@@ -38,7 +38,7 @@ tarretAmmo: {
     smokeEffect: shootBigSmoke
     instantDisappear: true
     damage: 0
-    spawnUnit: SM-3
+    spawnUnit: SM-4
   }
 }
 
