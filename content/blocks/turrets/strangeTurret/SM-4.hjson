@@ -3,14 +3,10 @@ name: SM-3 VLSサイロ
 description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
 size: 3
 health: 1500
-range: 1000 // 超長射程
+range: 550 // 超長射程
 
-// 📌 砲塔は完全に正面（0度）で固定する
 rotateSpeed: 0
-
-// 📌 砲塔の向きに関係なく、360度どこに敵がいても「ロックオン完了」とみなして即発射する
 shootCone: 360
-
 targetInterval: 1
 
 shoot: {
@@ -19,15 +15,10 @@ shoot: {
   shotDelay: 60   // 弾と弾の間の発射ディレイ（約0.25秒）
 }
 
-// ミサイルが完全に重なって飛ばないよう、わずかなブレを設定
 inaccuracy: 3
-
 reload: 240 // 次の斉射（計4発）までの装填時間
 
-// 🔊 発射音
 shootSound: missile
-
-// 💨 発射時にVLS特有の大量の白い煙を発生させる
 shootEffect: shootSmokeMissile
 
 consumes: {
@@ -36,54 +27,17 @@ consumes: {
 
 ammoTypes: {
   surge-alloy: {
-    // ⚙️ 【重要】敵の通常弾と「物理的な当たり判定」を持たせるため、BasicBulletTypeに変更
-    type: BasicBulletType
-    damage: 180
-    speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
-    lifetime: 600    // 長距離飛ぶための寿命
+    // ⚙️ 通常の弾薬で撃ち落とせるようにするため、空中ミサイルユニットを召喚する弾薬に変更
+    type: BulletType
+    spawnUnit: SM--3 
+// 📌 下記で定義する空中ミサイルユニット
     
-    // 🖼️ 自作のスプライト画像を適用
-    sprite: sm3-missile
+    // 砲塔から飛び出す際の初期スラスト（垂直上昇の演出）
+    speed: 1.5
+    lifetime: 300
     
-    width: 6
-    height: 18
-    shrinkY: 0
-    
-    // 🛡️ 【物理衝突＆HP耐久設定】
-    // これにより、敵の通常弾（デュオやサルボなどの弾丸）がこのミサイルの当たり判定に触れた際、
-    // すり抜けずにバチバチと命中し、HPが尽きると空中で爆破・迎撃されます。
-    hittable: true
-    killable: true
-    reflectable: false
-    health: 150          // 敵弾に耐えられるHP量（お好みで調整可能）
-    
-    // 🚀 超高速誘導の設定（Missile以外のタイプでも機能する誘導パラメータ）
-    homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
-    homingRange: 450     // 広い索敵範囲
-    homingDelay: 20      // 最初の20フレームは直進して垂直上昇を表現
-    accel: 0.15          // 発射後、徐々に猛加速する
-    maxVelocity: 12      // 最終的な最高速度（最速クラス）
-    
-    // 迎撃ミサイルの白い煙を再現
-    trailColor: ffffff
-    trailLength: 25
-    trailWidth: 3
-    backColor: d1efff
-    frontColor: ffffff
-    
-    // 🔊 飛翔音（ミサイルが飛んでいる間の推進音、バニラの音源を指定）
-    chargeSound: torch
-    soundPitchMin: 1.0
-    soundPitchMax: 1.2
-    
-    // 🔊 着弾・爆発時の音
-    hitSound: explosion
-    
-    splashDamage: 100
-    splashDamageRadius: 30
-    
-    collidesAir: true
-    collidesGround: true
+    shootEffect: none
+    smokeEffect: none
   }
 }
 
