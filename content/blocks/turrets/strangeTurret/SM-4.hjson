@@ -29,7 +29,7 @@ ammoTypes: {
   surge-alloy: {
     // ⚙️ 敵タレットから「自動ロックオン」され、敵ユニットへ飛ぶ飛行型を召喚
     type: BulletType
-    spawnUnit: sm3-missile-unit
+    spawnUnit: SM--3
     
     speed: 1.5
     lifetime: 300
