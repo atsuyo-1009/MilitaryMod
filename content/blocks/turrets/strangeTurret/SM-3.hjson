@@ -23,7 +23,12 @@ shoot: {
 inaccuracy: 3
 
 reload: 240 // 次の斉射（計4発）までの装填時間
-shootSound: missile
+
+// 🔊 発射音
+shootSound: missileLaunch
+
+// 💨 発射時にVLS特有の大量の白い煙を発生させる
+shootEffect: shootSmokeMissile
 
 consumes: {
   power: 2.0
@@ -36,10 +41,18 @@ ammoTypes: {
     speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
     lifetime: 300    // 長距離飛ぶための寿命
     
-    // 白く細長いSM-3ミサイルの見た目
+    // 🖼️ 【追加】自作のスプライト画像を適用
+    // MOD内の「sprites/sm3-missile.png」を読み込みます（名前は任意に変更してください）
+   // sprite: sm3-missile
+    
+    // スプライト画像を使用するため、デフォルトの長方形描画（width/height）は削除、または画像サイズに合わせます
     width: 6
     height: 18
     shrinkY: 0
+    
+    // 🛡️ 【追加】ミサイルを迎撃（敵の攻撃で破壊）可能にする設定
+    killable: true
+    health: 50       // ミサイル自身のHP（敵の対空砲などで落とされるようになります）
     
     // 超高速誘導の設定
     homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
@@ -54,6 +67,13 @@ ammoTypes: {
     trailWidth: 3
     backColor: d1efff
     frontColor: ffffff
+    
+    // 🔊 飛翔音
+    loopSound: missileTrail
+    loopSoundVolume: 0.6
+    
+    // 🔊 着弾・爆発時の音
+    hitSound: explosion
     
     splashDamage: 100
     splashDamageRadius: 30
@@ -70,4 +90,3 @@ requirements: [
   surge-alloy/50
 ]
 category: turret
-
