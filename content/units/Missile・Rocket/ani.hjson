@@ -1,0 +1,24 @@
+type: missile
+name: 迎撃可能ミサイル
+description: 敵のセグメントや対空砲によって撃ち落とされるミサイルです。
+speed: 4.5
+lifetime: 60
+rotateSpeed: 5
+
+// ここでHPを設定します。この数値ぶんダメージを受けると空中迎撃されます
+health: 50
+lowAltitude: true
+
+weapons: [
+  {
+    // 着弾（または途中で撃ち落とされた時）に爆発する設定
+    shootOnDeath: true
+    reload: 10
+    shootCone: 360
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 120
+      splashDamageRadius: 32
+    }
+  }
+]
