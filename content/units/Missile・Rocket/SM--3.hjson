@@ -1,16 +1,15 @@
-// 📌 【修正】絶対に地面を歩かず、敵ユニットを狙うように「flying（飛行型）」に変更
 type: flying
 name: SM-3 迎撃弾頭
 
-// 🖼️ 自作のスプライト画像を適用
+// 自作のスプライト画像を適用
 sprite: sm3-missile
 
-// 🛡️ 【最重要】敵の通常タレットがこのミサイルを自動ロックオンして狙い撃ちする設定
-targetable: true     // 敵タレットが自動でターゲット（ロックオン）します
-hittable: true       // 敵の通常弾が物理的に命中します
-health: 150          // 敵の弾幕に耐えられるHP量
+// 🛡️ 敵の通常タレットがこのミサイルを自動ロックオンして狙い撃ちする設定
+targetable: true
+hittable: true
+health: 150          // 敵の弾幕に耐えられるHP量（お好みで調整）
 
-// 🚀 飛行・追尾性能（絶対に地面を歩きません）
+// 🚀 飛行性能
 flying: true
 lowAltitude: false
 isEnemy: false
@@ -18,10 +17,10 @@ allowedInPayloads: false
 playerControllable: false
 logicControllable: false
 
-// 移動性能（元の猛加速と超高速誘導の設定を完全移植）
+// 🚀 移動性能（元の猛加速と超高速誘導の設定を完全移植）
 speed: 12            // 最高速度
 accel: 0.15          // 徐々に猛加速
-rotateSpeed: 20      // 急カーブで敵ユニットを追いかける旋回性能
+rotateSpeed: 25      // 動く敵ユニットを急カーブで追いかける旋回性能
 
 // 迎撃ミサイルの白い煙を再現
 trailColor: ffffff
@@ -38,10 +37,9 @@ deathExplosionEffect: blastExplosion
 weapons: [
   {
     type: Weapon
-    shootOnDeath: true // 敵ユニットに衝突した時、または道中で撃ち落とされた時に爆発する
+    shootOnDeath: true // 敵に衝突した時、または道中で撃ち落とされた時に爆発する
     reload: 10
     
-    // 📌 敵ユニットを感知して自動で突撃・自爆させるための設定
     shootCone: 360
     mirror: false
     x: 0
@@ -53,7 +51,7 @@ weapons: [
       damage: 180
       splashDamage: 100
       splashDamageRadius: 30
-      killShooter: true // 衝突時に自分自身（ミサイル）を消滅させて爆発に変える
+      killShooter: true
       
       collidesAir: true
       collidesGround: true
