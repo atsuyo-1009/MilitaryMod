@@ -5,18 +5,21 @@ size: 3
 health: 1500
 range: 550 // 超長射程
 
-// 砲塔を動かさないための設定
+// 📌 砲塔は完全に正面（0度）で固定する
 rotateSpeed: 0
+
+// 📌 砲塔の向きに関係なく、360度どこに敵がいても「ロックオン完了」とみなして即発射する
+shootCone: 360
+
 targetInterval: 1
 
 shoot: {
-  // 📌 不具合の出やすいShootMultiを避け、ShootSequenceで確実に時間差連射を再現
   type: ShootSequence
   shots: 4        // 計4発を連続で垂直発射
   shotDelay: 15   // 弾と弾の間の発射ディレイ（約0.25秒）
 }
 
-// ミサイルが完全に重なって飛ばないよう、わずかなブレを設定して左右に散らします
+// ミサイルが完全に重なって飛ばないよう、わずかなブレを設定
 inaccuracy: 3
 
 reload: 240 // 次の斉射（計4発）までの装填時間
@@ -27,7 +30,6 @@ consumes: {
 }
 
 ammoTypes: {
-  // 高性能なサージ合金（surge-alloy）をミサイルとして使用
   surge-alloy: {
     type: MissileBulletType
     damage: 180
@@ -68,3 +70,4 @@ requirements: [
   surge-alloy/50
 ]
 category: turret
+
