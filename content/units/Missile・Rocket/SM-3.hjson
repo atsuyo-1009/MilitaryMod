@@ -2,7 +2,7 @@ type: missile
 template: MissileUnitType
 flying: true
 speed: 3.35
-maxRange: 1
+maxRange: 30
 lifetime: 300
 health: 55
 weapons: [
