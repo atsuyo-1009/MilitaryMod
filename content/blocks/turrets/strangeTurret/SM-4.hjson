@@ -1,0 +1,59 @@
+type: ItemTurret
+name: SM-４ VLSサイロ
+description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
+size: 3
+health: 1500
+range: 550 // 超長射程
+
+// 📌 砲塔は完全に正面（0度）で固定する
+rotateSpeed: 0
+
+// 📌 砲塔の向きに関係なく、360度どこに敵がいても「ロックオン完了」とみなして即発射する
+shootCone: 360
+
+targetInterval: 1
+
+shoot: {
+  type: ShootSequence
+  shots: 2        // 計4発を連続で垂直発射
+  shotDelay: 60   // 弾と弾の間の発射ディレイ（約0.25秒）
+}
+
+// ミサイルが完全に重なって飛ばないよう、わずかなブレを設定
+inaccuracy: 3
+
+reload: 240 // 次の斉射（計4発）までの装填時間
+
+// 🔊 発射音
+shootSound: missile
+
+// 💨 発射時にVLS特有の大量の白い煙を発生させる
+shootEffect: shootSmokeMissile
+
+consumes: {
+  power: 2.0
+}
+
+ammoTypes: {
+  surge-alloy: {
+    // ⚙️ 通常の弾薬で撃ち落とせるようにするため、ユニット召喚用の弾薬クラス（Scathe等と同じ仕様）に変更
+    type: BulletType
+    spawnUnit: sm3-missile-unit // 📌 下記で定義する自作スプライト＆耐久付きミサイルユニットを生成
+    
+    // 砲塔からユニットが飛び出す際の初期設定（元々の設定値を維持）
+    speed: 1.5
+    lifetime: 300
+    
+    // 演出用
+    shootEffect: none
+    smokeEffect: none
+  }
+}
+
+requirements: [
+  titanium/250
+  thorium/150
+  silicon/200
+  surge-alloy/50
+]
+category: turret
