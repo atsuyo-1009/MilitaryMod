@@ -10,22 +10,14 @@ rotateSpeed: 0
 targetInterval: 1
 
 shoot: {
-  // 📌 2発同時 × 2回（時間差）の発射パターン
-  type: ShootMulti
-  // source から first に修正
-  first: {
-    type: ShootPattern
-    shots: 2       // 1回につき2発同時発射
-    spread: 8      // ミサイル同士の左右の間隔
-  }
-  // dest から next に修正
-  next: {
-    type: ShootSequence
-    shots: 2       // 2発同時を「2回」繰り返す
-    shotDelay: 15  // 1回目と2回目の間隔（約0.25秒）
-  }
-  cone: 360
+  // 📌 不具合の出やすいShootMultiを避け、ShootSequenceで確実に時間差連射を再現
+  type: ShootSequence
+  shots: 4        // 計4発を連続で垂直発射
+  shotDelay: 15   // 弾と弾の間の発射ディレイ（約0.25秒）
 }
+
+// ミサイルが完全に重なって飛ばないよう、わずかなブレを設定して左右に散らします
+inaccuracy: 3
 
 reload: 240 // 次の斉射（計4発）までの装填時間
 shootSound: missile
