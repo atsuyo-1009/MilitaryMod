@@ -1,60 +1,49 @@
-type: flying
-name: SM-3 迎撃弾頭
-
-// 自作のスプライト画像を適用
-sprite: sm3-missile
-
-// 🛡️ 敵の通常タレットがこのミサイルを自動ロックオンして狙い撃ちする設定
-targetable: true
-hittable: true
-health: 150          // 敵の弾幕に耐えられるHP量（お好みで調整）
-
-// 🚀 飛行性能
+type: missile
+template: MissileUnitType
 flying: true
-lowAltitude: false
-isEnemy: false
-allowedInPayloads: false
-playerControllable: false
-logicControllable: false
-
-// 🚀 移動性能（元の猛加速と超高速誘導の設定を完全移植）
-speed: 12            // 最高速度
-accel: 0.15          // 徐々に猛加速
-rotateSpeed: 25      // 動く敵ユニットを急カーブで追いかける旋回性能
-
-// 迎撃ミサイルの白い煙を再現
-trailColor: ffffff
-trailLength: 25
-
-// 🔊 飛翔音（ループ推進音）
-loopSound: torch
-loopSoundVolume: 0.6
-
-// 💥 着弾時、または通常弾で撃ち落とされた時の爆発
-hitSound: explosion
-deathExplosionEffect: blastExplosion
-
+speed: 5
+physics: false
+lifetime: 68
+rotateSpeed: 10
+homingDelay: 3
+trailLength: 0
+useUnitCap: false
+drawCell: false
+abilities: [
+  {
+    type: MoveEffectAbility
+    interval: 3
+    effect: {
+      type: ParticleEffect
+      cone: 45
+      baseRotation: 180
+      particles: 8
+      length: 3.2
+      baseLength: 4
+      line: true
+      strokeFrom: 1.6
+      strokeTo: 1
+      colorFrom: dfb891
+      colorTo: a78b6f
+    }
+    rotateEffect: true
+  }
+]
+outlines: false  
 weapons: [
   {
-    type: Weapon
-    shootOnDeath: true // 敵に衝突した時、または道中で撃ち落とされた時に爆発する
-    reload: 10
-    
+    reload: 1
+    predictTarget: false 
+    useAttackRange: false
+    shootOnDeath: true
+    mirror: true
     shootCone: 360
-    mirror: false
-    x: 0
-    y: 0
-    
+    shake: 1
     bullet: {
-      type: BulletType
-      instantDisappear: true
-      damage: 180
-      splashDamage: 100
-      splashDamageRadius: 30
-      killShooter: true
-      
-      collidesAir: true
-      collidesGround: true
+      type: ExplosionBulletType
+      ammoMultiplier: 12
+      splashDamage: 68
+      splashDamageRadius: 32
     }
-  }
+  } 
 ]
