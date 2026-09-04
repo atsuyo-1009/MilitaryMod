@@ -4,34 +4,40 @@ name: SM-3 迎撃弾頭
 // 🖼️ 自作のスプライト画像を適用（MODの sprites フォルダ内の画像名）
 sprite: sm3-missile
 
+// 🚀 空中を飛行し、敵ユニットや建物を自動追尾するためのAI設定（これで絶対に歩きません）
+flying: true
+aiController: MissileAI
+
 // 🛡️ 敵の通常タレットや通常弾（デュオ、サルボ等）で撃ち落とされるための設定
-health: 40
+health: 150          // ミサイルのHP（お好みで調整してください）
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
 logicControllable: false
+targetable: true     // 敵のタレットがこのミサイルを「標的」として自動で狙うようになります
+hittable: true       // 通常弾が物理的に命中するようになります
 
 // 🚀 ミサイルの移動性能（元の超高速誘導・猛加速の設定を完全移植）
-speed: 12        // 最高速度 (maxVelocity: 12)
-accel: 0.15      // 徐々に猛加速
-rotateSpeed: 20  // 急カーブで追尾する高い誘導性能 (homingPower: 0.35に相当)
+speed: 12            // 最高速度
+accel: 0.15          // 徐々に猛加速
+rotateSpeed: 20      // 急カーブで追尾する高い誘導性能
 
-// 迎撃ミサイルの白い煙を再現
+// 迎撃ミサイルの白い煙（エフェクト）を再現
 trailColor: ffffff
 trailLength: 25
 
-// 🔊 飛翔音（ミサイルが飛んでいる間のキーン・ゴーという推進ループ音）
+// 🔊 飛翔音（ミサイルが飛んでいる間の推進ループ音）
 loopSound: torch
 loopSoundVolume: 0.6
 
-// 💥 着弾（または通常弾で撃ち落とされた時）の爆発とダメージ設定
+// 💥 着弾時、または道中で撃ち落とされた時の爆発
 hitSound: explosion
 deathExplosionEffect: blastExplosion
 
 weapons: [
   {
     type: Weapon
-    shootOnDeath: true // 命中時、または道中で撃ち落とされた時に爆発する
+    shootOnDeath: true // 標的に命中した時、または通常弾で撃ち落とされた時に爆発する
     reload: 10
     bullet: {
       type: BulletType
@@ -46,3 +52,4 @@ weapons: [
     }
   }
 ]
+
