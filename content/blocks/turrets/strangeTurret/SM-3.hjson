@@ -12,12 +12,14 @@ targetInterval: 1
 shoot: {
   // 📌 2発同時 × 2回（時間差）の発射パターン
   type: ShootMulti
-  source: {
+  // source から first に修正
+  first: {
     type: ShootPattern
     shots: 2       // 1回につき2発同時発射
     spread: 8      // ミサイル同士の左右の間隔
   }
-  dest: {
+  // dest から next に修正
+  next: {
     type: ShootSequence
     shots: 2       // 2発同時を「2回」繰り返す
     shotDelay: 15  // 1回目と2回目の間隔（約0.25秒）
