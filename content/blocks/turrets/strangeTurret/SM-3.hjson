@@ -15,8 +15,8 @@ targetInterval: 1
 
 shoot: {
   type: ShootSequence
-  shots: 4        // 計4発を連続で垂直発射
-  shotDelay: 15   // 弾と弾の間の発射ディレイ（約0.25秒）
+  shots: 2        // 計4発を連続で垂直発射
+  shotDelay: 60   // 弾と弾の間の発射ディレイ（約0.25秒）
 }
 
 // ミサイルが完全に重なって飛ばないよう、わずかなブレを設定
