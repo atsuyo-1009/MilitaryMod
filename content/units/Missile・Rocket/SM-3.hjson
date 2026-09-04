@@ -1,16 +1,10 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 3
-physics: false
+speed: 3.35
+maxRange: 6
 lifetime: 300
-rotateSpeed: 10
-homingDelay: 3
-trailLength: 0
-useUnitCap: false
-drawCell: false
-
-outlines: false  
+health: 55
 weapons: [
   {
     reload: 1
