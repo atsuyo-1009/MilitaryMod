@@ -3,7 +3,7 @@ name: SM-3 VLSサイロ
 description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
 size: 3
 health: 1500
-range: 550 // 超長射程
+range: 1500 // 超長射程
 
 rotateSpeed: 0
 shootCone: 360
