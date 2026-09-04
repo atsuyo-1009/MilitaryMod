@@ -8,8 +8,6 @@ health: 55
 weapons: [
   {
     reload: 1
-    predictTarget: false 
-    useAttackRange: false
     shootOnDeath: true
     mirror: true
     shootCone: 360
