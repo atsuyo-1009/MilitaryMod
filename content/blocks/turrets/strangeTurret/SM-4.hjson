@@ -27,13 +27,15 @@ consumes: {
 
 ammoTypes: {
   surge-alloy: {
-    // ⚙️ 敵タレットから「自動ロックオン」され、敵ユニットへ飛ぶ飛行型を召喚
     type: BulletType
     spawnUnit: SM--3
     
+    // 📌 【最重要追加】生成されたミサイルに、敵ユニットを最優先で自爆追尾するAIを強制適用します
+    // これにより、建物ではなく動く敵ユニットを狂ったように追いかけるようになります
+    unitController: suicide
+    
     speed: 1.5
     lifetime: 300
-    
     shootEffect: none
     smokeEffect: none
   }
