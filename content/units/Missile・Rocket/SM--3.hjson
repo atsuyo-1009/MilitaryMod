@@ -1,4 +1,4 @@
-type: MissileUnitType
+type: missile
 name: SM-3 迎撃弾頭
 
 // 自作のスプライト画像を適用
