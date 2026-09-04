@@ -1,12 +1,16 @@
 type: ItemTurret
-name: SM-3 VLSサイロ
+name: SM-４ VLSサイロ
 description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
 size: 3
 health: 1500
 range: 550 // 超長射程
 
+// 📌 砲塔は完全に正面（0度）で固定する
 rotateSpeed: 0
+
+// 📌 砲塔の向きに関係なく、360度どこに敵がいても「ロックオン完了」とみなして即発射する
 shootCone: 360
+
 targetInterval: 1
 
 shoot: {
@@ -15,10 +19,15 @@ shoot: {
   shotDelay: 60   // 弾と弾の間の発射ディレイ（約0.25秒）
 }
 
+// ミサイルが完全に重なって飛ばないよう、わずかなブレを設定
 inaccuracy: 3
+
 reload: 240 // 次の斉射（計4発）までの装填時間
 
+// 🔊 発射音（バニラ音源）
 shootSound: missile
+
+// 💨 発射時にVLS特有の大量の白い煙を発生させる
 shootEffect: shootSmokeMissile
 
 consumes: {
@@ -27,17 +36,56 @@ consumes: {
 
 ammoTypes: {
   surge-alloy: {
-    // ⚙️ 通常の弾薬で撃ち落とせるようにするため、空中ミサイルユニットを召喚する弾薬に変更
-    type: BulletType
-    spawnUnit: SM--3 
-// 📌 下記で定義する空中ミサイルユニット
+    // ⚙️ 弾頭システムに戻したため、絶対に地面を歩かず、敵ユニットを正確にロックオンします
+    type: MissileBulletType
+    damage: 180
+    speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
+    lifetime: 300    // 長距離飛ぶための寿命
     
-    // 砲塔から飛び出す際の初期スラスト（垂直上昇の演出）
-    speed: 1.5
-    lifetime: 300
+    // 🖼️ 自作のスプライト画像を適用
+    sprite: sm3-missile
     
-    shootEffect: none
-    smokeEffect: none
+    width: 6
+    height: 18
+    shrinkY: 0
+    
+    // 🛡️ 【弾頭のまま敵の通常弾で迎撃可能にするコア設定】
+    collides: true       // 他のオブジェクトとの衝突判定を有効化
+    hittable: true       // 敵のあらゆる通常弾（小銃弾やレーザー等）がこのミサイルに接触するようになります
+    killable: true       // 接触した通常弾のダメージを受けて、空中で破壊（迎撃）できるようにします
+    keepVelocity: true   // 被弾してもミサイルの速度や慣性を落とさない
+    
+    // 📌 ミサイル自体の耐久値（HP）
+    // 1発即死を完全に防ぎます。敵通常弾の累積ダメージが「120」に達するまで耐えながら突き進みます。
+    health: 120          
+    
+    // 超高速誘導の設定
+    homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
+    homingRange: 450     // 広い索敵範囲
+    homingDelay: 20      // 最初の20フレームは直進して垂直上昇を表現
+    accel: 0.15          // 発射後、徐々に猛加速する
+    maxVelocity: 12      // 最終的な最高速度（最速クラス）
+    
+    // 迎撃ミサイルの白い煙を再現
+    trailColor: ffffff
+    trailLength: 25
+    trailWidth: 3
+    backColor: d1efff
+    frontColor: ffffff
+    
+    // 🔊 飛翔音（ミサイルが飛んでいる間の推進音、バニラの音源を指定）
+    chargeSound: torch
+    soundPitchMin: 1.0
+    soundPitchMax: 1.2
+    
+    // 🔊 着弾・爆発時の音
+    hitSound: explosion
+    
+    splashDamage: 100
+    splashDamageRadius: 30
+    
+    collidesAir: true
+    collidesGround: true
   }
 }
 
