@@ -7,7 +7,7 @@ description:
   '''
 size: 3
 health: 1500
-range: 150
+range: 1000
 
 # 📌 旋回せず、全方向に即座に発射できるように固定
 rotateSpeed: 0
