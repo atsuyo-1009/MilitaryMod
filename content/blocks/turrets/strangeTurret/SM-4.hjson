@@ -31,23 +31,14 @@ consume: {
 }
 
 ammoTypes: {
-  surge-alloy: {
-    # 📌 ユニットを生成するため「SpawnBulletType」に変更
-    type: SpawnBulletType
-    
-    # 📌 ハイフンが2つになっていた名称エラーを修正
-    spawnUnit: SM-3
-    
-    # 📌 VLS（垂直発射）を再現。最初は上（前）に低速で飛び出し、その後ミサイル自身のAIで敵へ向かわせる
-    speed: 3
-    lifetime: 30
-    
-    # 弾頭の見た目は透明にして、召喚されるミサイルユニット本体だけが見えるようにする
-    layer: 0
-    drawSize: 0
+tarretAmmo: {
+    ammoMultiplier: 12
+    reloadMultiplier: 0.75
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
     damage: 0
-    shootEffect: none
-    smokeEffect: none
+    spawnUnit: SM-3
   }
 }
 
