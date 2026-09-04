@@ -36,18 +36,54 @@ consumes: {
 
 ammoTypes: {
   surge-alloy: {
-    // ⚙️ 通常の弾薬で撃ち落とせるようにするため、ユニット召喚用の弾薬クラス（Scathe等と同じ仕様）に変更
-    type: BulletType
-    spawnUnit: SM--3 
-// 📌 下記で定義する自作スプライト＆耐久付きミサイルユニットを生成
+    type: MissileBulletType
+    damage: 180
+    speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
+    lifetime: 300    // 長距離飛ぶための寿命
     
-    // 砲塔からユニットが飛び出す際の初期設定（元々の設定値を維持）
-    speed: 1.5
-    lifetime: 300
+    // 🖼️ 自作のスプライト画像を適用
+    sprite: sm3-missile
     
-    // 演出用
-    shootEffect: none
-    smokeEffect: none
+    width: 6
+    height: 18
+    shrinkY: 0
+    
+    // 🛡️ 【1発即死を防止する設定】
+    hittable: true       // 敵の通常弾がミサイルに当たる
+    killable: true       // 敵の弾で破壊可能にする
+    reflectable: false   // 反射されない
+    
+    // 📌 【重要】ミサイル本体のHP（耐久値）
+    // これを入れることで、1発即死ではなく「敵の通常弾のダメージを合計150受けるまで耐える」ようになります。
+    health: 150          
+    
+    // 超高速誘導の設定
+    homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
+    homingRange: 450     // 広い索敵範囲
+    homingDelay: 20      // 最初の20フレームは直進して垂直上昇を表現
+    accel: 0.15          // 発射後、徐々に猛加速する
+    maxVelocity: 12      // 最終的な最高速度（最速クラス）
+    
+    // 迎撃ミサイルの白い煙を再現
+    trailColor: ffffff
+    trailLength: 25
+    trailWidth: 3
+    backColor: d1efff
+    frontColor: ffffff
+    
+    // 🔊 飛翔音（ミサイルが飛んでいる間の推進音、バニラの音源を指定）
+    chargeSound: torch
+    soundPitchMin: 1.0
+    soundPitchMax: 1.2
+    
+    // 🔊 着弾・爆発時の音
+    hitSound: explosion
+    
+    splashDamage: 100
+    splashDamageRadius: 30
+    
+    collidesAir: true
+    collidesGround: true
   }
 }
 
