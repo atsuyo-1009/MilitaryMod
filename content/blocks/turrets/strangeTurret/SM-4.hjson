@@ -1,41 +1,51 @@
 type: ItemTurret
 name: SM-3 VLSサイロ
-description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
+description:
+  '''
+  艦載式の垂直発射システム（VLS）。
+  敵の航空・地上目標に向けて、2発の迎撃ミサイルを時間差で連続垂直発射します。
+  '''
 size: 3
 health: 1500
-range: 1500 // 超長射程
+range: 1500
 
+# 📌 旋回せず、全方向に即座に発射できるように固定
 rotateSpeed: 0
 shootCone: 360
-targetInterval: 1
 
 shoot: {
   type: ShootSequence
-  shots: 2        // 計4発を連続で垂直発射
-  shotDelay: 60   // 弾と弾の間の発射ディレイ（約0.25秒）
+  shots: 2        # 説明文の「2発ずつ」に合わせました（4発にするならここを4に）
+  shotDelay: 15   # 弾と弾の間のディレイ（Mindustryの15フレーム＝0.25秒）
 }
 
 inaccuracy: 3
-reload: 240 // 次の斉射（計4発）までの装填時間
+reload: 240
 
 shootSound: missile
 shootEffect: shootSmokeMissile
 
-consumes: {
+# 📌 消費電力は「consumes」ではなく「consume」オブジェクト内に記述（V7仕様）
+consume: {
   power: 2.0
 }
 
 ammoTypes: {
   surge-alloy: {
-    type: BulletType
-    spawnUnit: SM--3
+    # 📌 ユニットを生成するため「SpawnBulletType」に変更
+    type: SpawnBulletType
     
-    // 📌 【最重要追加】生成されたミサイルに、敵ユニットを最優先で自爆追尾するAIを強制適用します
-    // これにより、建物ではなく動く敵ユニットを狂ったように追いかけるようになります
-    unitController: suicide
+    # 📌 ハイフンが2つになっていた名称エラーを修正
+    spawnUnit: SM-3
     
-    speed: 1.5
-    lifetime: 300
+    # 📌 VLS（垂直発射）を再現。最初は上（前）に低速で飛び出し、その後ミサイル自身のAIで敵へ向かわせる
+    speed: 3
+    lifetime: 30
+    
+    # 弾頭の見た目は透明にして、召喚されるミサイルユニット本体だけが見えるようにする
+    layer: 0
+    drawSize: 0
+    damage: 0
     shootEffect: none
     smokeEffect: none
   }
