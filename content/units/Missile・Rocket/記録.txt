@@ -1,0 +1,28 @@
+ミサイル関係
+
+
+type: missile
+template: MissileUnitType
+
+weapons: [
+  bullet: {
+    type: ExplosionBulletType
+  }
+]
+
+ユニット関係
+
+weapons: [
+  bullet: {
+    type: BulletType
+    spawnUnit: your-missile-unit-name
+  }
+]
+タレット関係
+
+ammoTypes: {
+  copper: {
+    type: BulletType
+    spawnUnit: your-missile-unit-name
+  }
+}
