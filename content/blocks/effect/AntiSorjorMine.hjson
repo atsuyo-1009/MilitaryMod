@@ -3,6 +3,7 @@ name: 対人地雷
 description: '''対人地雷。人に対しては効果的ですが戦車にはあまり効果がありません。'''
 health: 15
 hasShadow:false
+targetable: false
 Killshooter: true
 damage:20
 tileDamage: 10
