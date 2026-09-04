@@ -5,12 +5,8 @@ size: 3
 health: 1500
 range: 550 // 超長射程
 
-// 📌 砲塔は完全に正面（0度）で固定する
 rotateSpeed: 0
-
-// 📌 砲塔の向きに関係なく、360度どこに敵がいても「ロックオン完了」とみなして即発射する
 shootCone: 360
-
 targetInterval: 1
 
 shoot: {
@@ -19,15 +15,10 @@ shoot: {
   shotDelay: 60   // 弾と弾の間の発射ディレイ（約0.25秒）
 }
 
-// ミサイルが完全に重なって飛ばないよう、わずかなブレを設定
 inaccuracy: 3
-
 reload: 240 // 次の斉射（計4発）までの装填時間
 
-// 🔊 発射音
 shootSound: missile
-
-// 💨 発射時にVLS特有の大量の白い煙を発生させる
 shootEffect: shootSmokeMissile
 
 consumes: {
@@ -36,11 +27,10 @@ consumes: {
 
 ammoTypes: {
   surge-alloy: {
-    // ⚙️ 敵タレットから「自動ロックオン」される対象にするため、空中ユニット（ミサイル）を生成
+    // ⚙️ 敵タレットから「自動ロックオン」され、敵ユニットへ飛ぶ飛行型を召喚
     type: BulletType
-    spawnUnit: SM--3
+    spawnUnit: sm3-missile-unit
     
-    // 砲塔から飛び出す際の初期設定（元の仕様を維持）
     speed: 1.5
     lifetime: 300
     
