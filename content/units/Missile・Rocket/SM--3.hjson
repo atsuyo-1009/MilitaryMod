@@ -1,53 +1,59 @@
-// 📌 バニラの「スカス」等と同じ特殊ミサイルタイプ。これで絶対に地面を歩きません
-type: missile
+// 📌 【修正】絶対に地面を歩かず、敵ユニットを狙うように「flying（飛行型）」に変更
+type: flying
 name: SM-3 迎撃弾頭
 
 // 🖼️ 自作のスプライト画像を適用
 sprite: sm3-missile
 
-// 🚀 空中を飛行し、タレットが狙った敵へ直行させるためのコアAI設定
-flying: true
-aiController: missileAI
-
-// 🛡️ 【最重要】敵の通常タレットがこのミサイルを「標的」として自動ロックオンし、狙い撃ちさせる設定
-targetable: true     // 敵タレットがこのミサイルを自動でターゲット（索敵・ロックオン）します
-hittable: true       // 敵の通常弾が物理的に命中するようになります
+// 🛡️ 【最重要】敵の通常タレットがこのミサイルを自動ロックオンして狙い撃ちする設定
+targetable: true     // 敵タレットが自動でターゲット（ロックオン）します
+hittable: true       // 敵の通常弾が物理的に命中します
 health: 150          // 敵の弾幕に耐えられるHP量
 
+// 🚀 飛行・追尾性能（絶対に地面を歩きません）
+flying: true
+lowAltitude: false
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
 logicControllable: false
 
-// 🚀 ミサイルの移動性能（元の超高速誘導・猛加速の設定を完全移植）
+// 移動性能（元の猛加速と超高速誘導の設定を完全移植）
 speed: 12            // 最高速度
 accel: 0.15          // 徐々に猛加速
-rotateSpeed: 20      // 急カーブで追尾する高い誘導性能
+rotateSpeed: 20      // 急カーブで敵ユニットを追いかける旋回性能
 
 // 迎撃ミサイルの白い煙を再現
 trailColor: ffffff
 trailLength: 25
 
-// 🔊 飛翔音（ミサイルが飛んでいる間のキーン・ゴーという推進ループ音）
+// 🔊 飛翔音（ループ推進音）
 loopSound: torch
 loopSoundVolume: 0.6
 
-// 💥 着弾時、または道中で敵弾に撃ち落とされた時の爆発
+// 💥 着弾時、または通常弾で撃ち落とされた時の爆発
 hitSound: explosion
 deathExplosionEffect: blastExplosion
 
 weapons: [
   {
     type: Weapon
-    shootOnDeath: true // 標的に命中した時、または道中で敵の通常弾に撃ち落とされた時に爆発する
+    shootOnDeath: true // 敵ユニットに衝突した時、または道中で撃ち落とされた時に爆発する
     reload: 10
+    
+    // 📌 敵ユニットを感知して自動で突撃・自爆させるための設定
+    shootCone: 360
+    mirror: false
+    x: 0
+    y: 0
+    
     bullet: {
       type: BulletType
       instantDisappear: true
       damage: 180
       splashDamage: 100
       splashDamageRadius: 30
-      killShooter: true
+      killShooter: true // 衝突時に自分自身（ミサイル）を消滅させて爆発に変える
       
       collidesAir: true
       collidesGround: true
