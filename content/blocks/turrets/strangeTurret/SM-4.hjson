@@ -1,5 +1,5 @@
 type: ItemTurret
-name: SM-４ VLSサイロ
+name: SM-3 VLSサイロ
 description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
 size: 3
 health: 1500
@@ -36,7 +36,8 @@ consumes: {
 
 ammoTypes: {
   surge-alloy: {
-    type: MissileBulletType
+    // ⚙️ 【重要】敵の通常弾と「物理的な当たり判定」を持たせるため、BasicBulletTypeに変更
+    type: BasicBulletType
     damage: 180
     speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
     lifetime: 300    // 長距離飛ぶための寿命
@@ -48,16 +49,15 @@ ammoTypes: {
     height: 18
     shrinkY: 0
     
-    // 🛡️ 【1発即死を防止する設定】
-    hittable: true       // 敵の通常弾がミサイルに当たる
-    killable: true       // 敵の弾で破壊可能にする
-    reflectable: false   // 反射されない
+    // 🛡️ 【物理衝突＆HP耐久設定】
+    // これにより、敵の通常弾（デュオやサルボなどの弾丸）がこのミサイルの当たり判定に触れた際、
+    // すり抜けずにバチバチと命中し、HPが尽きると空中で爆破・迎撃されます。
+    hittable: true
+    killable: true
+    reflectable: false
+    health: 150          // 敵弾に耐えられるHP量（お好みで調整可能）
     
-    // 📌 【重要】ミサイル本体のHP（耐久値）
-    // これを入れることで、1発即死ではなく「敵の通常弾のダメージを合計150受けるまで耐える」ようになります。
-    health: 150          
-    
-    // 超高速誘導の設定
+    // 🚀 超高速誘導の設定（Missile以外のタイプでも機能する誘導パラメータ）
     homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
     homingRange: 450     // 広い索敵範囲
     homingDelay: 20      // 最初の20フレームは直進して垂直上昇を表現
