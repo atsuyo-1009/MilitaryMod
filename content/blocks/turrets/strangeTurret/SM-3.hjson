@@ -24,8 +24,8 @@ inaccuracy: 3
 
 reload: 240 // 次の斉射（計4発）までの装填時間
 
-// 🔊 発射音
-shootSound: missileLaunch
+// 🔊 【修正】バニラに確実に存在するミサイル発射音に変更
+shootSound: missile
 
 // 💨 発射時にVLS特有の大量の白い煙を発生させる
 shootEffect: shootSmokeMissile
@@ -41,18 +41,16 @@ ammoTypes: {
     speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
     lifetime: 300    // 長距離飛ぶための寿命
     
-    // 🖼️ 【追加】自作のスプライト画像を適用
-    // MOD内の「sprites/sm3-missile.png」を読み込みます（名前は任意に変更してください）
-   // sprite: sm3-missile
+    // 🖼️ 自作のスプライト画像を適用
+    sprite: sm3-missile
     
-    // スプライト画像を使用するため、デフォルトの長方形描画（width/height）は削除、または画像サイズに合わせます
     width: 6
     height: 18
     shrinkY: 0
     
-    // 🛡️ 【追加】ミサイルを迎撃（敵の攻撃で破壊）可能にする設定
+    // 🛡️ ミサイルを迎撃（敵の攻撃で破壊）可能にする設定
     killable: true
-    health: 50       // ミサイル自身のHP（敵の対空砲などで落とされるようになります）
+    health: 50       // ミサイル自身のHP
     
     // 超高速誘導の設定
     homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
@@ -68,11 +66,13 @@ ammoTypes: {
     backColor: d1efff
     frontColor: ffffff
     
-    // 🔊 飛翔音
-    loopSound: missileTrail
-    loopSoundVolume: 0.6
+    // 🔊 【修正】飛翔音（弾が消えるまで鳴り続けるループ音）
+    // バニラの持続音「torch」（ゴーという火炎・推進音）を指定
+    chargeSound: torch
+    soundPitchMin: 1.0
+    soundPitchMax: 1.2
     
-    // 🔊 着弾・爆発時の音
+    // 🔊 【修正】着弾・爆発時の音
     hitSound: explosion
     
     splashDamage: 100
