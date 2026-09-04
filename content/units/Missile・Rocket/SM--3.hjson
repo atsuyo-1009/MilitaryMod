@@ -1,0 +1,48 @@
+type: missile
+name: SM-3 迎撃弾頭
+
+// 🖼️ 自作のスプライト画像を適用（MODの sprites フォルダ内の画像名）
+sprite: sm3-missile
+
+// 🛡️ 敵の通常タレットや通常弾（デュオ、サルボ等）で撃ち落とされるための設定
+health: 40
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+logicControllable: false
+
+// 🚀 ミサイルの移動性能（元の超高速誘導・猛加速の設定を完全移植）
+speed: 12        // 最高速度 (maxVelocity: 12)
+accel: 0.15      // 徐々に猛加速
+rotateSpeed: 20  // 急カーブで追尾する高い誘導性能 (homingPower: 0.35に相当)
+
+// 迎撃ミサイルの白い煙を再現
+trailColor: ffffff
+trailLength: 25
+
+// 🔊 飛翔音（ミサイルが飛んでいる間のキーン・ゴーという推進ループ音）
+loopSound: torch
+loopSoundVolume: 0.6
+
+// 💥 着弾（または通常弾で撃ち落とされた時）の爆発とダメージ設定
+hitSound: explosion
+deathExplosionEffect: blastExplosion
+
+weapons: [
+  {
+    type: Weapon
+    shootOnDeath: true // 命中時、または道中で撃ち落とされた時に爆発する
+    reload: 10
+    bullet: {
+      type: BulletType
+      instantDisappear: true
+      damage: 180
+      splashDamage: 100
+      splashDamageRadius: 30
+      killShooter: true
+      
+      collidesAir: true
+      collidesGround: true
+    }
+  }
+]
