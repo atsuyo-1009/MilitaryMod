@@ -1,9 +1,9 @@
 type: ItemTurret
-name: SM-４ VLSサイロ
+name: SM-3 VLSサイロ
 description: '''艦載式の垂直発射システム（VLS）。敵の航空・地上目標に向けて、2発ずつの迎撃ミサイルを時間差で連続垂直発射します。'''
 size: 3
 health: 1500
-range: 1000 // 超長射程
+range: 550 // 超長射程
 
 // 📌 砲塔は完全に正面（0度）で固定する
 rotateSpeed: 0
@@ -24,7 +24,7 @@ inaccuracy: 3
 
 reload: 240 // 次の斉射（計4発）までの装填時間
 
-// 🔊 発射音（バニラ音源）
+// 🔊 発射音
 shootSound: missile
 
 // 💨 発射時にVLS特有の大量の白い煙を発生させる
@@ -36,11 +36,11 @@ consumes: {
 
 ammoTypes: {
   surge-alloy: {
-    // ⚙️ 弾頭システムに戻したため、絶対に地面を歩かず、敵ユニットを正確にロックオンします
-    type: MissileBulletType
+    // ⚙️ 【最終解決】通常弾との物理衝突・被弾を可能にするため、フラックベース（誘導対応型）に変更
+    type: FlakBulletType
     damage: 180
     speed: 1.5       // 最初は遅く飛び出す（垂直上昇の演出）
-    lifetime: 600    // 長距離飛ぶための寿命
+    lifetime: 300    // 長距離飛ぶための寿命
     
     // 🖼️ 自作のスプライト画像を適用
     sprite: sm3-missile
@@ -49,17 +49,17 @@ ammoTypes: {
     height: 18
     shrinkY: 0
     
-    // 🛡️ 【弾頭のまま敵の通常弾で迎撃可能にするコア設定】
-    collides: true       // 他のオブジェクトとの衝突判定を有効化
-    hittable: true       // 敵のあらゆる通常弾（小銃弾やレーザー等）がこのミサイルに接触するようになります
-    killable: true       // 接触した通常弾のダメージを受けて、空中で破壊（迎撃）できるようにします
-    keepVelocity: true   // 被弾してもミサイルの速度や慣性を落とさない
+    // 🛡️ 【通常弾で確実に撃ち落とされるためのコアパラメータ】
+    // システム側で敵タレットの通常弾（デュオ、サルボ等の全弾丸）を「物理的に吸い込んで衝突させる」設定です。
+    // 1発即死を完全に防止し、敵の弾幕ダメージを累積で「120」受けるまで耐えながら突き進みます。
+    collides: true
+    hittable: true
+    killable: true
+    reflectable: false
+    keepVelocity: true
+    health: 120
     
-    // 📌 ミサイル自体の耐久値（HP）
-    // 1発即死を完全に防ぎます。敵通常弾の累積ダメージが「120」に達するまで耐えながら突き進みます。
-    health: 120          
-    
-    // 超高速誘導の設定
+    // 🚀 超高速誘導の設定（Flakベースでも100%機能する追尾能力）
     homingPower: 0.35    // 高い誘導性能（急カーブで追尾）
     homingRange: 450     // 広い索敵範囲
     homingDelay: 20      // 最初の20フレームは直進して垂直上昇を表現
