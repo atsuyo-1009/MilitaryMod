@@ -3,6 +3,7 @@ name: Test
 size: 2
 health: 300
 category: turret
+predictTarget: false
 requirements: [
     copper/400
     graphite/320
