@@ -1,7 +1,7 @@
 type: missile
 hidden: true
 template: MissileUnitType
-health: 160
+health: 500
 speed: 4
 range: 1
 flying: true
