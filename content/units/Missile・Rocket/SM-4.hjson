@@ -10,7 +10,7 @@ missileAccelTime: 10
 autoFindTarget: true
 drawCell: false
 faceTarget: true
-aimDst: 3
+aimDst: 0
 rotateSpeed: 4
 useUnitCap: false
 homingDelay: 1
