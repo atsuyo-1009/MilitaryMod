@@ -1,7 +1,7 @@
 type: missile
 hidden: true
 template: MissileUnitType
-health: 160
+health: 559
 speed: 4
 range: 1
 flying: true
@@ -10,7 +10,7 @@ missileAccelTime: 10
 autoFindTarget: true
 drawCell: false
 faceTarget: true
-aimDst: 0
+aimDst: 3
 rotateSpeed: 4
 useUnitCap: false
 homingDelay: 1
