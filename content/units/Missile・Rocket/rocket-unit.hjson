@@ -15,7 +15,7 @@ rotateSpeed: 4
 useUnitCap: false
 homingDelay: 1
 circleTarget: false
-lifetime: 120
+lifetime: 300
 lowAltitude: true
 
 weapons: [
