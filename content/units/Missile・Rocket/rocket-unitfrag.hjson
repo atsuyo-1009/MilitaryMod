@@ -1,0 +1,62 @@
+type: missile
+hidden: true
+template: MissileUnitType
+health: 160
+speed: 4
+range: 1
+flying: true
+
+missileAccelTime: 10
+autoFindTarget: true
+drawCell: false
+faceTarget: true
+aimDst: 3
+rotateSpeed: 4
+useUnitCap: false
+homingDelay: 1
+circleTarget: false
+lifetime: 120
+lowAltitude: true
+
+type: missile
+hidden: true
+template: MissileUnitType
+health: 160
+speed: 4
+range: 1
+flying: true
+
+missileAccelTime: 10
+autoFindTarget: true
+drawCell: false
+faceTarget: true
+aimDst: 3
+rotateSpeed: 4
+useUnitCap: false
+homingDelay: 1
+circleTarget: false
+lifetime: 120
+lowAltitude: true
+
+weapons: [
+  {
+    reload: 1
+    shake: 0
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 130
+      splashDamageRadius: 18
+      fragBullets: 10
+      fragBullet: {
+        type: BasicBulletType
+        damage: 22
+        speed: 4
+        lifetime: 18
+      }
+    }
+  } 
+]
