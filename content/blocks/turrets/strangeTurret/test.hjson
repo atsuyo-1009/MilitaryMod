@@ -9,7 +9,7 @@ requirements: [
     titanium/280
     silicon/135
 ]
-range: 240
+range: 500
 reload: 80
 recoil: 3
 
