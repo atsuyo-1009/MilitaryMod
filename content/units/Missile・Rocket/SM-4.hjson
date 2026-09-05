@@ -1,7 +1,7 @@
 type: missile
 hidden: true
 template: MissileUnitType
-health: 500
+health: 160
 speed: 4
 range: 1
 flying: true
@@ -15,9 +15,8 @@ rotateSpeed: 4
 useUnitCap: false
 homingDelay: 1
 circleTarget: false
-lifetime: 120
+lifetime: 300
 lowAltitude: true
-
 weapons: [
   {
     reload: 1
