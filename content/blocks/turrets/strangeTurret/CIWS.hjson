@@ -13,7 +13,7 @@ consume: {
 ammoTypes: {
   tarretAmmo: {
     type:BasicBlletType
-	inaccuracy: 5
+	inaccuracy: 0.5
 	  damage:10
 	  speed:10
 	  lifetime:30
