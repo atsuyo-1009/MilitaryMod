@@ -9,11 +9,12 @@ consume: {
   power: 2.0
 }
 
+ reload: 0.01
 ammoTypes: {
   tarretAmmo: {
     type:BasicBlletType
 	inaccuracy: 10
-    reload: 0.01
+   
 	  damage:10
 	  speed:10
 	  lifetime:30
