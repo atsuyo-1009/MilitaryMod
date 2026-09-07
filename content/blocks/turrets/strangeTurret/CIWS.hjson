@@ -4,6 +4,7 @@ description: '''イージス艦載用の近接武器システム。圧倒的な�
 size: 2
 health: 800
 range: 300 // 迎撃用の中距離射程
+
 consume: {
   power: 2.0
 }
@@ -11,7 +12,7 @@ consume: {
 ammoTypes: {
   tarretAmmo: {
     type:BasicBlletType
-    reload: 6
+    reload: 3
 	  damage:10
 	  speed:10
 	  lifetime:30
