@@ -8,6 +8,8 @@ flying: true
 targetAir: true
 missileAccelTime: 10
 autoFindTarget: true
+outlinecoloer:00000000
+outlineRadius: -10000000
 drawCell: false
 faceTarget: true
 aimDst: 10
