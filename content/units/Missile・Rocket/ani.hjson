@@ -2,11 +2,11 @@ type: missile
 name: 迎撃可能ミサイル
 description: 敵のセグメントや対空砲によって撃ち落とされるミサイルです。
 speed: 4.5
-lifetime: 60
+lifetime: 1000
 rotateSpeed: 5
 
 // ここでHPを設定します。この数値ぶんダメージを受けると空中迎撃されます
-health: 50
+health: 500
 lowAltitude: true
 
 weapons: [
