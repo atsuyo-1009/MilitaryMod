@@ -1,9 +1,12 @@
-type: PointDefenseTurret
+type: ItemTurret
 name: CIWS ファランクス
 description: '''イージス艦載用の近接武器システム。圧倒的な連射速度で、迫り来る敵のミサイルや弾丸を自動で迎撃・無効化します。'''
 size: 2
 health: 800
 range: 300 // 迎撃用の中距離射程
+consume: {
+  power: 2.0
+}
 
 ammoTypes: {
   tarretAmmo: {
