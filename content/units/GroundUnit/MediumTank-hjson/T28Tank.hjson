@@ -12,6 +12,7 @@ faceTarget: true
 speed: 1.5
 targetGround:true
 targetAir:false
+collidesAir: false
 treadFrames: 5
 outlinecoloer:00000000
 outlineRadius: -10000000
