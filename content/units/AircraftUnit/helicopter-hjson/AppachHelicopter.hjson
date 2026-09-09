@@ -12,6 +12,7 @@ drag: 0.05
 range: 360
 outlinecoloer:00000000
 outlineRadius: -100
+outlines: false
  parts: [
            {
            type:RegionPart
