@@ -29,6 +29,8 @@ weapons:[
   y:-1
   x:0.02
   mirror:false
+  collidesAir: false
+  targetAir: false
   rotate:true
   speed:20
   lifetime:10
