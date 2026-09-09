@@ -16,6 +16,7 @@ faceTarget: true
 aimDst: 10
 rotateSpeed: 6
 useUnitCap: false
+collidesAir: true
 homingDelay: 1
 circleTarget: false
 lifetime: 300
