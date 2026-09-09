@@ -9,6 +9,7 @@ health: 50
 armor: 0
 speed: 0
 targetAir: false
+collidesAir: false
 shootCone: 15
 inaccuracy: 2
 outlinecoloer:00000000
