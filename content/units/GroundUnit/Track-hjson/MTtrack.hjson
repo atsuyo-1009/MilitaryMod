@@ -23,6 +23,8 @@ weapons: [
     shootSound: explosion
     reload: 1
     autoShoot: false
+    collidesAir: false
+    collidesGround: false 
     mirror: false
     x: 0
     y: 0
