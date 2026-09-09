@@ -10,6 +10,7 @@ missileAccelTime: 10
 autoFindTarget: true
 outlinecoloer:00000000
 outlineRadius: -10000000
+outlines: false
 drawCell: false
 faceTarget: true
 aimDst: 10
