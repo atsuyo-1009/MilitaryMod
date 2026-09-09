@@ -31,6 +31,7 @@ weapons:[
   mirror:false
   flipSprite: false
   rotate:true
+  collidesAir: false
   targetAir: false
   targetGround: true
   speed:30
