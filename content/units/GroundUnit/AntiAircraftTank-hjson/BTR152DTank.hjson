@@ -10,6 +10,7 @@ health: 100
 armor: 5
 targetGround: false
 faceTarget: false
+collidesGround: false
 speed: 2
 targetAir: true
 treadFrames: 5
