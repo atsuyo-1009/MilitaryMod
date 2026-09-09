@@ -5,6 +5,7 @@ health: 150
 armor: 10
 targetAir: false
 targetGround: true
+collidesAir: false
 speed: 0
 weapons: [
   {
