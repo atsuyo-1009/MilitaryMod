@@ -41,6 +41,7 @@ weapons:[
   y: 1
   x: 6
   mirror:true
+  collidesAir: false 
 　under:true
   flipSprite: false
   rotate: false
