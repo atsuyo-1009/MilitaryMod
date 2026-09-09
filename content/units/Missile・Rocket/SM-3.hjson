@@ -11,6 +11,7 @@ autoFindTarget: true
 outlinecoloer:00000000
 outlineRadius: -10000000
 outlines: false
+hitSize: 12
 drawCell: false
 faceTarget: true
 aimDst: 10
