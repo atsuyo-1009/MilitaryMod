@@ -15,6 +15,7 @@ targetAir: false
 treadFrames: 5
 outlinecoloer:00000000
 outlineRadius: -10000000
+outlines: false
 width:1
 height:1
 x: 0
