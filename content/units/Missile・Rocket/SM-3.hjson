@@ -29,6 +29,7 @@ weapons: [
     shootOnDeath: true
     mirror: true
     shootCone: 360
+    physics:ture
     shake: 3
     bullet: {
       type: ExplosionBulletType
@@ -36,22 +37,4 @@ weapons: [
       splashDamageRadius: 45
     }
   } 
-  {
-    type: basicBulletType
-    name: ""                # 空文字にして武器名なし
-    targetGround: true
-    speed:30
-    lifetime:0.1
-    targetAir: true
-    mirror: false
-    x: 0.01
-    y: 0.01
-    bullet: {
-      type: ExplosionBulletType
-      damage: 340
-      splashDamage: 340
-      splashDamageRadius: 40
-      killShooter: true
-    }
-  }
 ]
