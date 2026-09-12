@@ -36,4 +36,23 @@ weapons: [
       splashDamageRadius: 45
     }
   } 
+  {
+    name: ""                # 空文字にして武器名なし
+    shootSound: explosion
+    reload: 1
+    targetGround: true
+    speed:30
+    lifetime:0.1
+    targetAir: true
+    mirror: false
+    x: 0
+    y: 0
+    bullet: {
+      type: ExplosionBulletType
+      damage: 340
+      splashDamage: 340
+      splashDamageRadius: 40
+      killShooter: true
+    }
+  }
 ]
