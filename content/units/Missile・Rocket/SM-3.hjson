@@ -29,7 +29,7 @@ weapons: [
     shootOnDeath: true
     mirror: true
     shootCone: 360
-    physics:ture
+    physics: ture
     shake: 3
     bullet: {
       type: ExplosionBulletType
