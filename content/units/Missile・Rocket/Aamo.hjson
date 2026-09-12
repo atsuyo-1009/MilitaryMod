@@ -1,0 +1,93 @@
+type: missile
+name: fleet-interceptor
+localizedName: 艦載迎撃ミサイル
+description: "航空機および敵ミサイルを迎撃する艦載対空ミサイル。"
+
+# =========================
+# 基本性能
+# =========================
+
+speed: 4.5
+accel: 0.8
+drag: 0.05
+
+health: 30
+hitSize: 6
+
+flying: true
+wobble: false
+
+# =========================
+# ターゲット
+# =========================
+
+targetAir: true
+targetGround: false
+
+targetable: true
+hittable: true
+killable: true
+
+# 他ユニットとの物理衝突を有効化
+physics: true
+
+# =========================
+# AI
+# =========================
+
+aiController: FlyingAI
+
+# =========================
+# ミサイル寿命
+# =========================
+
+lifetime: 300
+homingDelay: 0
+missileAccelTime: 20
+
+# =========================
+# 迎撃用兵装
+# =========================
+
+weapons: [
+  {
+    name: fleet-interceptor-warhead
+
+    x: 0
+    y: 0
+    mirror: false
+
+    reload: 10
+
+    controllable: false
+    aiControllable: true
+
+    predictTarget: true
+
+    bullet: {
+      type: BasicBulletType
+
+      speed: 12
+      damage: 100
+
+      width: 4
+      height: 8
+
+      lifetime: 5
+
+      collides: true
+      collidesAir: true
+      collidesGround: false
+
+      splashDamage: 100
+      splashDamageRadius: 20
+
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+
+      killShooter: true
+
+      keepVelocity: false
+    }
+  }
+]
