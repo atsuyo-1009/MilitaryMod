@@ -37,16 +37,15 @@ weapons: [
     }
   } 
   {
+    type: basicBulletType
     name: ""                # 空文字にして武器名なし
-    shootSound: explosion
-    reload: 1
     targetGround: true
     speed:30
     lifetime:0.1
     targetAir: true
     mirror: false
-    x: 0
-    y: 0
+    x: 0.01
+    y: 0.01
     bullet: {
       type: ExplosionBulletType
       damage: 340
