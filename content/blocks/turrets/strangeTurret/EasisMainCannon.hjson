@@ -1,1 +1,25 @@
-w
+ammoTypes: {
+  tarretAmmo: {
+    type:BasicBlletType
+	inaccuracy: 0.5
+	  damage:10
+	  speed:10
+	  lifetime:30
+	  width:5
+	  height:10
+	  ammoMultiplier:1
+parts: [
+           {
+           type:RegionPart
+           suffix:-barrel
+           under:true
+  moves: [
+          {
+        type: PartMove
+        progress: recoil
+        y: -1.5
+          }
+          ]
+           }
+           ]
+  }
