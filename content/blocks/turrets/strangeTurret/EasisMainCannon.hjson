@@ -35,6 +35,7 @@ parts: [
            }
            ]
   }
+buildTime:240
 requirements: [
   IronIngot/10
   IronPlate/30
