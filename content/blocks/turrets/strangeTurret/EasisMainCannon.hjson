@@ -1,6 +1,11 @@
 name:イージス艦５インチ速射砲
 type: ItemTurret
 size: 2
+buildTime:240
+requirements: [
+  IronIngot/10
+  IronPlate/30
+]
 targetAir: True
 targetGround: true
 health: 500
@@ -34,9 +39,4 @@ parts: [
           ]
            }
            ]
-  　　　　　　]
-buildTime:240
-requirements: [
-  IronIngot/10
-  IronPlate/30
-]
+  　　　　　
