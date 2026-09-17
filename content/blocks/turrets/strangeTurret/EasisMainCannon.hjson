@@ -21,7 +21,7 @@ ammoTypes: {
 	inaccuracy: 0.5
 	  damage:10
 	  speed:10
-	  lifetime:30
+	  lifetime:50
 	  width:5
 	  height:10
 	  ammoMultiplier:1
