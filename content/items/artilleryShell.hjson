@@ -1,0 +1,16 @@
+name: 大型砲弾
+description: '''
+大砲や大型砲のための砲弾。保管しているコンテナが破壊されると大規模に爆破するので注意。
+  '''
+explosiveness:3
+flammability:1
+radioactivity:0
+charge:0
+hardness:0
+color:8c7fa9
+alwaysUnlocked: d6af42
+research: {
+planet: Earth
+name: MilitaryMod
+parent:tarretAmmo
+}
