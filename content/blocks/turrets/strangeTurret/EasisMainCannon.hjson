@@ -6,7 +6,7 @@ requirements: [
   IronIngot/10
   IronPlate/30
 ]
-targetAir: True
+targetAir: true
 targetGround: true
 health: 500
 range: 500
