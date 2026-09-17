@@ -1,0 +1,35 @@
+type: ItemTurret
+name: アンチ・アモ・ディフェンダー
+size: 2
+health: 600
+
+// バラけさせる設定
+shoot: {
+  type: ShootSpread
+  shots: 5       // 1回に発射する弾の数（5発に分散）
+  spread: 15     // 弾がバラける角度の広さ
+}
+inaccuracy: 10   // 射撃全体のランダムなブレ（さらにバラけさせたい場合）
+reload: 20       // 連射速度
+
+
+ammoTypes: {
+  tarretAmmo: {
+    // ★敵の弾を消せるレーザー/弾丸のタイプ
+    type: PointBulletType 
+    
+    // 弾が届く最大距離
+    range: 160 
+    
+    // ★一撃で消せなくする（重要設定）
+    // 敵の弾にもHPのような「ダメージ耐性」があります。
+    // バニラのSegmentはここが1000など非常に高いですが、
+    // ここを「5」や「10」のように低くすることで、
+    // 1発では消えず、何発か（散弾を数粒）当てないと消えないようになります。
+    damage: 10 
+    
+    // 発射時のエフェクト
+    hitEffect: pointHit
+    smokeEffect: smoke
+  }
+}
