@@ -1,0 +1,23 @@
+name: tarreet
+type: flying         # ミサイル同士で引き合わないようにflyingにする
+controller: MissileAI # 敵に突撃するAI
+range: 20            # ユニット本体の射程を少し持たせる
+hittable: false
+targetable: false
+
+weapons: [
+  {
+    shootOnMove: true
+    reload: 10
+    shootCone: 360    # 全方位に発射可能にする（すれ違いざまでも自爆させるため）
+    mirror: false
+    x: 0
+    y: 0
+    bullet: {
+      type: ExplosionBulletType
+      damage: 150
+      killShooter: true # これで自身が消滅する
+      radius: 40        # 爆発の範囲
+    }
+  }
+]
