@@ -25,6 +25,8 @@ ammoTypes: {
 	  width:5
 	  height:10
 	  ammoMultiplier:1
+}
+}
 parts: [
            {
            type:RegionPart
