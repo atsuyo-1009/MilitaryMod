@@ -1,5 +1,6 @@
 name:イージス艦５インチ速射砲
 type: ItemTurret
+category: turret
 size: 2
 buildTime:240
 requirements: [
