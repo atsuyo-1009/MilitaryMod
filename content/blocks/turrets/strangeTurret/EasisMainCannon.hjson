@@ -11,10 +11,10 @@ targetAir: true
 targetGround: true
 health: 500
 range: 500
-reload: 10
+reload: 60
 recoil: 0.5
 //inaccuracy=精度(不正確さ)角度｢°｣表記です
-inaccuracy: 0.05
+inaccuracy: 0.1
 shootSound: shootBig
 ammoTypes: {
   tarretAmmo: {
