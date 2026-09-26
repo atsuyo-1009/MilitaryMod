@@ -1,0 +1,55 @@
+name: NH-2偵察ドローン
+description: '''NH-2偵察ドローン。偵察ドローンなので武装はないが、その代わり視野が広い。そしてかなり脆い。'''
+type: flying
+flying: true
+health: 300
+hitSize: 3
+speed: 3
+targetAir:false
+engineSize:0
+armor: 4
+drag: 0.1
+range: 700
+outlinecoloer:00000000
+outlineRadius: -100
+outlines: false
+ parts: [
+           {
+           type:RegionPart
+           suffix:-propeller-1
+           under:false
+  moveRot: 360.0
+progress: {
+  type: time
+  ops: [
+    {
+      op: mul
+      amount: 0.02
+    }
+    {
+      op: mod
+      amount: 1.0
+    }
+  ]
+}
+}
+{
+           type:RegionPart
+           suffix:-propeller-2
+           under:false
+  moveRot: 360.0
+progress: {
+  type: time
+  ops: [
+    {
+      op: mul
+      amount: 0.02
+    }
+    {
+      op: mod
+      amount: 1.0
+    }
+  ]
+}
+}
+]
