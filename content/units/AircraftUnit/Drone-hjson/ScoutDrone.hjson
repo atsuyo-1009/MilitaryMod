@@ -17,8 +17,8 @@ outlines: false
            {
            type:RegionPart
            suffix:-rotor
-           y: 13.5
-           x: 13.5
+           y: 15.5
+           x: 15.5
            under:true
   moveRot: 360.0
 progress: {
