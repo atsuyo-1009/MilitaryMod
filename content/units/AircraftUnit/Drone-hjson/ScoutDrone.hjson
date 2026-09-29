@@ -16,7 +16,7 @@ outlines: false
  parts: [
            {
            type:RegionPart
-           suffix:-propeller
+           suffix:-rotor
            y: 1
            x: 1
            under:true
