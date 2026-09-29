@@ -20,6 +20,7 @@ outlines: false
            y: 15.5
            x: 15.5
            under:false
+           layerOffset: -2
   moveRot: 360.0
 progress: {
   type: time
