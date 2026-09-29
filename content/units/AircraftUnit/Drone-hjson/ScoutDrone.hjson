@@ -52,4 +52,42 @@ progress: {
   ]
 }
 }
+           {
+           type:RegionPart
+           suffix:-propeller-3
+           under:false
+  moveRot: 360.0
+progress: {
+  type: time
+  ops: [
+    {
+      op: mul
+      amount: 0.02
+    }
+    {
+      op: mod
+      amount: 1.0
+    }
+  ]
+}
+}
+           {
+           type:RegionPart
+           suffix:-propeller-4
+           under:false
+  moveRot: 360.0
+progress: {
+  type: time
+  ops: [
+    {
+      op: mul
+      amount: 0.02
+    }
+    {
+      op: mod
+      amount: 1.0
+    }
+  ]
+}
+}
 ]
