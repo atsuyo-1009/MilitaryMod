@@ -19,7 +19,7 @@ outlines: false
            suffix:-rotor
            y: 15.5
            x: 15.5
-           under:true
+           under:false
   moveRot: 360.0
 progress: {
   type: time
@@ -30,7 +30,7 @@ progress: {
     }
     {
       op: mod
-      amount: 1.0
+      amount: 5.0
     }
   ]
 }
