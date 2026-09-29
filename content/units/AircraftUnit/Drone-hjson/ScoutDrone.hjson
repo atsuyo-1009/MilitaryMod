@@ -16,7 +16,7 @@ outlines: false
  parts: [
            {
            type:RegionPart
-           suffix:-propeller-1
+           suffix:propeller-1
            y: 1
            x: 1
            under:false
@@ -37,7 +37,7 @@ progress: {
 }
 {
            type:RegionPart
-           suffix:-propeller-2
+           suffix:propeller-2
            y: 2
            x: 2
            under:false
@@ -58,7 +58,7 @@ progress: {
 }
            {
            type:RegionPart
-           suffix:-propeller-3
+           suffix:propeller-3
            y: -1
            x: -1
            under:false
@@ -79,7 +79,7 @@ progress: {
 }
            {
            type:RegionPart
-           suffix:-propeller-4
+           suffix:propeller-4
            y: -2
            x: -2
            under:false
