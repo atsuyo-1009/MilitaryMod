@@ -35,66 +35,6 @@ progress: {
   ]
 }
 }
-{
-           type:RegionPart
-           suffix:-propeller-2
-           y: 2
-           x: 2
-           under:true
-  moveRot: 360.0
-progress: {
-  type: time
-  ops: [
-    {
-      op: mul
-      amount: 0.02
-    }
-    {
-      op: mod
-      amount: 1.0
-    }
-  ]
-}
-}
-           {
-           type:RegionPart
-           suffix:-propeller-3
-           y: -1
-           x: -1
-           under:true
-  moveRot: 360.0
-progress: {
-  type: time
-  ops: [
-    {
-      op: mul
-      amount: 0.02
-    }
-    {
-      op: mod
-      amount: 1.0
-    }
-  ]
-}
-}
-           {
-           type:RegionPart
-           suffix:-propeller-4
-           y: -2
-           x: -2
-           under:true
-  moveRot: 360.0
-progress: {
-  type: time
-  ops: [
-    {
-      op: mul
-      amount: 0.02
-    }
-    {
-      op: mod
-      amount: 1.0
-    }
   ]
 }
 }
