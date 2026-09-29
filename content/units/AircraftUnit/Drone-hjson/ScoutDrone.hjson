@@ -17,8 +17,8 @@ outlines: false
            {
            type:RegionPart
            suffix:-rotor
-           y: 15.5
-           x: 15.5
+           y: 13.5
+           x: 13.5
            under:false
            layerOffset: -2
   moveRot: 360.0
@@ -31,7 +31,7 @@ progress: {
     }
     {
       op: mod
-      amount: 2.0
+      amount: 1.0
     }
   ]
 }
