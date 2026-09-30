@@ -17,8 +17,8 @@ outlines: false
            {
            type:RegionPart
            suffix:-rotor
-           y: 2.5
-           x: 2.5
+           y: 3.5
+           x: 3.5
            under:false
            layerOffset: -2
   moveRot: 360.0
