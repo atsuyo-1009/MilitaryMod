@@ -1,0 +1,26 @@
+type: missile
+name: "custom-scathe-missile"
+template: MissileUnitType // ミサイル専用のテンプレートを使用
+
+// --- 【本題】ここがミサイル自体のHP（耐久値）の決め方 ---
+health: 160               // セグメント（30ダメ）に5発耐えるスキャス基準
+
+speed: 4
+maxRange: 600             // 射程
+lifetime: 180             // 寿命（チックス）
+
+// 着弾時の爆発性能
+weapons: [
+  {
+    type: Weapon
+    shootOnDeath: true    // 死んだとき（着弾・撃ち落とされた時）に爆発する
+    reload: 10
+    bullet: {
+      type: BulletType
+      damage: 0           // 直撃ダメは0にして爆風メインにする
+      splashDamage: 250   // 爆発ダメージ
+      splashDamageRadius: 40 // 爆発範囲（5マス分）
+      killShooter: true   // 爆発したらミサイル自身を消滅させる
+    }
+  }
+]
