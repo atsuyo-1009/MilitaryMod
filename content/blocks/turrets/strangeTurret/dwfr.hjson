@@ -1,0 +1,18 @@
+type: ItemTurret
+name: "custom-scathe-turret"
+size: 4
+reload: 200               // スキャスのように発射間隔は長めに
+range: 600
+
+ammoTypes: {
+  // 例としてソーリウムを消費してミサイルを発射する
+  thorium: {
+    type: BasicBulletType // ここはBasicでOK
+    spawnUnit: "Missile" // 【重要】上で作ったミサイルユニットを生成する
+    
+    // 見た目のダミー設定（タレットから撃ち出される瞬間のエフェクト）
+    speed: 0.1
+    lifetime: 1
+    damage: 0
+  }
+}
