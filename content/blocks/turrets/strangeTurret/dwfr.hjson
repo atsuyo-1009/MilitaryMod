@@ -16,3 +16,4 @@ ammoTypes: {
     damage: 0
   }
 }
+category: turret
