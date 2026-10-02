@@ -1,5 +1,5 @@
 type: ItemTurret
-name: "custom-scathe-turret"
+name: あの護は
 size: 4
 reload: 200               // スキャスのように発射間隔は長めに
 range: 600
