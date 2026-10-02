@@ -6,7 +6,7 @@ range: 600
 
 ammoTypes: {
   // 例としてソーリウムを消費してミサイルを発射する
-  thorium: {
+  tarretAmmo: {
     type: BasicBulletType // ここはBasicでOK
     spawnUnit: "Missile" // 【重要】上で作ったミサイルユニットを生成する
     
