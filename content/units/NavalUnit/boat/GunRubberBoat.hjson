@@ -22,7 +22,7 @@ weapons: [
     shootSound: bang
     bullet: {
       type: BasicBulletType
-      damage: 10
+      damage: 20
       speed: 5
       lifetime: 80
       width: 2
