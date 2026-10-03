@@ -1,1 +1,31 @@
 type:naval
+name: 機銃付きゴムボート
+
+health: 1550
+speed: 1.1
+accel: 0.08
+drag: 0.05
+
+hitSize: 5
+rotateSpeed: 0.5
+
+naval: true
+
+weapons: [
+  {
+    name: GunRubberBoat-gun
+    reload: 20
+    x: 0
+    y: -2
+    rotate: true
+    shootSound: bang
+    bullet: {
+      type: BasicBulletType
+      damage: 10
+      speed: 5
+      lifetime: 40
+      width: 2
+      height: 5
+    }
+  }
+]
