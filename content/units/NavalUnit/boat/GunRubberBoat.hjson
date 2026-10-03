@@ -6,24 +6,25 @@ speed: 1.1
 accel: 0.08
 drag: 0.05
 
-hitSize: 5
-rotateSpeed: 0.5
+hitSize: 7
+rotateSpeed: 3
 
 naval: true
 
 weapons: [
   {
     name: GunRubberBoat-gun
-    reload: 20
+    reload: 0.1
+    rotateSpeed: 0.5
     x: 0
-    y: -2
+    y: 0
     rotate: true
     shootSound: bang
     bullet: {
       type: BasicBulletType
       damage: 10
       speed: 5
-      lifetime: 40
+      lifetime: 80
       width: 2
       height: 5
     }
