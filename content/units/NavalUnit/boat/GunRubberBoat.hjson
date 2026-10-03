@@ -19,7 +19,7 @@ weapons: [
     x: 0
     y: 0
     rotate: true
-    shootSound: bang
+    shootSound: shoot
     bullet: {
       type: BasicBulletType
       damage: 20
