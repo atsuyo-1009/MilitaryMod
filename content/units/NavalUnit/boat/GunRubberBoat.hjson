@@ -14,7 +14,7 @@ naval: true
 weapons: [
   {
     name: GunRubberBoat-gun
-    reload: 0.1
+    reload: 0.2
     rotateSpeed: 0.9
     x: 0
     y: 0
