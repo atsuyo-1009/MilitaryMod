@@ -5,7 +5,7 @@ health: 3500
 speed: 1.5
 accel: 0.1
 drag: 0.2
-fogRadius:300
+fogRadius:100
 outlinecoloer:00000000
 outlineRadius: -10000000
 outlines:true
@@ -20,7 +20,7 @@ weapons: [
     reload: 60
     rotateSpeed: 0.9
     x: 0
-    y: 10
+    y: 15
     rotate: true
     mirror: false
     shootSound: shoot
