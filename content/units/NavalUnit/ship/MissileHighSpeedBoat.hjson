@@ -18,8 +18,8 @@ weapons: [
     name: MissileHighSpeedBoat-cannon
     reload: 0.3
     rotateSpeed: 0.9
-    x: 5
-    y: 0
+    x: 0
+    y: 5
     rotate: true
     mirror: false
     shootSound: shoot
