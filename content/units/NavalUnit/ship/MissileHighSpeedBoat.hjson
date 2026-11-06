@@ -21,6 +21,7 @@ weapons: [
     x: 5
     y: 0
     rotate: true
+    mirror: false
     shootSound: shoot
     bullet: {
       type: BasicBulletType
@@ -36,7 +37,7 @@ weapons: [
            {
            type:RegionPart
            suffix:-burrel
-           under:false
+           under:true
   moves: [
           {
         type: PartMove
