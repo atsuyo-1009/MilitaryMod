@@ -5,6 +5,7 @@ health: 3500
 speed: 1.5
 accel: 0.1
 drag: 0.2
+fogRadius:20
 outlinecoloer:00000000
 outlineRadius: -10000000
 outlines:true
@@ -25,9 +26,9 @@ weapons: [
     shootSound: shoot
     bullet: {
       type: BasicBulletType
-      damage: 20
+      damage: 500
       speed: 5
-      lifetime: 80
+      lifetime: 100
       width: 2
       height: 5
       targetAir:true
