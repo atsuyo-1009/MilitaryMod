@@ -33,6 +33,17 @@ weapons: [
       height: 5
       targetAir:true
       targetGround:true
+      splashDamage: 100
+        splashDamageRadius: 10
+          fragBullets: 2
+        fragBullet: {
+          type: basicBulletType
+          hitSound: blast
+          damage: 25
+          lightningLength: 10
+          lightningLengthRand: 10
+          lightningColor: E3EBFB
+        }
     }
  parts: [
            {
