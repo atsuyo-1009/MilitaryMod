@@ -8,7 +8,7 @@ drag: 0.2
 outlinecoloer:00000000
 outlineRadius: -10000000
 outlines:true
-hitSize: 30
+hitSize: 20
 rotateSpeed: 5
 
 naval: true
