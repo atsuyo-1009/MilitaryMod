@@ -1,1 +1,35 @@
+type:naval
+name: ミサイル高速艦
+description: "ミサイル高速艦。１門の主砲と短距離ミサイル投射機を持っている。"
+health: 3500
+speed: 1.5
+accel: 0.1
+drag: 0.2
+outlinecoloer:00000000
+outlineRadius: -10000000
+outlines:true
+hitSize: 15
+rotateSpeed: 5
 
+naval: true
+
+weapons: [
+  {
+    name: MissileHighSpeedBoat-cannon
+    reload: 0.3
+    rotateSpeed: 0.9
+    x: 0
+    y: 0
+    rotate: true
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      damage: 20
+      speed: 5
+      lifetime: 80
+      width: 2
+      height: 5
+      targetAir:true
+      targetGround:true
+    }
+  }
