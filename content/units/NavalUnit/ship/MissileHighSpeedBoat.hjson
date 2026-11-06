@@ -32,4 +32,18 @@ weapons: [
       targetAir:true
       targetGround:true
     }
+ parts: [
+           {
+           type:RegionPart
+           suffix:-barrel
+           under:true
+  moves: [
+          {
+        type: PartMove
+        progress: recoil
+        y: -1.5
+          }
+          ]
+           }
+          ]
   }
