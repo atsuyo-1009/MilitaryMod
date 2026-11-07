@@ -41,6 +41,8 @@ weapons: [
           fragBullets: 2
         fragBullet: {
           type: basicBulletType
+          homingPower: 0.1   // 追尾の強さ（曲がりやすさ）。0.05〜0.2 あたりが自然
+          homingRange: 150   // 敵を探知して追いかけ始める距離（ピクセル数）
           hitSound: blast
           damage: 25
           lightningLength: 10
