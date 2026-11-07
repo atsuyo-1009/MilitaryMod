@@ -67,7 +67,7 @@ weapons: [
     x: 0
     y: 0
     rotate: true
-    shootSound: shoot
+    shootSound: missile
     bullet: {
       type: MissileBulletType
       damage: 850
