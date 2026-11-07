@@ -1,6 +1,6 @@
 type:naval
 name: ミサイル高速艦
-description: "ミサイル高速艦。１門の主砲と短距離ミサイル投射機を持っている。"
+description: "ミサイル高速艦。１門の主砲と1門の短距離艦対艦地ミサイル投射機を持っている。"
 health: 4000
 speed: 2
 accel: 0.1
