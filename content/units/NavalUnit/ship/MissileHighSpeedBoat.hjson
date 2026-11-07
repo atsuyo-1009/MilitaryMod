@@ -31,8 +31,6 @@ weapons: [
       damage: 500
       speed: 5
       lifetime: 100
-      homingPower: 0.5
-      homingRange: 50
       width: 2
       height: 5
       targetAir:true
@@ -67,7 +65,7 @@ weapons: [
 {
     name: MissileHighSpeedBoat-missile
     reload: 120
-    rotateSpeed: 0.9
+    rotateSpeed: 0.5
     x: 0
     y: 5
     minAngle: -90  // 👈 右側に最大90度まで
@@ -76,13 +74,14 @@ weapons: [
     shootSound: missile
     bullet: {
       type: MissileBulletType
+      collidesAir: false
       damage: 850
       speed: 8
       lifetime: 80
       width: 2
       height: 5
       splashDamage: 25   // 爆発の威力
-      splashDamageRadius: 24 // 爆発の巻き込み範囲（3マス分）
+      splashDamageRadius: 800 // 爆発の巻き込み範囲（10マス分）
       targetAir:false
       targetGround:true
       sprite: aiueo-sitous
