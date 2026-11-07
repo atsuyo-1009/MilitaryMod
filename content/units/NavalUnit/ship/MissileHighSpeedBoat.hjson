@@ -71,7 +71,7 @@ weapons: [
     y: 5
     rotationLimit: 180     // 👈 これ！左右あわせて「90度の扇状の範囲」だけ狙えるようになります
     
-    baseRotation: 90  // 基準となる向き（0なら正面、180なら真後ろ）
+    baseRotation: 0  // 基準となる向き（0なら正面、180なら真後ろ）
     rotate: true
     mirror: false
     shootSound: missile
