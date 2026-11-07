@@ -60,4 +60,26 @@ weapons: [
            }
           ]
   }
+{
+    name: GunRubberBoat-missile
+    reload: 120
+    rotateSpeed: 0.9
+    x: 0
+    y: 0
+    rotate: true
+    shootSound: shoot
+    bullet: {
+      type: MissileBulletType
+      damage: 850
+      speed: 8
+      lifetime: 80
+      width: 2
+      height: 5
+      splashDamage: 25   // 爆発の威力
+      splashDamageRadius: 24 // 爆発の巻き込み範囲（3マス分）
+      targetAir:false
+      targetGround:true
+      sprite: aiueo-sitous
+    }
+  }
 ]
