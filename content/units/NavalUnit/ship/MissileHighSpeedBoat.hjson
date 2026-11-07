@@ -78,10 +78,10 @@ weapons: [
       damage: 850
       speed: 8
       lifetime: 80
-      width: 2
-      height: 5
+      width: 10
+      height: 10
       splashDamage: 25   // 爆発の威力
-      splashDamageRadius: 800 // 爆発の巻き込み範囲（10マス分）
+      splashDamageRadius: 400 // 爆発の巻き込み範囲（5マス分）
       targetAir:false
       targetGround:true
       sprite: aiueo-sitous
