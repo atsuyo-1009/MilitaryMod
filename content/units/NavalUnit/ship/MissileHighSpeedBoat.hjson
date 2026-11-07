@@ -21,7 +21,7 @@ weapons: [
     rotateSpeed: 0.9
     x: 0
     y: 14
-    rotationLimit: 120     // 👈 これ！左右あわせて「120度の扇状の範囲」だけ狙えるようになります
+    rotationLimit: 240     // 👈 これ！左右あわせて「120度の扇状の範囲」だけ狙えるようになります
     
     baseRotation: 0       // 基準となる向き（0なら正面、180なら真後ろ）
     rotate: true
@@ -73,6 +73,7 @@ weapons: [
     
     baseRotation: 90       // 基準となる向き（0なら正面、180なら真後ろ）
     rotate: true
+    mirror: false
     shootSound: missile
     bullet: {
       type: MissileBulletType
@@ -83,7 +84,7 @@ weapons: [
       width: 10
       height: 10
       splashDamage: 25   // 爆発の威力
-      splashDamageRadius: 400 // 爆発の巻き込み範囲（5マス分）
+      splashDamageRadius: 100 // 爆発の巻き込み範囲（5マス分）
       targetAir:false
       targetGround:true
       sprite: aiueo-sitous
