@@ -21,6 +21,8 @@ weapons: [
     rotateSpeed: 0.9
     x: 0
     y: 14
+    minAngle: -120  // 👈 右側に最大120度まで
+    maxAngle: 120   // 👈 左側に最大120度まで
     rotate: true
     mirror: false
     shootSound: shoot
@@ -68,6 +70,8 @@ weapons: [
     rotateSpeed: 0.9
     x: 0
     y: 5
+    minAngle: -90  // 👈 右側に最大90度まで
+    maxAngle: 90   // 👈 左側に最大90度まで
     rotate: true
     shootSound: missile
     bullet: {
