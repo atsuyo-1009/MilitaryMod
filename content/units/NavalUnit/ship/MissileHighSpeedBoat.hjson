@@ -29,6 +29,8 @@ weapons: [
       damage: 500
       speed: 5
       lifetime: 100
+      homingPower: 0.5
+      homingRange: 50
       width: 2
       height: 5
       targetAir:true
