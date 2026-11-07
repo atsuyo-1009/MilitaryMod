@@ -67,7 +67,7 @@ weapons: [
     reload: 120
     rotateSpeed: 0.9
     x: 0
-    y: 0
+    y: 5
     rotate: true
     shootSound: missile
     bullet: {
