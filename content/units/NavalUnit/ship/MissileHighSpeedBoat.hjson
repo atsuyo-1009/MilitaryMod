@@ -36,8 +36,8 @@ weapons: [
       height: 5
       targetAir:true
       targetGround:true
-      splashDamage: 100
-        splashDamageRadius: 10
+      splashDamage: 500
+        splashDamageRadius: 50
           fragBullets: 2
         fragBullet: {
           type: basicBulletType
@@ -80,12 +80,12 @@ weapons: [
     bullet: {
       type: MissileBulletType
       collidesAir: false
-      damage: 850
+      damage: 1000
       speed: 8
       lifetime: 80
       width: 10
       height: 10
-      splashDamage: 25   // 爆発の威力
+      splashDamage: 500   // 爆発の威力
       splashDamageRadius: 100 // 爆発の巻き込み範囲（5マス分）
       targetAir:false
       targetGround:true
