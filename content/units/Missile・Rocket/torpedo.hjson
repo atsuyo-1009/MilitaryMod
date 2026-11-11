@@ -1,0 +1,58 @@
+type: naval
+name: Torpedo
+description: 水上のみを高速航行し、迎撃不可能な魚雷。
+
+// プレイヤー操作・ユニット上限の対象外にする設定
+playerControllable: false
+logicControllable: false
+useUnitCap: false
+drawCell: false
+isEnemy: false
+
+// ★迎撃不可にするための重要設定
+// 敵AIがターゲット（攻撃対象）として認識しなくなる
+targetable: false
+// 敵の弾丸やレーザーの当たり判定をなくす
+hittable: false
+
+// 魚雷の機動力（navalなので水の上しか進めない）
+speed: 4.2
+accel: 0.2
+drag: 0.05
+rotateSpeed: 4.5
+hitSize: 4
+health: 60
+
+// 寿命（180フレーム＝約3秒で燃料切れ自爆）
+lifetime: 180
+
+// 水泡の航跡エフェクト
+trailLength: 16
+waveTrailX: 0
+waveTrailY: -3
+trailScl: 0.8
+
+// 敵に近づいたら自爆する武装設定
+weapons: [
+  {
+    name: torpedo-warhead
+    reload: 10
+    shootCone: 360
+    mirror: false
+    minShootVelocity: 0
+    shootOnDeath: true
+    
+    bullet: {
+      type: BombBulletType
+      // 発射した瞬間に魚雷自身を消滅させる
+      killShooter: true
+      instantDisappear: true
+      splashDamage: 140
+      splashDamageRadius: 36
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      // 航空ユニットには当たらない
+      collidesAir: false
+    }
+  }
+]
