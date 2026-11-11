@@ -1,0 +1,95 @@
+type:naval
+name: ミサイル高速艦
+description: "ミサイル高速艦。１門の主砲と1門の短距離艦対艦地ミサイル投射機を持っている。"
+health: 4000
+speed: 2
+accel: 0.1
+drag: 0.2
+fogRadius:65
+outlinecoloer:00000000
+outlineRadius: -10000000
+outlines:true
+hitSize: 20
+rotateSpeed: 5
+
+naval: true
+
+weapons: [
+  {
+    name: MissileHighSpeedBoat-cannon
+    reload: 60
+    rotateSpeed: 0.9
+    x: 0
+    y: 14
+    rotationLimit: 240     // 👈 これ！左右あわせて「120度の扇状の範囲」だけ狙えるようになります
+    
+    baseRotation: 0       // 基準となる向き（0なら正面、180なら真後ろ）
+    rotate: true
+    mirror: false
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      damage: 500
+      speed: 5
+      lifetime: 100
+      width: 2
+      height: 5
+      targetAir:true
+      targetGround:true
+      splashDamage: 500
+        splashDamageRadius: 50
+          fragBullets: 2
+        fragBullet: {
+          type: basicBulletType
+          homingPower: 0.1   // 追尾の強さ（曲がりやすさ）。0.05〜0.2 あたりが自然
+          homingRange: 150   // 敵を探知して追いかけ始める距離（ピクセル数）
+          hitSound: blast
+          damage: 25
+          lightningLength: 10
+          lightningLengthRand: 10
+          lightningColor: E3EBFB
+        }
+    }
+ parts: [
+           {
+           type:RegionPart
+           suffix:-barrel
+           under:true
+  moves: [
+          {
+        type: PartMove
+        progress: recoil
+        y: -1.5
+          }
+          ]
+           }
+          ]
+  }
+{
+    name: MissileHighSpeedBoat-missile
+    reload: 120
+    rotateSpeed: 0.5
+    x: 0
+    y: 5
+    rotationLimit: 180     // 👈 これ！左右あわせて「90度の扇状の範囲」だけ狙えるようになります
+    
+    baseRotation: 0  // 基準となる向き（0なら正面、180なら真後ろ）
+    rotate: true
+    mirror: false
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      collidesAir: false
+      damage: 1000
+      speed: 8
+      lifetime: 80
+      width: 10
+      height: 10
+      splashDamage: 500   // 爆発の威力
+      splashDamageRadius: 100 // 爆発の巻き込み範囲（5マス分）
+      targetAir:false
+      targetGround:true
+      sprite: aiueo-sitous
+    }
+  }
+]
