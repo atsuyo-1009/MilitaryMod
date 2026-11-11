@@ -4,7 +4,7 @@ name: 近接対空ミサイル投射機-CIWS-M
 description: '''近接対空ミサイル投射機。SeaRAMミサイルを投射します。'''
 size: 2
 health: 800
-range: 300 // 迎撃用の中距離射程
+range: 500 // 迎撃用の中距離射程
 
 consume: {
   power: 2.0
@@ -13,7 +13,7 @@ consume: {
  reload: 0.01
 ammoTypes: {
   tarretAmmo: {
-    type:BasicBlletType
+    type:MissileBulletType
 	inaccuracy: 0.5
 	  damage:10
 	  speed:10
@@ -21,6 +21,7 @@ ammoTypes: {
 	  width:5
 	  height:10
 	  ammoMultiplier:30
+      sprite: aiueo-SeaRAM
   }
 }
 requirements: [
