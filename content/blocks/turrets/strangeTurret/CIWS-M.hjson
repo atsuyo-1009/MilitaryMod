@@ -26,6 +26,9 @@ ammoTypes: {
 	  lifetime:50
 	  width:5
 	  height:10
+	  targetAir:true
+      targetGround:false
+	  colisionGround:false
 	  ammoMultiplier:1
       sprite: aiueo-SeaRAM
   }
