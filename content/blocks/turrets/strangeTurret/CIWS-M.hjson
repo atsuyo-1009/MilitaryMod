@@ -28,7 +28,7 @@ ammoTypes: {
 	  height:10
 	  targetAir:true
       targetGround:false
-	  colisionGround:false
+	  collidesGround:false
 	  ammoMultiplier:1
       sprite: aiueo-SeaRAM
   }
