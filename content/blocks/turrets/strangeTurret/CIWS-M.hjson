@@ -10,17 +10,17 @@ consume: {
   power: 2.0
 }
 
- reload: 0.01
+ reload: 60
 ammoTypes: {
   tarretAmmo: {
     type:MissileBulletType
 	inaccuracy: 0.5
-	  damage:10
+	  damage:1050
 	  speed:10
 	  lifetime:40
 	  width:5
 	  height:10
-	  ammoMultiplier:30
+	  ammoMultiplier:1
       sprite: aiueo-SeaRAM
   }
 }
