@@ -10,6 +10,12 @@ consume: {
   power: 2.0
 }
 
+shoot: {
+  type: ShootSequence
+  shots: 2        # 説明文の「2発ずつ」に合わせました（4発にするならここを4に）
+  shotDelay: 30  # 弾と弾の間のディレイ（Mindustryの15フレーム＝0.25秒）
+}
+
  reload: 60
 ammoTypes: {
   tarretAmmo: {
